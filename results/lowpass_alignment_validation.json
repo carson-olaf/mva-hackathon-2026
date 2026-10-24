@@ -1,0 +1,157 @@
+{
+  "minimap2_version": "2.31-r1302",
+  "synthetic_pairs": 120,
+  "unique_pairs": 80,
+  "ambiguous_repeat_pairs": 40,
+  "both_methods_primary_records": 240,
+  "both_methods_proper_pair_records": 240,
+  "unique_alignments_flags_mapq_exactly_match": true,
+  "all_ambiguous_repeat_mapq_zero": true,
+  "split_header_contigs": 2,
+  "reference_sha256": "da6fd11b871590b6abf481eedc150e307467f248f7811e6ae8a90d6fb2239e1f",
+  "commands": {
+    "single": [
+      "minimap2",
+      "-ax",
+      "sr",
+      "-K",
+      "25M",
+      "-t",
+      "2",
+      "--secondary=no",
+      "-I",
+      "1M",
+      "work/validation/split_alignment/reference.fa",
+      "work/validation/split_alignment/R1.fq",
+      "work/validation/split_alignment/R2.fq"
+    ],
+    "split": [
+      "minimap2",
+      "-ax",
+      "sr",
+      "-K",
+      "25M",
+      "-t",
+      "2",
+      "--secondary=no",
+      "-I",
+      "40k",
+      "--split-prefix",
+      "work/validation/split_alignment/merged",
+      "work/validation/split_alignment/reference.fa",
+      "work/validation/split_alignment/R1.fq",
+      "work/validation/split_alignment/R2.fq"
+    ]
+  },
+  "scope": "Synthetic paired-end identity/MAPQ boundary only; not validation of patient genome mapping accuracy or runtime memory.",
+  "actual_alignment_settings": {
+    "reference_batch": "500M",
+    "query_batch": "25M",
+    "mapping_threads": 6,
+    "split_prefix_global_merge": true,
+    "secondary_output": false,
+    "depth_mapq_threshold": 30
+  },
+  "sources": [
+    {
+      "doi": "10.1038/s41598-019-40739-8",
+      "url": "https://www.nature.com/articles/s41598-019-40739-8",
+      "opened": "primary full text",
+      "scope": "Partition merging method; numeric memory benchmark is long-read-specific, not applied to this run"
+    },
+    {
+      "url": "https://github.com/lh3/minimap2/blob/master/FAQ.md",
+      "opened": "official documentation"
+    }
+  ],
+  "paired_read_batch_validation": {
+    "synthetic_input_pairs": 130,
+    "duplicate_pairs_across_batches": 10,
+    "batch_size_pairs": 25,
+    "reference_partitions": 2,
+    "retained_pairs": 120,
+    "whole_and_batched_identical_high_mapq_alignments": true,
+    "proper_pair_records": {
+      "single": 178,
+      "batched": 240
+    },
+    "repeat_tie_caveat": "Ambiguous MAPQ0 placements and proper-pair flags can differ; these reads are excluded from Q30 depth.",
+    "ambiguous_repeats_mapq_zero": true,
+    "global_duplicate_removal_verified": true,
+    "scope": "Synthetic mapping and duplicate-handling contract, not patient accuracy validation",
+    "minimap2_version": "2.31-r1302",
+    "samtools_version": "samtools 1.24"
+  },
+  "public_reproduction": {
+    "script": "scripts/validate_lowpass_alignment.py",
+    "script_sha256": "cce5cf3cc7aa61facf0282968b0c39215efdd0da02dfa7aa09294a11523a7050",
+    "completed_at_utc": "2026-10-24T04:07:05.812509+00:00",
+    "result": {
+      "seed": 20261024,
+      "patient_data_read": false,
+      "minimap2_version": "2.31-r1302",
+      "samtools_version": "samtools 1.24",
+      "reference_sha256": "da6fd11b871590b6abf481eedc150e307467f248f7811e6ae8a90d6fb2239e1f",
+      "single_versus_split_index": {
+        "input_pairs": 120,
+        "unique_pairs": 80,
+        "ambiguous_repeat_pairs": 40,
+        "runs": {
+          "single_index": {
+            "header_contigs": 2,
+            "primary_records": 240,
+            "q30_records": 160,
+            "proper_pair_records": 240,
+            "repeat_proper_pair_records": 80
+          },
+          "split_index": {
+            "header_contigs": 2,
+            "primary_records": 240,
+            "q30_records": 160,
+            "proper_pair_records": 240,
+            "repeat_proper_pair_records": 80
+          }
+        },
+        "unique_q30_alignments_flags_cigar_mapq_exact": true,
+        "all_ambiguous_repeats_mapq_zero": true,
+        "ambiguous_repeat_proper_pair_flag_difference_observed": false,
+        "full_alignment_identity_claimed": false
+      },
+      "one_batch_versus_25_pair_batches": {
+        "input_pairs": 130,
+        "cross_batch_duplicate_pairs": 10,
+        "duplicate_originals_in_first_batch_duplicates_after_original_120": true,
+        "global_duplicate_pairs_removed": 10,
+        "global_duplicate_removal_verified": true,
+        "runs": {
+          "one_batch": {
+            "primary_records": 240,
+            "retained_pairs": 120,
+            "q30_unique_records": 160,
+            "ambiguous_repeat_records": 80,
+            "proper_pair_records": 178,
+            "repeat_proper_pair_records": 18,
+            "pairs_per_batch": 1000,
+            "index_batch": "1M"
+          },
+          "batches_of_25": {
+            "primary_records": 240,
+            "retained_pairs": 120,
+            "q30_unique_records": 160,
+            "ambiguous_repeat_records": 80,
+            "proper_pair_records": 240,
+            "repeat_proper_pair_records": 80,
+            "pairs_per_batch": 25,
+            "index_batch": "40k"
+          }
+        },
+        "unique_q30_alignments_flags_cigar_mapq_exact_ignoring_duplicate_name": true,
+        "all_ambiguous_repeats_mapq_zero": true,
+        "ambiguous_repeat_proper_pair_flag_counts_differ": true,
+        "full_alignment_identity_claimed": false
+      },
+      "caveat": "Ambiguous repeat placements and proper-pair flags can differ while all have MAPQ 0; Q30 depth excludes them. Unique Q30 records are compared exactly, ignoring the identity of interchangeable duplicate representatives. No full alignment identity is claimed.",
+      "scope": "Synthetic mapping and global duplicate-handling contract only; not patient mapping accuracy, memory/runtime, or aneuploidy sensitivity validation."
+    }
+  }
+}

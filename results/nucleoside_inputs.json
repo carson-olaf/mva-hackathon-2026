@@ -1,0 +1,86 @@
+{
+  "curation_date": "2026-10-24",
+  "scope": "Manually transcribed public source facts; no patient measurements or genome inputs",
+  "product": "Xuriden (uridine triacetate)",
+  "approval": "FDA; adult and pediatric hereditary orotic aciduria; oral granules",
+  "pk_analyte": "uridine",
+  "concentration_unit": "micromolar",
+  "pk_source_url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=88ca4d2b-3905-474b-9fd6-c81474f2fb4b&type=display",
+  "pk_source_location": "Section 12.3, Table 3; label revised August 2023",
+  "profiles": [
+    {
+      "id": "60_mg_per_kg_daily_day_28",
+      "label_dose_mg_per_kg_daily": 60,
+      "n": 4,
+      "cmax_mean_uM": 88.7,
+      "cmax_sd_uM": 43.2,
+      "auc_0_8_mean_uM_h": 278.7,
+      "auc_0_8_sd_uM_h": 148.5,
+      "half_life_mean_h": 2.3,
+      "half_life_sd_h": 1.6,
+      "tmax_median_h": 1.3
+    },
+    {
+      "id": "120_mg_per_kg_daily_day_160",
+      "label_dose_mg_per_kg_daily": 120,
+      "n": 2,
+      "cmax_mean_uM": 80.9,
+      "cmax_sd_uM": 20.0,
+      "auc_0_8_mean_uM_h": 465.6,
+      "auc_0_8_sd_uM_h": 95.3,
+      "half_life_mean_h": 8.2,
+      "half_life_sd_h": 6.8,
+      "tmax_median_h": 3.0
+    }
+  ],
+  "burrell": {
+    "pmid": "23446422",
+    "doi": "10.1038/nature11935",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636055/",
+    "mixture": [
+      "adenosine",
+      "cytidine",
+      "guanosine",
+      "uridine"
+    ],
+    "methods_listed_concentrations_uM": [
+      0.3,
+      30
+    ],
+    "figure_4b_exact_dose_assignment_verified": false,
+    "per_component_concentration_explicitly_verified": false,
+    "treatment_duration_h": 48,
+    "reported_error_reduction_percent_range": [
+      45,
+      55
+    ],
+    "uridine_alone_effective_concentration_uM": null,
+    "bub1b_genotype_rescue_verified": false,
+    "supplement_retrieved": true,
+    "supplement_sha256": "8bceb7b460d597c3ad0c667973a56c8de942c0b36dc5844439acc18258934ed6",
+    "supplement_component_specific_arm_found": false
+  },
+  "comparison": {
+    "nominal_comparator_uM": 30,
+    "meaning": "Higher of the two numbers in Burrell methods; not an established uridine-alone effective concentration",
+    "illustrative_baselines_uM": [
+      3,
+      5
+    ],
+    "baseline_status": "Assumed sensitivity values only; not measured in the child or fitted to trial participants",
+    "post_peak_model": "C(t)=B+(Cmax-B)*2**(-t/half_life); t measured after peak; pooled means are not a fitted individual profile"
+  },
+  "cancer_hazard": {
+    "pmid": "26801745",
+    "doi": "10.1016/j.canlet.2016.01.007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26801745/",
+    "opened_scope": "Indexed primary PubMed abstract; full figures and exposure duration not verified",
+    "reported_uridine_cell_exposures_uM": [
+      10,
+      30
+    ],
+    "endpoint": "Uracil-DNA damage and DNA-damage signaling in cancer cell lines",
+    "human_toxicity_threshold_uM": null,
+    "mva_therapeutic_index": null
+  }
+}

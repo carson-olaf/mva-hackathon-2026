@@ -1,0 +1,34 @@
+rank,drug,chembl_id,score,grade,status,pgx_review
+1,ABEMACICLIB,CHEMBL3301610,15,E,pathway_context_only,False
+2,ALECTINIB HYDROCHLORIDE,CHEMBL3707320,15,E,pathway_context_only,False
+3,BORTEZOMIB,CHEMBL325041,15,E,pathway_context_only,False
+4,BORTEZOMIB D-MANNITOL,CHEMBL5315122,15,E,pathway_context_only,False
+5,BRENTUXIMAB VEDOTIN,CHEMBL1742994,15,E,pathway_context_only,False
+6,CABAZITAXEL,CHEMBL1201748,15,E,pathway_context_only,False
+7,CARFILZOMIB,CHEMBL451887,15,E,pathway_context_only,False
+8,CERITINIB,CHEMBL2403108,15,E,pathway_context_only,False
+9,COLCHICINE,CHEMBL107,15,E,pathway_context_only,False
+10,CRIZOTINIB,CHEMBL601719,15,E,pathway_context_only,False
+11,DOCETAXEL,CHEMBL3545252,15,E,pathway_context_only,False
+12,DOCETAXEL ANHYDROUS,CHEMBL92,15,E,pathway_context_only,False
+13,ENFORTUMAB VEDOTIN,CHEMBL3301589,15,E,pathway_context_only,False
+14,ERIBULIN MESYLATE,CHEMBL1683544,15,E,pathway_context_only,False
+15,IXABEPILONE,CHEMBL1201752,15,E,pathway_context_only,False
+16,IXAZOMIB CITRATE,CHEMBL3545432,15,E,pathway_context_only,False
+17,LORLATINIB,CHEMBL3286830,15,E,pathway_context_only,False
+18,MIRVETUXIMAB SORAVTANSINE,CHEMBL3545132,15,E,pathway_context_only,False
+19,PACLITAXEL,CHEMBL428647,15,E,pathway_context_only,False
+20,PALBOCICLIB,CHEMBL189963,15,E,pathway_context_only,False
+21,POLATUZUMAB VEDOTIN,CHEMBL3301582,15,E,pathway_context_only,False
+22,RIBOCICLIB,CHEMBL3545110,15,E,pathway_context_only,False
+23,RIBOCICLIB SUCCINATE,CHEMBL3707266,15,E,pathway_context_only,False
+24,SELINEXOR,CHEMBL3545185,15,E,pathway_context_only,False
+25,TISOTUMAB VEDOTIN,CHEMBL4297841,15,E,pathway_context_only,False
+26,TRASTUZUMAB EMTANSINE,CHEMBL1743082,15,E,pathway_context_only,False
+27,TRILACICLIB,CHEMBL3894860,15,E,pathway_context_only,False
+28,TRILACICLIB DIHYDROCHLORIDE,CHEMBL4650272,15,E,pathway_context_only,False
+29,VINBLASTINE SULFATE,CHEMBL378544,15,E,pathway_context_only,False
+30,VINCRISTINE SULFATE,CHEMBL501867,15,E,pathway_context_only,False
+31,VINFLUNINE,CHEMBL2110725,15,E,pathway_context_only,False
+32,VINFLUNINE DITARTRATE,CHEMBL2105629,15,E,pathway_context_only,False
+33,VINORELBINE TARTRATE,CHEMBL538943,15,E,pathway_context_only,False

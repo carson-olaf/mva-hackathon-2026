@@ -1,0 +1,49 @@
+rank,drug,chembl_id,score,grade,status,pgx_review
+1,EVEROLIMUS,CHEMBL1908360,45,L,known_disease_label_match,False
+2,SIROLIMUS,CHEMBL413,45,L,known_disease_label_match,False
+3,ARSENIC TRIOXIDE,CHEMBL5483015,15,E,pathway_context_only,False
+4,AUROTHIOGLUCOSE,CHEMBL1697725,15,E,pathway_context_only,False
+5,BRENTUXIMAB VEDOTIN,CHEMBL1742994,15,E,pathway_context_only,False
+6,CABAZITAXEL,CHEMBL1201748,15,E,pathway_context_only,False
+7,CAPIVASERTIB,CHEMBL2325741,15,E,pathway_context_only,False
+8,CLOFARABINE,CHEMBL1750,15,E,pathway_context_only,False
+9,COLCHICINE,CHEMBL107,15,E,pathway_context_only,False
+10,CROFELEMER,CHEMBL2108184,15,E,pathway_context_only,False
+11,DEUTIVACAFTOR,CHEMBL4297603,15,E,pathway_context_only,False
+12,DOCETAXEL,CHEMBL3545252,15,E,pathway_context_only,False
+13,DOCETAXEL ANHYDROUS,CHEMBL92,15,E,pathway_context_only,False
+14,ELEXACAFTOR,CHEMBL4298128,15,E,pathway_context_only,False
+15,ENFORTUMAB VEDOTIN,CHEMBL3301589,15,E,pathway_context_only,False
+16,ERIBULIN MESYLATE,CHEMBL1683544,15,E,pathway_context_only,False
+17,FLUDARABINE PHOSPHATE,CHEMBL1096882,15,E,pathway_context_only,False
+18,GALLIUM NITRATE,CHEMBL1200983,15,E,pathway_context_only,False
+19,GEMCITABINE HYDROCHLORIDE,CHEMBL1637,15,E,pathway_context_only,False
+20,HYDROXYUREA,CHEMBL467,15,E,pathway_context_only,False
+21,IVACAFTOR,CHEMBL2010601,15,E,pathway_context_only,False
+22,IXABEPILONE,CHEMBL1201752,15,E,pathway_context_only,False
+23,LENALIDOMIDE,CHEMBL848,15,E,pathway_context_only,False
+24,LENALIDOMIDE HYDROCHLORIDE MONOHYDRATE,CHEMBL6068337,15,E,pathway_context_only,False
+25,LITHIUM CARBONATE,CHEMBL1200826,15,E,pathway_context_only,False
+26,LITHIUM CITRATE,CHEMBL2103738,15,E,pathway_context_only,False
+27,LUMACAFTOR,CHEMBL2103870,15,E,pathway_context_only,False
+28,METFORMIN HYDROCHLORIDE,CHEMBL1703,15,E,pathway_context_only,False
+29,MIRVETUXIMAB SORAVTANSINE,CHEMBL3545132,15,E,pathway_context_only,False
+30,PACLITAXEL,CHEMBL428647,15,E,pathway_context_only,False
+31,PIMECROLIMUS,CHEMBL1200686,15,E,pathway_context_only,False
+32,POLATUZUMAB VEDOTIN,CHEMBL3301582,15,E,pathway_context_only,False
+33,POMALIDOMIDE,CHEMBL43452,15,E,pathway_context_only,False
+34,REGORAFENIB,CHEMBL1946170,15,E,pathway_context_only,False
+35,SORAFENIB TOSYLATE,CHEMBL1200485,15,E,pathway_context_only,False
+36,TACROLIMUS,CHEMBL3989887,15,E,pathway_context_only,False
+37,TEMSIROLIMUS,CHEMBL1201182,15,E,pathway_context_only,False
+38,TEZACAFTOR,CHEMBL3544914,15,E,pathway_context_only,False
+39,TISOTUMAB VEDOTIN,CHEMBL4297841,15,E,pathway_context_only,False
+40,TOVORAFENIB,CHEMBL3348923,15,E,pathway_context_only,False
+41,TRASTUZUMAB EMTANSINE,CHEMBL1743082,15,E,pathway_context_only,False
+42,VANZACAFTOR,CHEMBL5314934,15,E,pathway_context_only,False
+43,VENETOCLAX,CHEMBL3137309,15,E,pathway_context_only,False
+44,VINBLASTINE SULFATE,CHEMBL378544,15,E,pathway_context_only,False
+45,VINCRISTINE SULFATE,CHEMBL501867,15,E,pathway_context_only,False
+46,VINFLUNINE,CHEMBL2110725,15,E,pathway_context_only,False
+47,VINFLUNINE DITARTRATE,CHEMBL2105629,15,E,pathway_context_only,False
+48,VINORELBINE TARTRATE,CHEMBL538943,15,E,pathway_context_only,False

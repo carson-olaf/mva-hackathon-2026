@@ -1,0 +1,176 @@
+{
+  "block_mb": 1,
+  "iterations": 30000,
+  "seed": 20261024,
+  "tests": 61,
+  "autosomal_blocks": 2594,
+  "minimum_retained_bins_per_spatial_block": 5,
+  "sparse_spatial_blocks_excluded": 53,
+  "exploratory_outlier_regions": [],
+  "conditional_null": "Other-chromosome median offsets plus centered spatial block medians",
+  "absolute_ploidy_or_total_mva_burden_estimated": false,
+  "comparison": "Patient vs public normal; mapped-base matched; tissue/library confounded",
+  "qc": {
+    "input_bins": 27935,
+    "retained_autosome_bins": 25449,
+    "normal_depth_mask_min": 0.1,
+    "normal_depth_mask_max": 0.9618542,
+    "sample_gc_fit": {
+      "cubic_coefficients": [
+        0.30505968693577334,
+        -4.893331404819865,
+        14.819464315923463,
+        -12.984791632512524
+      ],
+      "fit_bins": 24821,
+      "pearson_gc_logdepth_before": 0.05080874702981926,
+      "pearson_gc_logdepth_after": -0.05240842191538385
+    },
+    "normal_gc_fit": {
+      "cubic_coefficients": [
+        -1.8866362793644031,
+        11.33424728895175,
+        -25.30198709646128,
+        17.348745864210855
+      ],
+      "fit_bins": 24830,
+      "pearson_gc_logdepth_before": -0.19148048680080454,
+      "pearson_gc_logdepth_after": -0.0549017244806846
+    },
+    "sample_usable_mean_depth": 0.9168956894180518,
+    "normal_usable_mean_depth": 0.8011068977170027,
+    "raw_median_autosomal_log2_ratio": 0.19191958536685197,
+    "descriptive_gc_normalized_depth_by_chromosome": {
+      "chr1": {
+        "sample": 0.9974057078131162,
+        "normal": 1.002649778515511,
+        "bins": 2185
+      },
+      "chr2": {
+        "sample": 1.0009353571335422,
+        "normal": 1.0033226663756571,
+        "bins": 2300
+      },
+      "chr3": {
+        "sample": 0.9974445668244849,
+        "normal": 0.9986953097548783,
+        "bins": 1870
+      },
+      "chr4": {
+        "sample": 0.9967100241456085,
+        "normal": 0.9961463605502372,
+        "bins": 1812
+      },
+      "chr5": {
+        "sample": 0.9961058960266336,
+        "normal": 0.9944407229045565,
+        "bins": 1685
+      },
+      "chr6": {
+        "sample": 0.9998959175300901,
+        "normal": 1.0052718062120698,
+        "bins": 1554
+      },
+      "chr7": {
+        "sample": 1.0003109649871302,
+        "normal": 0.9968852700502494,
+        "bins": 1498
+      },
+      "chr8": {
+        "sample": 0.9975118182973992,
+        "normal": 0.99748991217252,
+        "bins": 1335
+      },
+      "chr9": {
+        "sample": 0.9938415598910784,
+        "normal": 0.992325055811034,
+        "bins": 1117
+      },
+      "chr10": {
+        "sample": 0.9981360815056218,
+        "normal": 0.996106808670047,
+        "bins": 1258
+      },
+      "chr11": {
+        "sample": 0.9950195757448945,
+        "normal": 0.9959066629787985,
+        "bins": 1263
+      },
+      "chr12": {
+        "sample": 1.0001737064946745,
+        "normal": 1.0108133986867396,
+        "bins": 1245
+      },
+      "chr13": {
+        "sample": 1.0051876043435002,
+        "normal": 0.9989587550387455,
+        "bins": 927
+      },
+      "chr14": {
+        "sample": 1.0028899416786976,
+        "normal": 1.0132674040212828,
+        "bins": 836
+      },
+      "chr15": {
+        "sample": 0.9972542856901966,
+        "normal": 1.0070270334717772,
+        "bins": 723
+      },
+      "chr16": {
+        "sample": 1.0133579805815551,
+        "normal": 0.9909266203380356,
+        "bins": 734
+      },
+      "chr17": {
+        "sample": 1.0187386427801826,
+        "normal": 1.0094724499681365,
+        "bins": 695
+      },
+      "chr18": {
+        "sample": 1.0051700209296528,
+        "normal": 0.9912223863235302,
+        "bins": 710
+      },
+      "chr19": {
+        "sample": 1.018787484482447,
+        "normal": 1.0074346269886982,
+        "bins": 510
+      },
+      "chr20": {
+        "sample": 1.0035553512429014,
+        "normal": 0.993898958589652,
+        "bins": 571
+      },
+      "chr21": {
+        "sample": 1.0172235847032818,
+        "normal": 0.9997836753095656,
+        "bins": 313
+      },
+      "chr22": {
+        "sample": 1.00511090611408,
+        "normal": 0.9913374794259817,
+        "bins": 308
+      }
+    },
+    "individual_profile_caveat": "Descriptive within-sample normalized depth only; no absolute ploidy or tissue/library correction"
+  },
+  "metadata_sha256": "1ffeab62395b8a6c2e0250c5558d3d479f0bcdb65b91300a8eee70c08c8fab7c",
+  "bin_manifest_sha256": "2d00ee6477727585243fab999349dce8ae69e896e4838e52efb665ac69cd557e",
+  "source_code_sha256": "d0fbe317e40f9d17fb1d2efdc1bfa6b16cdeab760ecdb691e2d122692a40a413",
+  "private_bedcov_sha256": "ec5d8f3bf40a4fa6aa24b2b8ec0d3b99d5ffdcd8a7466bc966a4f48bd3a0d0a5",
+  "method_version": "gc-cubic-spatial-and-chromosome-null-v1",
+  "limitations": [
+    "Single public normal; different tissue/library and no clinical validation",
+    "Technical null assumes exchangeable comparator chromosomes and spatial blocks",
+    "At most21 chromosome offsets; resampling draws do not create independent controls",
+    "Conditional detection limit, not a patient mosaicism upper confidence bound",
+    "Relative CN assumes most autosomes are diploid; absolute ploidy is unresolved",
+    "No total MVA cell burden; opposing clones and tissue-restricted changes can be missed",
+    "GC is modeled; no independently measured genome-wide mappability track",
+    "Sex chromosomes descriptive only; acrocentric p arms excluded"
+  ],
+  "public_output_sha256": {
+    "lowpass_case_100kb_1mb_regions.csv": "878f19c5755b5d4c584d4cc4e110ace50f3c2f9f90489c39218b5d94b0ca5d15",
+    "lowpass_case_100kb_1mb_chromosomes.png": "feed98c2bc6d4cfad97a35a6f4e03cfd521b03b143301712c89d0809aaababc3"
+  }
+}

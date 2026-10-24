@@ -1,0 +1,330 @@
+{
+  "scope": "Observed DGIdb GuideToPharmacology claims, independently reconciled with GtoP and human NCBI-HGNC IDs",
+  "snapshots": {
+    "2024-06": {
+      "all_source_rows": 98239,
+      "gtop_source_rows": 16070,
+      "source_versions": {
+        "2024.1": 16070
+      },
+      "classifications": {
+        "confirmed_numeric_namespace_collision": 12888,
+        "identity_agrees": 1976,
+        "identity_conflict_other_or_unresolved_cause": 1206
+      },
+      "confirmed_numeric_collisions": {
+        "rows": 12888,
+        "distinct_gene_ligand_pairs": 12841,
+        "distinct_gene_normalized_drug_pairs": 12689,
+        "distinct_gene_ligand_type_triples": 12888,
+        "distinct_genes": 1392,
+        "distinct_ligands": 7351
+      },
+      "confirmed_with_current_source_edge": {
+        "rows": 9002,
+        "distinct_gene_ligand_pairs": 9002,
+        "distinct_gene_normalized_drug_pairs": 8921,
+        "distinct_gene_ligand_type_triples": 9002,
+        "distinct_genes": 1296,
+        "distinct_ligands": 5215
+      },
+      "confirmed_with_current_source_pair": {
+        "rows": 12853,
+        "distinct_gene_ligand_pairs": 12807,
+        "distinct_gene_normalized_drug_pairs": 12657,
+        "distinct_gene_ligand_type_triples": 12853,
+        "distinct_genes": 1391,
+        "distinct_ligands": 7332
+      },
+      "confirmed_dgidb_approved_flag": {
+        "rows": 2120,
+        "distinct_gene_ligand_pairs": 2109,
+        "distinct_gene_normalized_drug_pairs": 2047,
+        "distinct_gene_ligand_type_triples": 2120,
+        "distinct_genes": 507,
+        "distinct_ligands": 937
+      }
+    },
+    "2024-12": {
+      "all_source_rows": 98920,
+      "gtop_source_rows": 16365,
+      "source_versions": {
+        "2024.3": 16365
+      },
+      "classifications": {
+        "identity_agrees": 2061,
+        "confirmed_numeric_namespace_collision": 13146,
+        "identity_conflict_other_or_unresolved_cause": 1158
+      },
+      "confirmed_numeric_collisions": {
+        "rows": 13146,
+        "distinct_gene_ligand_pairs": 13146,
+        "distinct_gene_normalized_drug_pairs": 12994,
+        "distinct_gene_ligand_type_triples": 13146,
+        "distinct_genes": 1403,
+        "distinct_ligands": 7576
+      },
+      "confirmed_with_current_source_edge": {
+        "rows": 9196,
+        "distinct_gene_ligand_pairs": 9196,
+        "distinct_gene_normalized_drug_pairs": 9115,
+        "distinct_gene_ligand_type_triples": 9196,
+        "distinct_genes": 1305,
+        "distinct_ligands": 5363
+      },
+      "confirmed_with_current_source_pair": {
+        "rows": 13112,
+        "distinct_gene_ligand_pairs": 13112,
+        "distinct_gene_normalized_drug_pairs": 12962,
+        "distinct_gene_ligand_type_triples": 13112,
+        "distinct_genes": 1402,
+        "distinct_ligands": 7557
+      },
+      "confirmed_dgidb_approved_flag": {
+        "rows": 2160,
+        "distinct_gene_ligand_pairs": 2160,
+        "distinct_gene_normalized_drug_pairs": 2097,
+        "distinct_gene_ligand_type_triples": 2160,
+        "distinct_genes": 509,
+        "distinct_ligands": 963
+      }
+    },
+    "2026-06": {
+      "all_source_rows": 99834,
+      "gtop_source_rows": 16365,
+      "source_versions": {
+        "2024.4": 16365
+      },
+      "classifications": {
+        "identity_agrees": 16354,
+        "identity_conflict_other_or_unresolved_cause": 11
+      },
+      "confirmed_numeric_collisions": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_with_current_source_edge": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_with_current_source_pair": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_dgidb_approved_flag": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      }
+    },
+    "2026-10": {
+      "all_source_rows": 122904,
+      "gtop_source_rows": 17105,
+      "source_versions": {
+        "2026.2": 17105
+      },
+      "classifications": {
+        "identity_agrees": 17094,
+        "identity_conflict_other_or_unresolved_cause": 11
+      },
+      "confirmed_numeric_collisions": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_with_current_source_edge": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_with_current_source_pair": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      },
+      "confirmed_dgidb_approved_flag": {
+        "rows": 0,
+        "distinct_gene_ligand_pairs": 0,
+        "distinct_gene_normalized_drug_pairs": 0,
+        "distinct_gene_ligand_type_triples": 0,
+        "distinct_genes": 0,
+        "distinct_ligands": 0
+      }
+    }
+  },
+  "invalid_hgnc_values_in_gtop_targets": {
+    "3348": [
+      "MGI:103220"
+    ]
+  },
+  "rare_disease_map_date": "2026-06-23 07:57:31",
+  "rare_disease_exposure_snapshot": "2024-12",
+  "rare_disease_association_filter": "Assessed; Disease-causing germline mutation(s) in; exact HGNC ID",
+  "exposed_orpha_entities": 512,
+  "exposed_orpha_entities_with_approved_flag_ligand": 207,
+  "exposed_orpha_entities_by_group": {
+    "Disorder": 372,
+    "Subtype of disorder": 140
+  },
+  "exposed_orpha_genes": 373,
+  "disease_ranking": "Distinct normalized drug concepts with current GtoP approved/nonwithdrawn flags; source-ligand counts retained separately",
+  "limits": [
+    "Current GtoP evidence is not an archived 2024 source file.",
+    "Approval flags are database annotations, not independent current regulator checks.",
+    "Other identity conflicts are not counted as confirmed numeric namespace collisions.",
+    "Disease exposure describes erroneous search leads, not measured patient harm.",
+    "These counts do not constitute a census of every database or all error classes."
+  ],
+  "inputs": [
+    {
+      "url": "https://www.guidetopharmacology.org/DATA/targets_and_families.tsv",
+      "request_body": null,
+      "filename": "gtop_targets.tsv",
+      "retrieved_utc": "2026-10-24T16:28:03.381208+00:00",
+      "complete": true,
+      "received_bytes": 1896910,
+      "status": 200,
+      "final_url": "https://www.guidetopharmacology.org/DATA/targets_and_families.tsv",
+      "content_type": "text/tab-separated-values",
+      "last_modified": "Mon, 12 Oct 2026 14:04:26 GMT",
+      "etag": "W/\"1896910-1791813866737\"",
+      "sha256": "a5b095b93e6e9b4898d54541958229dabcb7d72ac6824c3d9c6dd21bc5e2644b"
+    },
+    {
+      "url": "https://www.guidetopharmacology.org/DATA/interactions.tsv",
+      "request_body": null,
+      "filename": "gtop_interactions.tsv",
+      "retrieved_utc": "2026-10-24T16:28:28.383478+00:00",
+      "complete": true,
+      "received_bytes": 7560316,
+      "status": 200,
+      "final_url": "https://www.guidetopharmacology.org/DATA/interactions.tsv",
+      "content_type": "text/tab-separated-values",
+      "last_modified": "Tue, 20 Oct 2026 11:15:27 GMT",
+      "etag": "W/\"7560316-1792494927000\"",
+      "sha256": "52cf8fdb906c6ab77664fedbdc67c9fe352fc91a660ed213304c64dba2207c2d"
+    },
+    {
+      "url": "https://www.guidetopharmacology.org/DATA/ligands.tsv",
+      "request_body": null,
+      "filename": "gtop_ligands.tsv",
+      "retrieved_utc": "2026-10-24T16:28:32.759201+00:00",
+      "complete": true,
+      "received_bytes": 6880425,
+      "status": 200,
+      "final_url": "https://www.guidetopharmacology.org/DATA/ligands.tsv",
+      "content_type": "text/tab-separated-values",
+      "last_modified": "Tue, 20 Oct 2026 11:12:15 GMT",
+      "etag": "W/\"6880425-1792494735000\"",
+      "sha256": "c201cdad13f086c9eda0d2b2dc8d1547de4da6eb285678460f0c36e2ce22fb1f"
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz",
+      "request_body": null,
+      "filename": "human_gene_info.gz",
+      "retrieved_utc": "2026-10-24T16:30:04.413763+00:00",
+      "complete": true,
+      "received_bytes": 5199199,
+      "status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/gene/DATA/GENE_INFO/Mammalia/Homo_sapiens.gene_info.gz",
+      "content_type": "application/x-gzip",
+      "last_modified": "Sat, 24 Oct 2026 08:08:51 GMT",
+      "etag": null,
+      "sha256": "58af3c139c73c962c6d8bfcfcc4a1563a829a34a36f19f3f6d32e06ff8c8de38"
+    },
+    {
+      "url": "https://media.githubusercontent.com/media/Orphanet/Orphadata_aggregated/463f51d0db1d754b53e96027dd098a3d96a9c79c/Genes%20associated%20with%20rare%20diseases/en_product6.xml",
+      "request_body": null,
+      "filename": "orphanet_genes.xml",
+      "retrieved_utc": "2026-10-24T16:31:43.243084+00:00",
+      "complete": true,
+      "received_bytes": 22612034,
+      "status": 200,
+      "final_url": "https://media.githubusercontent.com/media/Orphanet/Orphadata_aggregated/463f51d0db1d754b53e96027dd098a3d96a9c79c/Genes%20associated%20with%20rare%20diseases/en_product6.xml",
+      "content_type": "application/octet-stream",
+      "last_modified": "Sat, 24 Oct 2026 16:31:43 GMT",
+      "etag": "\"f1c039f78683beea7ca5b34d1c01c4ec98f80e8ca488eee69770074db1020e39\"",
+      "sha256": "f1c039f78683beea7ca5b34d1c01c4ec98f80e8ca488eee69770074db1020e39"
+    },
+    {
+      "url": "https://github.com/dgidb/dgidb-data/releases/download/2024-06/interactions.tsv",
+      "request_body": null,
+      "filename": "dgidb_2024-06_interactions.tsv",
+      "retrieved_utc": "2026-10-24T16:43:09.776270+00:00",
+      "complete": true,
+      "received_bytes": 12178745,
+      "status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1244634622/0d2eb015-8d60-416c-9051-6debdf4dec06",
+      "content_type": "application/octet-stream",
+      "last_modified": "Mon, 08 Jun 2026 17:03:04 GMT",
+      "etag": "\"0x8DEC57FCDFC698B\"",
+      "sha256": "08af778126a4f22a10fddb7fe06745df07f068ce76c016fe22c59c524ef3de9c"
+    },
+    {
+      "url": "https://github.com/dgidb/dgidb-data/releases/download/2024-12/interactions.tsv",
+      "request_body": null,
+      "filename": "dgidb_2024-12_interactions.tsv",
+      "retrieved_utc": "2026-10-24T16:28:36.719668+00:00",
+      "complete": true,
+      "received_bytes": 15549322,
+      "status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1244634622/b1ac67c7-c5b0-4238-a9c3-bca0e46886c0",
+      "content_type": "application/octet-stream",
+      "last_modified": "Mon, 08 Jun 2026 16:10:23 GMT",
+      "etag": "\"0x8DEC57871E27132\"",
+      "sha256": "ee255dce75924ef5075d8204fc7d0276a463984c555e41b9d55f6a46473db70b"
+    },
+    {
+      "url": "https://github.com/dgidb/dgidb-data/releases/download/2026-06/interactions.tsv",
+      "request_body": null,
+      "filename": "dgidb_2026-06_interactions.tsv",
+      "retrieved_utc": "2026-10-24T16:28:38.771880+00:00",
+      "complete": true,
+      "received_bytes": 15941105,
+      "status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1244634622/18dd9dec-d097-4eae-826e-b15798af2d21",
+      "content_type": "application/octet-stream",
+      "last_modified": "Mon, 22 Jun 2026 16:11:17 GMT",
+      "etag": "\"0x8DED078E4503B17\"",
+      "sha256": "e8698af4d6187836c603e23e78d0f428079d3f6d3153424f550d8a1e77f8f31a"
+    },
+    {
+      "url": "https://github.com/dgidb/dgidb-data/releases/download/2026-10/interactions.tsv",
+      "request_body": null,
+      "filename": "dgidb_2026-10_interactions.tsv",
+      "retrieved_utc": "2026-10-24T16:28:40.493992+00:00",
+      "complete": true,
+      "received_bytes": 19340837,
+      "status": 200,
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1244634622/6cae019a-9ab8-4d74-b802-3dae837a5e2b",
+      "content_type": "application/octet-stream",
+      "last_modified": "Wed, 14 Oct 2026 17:06:23 GMT",
+      "etag": "\"0x8DF2A1579E61410\"",
+      "sha256": "7116771a9d6494368b77111f62f7f30582c411dc6ebf4ce3737b822f838057c6"
+    }
+  ]
+}

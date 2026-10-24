@@ -1,0 +1,2 @@
+proband_id,chrom_1,pos_1,ref_1,alt_1,chrom_2,pos_2,ref_2,alt_2,epcr,finding_type,notes
+PROBAND01,chr15,40209701,T,G,chr15,40220612,T,G,0.9,primary,"BUB1B; recessive_compound_het_unphased; ENST00000287598.11:L737*; ENST00000287598.11:N1002K. Phase not established; parents unavailable. EPCR is subjective, not calibrated. Proband ID set to PROBAND01, the only ID the live scorer accepts (VCF sample header: WGS_EX2312012)."

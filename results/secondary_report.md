@@ -1,0 +1,11 @@
+# Secondary findings research screen
+
+Screened all 84 ACMG SF v3.3 genes against the public GRCh38 ClinVar file. Found **0 exact, QC-passing matches** to >=2-star pathogenic/likely pathogenic alleles without aggregate conflicts. **0 clinically confirmed secondary findings**; clinical confirmation is outside this research pipeline.
+
+The current ClinGen curation CSV contains 81 distinct genes; SMAD3, TSC1 and TSC2 were reconciled from the official v3.3 paper's Table1 to recover the full84. The public ClinVar reference stays under ignored work/. Patient calls are matched locally by GRCh38 chromosome, position, reference and alternate allele, with PASS, QUAL>=30, DP>=10 and GQ>=30. Multiallelic called alleles are evaluated separately. Two-star multiple-submitters/no-conflict, expert panel and practice-guideline classifications qualify; conflicts and weaker evidence are excluded.
+
+All matches are secondary candidates only. AR single heterozygotes do not establish a reportable finding; phase and second-allele evidence are needed. HFE requires the specific C282Y homozygote rule; ABCD1, GLA and OTC follow distinct X-linked return rules. RYR1/CACNA1S require the malignant-hyperthermia gene-disease relationship; TTN requires truncating variants in relevant exons. Clinical gene-disease/variant-type review is required before any return.
+
+Limitations: exact representation matching can miss differently normalized indels/complex alleles; no CNV/SV, novel loss-of-function classification, splice rescue or full coverage assessment was performed. The screen can miss clinically reportable variants absent from ClinVar or carrying less review evidence. A zero-match result is not a negative ACMG clinical analysis. This deterministic screen has no cohort null or validated clinical sensitivity; no enrichment inference is made. Behavioral tests verify rejection of one-star/conflicting/benign variants.
+
+Source opened: Lee et al., ACMG SF v3.3, PMID [40568962](https://pubmed.ncbi.nlm.nih.gov/40568962/), DOI [10.1016/j.gim.2025.101454](https://doi.org/10.1016/j.gim.2025.101454); [ClinGen resource](https://search.clinicalgenome.org/kb/genes/acmgsf). ClinVar sourceURL, size and SHA-256 are recorded in secondary_summary.json.

@@ -1,0 +1,19 @@
+{
+  "checked_on_utc": "2026-10-24",
+  "records": [
+    {
+      "drug": "ATALUREN",
+      "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/translarna",
+      "source_type": "official regulator; no PMID or DOI",
+      "finding": "The European Commission did not renew the EU conditional marketing authorisation on 2025-03-28.",
+      "engine_action": "Excluded pending verification of another current eligible jurisdiction; no claim of worldwide withdrawal."
+    },
+    {
+      "drug": "SIROLIMUS (Hyftor)",
+      "source": "https://www.ema.europa.eu/en/medicines/human/EPAR/hyftor",
+      "source_type": "official regulator; no PMID or DOI",
+      "finding": "Topical Hyftor treats TSC-associated facial angiofibromas. This route and manifestation are not equivalent to systemic treatment of other TSC features.",
+      "engine_action": "Broad TSC label is grade L retrieval only; route/manifestation/age suitability remain unverified by the graph engine."
+    }
+  ]
+}

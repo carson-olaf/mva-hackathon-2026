@@ -1,0 +1,4 @@
+drug,chembl_id,external_judgment_priority,evidence_cap,grade,approval_gate,laboratory_eligible,rejection_reason,clinical_eligible,positive_computational_rescue_lines
+Arimoclomol,CHEMBL2107726,49,1,H_indirect_laboratory_hypothesis,PASS,True,,False,0
+Azithromycin,CHEMBL529,48,1,H_indirect_laboratory_hypothesis,PASS,True,,False,0
+Prescription nicotinic acid (niacin),CHEMBL573,43,1,H_indirect_laboratory_hypothesis,PASS,True,,False,0

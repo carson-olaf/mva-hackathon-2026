@@ -1,0 +1,26 @@
+{
+  "autosomal_het_snvs": 1779707,
+  "autosomal_mean_ad_depth": 44.820431115908406,
+  "autosomal_mean_alt_fraction": 0.5005828547372566,
+  "autosomal_usable_blocks": 544,
+  "tests": 60,
+  "bootstrap_iterations": 30000,
+  "seed": 20261024,
+  "exploratory_outlier_regions": [],
+  "chromosome_pseudo_controls_p_below_0_05": 1,
+  "pseudo_controls_total": 22,
+  "caution": "Same-genome pseudo-controls are not known negatives; error rates and detection limits are conditional, not clinically validated.",
+  "qc": {
+    "queried_calls": 2962193,
+    "usable_het_snvs": 1779707,
+    "excluded_nonprimary": 463,
+    "excluded_nonhet": 1158540,
+    "excluded_ad": 4,
+    "excluded_centromere_guard": 23479
+  },
+  "block_mb": 5,
+  "filter": "FILTER=\"PASS\" && TYPE=\"snp\" && N_ALT=1 && QUAL>=50 && INFO/MQ>=60 && INFO/QD>=5 && INFO/FS<=20 && INFO/SOR<=2 && INFO/DB=1 && FMT/GQ>=50 && FMT/DP>=20 && FMT/DP<=80",
+  "cytobands_sha256": "e514e48b0a12a516fd5231b44241a20a282f290bdd6131cadcddc6276ee26082",
+  "public_cytobands_url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz",
+  "method_version": "unphased-moment-spatial-and-chromosome-null-v1"
+}

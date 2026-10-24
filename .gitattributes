@@ -1,0 +1,5 @@
+*.csv text eol=lf
+# Matplotlib wraps SVG path coordinates with insignificant trailing spaces.
+*.svg -whitespace
+# PDF object streams and cross-reference offsets must not receive text handling.
+*.pdf binary

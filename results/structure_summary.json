@@ -1,0 +1,1025 @@
+{
+  "target": "BUB1B/BubR1 O60566 p.Asn1002Lys",
+  "reference_only": true,
+  "alphafold": {
+    "entry": "AF-O60566-F1",
+    "version": 6,
+    "url": "https://alphafold.ebi.ac.uk/files/AF-O60566-F1-model_v6.pdb",
+    "model_created": "2025-08-01T00:00:00Z",
+    "residue_1002_pLDDT": 91.06,
+    "domain_705_1050_mean_pLDDT": 79.95658959537572,
+    "N1002_SASA_A2_960_points": 27.730094842975745
+  },
+  "experimental_coordinate_coverage": [
+    {
+      "structure": "6TLJ",
+      "chain": "S",
+      "modeled_residues": 293,
+      "first": 19,
+      "last": 345,
+      "models_1002": false,
+      "modeled_residues_705_1050": 0
+    },
+    {
+      "structure": "5KHU",
+      "chain": "Q",
+      "modeled_residues": 219,
+      "first": 18,
+      "last": 308,
+      "models_1002": false,
+      "modeled_residues_705_1050": 0
+    }
+  ],
+  "stability_predictions": [
+    {
+      "method": "DynaMut2",
+      "status": "DONE",
+      "ddG_unfolding_kcal_mol": -0.051,
+      "published_independent_test_RMSE_kcal_mol": 1.14,
+      "error_is_not_case_specific_CI": true,
+      "PMID": "32881105"
+    },
+    {
+      "method": "KORPM",
+      "status": "done",
+      "ddG_unfolding_kcal_mol": -0.573,
+      "published_Ssym_RMSE_kcal_mol": 1.33,
+      "error_is_not_case_specific_CI": true,
+      "PMID": "36629451"
+    }
+  ],
+  "experimental_Cterminal_homologs": [
+    {
+      "PDB": "6JKK",
+      "species": "Drosophila melanogaster",
+      "resolution_A": 1.85,
+      "modeled_residues": 334,
+      "residue_number_range": [
+        1126,
+        1459
+      ],
+      "human_residue_1002_validated": false,
+      "PMID": "31201382",
+      "DOI": "10.1038/s41422-019-0178-z"
+    },
+    {
+      "PDB": "6JKM",
+      "species": "Drosophila melanogaster",
+      "resolution_A": 1.95,
+      "modeled_residues": 334,
+      "residue_number_range": [
+        1126,
+        1459
+      ],
+      "human_residue_1002_validated": false,
+      "PMID": "31201382",
+      "DOI": "10.1038/s41422-019-0178-z"
+    }
+  ],
+  "KORPM_comparator_null": {
+    "definition": "Other Asn-to-Lys substitutions in residues 705\u20131050 of the same reference structure; local sequence/structure background, not a clinical null",
+    "n": 18,
+    "median_kcal_mol": 0.1555,
+    "fraction_at_least_as_destabilizing_as_N1002K": 0.0,
+    "finite_background_tail_rank": 0.05263157894736842,
+    "tail_rank_is_not_a_clinical_p_value": true,
+    "controls": {
+      "NA1002N": 0.0,
+      "NA1002Q": -0.653,
+      "NA1002A": -0.646,
+      "LA1012P": -3.227
+    }
+  },
+  "pockets_full_reference_B20": [
+    {
+      "pocket": 1,
+      "score": 0.248,
+      "druggability_score": 0.015,
+      "volume_A3": 412.674,
+      "nearest_vertex_to_N1002_A": 27.079
+    },
+    {
+      "pocket": 2,
+      "score": 0.122,
+      "druggability_score": 0.001,
+      "volume_A3": 397.193,
+      "nearest_vertex_to_N1002_A": 55.134
+    },
+    {
+      "pocket": 3,
+      "score": 0.117,
+      "druggability_score": 0.006,
+      "volume_A3": 784.353,
+      "nearest_vertex_to_N1002_A": 22.491
+    },
+    {
+      "pocket": 4,
+      "score": 0.103,
+      "druggability_score": 0.005,
+      "volume_A3": 376.628,
+      "nearest_vertex_to_N1002_A": 4.039
+    },
+    {
+      "pocket": 5,
+      "score": 0.102,
+      "druggability_score": 0.007,
+      "volume_A3": 295.829,
+      "nearest_vertex_to_N1002_A": 120.566
+    },
+    {
+      "pocket": 6,
+      "score": 0.09,
+      "druggability_score": 0.011,
+      "volume_A3": 186.445,
+      "nearest_vertex_to_N1002_A": 29.815
+    },
+    {
+      "pocket": 7,
+      "score": 0.082,
+      "druggability_score": 0.023,
+      "volume_A3": 351.931,
+      "nearest_vertex_to_N1002_A": 77.438
+    },
+    {
+      "pocket": 8,
+      "score": 0.071,
+      "druggability_score": 0.0,
+      "volume_A3": 188.686,
+      "nearest_vertex_to_N1002_A": 67.921
+    },
+    {
+      "pocket": 9,
+      "score": 0.063,
+      "druggability_score": 0.0,
+      "volume_A3": 302.513,
+      "nearest_vertex_to_N1002_A": 73.202
+    },
+    {
+      "pocket": 10,
+      "score": 0.055,
+      "druggability_score": 0.003,
+      "volume_A3": 332.812,
+      "nearest_vertex_to_N1002_A": 71.054
+    },
+    {
+      "pocket": 11,
+      "score": 0.055,
+      "druggability_score": 0.181,
+      "volume_A3": 1497.136,
+      "nearest_vertex_to_N1002_A": 53.271
+    },
+    {
+      "pocket": 12,
+      "score": 0.048,
+      "druggability_score": 0.0,
+      "volume_A3": 319.427,
+      "nearest_vertex_to_N1002_A": 52.112
+    },
+    {
+      "pocket": 13,
+      "score": 0.041,
+      "druggability_score": 0.001,
+      "volume_A3": 229.618,
+      "nearest_vertex_to_N1002_A": 35.867
+    },
+    {
+      "pocket": 14,
+      "score": 0.041,
+      "druggability_score": 0.001,
+      "volume_A3": 301.973,
+      "nearest_vertex_to_N1002_A": 75.582
+    },
+    {
+      "pocket": 15,
+      "score": 0.041,
+      "druggability_score": 0.002,
+      "volume_A3": 1045.525,
+      "nearest_vertex_to_N1002_A": 32.92
+    },
+    {
+      "pocket": 16,
+      "score": 0.04,
+      "druggability_score": 0.002,
+      "volume_A3": 380.092,
+      "nearest_vertex_to_N1002_A": 30.092
+    },
+    {
+      "pocket": 17,
+      "score": 0.039,
+      "druggability_score": 0.005,
+      "volume_A3": 452.952,
+      "nearest_vertex_to_N1002_A": 28.844
+    },
+    {
+      "pocket": 18,
+      "score": 0.039,
+      "druggability_score": 0.001,
+      "volume_A3": 262.642,
+      "nearest_vertex_to_N1002_A": 3.459
+    },
+    {
+      "pocket": 19,
+      "score": 0.039,
+      "druggability_score": 0.0,
+      "volume_A3": 283.608,
+      "nearest_vertex_to_N1002_A": 28.706
+    },
+    {
+      "pocket": 20,
+      "score": 0.027,
+      "druggability_score": 0.061,
+      "volume_A3": 302.475,
+      "nearest_vertex_to_N1002_A": 62.014
+    },
+    {
+      "pocket": 21,
+      "score": 0.022,
+      "druggability_score": 0.0,
+      "volume_A3": 152.287,
+      "nearest_vertex_to_N1002_A": 59.556
+    },
+    {
+      "pocket": 22,
+      "score": 0.021,
+      "druggability_score": 0.001,
+      "volume_A3": 328.155,
+      "nearest_vertex_to_N1002_A": 9.23
+    },
+    {
+      "pocket": 23,
+      "score": 0.018,
+      "druggability_score": 0.001,
+      "volume_A3": 307.845,
+      "nearest_vertex_to_N1002_A": 14.027
+    },
+    {
+      "pocket": 24,
+      "score": 0.017,
+      "druggability_score": 0.158,
+      "volume_A3": 1052.056,
+      "nearest_vertex_to_N1002_A": 32.074
+    },
+    {
+      "pocket": 25,
+      "score": 0.015,
+      "druggability_score": 0.0,
+      "volume_A3": 421.865,
+      "nearest_vertex_to_N1002_A": 10.642
+    },
+    {
+      "pocket": 26,
+      "score": 0.012,
+      "druggability_score": 0.0,
+      "volume_A3": 407.756,
+      "nearest_vertex_to_N1002_A": 42.696
+    },
+    {
+      "pocket": 27,
+      "score": 0.009,
+      "druggability_score": 0.032,
+      "volume_A3": 1216.429,
+      "nearest_vertex_to_N1002_A": 65.773
+    },
+    {
+      "pocket": 28,
+      "score": 0.004,
+      "druggability_score": 0.006,
+      "volume_A3": 280.759,
+      "nearest_vertex_to_N1002_A": 71.462
+    },
+    {
+      "pocket": 29,
+      "score": -0.0,
+      "druggability_score": 0.001,
+      "volume_A3": 317.926,
+      "nearest_vertex_to_N1002_A": 39.282
+    },
+    {
+      "pocket": 30,
+      "score": -0.002,
+      "druggability_score": 0.001,
+      "volume_A3": 219.245,
+      "nearest_vertex_to_N1002_A": 20.299
+    },
+    {
+      "pocket": 31,
+      "score": -0.005,
+      "druggability_score": 0.0,
+      "volume_A3": 312.616,
+      "nearest_vertex_to_N1002_A": 8.726
+    },
+    {
+      "pocket": 32,
+      "score": -0.007,
+      "druggability_score": 0.0,
+      "volume_A3": 231.904,
+      "nearest_vertex_to_N1002_A": 119.618
+    },
+    {
+      "pocket": 33,
+      "score": -0.01,
+      "druggability_score": 0.0,
+      "volume_A3": 255.6,
+      "nearest_vertex_to_N1002_A": 107.518
+    },
+    {
+      "pocket": 34,
+      "score": -0.013,
+      "druggability_score": 0.002,
+      "volume_A3": 449.363,
+      "nearest_vertex_to_N1002_A": 37.047
+    },
+    {
+      "pocket": 35,
+      "score": -0.014,
+      "druggability_score": 0.001,
+      "volume_A3": 328.856,
+      "nearest_vertex_to_N1002_A": 70.188
+    },
+    {
+      "pocket": 36,
+      "score": -0.017,
+      "druggability_score": 0.001,
+      "volume_A3": 270.964,
+      "nearest_vertex_to_N1002_A": 74.152
+    },
+    {
+      "pocket": 37,
+      "score": -0.017,
+      "druggability_score": 0.002,
+      "volume_A3": 363.348,
+      "nearest_vertex_to_N1002_A": 62.197
+    },
+    {
+      "pocket": 38,
+      "score": -0.019,
+      "druggability_score": 0.023,
+      "volume_A3": 347.696,
+      "nearest_vertex_to_N1002_A": 91.877
+    },
+    {
+      "pocket": 39,
+      "score": -0.022,
+      "druggability_score": 0.001,
+      "volume_A3": 256.705,
+      "nearest_vertex_to_N1002_A": 63.237
+    },
+    {
+      "pocket": 40,
+      "score": -0.028,
+      "druggability_score": 0.001,
+      "volume_A3": 327.967,
+      "nearest_vertex_to_N1002_A": 75.584
+    },
+    {
+      "pocket": 41,
+      "score": -0.033,
+      "druggability_score": 0.0,
+      "volume_A3": 236.398,
+      "nearest_vertex_to_N1002_A": 56.082
+    },
+    {
+      "pocket": 42,
+      "score": -0.04,
+      "druggability_score": 0.005,
+      "volume_A3": 440.207,
+      "nearest_vertex_to_N1002_A": 89.814
+    },
+    {
+      "pocket": 43,
+      "score": -0.041,
+      "druggability_score": 0.006,
+      "volume_A3": 298.213,
+      "nearest_vertex_to_N1002_A": 60.569
+    },
+    {
+      "pocket": 44,
+      "score": -0.042,
+      "druggability_score": 0.001,
+      "volume_A3": 384.043,
+      "nearest_vertex_to_N1002_A": 16.959
+    },
+    {
+      "pocket": 45,
+      "score": -0.043,
+      "druggability_score": 0.0,
+      "volume_A3": 190.747,
+      "nearest_vertex_to_N1002_A": 87.753
+    },
+    {
+      "pocket": 46,
+      "score": -0.046,
+      "druggability_score": 0.001,
+      "volume_A3": 291.586,
+      "nearest_vertex_to_N1002_A": 32.328
+    },
+    {
+      "pocket": 47,
+      "score": -0.047,
+      "druggability_score": 0.0,
+      "volume_A3": 305.002,
+      "nearest_vertex_to_N1002_A": 45.375
+    },
+    {
+      "pocket": 48,
+      "score": -0.05,
+      "druggability_score": 0.001,
+      "volume_A3": 352.497,
+      "nearest_vertex_to_N1002_A": 59.252
+    },
+    {
+      "pocket": 49,
+      "score": -0.052,
+      "druggability_score": 0.001,
+      "volume_A3": 282.472,
+      "nearest_vertex_to_N1002_A": 85.382
+    },
+    {
+      "pocket": 50,
+      "score": -0.053,
+      "druggability_score": 0.001,
+      "volume_A3": 175.808,
+      "nearest_vertex_to_N1002_A": 80.552
+    },
+    {
+      "pocket": 51,
+      "score": -0.055,
+      "druggability_score": 0.0,
+      "volume_A3": 147.828,
+      "nearest_vertex_to_N1002_A": 29.167
+    },
+    {
+      "pocket": 52,
+      "score": -0.055,
+      "druggability_score": 0.0,
+      "volume_A3": 377.445,
+      "nearest_vertex_to_N1002_A": 70.654
+    },
+    {
+      "pocket": 53,
+      "score": -0.056,
+      "druggability_score": 0.0,
+      "volume_A3": 446.133,
+      "nearest_vertex_to_N1002_A": 74.266
+    },
+    {
+      "pocket": 54,
+      "score": -0.057,
+      "druggability_score": 0.001,
+      "volume_A3": 171.083,
+      "nearest_vertex_to_N1002_A": 35.615
+    },
+    {
+      "pocket": 55,
+      "score": -0.059,
+      "druggability_score": 0.001,
+      "volume_A3": 178.1,
+      "nearest_vertex_to_N1002_A": 132.187
+    },
+    {
+      "pocket": 56,
+      "score": -0.064,
+      "druggability_score": 0.001,
+      "volume_A3": 222.399,
+      "nearest_vertex_to_N1002_A": 7.724
+    },
+    {
+      "pocket": 57,
+      "score": -0.064,
+      "druggability_score": 0.001,
+      "volume_A3": 288.619,
+      "nearest_vertex_to_N1002_A": 73.824
+    },
+    {
+      "pocket": 58,
+      "score": -0.065,
+      "druggability_score": 0.001,
+      "volume_A3": 306.784,
+      "nearest_vertex_to_N1002_A": 38.397
+    },
+    {
+      "pocket": 59,
+      "score": -0.067,
+      "druggability_score": 0.005,
+      "volume_A3": 458.859,
+      "nearest_vertex_to_N1002_A": 74.367
+    },
+    {
+      "pocket": 60,
+      "score": -0.068,
+      "druggability_score": 0.001,
+      "volume_A3": 313.051,
+      "nearest_vertex_to_N1002_A": 60.973
+    },
+    {
+      "pocket": 61,
+      "score": -0.069,
+      "druggability_score": 0.0,
+      "volume_A3": 205.659,
+      "nearest_vertex_to_N1002_A": 13.885
+    },
+    {
+      "pocket": 62,
+      "score": -0.077,
+      "druggability_score": 0.0,
+      "volume_A3": 360.095,
+      "nearest_vertex_to_N1002_A": 81.048
+    },
+    {
+      "pocket": 63,
+      "score": -0.079,
+      "druggability_score": 0.001,
+      "volume_A3": 426.108,
+      "nearest_vertex_to_N1002_A": 81.656
+    },
+    {
+      "pocket": 64,
+      "score": -0.082,
+      "druggability_score": 0.003,
+      "volume_A3": 280.729,
+      "nearest_vertex_to_N1002_A": 68.394
+    },
+    {
+      "pocket": 65,
+      "score": -0.084,
+      "druggability_score": 0.002,
+      "volume_A3": 250.392,
+      "nearest_vertex_to_N1002_A": 82.075
+    },
+    {
+      "pocket": 66,
+      "score": -0.084,
+      "druggability_score": 0.001,
+      "volume_A3": 263.227,
+      "nearest_vertex_to_N1002_A": 61.985
+    },
+    {
+      "pocket": 67,
+      "score": -0.085,
+      "druggability_score": 0.001,
+      "volume_A3": 225.152,
+      "nearest_vertex_to_N1002_A": 56.296
+    },
+    {
+      "pocket": 68,
+      "score": -0.085,
+      "druggability_score": 0.0,
+      "volume_A3": 285.053,
+      "nearest_vertex_to_N1002_A": 82.669
+    },
+    {
+      "pocket": 69,
+      "score": -0.085,
+      "druggability_score": 0.0,
+      "volume_A3": 166.727,
+      "nearest_vertex_to_N1002_A": 55.302
+    },
+    {
+      "pocket": 70,
+      "score": -0.087,
+      "druggability_score": 0.001,
+      "volume_A3": 475.979,
+      "nearest_vertex_to_N1002_A": 66.239
+    },
+    {
+      "pocket": 71,
+      "score": -0.087,
+      "druggability_score": 0.0,
+      "volume_A3": 316.751,
+      "nearest_vertex_to_N1002_A": 55.381
+    },
+    {
+      "pocket": 72,
+      "score": -0.092,
+      "druggability_score": 0.001,
+      "volume_A3": 291.84,
+      "nearest_vertex_to_N1002_A": 7.298
+    },
+    {
+      "pocket": 73,
+      "score": -0.098,
+      "druggability_score": 0.001,
+      "volume_A3": 278.048,
+      "nearest_vertex_to_N1002_A": 53.27
+    },
+    {
+      "pocket": 74,
+      "score": -0.119,
+      "druggability_score": 0.001,
+      "volume_A3": 196.772,
+      "nearest_vertex_to_N1002_A": 61.59
+    },
+    {
+      "pocket": 75,
+      "score": -0.12,
+      "druggability_score": 0.0,
+      "volume_A3": 215.406,
+      "nearest_vertex_to_N1002_A": 24.682
+    },
+    {
+      "pocket": 76,
+      "score": -0.123,
+      "druggability_score": 0.0,
+      "volume_A3": 346.189,
+      "nearest_vertex_to_N1002_A": 109.605
+    },
+    {
+      "pocket": 77,
+      "score": -0.123,
+      "druggability_score": 0.0,
+      "volume_A3": 219.84,
+      "nearest_vertex_to_N1002_A": 20.822
+    },
+    {
+      "pocket": 78,
+      "score": -0.13,
+      "druggability_score": 0.0,
+      "volume_A3": 447.29,
+      "nearest_vertex_to_N1002_A": 69.689
+    },
+    {
+      "pocket": 79,
+      "score": -0.137,
+      "druggability_score": 0.0,
+      "volume_A3": 245.642,
+      "nearest_vertex_to_N1002_A": 45.418
+    },
+    {
+      "pocket": 80,
+      "score": -0.152,
+      "druggability_score": 0.0,
+      "volume_A3": 432.23,
+      "nearest_vertex_to_N1002_A": 55.644
+    },
+    {
+      "pocket": 81,
+      "score": -0.158,
+      "druggability_score": 0.002,
+      "volume_A3": 331.533,
+      "nearest_vertex_to_N1002_A": 52.567
+    },
+    {
+      "pocket": 82,
+      "score": -0.163,
+      "druggability_score": 0.0,
+      "volume_A3": 223.567,
+      "nearest_vertex_to_N1002_A": 56.238
+    },
+    {
+      "pocket": 83,
+      "score": -0.163,
+      "druggability_score": 0.0,
+      "volume_A3": 574.207,
+      "nearest_vertex_to_N1002_A": 69.272
+    },
+    {
+      "pocket": 84,
+      "score": -0.169,
+      "druggability_score": 0.0,
+      "volume_A3": 475.97,
+      "nearest_vertex_to_N1002_A": 34.193
+    },
+    {
+      "pocket": 85,
+      "score": -0.187,
+      "druggability_score": 0.0,
+      "volume_A3": 854.017,
+      "nearest_vertex_to_N1002_A": 46.517
+    },
+    {
+      "pocket": 86,
+      "score": -0.188,
+      "druggability_score": 0.041,
+      "volume_A3": 712.897,
+      "nearest_vertex_to_N1002_A": 55.846
+    },
+    {
+      "pocket": 87,
+      "score": -0.19,
+      "druggability_score": 0.0,
+      "volume_A3": 294.506,
+      "nearest_vertex_to_N1002_A": 44.669
+    },
+    {
+      "pocket": 88,
+      "score": -0.204,
+      "druggability_score": 0.001,
+      "volume_A3": 534.65,
+      "nearest_vertex_to_N1002_A": 82.936
+    },
+    {
+      "pocket": 89,
+      "score": -0.213,
+      "druggability_score": 0.004,
+      "volume_A3": 489.954,
+      "nearest_vertex_to_N1002_A": 63.958
+    },
+    {
+      "pocket": 90,
+      "score": -0.228,
+      "druggability_score": 0.0,
+      "volume_A3": 510.333,
+      "nearest_vertex_to_N1002_A": 63.912
+    },
+    {
+      "pocket": 91,
+      "score": -0.23,
+      "druggability_score": 0.001,
+      "volume_A3": 595.604,
+      "nearest_vertex_to_N1002_A": 51.509
+    },
+    {
+      "pocket": 92,
+      "score": -0.248,
+      "druggability_score": 0.0,
+      "volume_A3": 775.734,
+      "nearest_vertex_to_N1002_A": 22.649
+    },
+    {
+      "pocket": 93,
+      "score": -0.251,
+      "druggability_score": 0.001,
+      "volume_A3": 729.402,
+      "nearest_vertex_to_N1002_A": 34.529
+    },
+    {
+      "pocket": 94,
+      "score": -0.256,
+      "druggability_score": 0.0,
+      "volume_A3": 691.346,
+      "nearest_vertex_to_N1002_A": 58.026
+    },
+    {
+      "pocket": 95,
+      "score": -0.275,
+      "druggability_score": 0.001,
+      "volume_A3": 730.719,
+      "nearest_vertex_to_N1002_A": 51.316
+    },
+    {
+      "pocket": 96,
+      "score": -0.313,
+      "druggability_score": 0.0,
+      "volume_A3": 650.803,
+      "nearest_vertex_to_N1002_A": 54.615
+    },
+    {
+      "pocket": 97,
+      "score": -0.402,
+      "druggability_score": 0.004,
+      "volume_A3": 800.509,
+      "nearest_vertex_to_N1002_A": 41.956
+    }
+  ],
+  "pockets_Cterminal_reference_B20": [
+    {
+      "pocket": 1,
+      "score": 0.287,
+      "druggability_score": 0.015,
+      "volume_A3": 405.352,
+      "nearest_vertex_to_N1002_A": 27.079
+    },
+    {
+      "pocket": 2,
+      "score": 0.218,
+      "druggability_score": 0.007,
+      "volume_A3": 568.744,
+      "nearest_vertex_to_N1002_A": 32.92
+    },
+    {
+      "pocket": 3,
+      "score": 0.164,
+      "druggability_score": 0.006,
+      "volume_A3": 785.477,
+      "nearest_vertex_to_N1002_A": 22.491
+    },
+    {
+      "pocket": 4,
+      "score": 0.115,
+      "druggability_score": 0.005,
+      "volume_A3": 392.93,
+      "nearest_vertex_to_N1002_A": 4.039
+    },
+    {
+      "pocket": 5,
+      "score": 0.11,
+      "druggability_score": 0.011,
+      "volume_A3": 183.943,
+      "nearest_vertex_to_N1002_A": 29.815
+    },
+    {
+      "pocket": 6,
+      "score": 0.065,
+      "druggability_score": 0.005,
+      "volume_A3": 446.052,
+      "nearest_vertex_to_N1002_A": 28.844
+    },
+    {
+      "pocket": 7,
+      "score": 0.061,
+      "druggability_score": 0.001,
+      "volume_A3": 264.964,
+      "nearest_vertex_to_N1002_A": 3.459
+    },
+    {
+      "pocket": 8,
+      "score": 0.055,
+      "druggability_score": 0.002,
+      "volume_A3": 380.351,
+      "nearest_vertex_to_N1002_A": 30.092
+    },
+    {
+      "pocket": 9,
+      "score": 0.053,
+      "druggability_score": 0.0,
+      "volume_A3": 285.183,
+      "nearest_vertex_to_N1002_A": 28.706
+    },
+    {
+      "pocket": 10,
+      "score": 0.052,
+      "druggability_score": 0.001,
+      "volume_A3": 222.928,
+      "nearest_vertex_to_N1002_A": 35.867
+    },
+    {
+      "pocket": 11,
+      "score": 0.041,
+      "druggability_score": 0.199,
+      "volume_A3": 1085.059,
+      "nearest_vertex_to_N1002_A": 32.074
+    },
+    {
+      "pocket": 12,
+      "score": 0.037,
+      "druggability_score": 0.001,
+      "volume_A3": 321.858,
+      "nearest_vertex_to_N1002_A": 9.23
+    },
+    {
+      "pocket": 13,
+      "score": 0.027,
+      "druggability_score": 0.0,
+      "volume_A3": 442.226,
+      "nearest_vertex_to_N1002_A": 10.642
+    },
+    {
+      "pocket": 14,
+      "score": 0.027,
+      "druggability_score": 0.001,
+      "volume_A3": 296.791,
+      "nearest_vertex_to_N1002_A": 14.027
+    },
+    {
+      "pocket": 15,
+      "score": 0.01,
+      "druggability_score": 0.0,
+      "volume_A3": 309.737,
+      "nearest_vertex_to_N1002_A": 8.726
+    },
+    {
+      "pocket": 16,
+      "score": 0.008,
+      "druggability_score": 0.001,
+      "volume_A3": 327.479,
+      "nearest_vertex_to_N1002_A": 39.282
+    },
+    {
+      "pocket": 17,
+      "score": 0.007,
+      "druggability_score": 0.001,
+      "volume_A3": 217.88,
+      "nearest_vertex_to_N1002_A": 20.299
+    },
+    {
+      "pocket": 18,
+      "score": 0.007,
+      "druggability_score": 0.002,
+      "volume_A3": 458.305,
+      "nearest_vertex_to_N1002_A": 37.047
+    },
+    {
+      "pocket": 19,
+      "score": -0.033,
+      "druggability_score": 0.0,
+      "volume_A3": 293.623,
+      "nearest_vertex_to_N1002_A": 45.375
+    },
+    {
+      "pocket": 20,
+      "score": -0.034,
+      "druggability_score": 0.001,
+      "volume_A3": 375.048,
+      "nearest_vertex_to_N1002_A": 16.959
+    },
+    {
+      "pocket": 21,
+      "score": -0.035,
+      "druggability_score": 0.001,
+      "volume_A3": 288.523,
+      "nearest_vertex_to_N1002_A": 32.328
+    },
+    {
+      "pocket": 22,
+      "score": -0.043,
+      "druggability_score": 0.001,
+      "volume_A3": 168.632,
+      "nearest_vertex_to_N1002_A": 35.615
+    },
+    {
+      "pocket": 23,
+      "score": -0.043,
+      "druggability_score": 0.0,
+      "volume_A3": 301.604,
+      "nearest_vertex_to_N1002_A": 22.345
+    },
+    {
+      "pocket": 24,
+      "score": -0.047,
+      "druggability_score": 0.0,
+      "volume_A3": 155.669,
+      "nearest_vertex_to_N1002_A": 29.167
+    },
+    {
+      "pocket": 25,
+      "score": -0.054,
+      "druggability_score": 0.001,
+      "volume_A3": 306.252,
+      "nearest_vertex_to_N1002_A": 38.397
+    },
+    {
+      "pocket": 26,
+      "score": -0.055,
+      "druggability_score": 0.001,
+      "volume_A3": 224.709,
+      "nearest_vertex_to_N1002_A": 7.724
+    },
+    {
+      "pocket": 27,
+      "score": -0.059,
+      "druggability_score": 0.0,
+      "volume_A3": 206.939,
+      "nearest_vertex_to_N1002_A": 13.885
+    },
+    {
+      "pocket": 28,
+      "score": -0.084,
+      "druggability_score": 0.001,
+      "volume_A3": 287.972,
+      "nearest_vertex_to_N1002_A": 7.298
+    },
+    {
+      "pocket": 29,
+      "score": -0.111,
+      "druggability_score": 0.0,
+      "volume_A3": 215.451,
+      "nearest_vertex_to_N1002_A": 24.682
+    },
+    {
+      "pocket": 30,
+      "score": -0.115,
+      "druggability_score": 0.0,
+      "volume_A3": 218.438,
+      "nearest_vertex_to_N1002_A": 20.822
+    }
+  ],
+  "docking_gate": {
+    "requires_both_ddG_below_minus_1_5": false,
+    "requires_nearby_fpocket_druggability_at_least_0_5": false,
+    "decision": "stop_no_supported_structural_rescue_screen"
+  },
+  "file_sha256": {
+    "6JKM.json": "68c2b28e03738c6f14af94229901d10e60bf31ec0c55e05ca350003be39e3fc3",
+    "drosophila_uniprot.json": "8ed9d3fbb424946334b8f93059c73a59c1affcdeeafed5c1fcd4902489ea8dde",
+    "korpm_repo.json": "a809e54e85a765246ec30a86d53469134b06f29438f1e775ed5353bd9b236def",
+    "6JKM.cif": "d59d75a20623bfb20bab1a6444351a660411e84bcdbda467139843b4290d2664",
+    "6TLJ_entry.json": "f12dd1788820258aa379e3a49e3aba0ffadc5a2866da71bf5ca9d38d34fc9823",
+    "dynamut_N1002K_wt.pdb": "46d48b8e588d1a752a65784cb1d336b754605b2e08a695e6a4d80fbfea1082f8",
+    "pdbe_mapping.json": "999a8de754739d67b3694384ba5b45b1bf85f8757eb95e13e654595e9453201e",
+    "alphafold_metadata.json": "05cbbf846a624eb26fcced6d6755078eb07ecd38f6d4becc8aec9780553deb7c",
+    "6JKK.cif": "867cf4bd5ad00d69e9d1c48c556f6d451199bb7e65e64fd6bbfa3ac8e837796a",
+    "uniprot.json": "73899b2ea96a39d38e3aa41dc08587e70414c40c41ed0088cb92638cfb336ec1",
+    "6TLJ.cif": "19d86aed34b2b3abb1028c4838c419526f2ff0402a6084da5811213e21b0c5a9",
+    "korpm_controls_predictions.txt": "c4a83e401ce1494bf0b3f649a3f31c5578862fea591964e5e7d1e357bae09e6c",
+    "AF-O60566-F1-b20.pdb": "28d11288fa7ccfe7ca7fe66039c1f6af1be95887cf7fe88ae3820f064527d135",
+    "ilmode_tree.json": "8c177a38af7c68d455e9554231def022cc2bcf62c1d3dab3626aaf5c319a5e04",
+    "korpm_controls_input.txt": "539e234d4b6fadc4702eb3984d79d47e10dbc8fbf54c4f8e287a6d15de66d3c4",
+    "dynamut_status.json": "c3b3651b2b951650905d9e5f73c09e2e9fceb37f9350d5e87112d84f571ce7a9",
+    "6JKK.json": "a430fa99fb7612d597b756ff35a22d0a93ee18b33990ef57d3bad51f5df8f916",
+    "alphafold_paper_metadata.json": "7c0d7d9625c22f82f4a1e992ba9f65060676691092c348c8fd2adc70e297736c",
+    "korpm_readme.txt": "3a1fbdbe32002d33cb078607b17a16ce95e56630a17fc2074df8935881b54fd4",
+    "imod_tree.json": "8c177a38af7c68d455e9554231def022cc2bcf62c1d3dab3626aaf5c319a5e04",
+    "AF-O60566-Cterm-b20.pdb": "a53ce0020befdb0169fc9f33b9c3848f0af036f8c2196493b21dacf224ef80dc",
+    "drosophila_paper_metadata.json": "03642bff5ccd117fb5fa3c8bfeb0de04b4894ae8d0d832da49087363fb416b9b",
+    "dynamut_submit.json": "d12f99e72be0d42d511384c4f2b2009e00c31776657d353585e9e0a7279a2e71",
+    "AF-O60566-F1.pdb": "684e43160c431c4a30f7ab2c6b66c2a73ae1c50ef7561fa637dbb3ffe4dcd49f",
+    "fpocket_local_build.txt": "eac0cf1471e9f596a63e609086158ace5899d7786c1180fa3bdb173a6b13fecc",
+    "korpm_input.txt": "023f1a51058cfb975fd9e3f3b2e0f6a8417b67f7509d89c7ef87a1a114183ce2",
+    "korpm_predictions.txt": "21b0cd62496f096c7e1a5f4a81a305bbbc8c8cd9147498304659433ca662b139",
+    "fpocket_commit.txt": "f5f4d32bc546eed0292dc9bdee6b4fadfa0809a99201d83a6af92d22289c1db9",
+    "dynamut_N1002K_mt.pdb": "f57aa611170dbc775df4e48a28f7ec7ad83e9f45e5940f7ff5626828ca838bac",
+    "korpm_commit.txt": "74945eba3905bf824324d0b99bc041a8c8cdbf2984e9df5427790bac81c5be59",
+    "5KHU.cif": "08608f1bb4987931e67f4042bb36699d2450a1768a88680e559175c3cd6a6d68",
+    "korpm_local_build.txt": "eac0cf1471e9f596a63e609086158ace5899d7786c1180fa3bdb173a6b13fecc"
+  }
+}

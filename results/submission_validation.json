@@ -1,0 +1,114 @@
+{
+  "checked_utc": "2026-10-24T23:05:34.577812+00:00",
+  "status": "local_artifacts_validated; human submission prerequisites remain",
+  "pdf_outputs": [
+    {
+      "source": "report/track2_report.md",
+      "source_sha256": "9ef203816a27e2de00ed06ac342b4aaf044d09e2fadfba35452b090654130e10",
+      "pdf": "report/carcango_track2_report.pdf",
+      "pdf_sha256": "bba5214568ca5347311c236149a39203f25c93f642133aa3f7c7a2f7d116ad8b",
+      "pages": 11,
+      "embedded_images": 3,
+      "external_links": 49,
+      "replacement_glyphs": 0,
+      "visual_review": "Root inspected the final report first page at readable size and all 11 report pages in a contact sheet; summary and Track 1 pages inspected at readable size. No clipping or missing content found."
+    },
+    {
+      "source": "results/codex-summary.md",
+      "source_sha256": "561edeca53832ec2e9a5a2f241f3c597268339aa45881a8b7feecb7315a58fbf",
+      "pdf": "results/carcango_codex_summary.pdf",
+      "pdf_sha256": "92033eb7f3bfcba09416fa4b8aee48199450b11ce772f85219973a74964d43a7",
+      "pages": 1,
+      "embedded_images": 0,
+      "external_links": 0,
+      "replacement_glyphs": 0,
+      "visual_review": "Root inspected the final report first page at readable size and all 11 report pages in a contact sheet; summary and Track 1 pages inspected at readable size. No clipping or missing content found."
+    },
+    {
+      "source": "results/track1_methods.md",
+      "source_sha256": "ab24bea6129f9057ca4c72d05011140af782179d6de422b1fa3555fbc6d1482e",
+      "pdf": "report/carcango_track1_methods.pdf",
+      "pdf_sha256": "e61f256416123db4ab575d9c442e8cbb55f91659e9ee809fd96331c2b4dacc83",
+      "pages": 1,
+      "embedded_images": 0,
+      "external_links": 0,
+      "replacement_glyphs": 0,
+      "visual_review": "Root inspected the final report first page at readable size and all 11 report pages in a contact sheet; summary and Track 1 pages inspected at readable size. No clipping or missing content found."
+    }
+  ],
+  "pitch": {
+    "source": "report/pitch_script.md",
+    "sha256": "82194c7c0c5f950ffb9cb17ea69f0447acc9b3a2f2eea9f7ebd930e3a11c4950",
+    "spoken_words_whitespace_split_excluding_slide_cues": 412,
+    "recorded_duration_verified": false,
+    "video_produced": false
+  },
+  "tests": {
+    "command": "UV_CACHE_DIR=work/.uv-audit-cache UV_PROJECT_ENVIRONMENT=work/review-clean-venv uv run --offline --no-sync pytest",
+    "passed": 28,
+    "failed": 0,
+    "elapsed_seconds": 6.08,
+    "environment": "fresh work/review-clean-venv, Python 3.12.2",
+    "existing_environment_check": "28 passed in 3.64s"
+  },
+  "uv_sync_offline": "Passed in a newly created work/review-clean-venv with --frozen --python .venv/bin/python using the existing ~/.cache/uv cache. No downloads. The first attempt with the smaller work cache and Python 3.12.3 failed because its pandas wheel was absent; the successful retry used Python 3.12.2.",
+  "public_cli": {
+    "command": "UV_PROJECT_ENVIRONMENT=work/review-clean-venv uv run --offline --no-sync mva-repurpose --gene BUB1B --mechanism loss_of_function --hpo HP:0002859 --cache examples/public_api_cache --offline",
+    "exit_code": 0,
+    "graph_context_candidates": 33,
+    "supported_rescue_hypotheses": 0,
+    "uridine_discovered_by_engine": false
+  },
+  "exposure_replay_byte_identical": true,
+  "track1": {
+    "csv": "results/track1_carcango_hpo_recessive.csv",
+    "sha256": "63955fdf997c69d31c68ac7d701d3101774c504b5f02828f6141a15f844d3684",
+    "rows": 1,
+    "columns_valid": true,
+    "chromosome_prefix_valid": true,
+    "epcr_range_valid": true,
+    "proband_id_source": "VCF sample name",
+    "production_scorer_acceptance_verified": false
+  },
+  "local_links_missing": [],
+  "git_checks": {
+    "forbidden_raw_data_paths_tracked": 0,
+    "forbidden_raw_data_paths_in_history": 0,
+    "scope": "Filename and directory audit, not a complete semantic privacy review of all historical file contents.",
+    "remote_configured": false
+  },
+  "external_actions": {
+    "push": false,
+    "submission": false,
+    "publication": false,
+    "patient_data_download": false
+  },
+  "pending_human_items": [
+    "record and host <=3 minute pitch on YouTube/Vimeo",
+    "supply GitHub URL and arrange required public release after close",
+    "confirm registration, team submitter and available quota",
+    "review and submit report/CSV before 2026-10-24 23:59 UTC",
+    "retain actual submission receipts",
+    "resolve exact dataset citation before publication"
+  ],
+  "review_corrections": {
+    "all_eight_applied": true,
+    "one_commit_per_item": true,
+    "first_page_has_two_transfers_and_experiment": true,
+    "exposure_values_unchanged": true,
+    "ai_disclosure_unchanged": true,
+    "chronology_unchanged": true,
+    "acknowledgement_unchanged": true,
+    "dgidb_methods_subsection_unchanged": true,
+    "pandey_same_doi_verified": "10.1093/nar/gkaf1035",
+    "burrell_checkpoint_and_ncih508_statements_verified": true,
+    "reviewer_requests_unverified": [],
+    "remaining_biological_unknowns": [
+      "BUB1B nucleotide-responsive error component",
+      "uridine-alone sufficiency",
+      "effective concentration and duration",
+      "patient PK",
+      "long-term oncology safety"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "id": "27613521",
+      "title": "Adjunctive everolimus therapy for treatment-resistant focal-onset seizures associated with tuberous sclerosis (EXIST-3): a phase 3, randomised, double-blind, placebo-controlled study.",
+      "doi": "10.1016/s0140-6736(16)31419-2",
+      "journalTitle": null,
+      "pubYear": "2016",
+      "authorString": "French JA, Lawson JA, Yapici Z, Ikeda H, Polster T, Nabbout R, Curatolo P, de Vries PJ, Dlugos DJ, Berkowitz N, Voi M, Peyrard S, Pelov D, Franz DN."
+    },
+    {
+      "id": "37941124",
+      "title": "The Reactome Pathway Knowledgebase 2024.",
+      "doi": "10.1093/nar/gkad1025",
+      "journalTitle": null,
+      "pubYear": "2024",
+      "authorString": "Milacic M, Beavers D, Conley P, Gong C, Gillespie M, Griss J, Haw R, Jassal B, Matthews L, May B, Petryszak R, Ragueneau E, Rothfels K, Sevilla C, Shamovsky V, Stephan R, Tiwari K, Varusai T, Weiser J, Wright A, Wu G, Stein L, Hermjakob H, D'Eustachio P."
+    },
+    {
+      "id": "37933841",
+      "title": "The ChEMBL Database in 2023: a drug discovery platform spanning multiple bioactivity data types and time periods.",
+      "doi": "10.1093/nar/gkad1004",
+      "journalTitle": null,
+      "pubYear": "2024",
+      "authorString": "Zdrazil B, Felix E, Hunter F, Manners EJ, Blackshaw J, Corbett S, de Veij M, Ioannidis H, Lopez DM, Mosquera JF, Magarinos MP, Bosc N, Arcila R, Kizil\u00f6ren T, Gaulton A, Bento AP, Adasme MF, Monecke P, Landrum GA, Leach AR."
+    },
+    {
+      "id": "37953324",
+      "title": "The Human Phenotype Ontology in 2024: phenotypes around the world.",
+      "doi": "10.1093/nar/gkad1005",
+      "journalTitle": null,
+      "pubYear": "2024",
+      "authorString": "Gargano MA, Matentzoglu N, Coleman B, Addo-Lartey EB, Anagnostopoulos AV, Anderton J, Avillach P, Bagley AM, Bak\u0161tein E, Balhoff JP, Baynam G, Bello SM, Berk M, Bertram H, Bishop S, Blau H, Bodenstein DF, Botas P, Boztug K, \u010cady J, Callahan TJ, Cameron R, Carbon SJ, Castellanos F, Caufield JH, Chan LE, Chute CG, Cruz-Rojo J, Dahan-Oliel N, Davids JR, de Dieuleveult M, de Souza V, de Vries BBA, de Vries E, DePaulo JR, Derfalvi B, Dhombres F, Diaz-Byrd C, Dingemans AJM, Donadille B, Duyzend M, Elfeky R, Essaid S, Fabrizzi C, Fico G, Firth HV, Freudenberg-Hua Y, Fullerton JM, Gabriel DL, Gilmour K, Giordano J, Goes FS, Moses RG, Green I, Griese M, Groza T, Gu W, Guthrie J, Gyori B, Hamosh A, Hanauer M, Hanu\u0161ov\u00e1 K, He YO, Hegde H, Helbig I, Holasov\u00e1 K, Hoyt CT, Huang S, Hurwitz E, Jacobsen JOB, Jiang X, Joseph L, Keramatian K, King B, Knoflach K, Koolen DA, Kraus ML, Kroll C, Kusters M, Ladewig MS, Lagorce D, Lai MC, Lapunzina P, Laraway B, Lewis-Smith D, Li X, Lucano C, Majd M, Marazita ML, Martinez-Glez V, McHenry TH, McInnis MG, McMurry JA, Mihulov\u00e1 M, Millett CE, Mitchell PB, Moslerov\u00e1 V, Narutomi K, Nematollahi S, Nevado J, Nierenberg AA, \u010cajbikov\u00e1 NN, Nurnberger JI, Ogishima S, Olson D, Ortiz A, Pachajoa H, Perez de Nanclares G, Peters A, Putman T, Rapp CK, Rath A, Reese J, Rekerle L, Roberts AM, Roy S, Sanders SJ, Schuetz C, Schuetz C, Schulte EC, Schulze TG, Schwarz M, Scott K, Seelow D, Seitz B, Shen Y, Similuk MN, Simon ES, Singh B, Smedley D, Smith CL, Smolinsky JT, Sperry S, Stafford E, Stefancsik R, Steinhaus R, Strawbridge R, Sundaramurthi JC, Talapova P, Tenorio Castano JA, Tesner P, Thomas RH, Thurm A, Turnovec M, van Gijn ME, Vasilevsky NA, Vl\u010dkov\u00e1 M, Walden A, Wang K, Wapner R, Ware JS, Wiafe AA, Wiafe SA, Wiggins LD, Williams AE, Wu C, Wyrwoll MJ, Xiong H, Yalin N, Yamamoto Y, Yatham LN, Yocum AK, Young AH, Y\u00fcksel Z, Zandi PP, Zankl A, Zarante I, Zvolsk\u00fd M, Toro S, Carmody LC, Harris NL, Munoz-Torres MC, Danis D, Mungall CJ, K\u00f6hler S, Haendel MA, Robinson PN."
+    }
+  ],
+  "api_provenance": [
+    {
+      "request": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "params": {
+          "query": "EXT_ID:27613521 AND SRC:MED",
+          "format": "json",
+          "resultType": "core"
+        },
+        "body": null
+      },
+      "fetched_at": "2026-10-24T00:10:31.503139+00:00",
+      "http_status": 200,
+      "payload_sha256": "2727bc37bc28ee3d2c2c44647e05eaba49deda9ff593ac3e88914c0f85074afc"
+    },
+    {
+      "request": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "params": {
+          "query": "EXT_ID:37941124 AND SRC:MED",
+          "format": "json",
+          "resultType": "core"
+        },
+        "body": null
+      },
+      "fetched_at": "2026-10-24T00:10:31.857986+00:00",
+      "http_status": 200,
+      "payload_sha256": "c0682bd701fa5b7aef14d1e99538602497e1fbad1014517091b86c0d350af9c6"
+    },
+    {
+      "request": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "params": {
+          "query": "TITLE:\"ChEMBL Database in 2023\"",
+          "format": "json",
+          "resultType": "core"
+        },
+        "body": null
+      },
+      "fetched_at": "2026-10-24T00:10:32.196477+00:00",
+      "http_status": 200,
+      "payload_sha256": "96d49f1f48ff6f29a299fc07ad87a08aa50f972417519beba16f65e6265d68c2"
+    },
+    {
+      "request": {
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+        "params": {
+          "query": "EXT_ID:37953324 AND SRC:MED",
+          "format": "json",
+          "resultType": "core"
+        },
+        "body": null
+      },
+      "fetched_at": "2026-10-24T00:10:32.576541+00:00",
+      "http_status": 200,
+      "payload_sha256": "bc2f5e86fd77e575864d1175042cc9607585123f06f9e8eb530d784143d555f6"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "autosomal_het_snvs": 2153295,
+  "autosomal_mean_ad_depth": 44.40344170213557,
+  "autosomal_mean_alt_fraction": 0.49374313322473073,
+  "autosomal_usable_blocks": 292,
+  "tests": 51,
+  "bootstrap_iterations": 30000,
+  "seed": 20261024,
+  "exploratory_outlier_regions": [],
+  "chromosome_pseudo_controls_p_below_0_05": 2,
+  "pseudo_controls_total": 22,
+  "caution": "Same-genome pseudo-controls are not known negatives; error rates and detection limits are conditional, not clinically validated.",
+  "qc": {
+    "queried_calls": 3739927,
+    "usable_het_snvs": 2158087,
+    "excluded_nonprimary": 56764,
+    "excluded_nonhet": 1445473,
+    "excluded_ad": 204,
+    "excluded_centromere_guard": 79399
+  },
+  "block_mb": 10,
+  "filter": "FILTER=\"PASS\" && TYPE=\"snp\" && N_ALT=1 && QUAL>=30 && INFO/MQ>=40 && FMT/GQ>=30 && FMT/DP>=15 && FMT/DP<=100",
+  "cytobands_sha256": "e514e48b0a12a516fd5231b44241a20a282f290bdd6131cadcddc6276ee26082",
+  "public_cytobands_url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBand.txt.gz",
+  "method_version": "unphased-moment-spatial-and-chromosome-null-v1"
+}

@@ -1,0 +1,21 @@
+# Patient genomic data and anything derived at genotype scale. Never commit.
+data
+data/
+private/
+work/
+*.vcf
+*.vcf.gz
+*.tbi
+*.csi
+*.bcf
+*.bam
+*.bai
+*.cram
+*.crai
+*.fastq*
+*.fq*
+*.docx
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store

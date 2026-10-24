@@ -1,0 +1,55 @@
+[
+  {
+    "id": "dd01e09e-0af0-51bd-bc43-f98f029228c9",
+    "drug_or_gene": "BUB1B",
+    "url": "https://lincs-dcic.s3.amazonaws.com/LINCS-data-2020/L1000/xpr/L1000_LINCS_DCIC_XPR015_A375.311_96H_N22_BUB1B.tsv.gz",
+    "status": 200,
+    "bytes": 295106,
+    "decompressed_bytes": 754787,
+    "decompressed_sha256": "9e3461cf733cdd3d720b297ef3e554fc26d9d5ac78b224e3bc3f2fb0c9e12b88",
+    "advertised_sha256": "e639b727ac4964fdbd104449a124ad0731a86256961ac1912361936159ae2468",
+    "matches_advertised_sha256": false,
+    "advertised_bytes": 217477,
+    "columns": [
+      "XPR015_A375.311_96H_X1_B35:N22",
+      "XPR015_A375.311_96H_X2_B35:N22",
+      "XPR015_A375.311_96H_X3.L2_B36:N22"
+    ],
+    "rows": 12328
+  },
+  {
+    "id": "38fe75f7-72f8-5e89-a87c-b8aef34b0028",
+    "drug_or_gene": "azithromycin",
+    "url": "https://lincs-dcic.s3.amazonaws.com/LINCS-data-2020/L1000/compound/L1000_LINCS_DCIC_CPD003_PC3_24H_K02_azithromycin_10uM.tsv.gz",
+    "status": 200,
+    "bytes": 136011,
+    "decompressed_bytes": 292659,
+    "decompressed_sha256": "e9eec414334dffdcdb19f2191586fa6929a5fe88c4939ae788623504dd242239",
+    "advertised_sha256": "dd571334c7ac0eb29925e2eec2ae76aec372a8e48a85de466da90d6e468c1fe5",
+    "matches_advertised_sha256": false,
+    "advertised_bytes": 345150,
+    "columns": [
+      "CPD003_PC3_24H_X1.L2_B6_DUO52HI53LO:K02",
+      "CPD003_PC3_24H_X2.L2_B6_DUO52HI53LO:K02"
+    ],
+    "rows": 12328
+  },
+  {
+    "id": "2bd437b7-efff-5858-8c18-bb4e174ea08f",
+    "drug_or_gene": "hydroxychloroquine",
+    "url": "https://lincs-dcic.s3.amazonaws.com/LINCS-data-2020/L1000/compound/L1000_LINCS_DCIC_CPD002_MCF7_24H_J21_hydroxychloroquine_10uM.tsv.gz",
+    "status": 200,
+    "bytes": 180640,
+    "decompressed_bytes": 393941,
+    "decompressed_sha256": "b43c0b219c37b94444e6f10a071d84ae3f2d332cab8b9bd198700dc69b8b0e05",
+    "advertised_sha256": "673756834a9e232f71522d2c7ce4e064769fb1f5a5bf2b69c883fc8855d6aa04",
+    "matches_advertised_sha256": false,
+    "advertised_bytes": 344857,
+    "columns": [
+      "CPD002_MCF7_24H_X1_B6_DUO52HI53LO:J21",
+      "CPD002_MCF7_24H_X2_B6_DUO52HI53LO:J21",
+      "CPD002_MCF7_24H_X3_B6_DUO52HI53LO:J21"
+    ],
+    "rows": 12328
+  }
+]

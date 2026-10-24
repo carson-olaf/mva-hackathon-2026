@@ -1,0 +1,174 @@
+{
+  "sample_id_source": "VCF sample header",
+  "assembly": "GRCh38",
+  "hpo_terms": [
+    "HP:0002859",
+    "HP:0000121",
+    "HP:0004322",
+    "HP:0001508",
+    "HP:0003202",
+    "HP:0001622",
+    "HP:0001518",
+    "[withheld family-history term]"
+  ],
+  "hpo_information_weights": {
+    "HP:0002859": {
+      "gene_count": 21,
+      "weight": 5.480070580047352
+    },
+    "HP:0000121": {
+      "gene_count": 107,
+      "weight": 3.888981806281448
+    },
+    "HP:0004322": {
+      "gene_count": 1472,
+      "weight": 1.2760566169430376
+    },
+    "HP:0001508": {
+      "gene_count": 1178,
+      "weight": 1.4986911328682968
+    },
+    "HP:0003202": {
+      "gene_count": 598,
+      "weight": 2.1758514352902183
+    },
+    "HP:0001622": {
+      "gene_count": 203,
+      "weight": 3.2529930395614515
+    },
+    "HP:0001518": {
+      "gene_count": 307,
+      "weight": 2.8410132504320935
+    },
+    "[withheld family-history term]": {
+      "gene_count": 12,
+      "weight": 6.006163675944131
+    }
+  },
+  "hpo_genes_ranked": 2489,
+  "gene_limit": 40,
+  "canonical_genes_scanned": 39,
+  "gene_model_failures": {
+    "RNU4ATAC": "canonical_coding_transcript_absent"
+  },
+  "counts": {
+    "regional_records": 3979,
+    "quality_records": 3781,
+    "missense_variant": 28,
+    "synonymous_variant": 23,
+    "stop_gained": 1
+  },
+  "shortlist_api_variants": 12,
+  "winning_model": {
+    "gene": "BUB1B",
+    "model": "recessive_compound_het_unphased",
+    "variants": [
+      {
+        "gene": "BUB1B",
+        "chrom": "15",
+        "pos": 40209701,
+        "ref": "T",
+        "alt": "G",
+        "gt": "0/1",
+        "gq": 99,
+        "het": true,
+        "consequence": "stop_gained",
+        "coding_position": 2210,
+        "protein": "L737*",
+        "exon": 17,
+        "exon_count": 23,
+        "transcript": "ENST00000287598.11",
+        "max_population_af": 9.982e-05,
+        "population_af_by_source": {
+          "gnomadg_remaining": 0,
+          "gnomade_amr": 0,
+          "gnomadg": 3.286e-05,
+          "gnomade_eas": 0,
+          "gnomadg_eas": 0,
+          "gnomadg_afr": 0,
+          "gnomadg_sas": 0,
+          "gnomade_mid": 0,
+          "gnomadg_asj": 0,
+          "gnomade_fin": 0,
+          "gnomade_nfe": 9.982e-05,
+          "gnomade_sas": 0,
+          "gnomadg_amr": 0,
+          "gnomade": 7.867e-05,
+          "gnomade_afr": 0,
+          "gnomade_remaining": 6.623e-05,
+          "gnomadg_ami": 0,
+          "gnomadg_fin": 0,
+          "gnomadg_nfe": 7.35e-05,
+          "gnomadg_mid": 0,
+          "gnomade_asj": 0
+        },
+        "population_annotation": "VEP_population_frequencies",
+        "vep": {
+          "hgvsc": "ENST00000287598.11:c.2210T>G",
+          "hgvsp": "ENSP00000287598.7:p.Leu737Ter",
+          "consequence_terms": [
+            "stop_gained"
+          ],
+          "cadd_phred": 36
+        }
+      },
+      {
+        "gene": "BUB1B",
+        "chrom": "15",
+        "pos": 40220612,
+        "ref": "T",
+        "alt": "G",
+        "gt": "0/1",
+        "gq": 99,
+        "het": true,
+        "consequence": "missense_variant",
+        "coding_position": 3006,
+        "protein": "N1002K",
+        "exon": 23,
+        "exon_count": 23,
+        "transcript": "ENST00000287598.11",
+        "max_population_af": null,
+        "population_af_by_source": {},
+        "population_annotation": "no_frequency_returned_not_proof_of_absence",
+        "vep": {
+          "hgvsc": "ENST00000287598.11:c.3006T>G",
+          "hgvsp": "ENSP00000287598.7:p.Asn1002Lys",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "cadd_phred": 24.5,
+          "sift_prediction": "deleterious",
+          "polyphen_prediction": "probably_damaging"
+        }
+      }
+    ],
+    "score": 15.199046815807494
+  },
+  "winning_gene_hpo_rank": 18,
+  "hpo_matches": [
+    "HP:0002859",
+    "HP:0004322",
+    "HP:0001518"
+  ],
+  "nmd": [
+    {
+      "transcript": "ENST00000287598.11",
+      "stop_end_cdna": 2363,
+      "last_exon_junction_cdna": 3109,
+      "bases_after_stop_before_final_junction": 746,
+      "nmd_expected_50_55_rule": true,
+      "caveat": "Prediction only; transcript abundance and alternative splicing require RNA experiments.",
+      "reference": "PMID:35052820"
+    }
+  ],
+  "limits": [
+    "Phenotype-first shortlist, not exhaustive genome-wide consequence annotation.",
+    "Canonical coding transcripts only; structural variants and most splice variants not assessed.",
+    "Single-sample INFO/AF is not population frequency and is never used.",
+    "Rarity confirmed only where VEP returns frequencies; missing frequency is unknown, not zero.",
+    "Non-shortlisted variants use impact and phenotype heuristics without a rarity claim.",
+    "Recessive pairs unphased; dominant models merely de novo compatible without parental data.",
+    "All supplied terms included; one family-history term is withheld from the public copy.",
+    "EPCR is subjective, not a statistical output."
+  ]
+}

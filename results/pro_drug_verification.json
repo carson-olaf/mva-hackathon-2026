@@ -1,0 +1,418 @@
+{
+  "verified_at_utc": "2026-10-24T01:17:47.871120+00:00",
+  "scope": "Independent official US product/label verification; scientific claim audit follows in companion Markdown",
+  "drugs": [
+    {
+      "drug": "arimoclomol",
+      "product": "MIPLYFFA",
+      "jurisdiction": "US",
+      "application_number": "NDA214927",
+      "official_label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA214927%22",
+      "approval_status": "verified_current_prescription_product",
+      "original_product_approval_date": "20240920",
+      "original_approval_date": "20240920",
+      "indication": "Neurological manifestations of Niemann-Pick disease type C, in combination with miglustat",
+      "pediatric_age": "Adults and children aged2years and older",
+      "route": "ORAL",
+      "formulation": "oral capsules; can open perlabel for soft food/liquid/Gtube",
+      "FDA_product_snapshot_date": "2026-10-23",
+      "approved_products": [
+        {
+          "product_number": "004",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 124MG BASE"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 62MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "003",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 93MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 47MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA214927%22",
+          "bytes": 4759,
+          "sha256": "9ba037631d315495bae64c84f564fcf497a3085d9231ca942dd73e877659a9b4",
+          "retrieved_utc": "2026-10-24T01:02:27.725207+00:00",
+          "cache_file": "work/clinical_drug_verify/arimoclomol_fda.source"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc",
+          "bytes": 210552,
+          "sha256": "fd4a7b89622b3d1dc326df1f86a6cab172ebc96fbc2aa26fc49c88338b7f1f39",
+          "retrieved_utc": "2026-10-24T01:02:27.325307+00:00",
+          "cache_file": "work/clinical_drug_verify/arimoclomol_label.source"
+        }
+      ],
+      "limitations": [
+        "Approval concerns the labeled indication only; no approval for BUB1B-MVA",
+        "Current prescription status in FDA API is not proof of local inventory or UK licensing/access",
+        "No exact-genotype functional efficacy or clinical eligibility established"
+      ]
+    },
+    {
+      "drug": "azithromycin",
+      "product": "ZITHROMAX",
+      "jurisdiction": "US",
+      "application_number": "NDA050710",
+      "official_label_url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=511",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=products.brand_name:%22ZITHROMAX%22&limit=20",
+      "approval_status": "verified_current_prescription_product",
+      "original_product_approval_date": "19951019",
+      "original_approval_date": "19951019",
+      "indication": "Specified susceptible bacterial infections; pediatric otitis media/pneumonia and pharyngitis indications differ",
+      "pediatric_age": "Selected infection indications aged6months+; pharyngitis/tonsillitis aged2years+",
+      "route": "ORAL",
+      "formulation": "oral suspension100or 200mg/5mL; current tablet products exist separately",
+      "FDA_product_snapshot_date": "2026-10-23",
+      "approved_products": [
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "ZITHROMAX",
+          "active_ingredients": [
+            {
+              "name": "AZITHROMYCIN",
+              "strength": "EQ 100MG BASE/5ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "FOR SUSPENSION",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "ZITHROMAX",
+          "active_ingredients": [
+            {
+              "name": "AZITHROMYCIN",
+              "strength": "EQ 200MG BASE/5ML"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "FOR SUSPENSION",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=products.brand_name:%22ZITHROMAX%22&limit=20",
+          "bytes": 142682,
+          "sha256": "ea575e19d3c0679c41654230c86116ac71d2d19bc7ba636022bac48d4868e048",
+          "retrieved_utc": "2026-10-24T01:02:27.536839+00:00",
+          "cache_file": "work/clinical_drug_verify/azithromycin_fda.source"
+        },
+        {
+          "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=511",
+          "bytes": 181152,
+          "sha256": "4dbc604d12605121d7f2043cb6199b989563f083f3f4a390e993fcedfb82d667",
+          "retrieved_utc": "2026-10-24T01:02:27.270027+00:00",
+          "cache_file": "work/clinical_drug_verify/azithromycin_label.source"
+        }
+      ],
+      "limitations": [
+        "Approval concerns the labeled indication only; no approval for BUB1B-MVA",
+        "Current prescription status in FDA API is not proof of local inventory or UK licensing/access",
+        "No exact-genotype functional efficacy or clinical eligibility established"
+      ]
+    },
+    {
+      "drug": "niacin",
+      "product": "NIACIN extended-release",
+      "jurisdiction": "US",
+      "application_number": "ANDA203899",
+      "official_label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=249e27ac-e1e7-42dc-84f6-cd32fd1d9dee",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22ANDA203899%22",
+      "approval_status": "verified_current_prescription_product",
+      "original_product_approval_date": "20170616",
+      "original_approval_date": "20170616",
+      "indication": "Prescription lipid-disorder indications, not nutritional supplements or MVA",
+      "pediatric_age": "Safety/effectiveness and PK are not established at age 16 years and younger",
+      "route": "ORAL",
+      "formulation": "oral extended-release tablets500mg/1000mg; swallow whole",
+      "FDA_product_snapshot_date": "2026-10-23",
+      "approved_products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "NIACIN",
+          "active_ingredients": [
+            {
+              "name": "NIACIN",
+              "strength": "500MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "NIACIN",
+          "active_ingredients": [
+            {
+              "name": "NIACIN",
+              "strength": "1GM"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22ANDA203899%22",
+          "bytes": 3452,
+          "sha256": "8ada3bc18bb1353669ec51f0f46c7eec70077725e1da9d220c150c4d6030fb87",
+          "retrieved_utc": "2026-10-24T01:02:27.735114+00:00",
+          "cache_file": "work/clinical_drug_verify/niacin_fda.source"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=249e27ac-e1e7-42dc-84f6-cd32fd1d9dee",
+          "bytes": 234857,
+          "sha256": "69a3b2e6115b59827d870302628903902163f183c305dcc109a4509be5a10393",
+          "retrieved_utc": "2026-10-24T01:02:27.317266+00:00",
+          "cache_file": "work/clinical_drug_verify/niacin_label.source"
+        }
+      ],
+      "limitations": [
+        "Approval concerns the labeled indication only; no approval for BUB1B-MVA",
+        "Current prescription status in FDA API is not proof of local inventory or UK licensing/access",
+        "No exact-genotype functional efficacy or clinical eligibility established"
+      ]
+    }
+  ],
+  "clinical_eligible": false,
+  "no_clinical_dose_recommendation": true,
+  "pk_calculations": {
+    "arimoclomol": {
+      "label_serum_mean_ng_per_mL": {
+        "trough": 206,
+        "peak": 523
+      },
+      "label_population_SD_ng_per_mL": {
+        "trough": 60,
+        "peak": 194
+      },
+      "citrate_MW_g_per_mol": 505.9,
+      "citric_acid_MW_g_per_mol": 192.12,
+      "calculated_free_base_MW_g_per_mol": 313.78,
+      "approx_bound_fraction": 0.1,
+      "calculated_total_uM": {
+        "trough": 0.6565109312256996,
+        "peak": 1.6667728982089363
+      },
+      "calculated_unbound_uM": {
+        "trough": 0.5908598381031297,
+        "peak": 1.5000956083880426
+      },
+      "limitation": "Arithmetic estimate using approximate plasma binding; serum concentrations are NPC population means, not patient-specific free tissue PK. SD is not a confidence interval."
+    },
+    "azithromycin": {
+      "pediatric_day5_total_plasma_mean_peak_ug_per_mL": [
+        0.216,
+        0.383
+      ],
+      "MeCP2_Fig5A_low_nominal_ug_per_mL": 0.1,
+      "APC_reporter_Fig2B_nominal_ug_per_mL": 100,
+      "nominal_assay_ratio": 1000.0,
+      "reporter_to_label_peak_ratios": [
+        462.962962962963,
+        261.0966057441253
+      ],
+      "limitation": "Different cell systems and exposure durations; no inferred free cytosolic exposure or clinical readthrough."
+    }
+  },
+  "scientific_claims": [
+    {
+      "PMID": "26620677",
+      "DOI": "10.1007/s00109-015-1364-1",
+      "PMCID": null,
+      "title": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "verification_level": "public_publisher_captions_and_figures",
+      "supported_claim": "Fig 2B: APC(R1450X) reporter 100 microgram/mL for 48 hours. Fig 5A: RTT MeCP2(R294X) protein signal at 0.1 microgram/mL for 7 days. Nominal concentration ratio 1000.",
+      "limitations": "Different systems/endpoints. SMN1-deleted/SMN2-copy Fig 5C is not a defined nonsense-allele rescue assay; its low-dose labels differ 0.1/0.01. No BUB1B readthrough or functional rescue shown."
+    },
+    {
+      "PMID": "24853414",
+      "DOI": "10.1038/cddis.2014.214",
+      "PMCID": "PMC4047904",
+      "title": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa.",
+      "verification_level": "fulltext_methods_results_Fig1_discussion",
+      "supported_claim": "Arimoclomol 1 micromolar for 24 hours in mutant-opsin SK-N-SH cells increased Hsp70 and reduced aggregation; discussion explicitly reports no improved mutant trafficking.",
+      "limitations": "Analogous misfolded protein; lower aggregation can reflect disposal. Does not establish useful mutant BubR1 stabilization or HSP90-dependent rescue."
+    },
+    {
+      "PMID": "34481829",
+      "DOI": "10.1016/j.jlr.2021.100114",
+      "PMCID": "PMC8517605",
+      "title": "HSP90 inhibitors reduce cholesterol storage in Niemann-Pick type C1 mutant fibroblasts.",
+      "verification_level": "fulltext_results_Fig7",
+      "supported_claim": "In NPC1-I1061T fibroblasts, arimoclomol did not correct cholesterol storage across tested exposures; body describes 1.6\u2013500 micromolar for 3/5 days. HSP70 blots at 50/400 micromolar were negative.",
+      "limitations": "Cell/context-specific counterevidence. Does not refute NPC clinical approval or prove lack of effect in BUB1B cells."
+    },
+    {
+      "PMID": "32386566",
+      "DOI": "10.1016/j.cmet.2020.04.008",
+      "PMCID": null,
+      "title": "Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "verification_level": "PubMed_abstract_only",
+      "supported_claim": "Adult-onset mitochondrial-myopathy niacin study reports increased blood/muscle NAD and muscle endpoints. This is a niacin-to-NAD bridge in another disease.",
+      "limitations": "No BUB1B/SIRT2 functional rescue or pediatric MVA regimen. Full formulation/methods not independently verified here. Linked erratum 32640244 exists; its text remains inaccessible and its effect is unverified."
+    },
+    {
+      "PMID": "24825348",
+      "DOI": "10.15252/embj.201386907",
+      "PMCID": "PMC4194088",
+      "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "verification_level": "PubMed_and_PMC_abstract_only",
+      "supported_claim": "Abstract separates SIRT2 overexpression-mediated hypomorph lifespan benefit from NMN-mediated BubR1 abundance. K668 deacetylation is the proposed stability link.",
+      "limitations": "Neither niacin nor NMN lifespan treatment efficacy is established by this abstract. PMC API returned front/abstract without body; no figure-level quantitative lifespan claim independently verified."
+    },
+    {
+      "PMID": "25285631",
+      "DOI": "10.1016/j.bbrc.2014.09.128",
+      "PMCID": null,
+      "title": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition.",
+      "verification_level": "PubMed_abstract_only",
+      "supported_claim": "SIRT2 deacetylates BubR1 K250; knockdown increased acetylation but did not substantially raise total BubR1 or delay prometaphase-to-anaphase transition in that study.",
+      "limitations": "Do not assume K250 deacetylation changes total protein or that NAD/SIRT2 enhancement has an invariably favorable checkpoint effect."
+    },
+    {
+      "PMID": "41533580",
+      "DOI": "10.1093/nar/gkaf1517",
+      "PMCID": "PMC12802887",
+      "title": "Linking kinetochore attachment to checkpoint control: the role of Aurora B in BubR1 acetylation.",
+      "verification_level": "fulltext_abstract_results_discussion",
+      "supported_claim": "Aurora B-dependent phosphorylation supports BubR1 K250acetylation, MCC/fibrous-corona maintenance and CENP-E-linked checkpoint control; acetylation-mimetic rescue is reported.",
+      "limitations": "This is a separate pathway constraint, not a niacin/SIRT2 drug experiment. Measure both K668andK250 and segregation function."
+    },
+    {
+      "PMID": "25341037",
+      "DOI": "10.1038/cddis.2014.385",
+      "PMCID": "PMC4237232",
+      "title": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth.",
+      "verification_level": "fulltext_results_Fig7_Fig8",
+      "supported_claim": "SIRT1/SIRT2 knockdown impaired RD rhabdomyosarcoma growth; tenovin-6 also reduced growth in the reported xenograft experiment.",
+      "limitations": "Does not demonstrate niacin-induced recurrence or imply the reverse intervention necessarily promotes tumors. It warrants an RMS counter-screen."
+    }
+  ],
+  "corrections": [
+    {
+      "PMID": "32640244",
+      "DOI": "10.1016/j.cmet.2020.05.020",
+      "parent_PMID": "32386566",
+      "status": "record_identity_verified_content_not_accessible",
+      "consequence": "Do not assume correction is immaterial; exact methods/numerical efficacy remain qualified."
+    },
+    {
+      "PMID": "26897011",
+      "DOI": "10.1007/s00109-016-1394-3",
+      "parent_PMID": "26620677",
+      "status": "publisher_preview_and_record_verified_full_correction_content_not_accessible",
+      "consequence": "Visible author spellings differ; cannot independently certify that author names are the only correction."
+    }
+  ],
+  "CPIC_lead_name_query": {
+    "url": "https://api.cpicpgx.org/v1/drug?or=(name.ilike.*arimoclomol*,name.ilike.*azithromycin*,name.ilike.*niacin*,name.ilike.*nicotinic*)",
+    "matches": [],
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "retrieved_utc": "2026-10-24T01:22:51.212122+00:00",
+    "conclusion": "No lead-drug CPIC record matched the queried names; no actionable dose rule established for the seven observed markers."
+  },
+  "scientific_cache_sources": [
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=26620677,24853414,34481829,32386566,24825348,25285631,41533580,25341037&retmode=xml",
+      "sha256": "9297a19a03ad905ba068f98ca5ee2f18a7e79e599f5a7c3de79df5cec17ef54e",
+      "bytes": 211759
+    },
+    {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=4047904,8517605,4194088,12802887,4237232&retmode=xml",
+      "sha256": "2b0f3948124a63ecbac1193ad702f7ee0aa05e56955815de2165be396a3875b1",
+      "bytes": 566229
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00109-015-1364-1/figures/2",
+      "sha256": "f779dd8fdabe13eca670d00ddcdf83e895257c9382dff2fdd69a237716450f2e",
+      "bytes": 227589
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00109-015-1364-1/MediaObjects/109_2015_1364_Fig2_HTML.gif",
+      "sha256": "dee04604d1a59a8bf333cd65efee79ec1892bddd492194b9499377a465395ee4",
+      "bytes": 54148
+    },
+    {
+      "url": "https://link.springer.com/article/10.1007/s00109-015-1364-1/figures/5",
+      "sha256": "9376f2b2b14aec57da35958c55ecbab95e129669aab6bfbf593a8eb85f766dfc",
+      "bytes": 226527
+    },
+    {
+      "url": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00109-015-1364-1/MediaObjects/109_2015_1364_Fig5_HTML.gif",
+      "sha256": "886c496303488f2653ac53a376beb874f370d38e214ed859c4e12829fd76c7f7",
+      "bytes": 96389
+    }
+  ],
+  "audit_completed_at_utc": "2026-10-24T01:25:37.267190+00:00"
+}

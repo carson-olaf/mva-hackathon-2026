@@ -1,0 +1,242 @@
+{
+  "verified_at_utc": "2026-10-24T01:13:46.250652+00:00",
+  "method": "Independently retrieved official Drugs@FDA API records; requires original AP submission and at least one current Prescription product. Official label sources were reopened and hash-checked from the parallel verifier cache.",
+  "identifier_exception": "official_regulatory_or_database_record",
+  "drugs": [
+    {
+      "drug": "ARIMOCLOMOL",
+      "product": "MIPLYFFA",
+      "jurisdiction": "US",
+      "application_number": "NDA214927",
+      "official_label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA214927%22&limit=1",
+      "approval_status": "verified_current_prescription_product",
+      "original_approval_date": "20240920",
+      "indication": "Neurological manifestations of Niemann-Pick disease type C, in combination with miglustat",
+      "pediatric_age": "Adults and pediatric patients >=2 years",
+      "route": "ORAL",
+      "formulation": "Capsules; label permits specified opening/administration methods",
+      "FDA_current_prescription_products": [
+        {
+          "product_number": "004",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 124MG BASE"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 62MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "003",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 93MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        },
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "MIPLYFFA",
+          "active_ingredients": [
+            {
+              "name": "ARIMOCLOMOL CITRATE",
+              "strength": "EQ 47MG BASE"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "CAPSULE",
+          "route": "ORAL",
+          "marketing_status": "Prescription"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA214927%22&limit=1",
+          "retrieved_utc": "2026-10-24T01:13:46.250652+00:00",
+          "sha256": "29b5dfd0f0a87fcefa6931bd87400fbce6c892c65380908feeab51ce47d2ad49",
+          "hash_scope": "canonical public API JSON payload",
+          "bytes": 3069
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5feffc0e-453d-47fa-91dd-38d4952309bc",
+          "opened_at_utc": "2026-10-24T01:13:46.252501+00:00",
+          "retrieved_utc": "Original fetch timestamp not recorded; cached official label reopened and hash-checked",
+          "sha256": "fd4a7b89622b3d1dc326df1f86a6cab172ebc96fbc2aa26fc49c88338b7f1f39",
+          "hash_scope": "raw source bytes",
+          "bytes": 210552
+        }
+      ],
+      "limitations": [
+        "Verified FDA application with original approval and current Prescription product status; commercial inventory and non-US access not established",
+        "Approved only for the stated product/indication; no MVA efficacy, suitable dose, chronic safety or clinical eligibility is established"
+      ]
+    },
+    {
+      "drug": "AZITHROMYCIN",
+      "product": "ZITHROMAX",
+      "jurisdiction": "US",
+      "application_number": "NDA050710",
+      "official_label_url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=511",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA050710%22&limit=1",
+      "approval_status": "verified_current_prescription_product",
+      "original_approval_date": "19951019",
+      "indication": "Susceptible bacterial infections; indication-specific age restrictions",
+      "pediatric_age": "Selected infection indications >=6 months; not chronic MVA prevention",
+      "route": "ORAL",
+      "formulation": "Powder for oral suspension",
+      "FDA_current_prescription_products": [
+        {
+          "product_number": "001",
+          "reference_drug": "Yes",
+          "brand_name": "ZITHROMAX",
+          "active_ingredients": [
+            {
+              "name": "AZITHROMYCIN",
+              "strength": "EQ 100MG BASE/5ML"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "FOR SUSPENSION",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "Yes",
+          "brand_name": "ZITHROMAX",
+          "active_ingredients": [
+            {
+              "name": "AZITHROMYCIN",
+              "strength": "EQ 200MG BASE/5ML"
+            }
+          ],
+          "reference_standard": "Yes",
+          "dosage_form": "FOR SUSPENSION",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22NDA050710%22&limit=1",
+          "retrieved_utc": "2026-10-24T01:13:46.507011+00:00",
+          "sha256": "6a332b8db11875b35554e373e9de840107653e157cd4a07a9aa9b83bb1759c4b",
+          "hash_scope": "canonical public API JSON payload",
+          "bytes": 17836
+        },
+        {
+          "url": "https://labeling.pfizer.com/ShowLabeling.aspx?id=511",
+          "opened_at_utc": "2026-10-24T01:13:46.508722+00:00",
+          "retrieved_utc": "Original fetch timestamp not recorded; cached official label reopened and hash-checked",
+          "sha256": "4dbc604d12605121d7f2043cb6199b989563f083f3f4a390e993fcedfb82d667",
+          "hash_scope": "raw source bytes",
+          "bytes": 181152
+        }
+      ],
+      "limitations": [
+        "Verified FDA application with original approval and current Prescription product status; commercial inventory and non-US access not established",
+        "Approved only for the stated product/indication; no MVA efficacy, suitable dose, chronic safety or clinical eligibility is established"
+      ]
+    },
+    {
+      "drug": "NIACIN",
+      "product": "NIACIN",
+      "jurisdiction": "US",
+      "application_number": "ANDA203899",
+      "official_label_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=249e27ac-e1e7-42dc-84f6-cd32fd1d9dee",
+      "approval_record_url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22ANDA203899%22&limit=1",
+      "approval_status": "verified_current_prescription_product",
+      "original_approval_date": "20170616",
+      "indication": "Primary hyperlipidemia/mixed dyslipidemia and other specified lipid indications",
+      "pediatric_age": "Safety and effectiveness <=16 years not established",
+      "route": "ORAL",
+      "formulation": "Extended-release tablets; not equivalent to other NAD precursors",
+      "FDA_current_prescription_products": [
+        {
+          "product_number": "001",
+          "reference_drug": "No",
+          "brand_name": "NIACIN",
+          "active_ingredients": [
+            {
+              "name": "NIACIN",
+              "strength": "500MG"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        },
+        {
+          "product_number": "002",
+          "reference_drug": "No",
+          "brand_name": "NIACIN",
+          "active_ingredients": [
+            {
+              "name": "NIACIN",
+              "strength": "1GM"
+            }
+          ],
+          "reference_standard": "No",
+          "dosage_form": "TABLET, EXTENDED RELEASE",
+          "route": "ORAL",
+          "marketing_status": "Prescription",
+          "te_code": "AB"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://api.fda.gov/drug/drugsfda.json?search=application_number:%22ANDA203899%22&limit=1",
+          "retrieved_utc": "2026-10-24T01:13:46.752444+00:00",
+          "sha256": "5b499e8d6973fadab34fdf92d7a5f4f141f06442966b249a3393a19aa3e7a4bc",
+          "hash_scope": "canonical public API JSON payload",
+          "bytes": 2266
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=249e27ac-e1e7-42dc-84f6-cd32fd1d9dee",
+          "opened_at_utc": "2026-10-24T01:13:46.753433+00:00",
+          "retrieved_utc": "Original fetch timestamp not recorded; cached official label reopened and hash-checked",
+          "sha256": "69a3b2e6115b59827d870302628903902163f183c305dcc109a4509be5a10393",
+          "hash_scope": "raw source bytes",
+          "bytes": 234857
+        }
+      ],
+      "limitations": [
+        "Verified FDA application with original approval and current Prescription product status; commercial inventory and non-US access not established",
+        "Approved only for the stated product/indication; no MVA efficacy, suitable dose, chronic safety or clinical eligibility is established"
+      ]
+    }
+  ]
+}

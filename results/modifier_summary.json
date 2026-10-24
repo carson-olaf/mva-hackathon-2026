@@ -1,0 +1,101 @@
+{
+  "panel_genes": {
+    "checkpoint_CIN": [
+      "BUB1",
+      "BUB3",
+      "MAD2L1",
+      "MAD1L1",
+      "CDC20",
+      "TRIP13",
+      "CEP57",
+      "TTK",
+      "KNL1",
+      "ZWINT",
+      "PLK1",
+      "AURKB",
+      "CENPE",
+      "TP53",
+      "BUB1B"
+    ],
+    "rhabdomyosarcoma_predisposition_or_pathway": [
+      "DICER1",
+      "NF1",
+      "HRAS",
+      "KRAS",
+      "NRAS",
+      "FGFR4",
+      "PTCH1",
+      "SUFU",
+      "RB1",
+      "CDKN2A",
+      "PAX3",
+      "PAX7",
+      "FOXO1"
+    ],
+    "nephrocalcinosis": [
+      "SLC34A1",
+      "SLC34A3",
+      "SLC9A3R1",
+      "CASR",
+      "CLDN16",
+      "CLDN19",
+      "CYP24A1",
+      "CLCN5",
+      "OCRL",
+      "AGXT",
+      "HOGA1",
+      "GRHPR",
+      "ATP6V1B1",
+      "ATP6V0A4",
+      "SLC4A1",
+      "WDR72",
+      "FAM20A",
+      "SLC12A1",
+      "KCNJ1",
+      "BSND",
+      "CLCNKB"
+    ]
+  },
+  "genes_requested": 49,
+  "canonical_genes_scanned": 49,
+  "resolved_gene_aliases": {
+    "SLC9A3R1": "NHERF1"
+  },
+  "failures": {},
+  "counts": {
+    "regional_records": 5168,
+    "quality_records": 4913,
+    "missense_variant": 32,
+    "synonymous_variant": 32,
+    "stop_gained": 1
+  },
+  "protein_altering_calls": 33,
+  "BUB1B_retrieval_control_calls": 2,
+  "external_named_variant_shortlist": 12,
+  "shortlist_rarity_counts": {
+    "common_returned_AF>0.001": 12
+  },
+  "all_noncausal_coding_rarity_counts": {
+    "common_returned_AF>0.001": 31
+  },
+  "gnomad_gene_references": {
+    "TTK": {
+      "url": "https://gnomad.broadinstitute.org/api",
+      "gene": "TTK",
+      "gene_id": "ENSG00000112742",
+      "dataset": "gnomad_r4",
+      "reference_genome": "GRCh38",
+      "query": "query { gene(gene_id: \"ENSG00000112742\", reference_genome: GRCh38) { gene_id variants(dataset: gnomad_r4) { variant_id exome { ac an af } genome { ac an af } } } }",
+      "bytes": 549395,
+      "sha256": "fdea3a41f9381a82c2c2fcb833383145d17fa006bc49314091c7bfe09ab62220",
+      "public_variants": 5216,
+      "privacy": "Gene identifier only; no patient variant/genotype sent"
+    }
+  },
+  "gnomad_reference_failures": {},
+  "local_ClinVar_AF_available_noncausal_variants": 29,
+  "local_ClinVar_AF_common_gt_0_001": 29,
+  "noncausal_calls_without_local_AF": 2,
+  "verified_MVA_modifiers": 0,
+  "null_calibration": "No cohort/population null: no modifier enrichment or disease-modification claim. Known BUB1B pair is an internal retrieval positive control; common AF-returned alleles are negative prioritization controls."
+}

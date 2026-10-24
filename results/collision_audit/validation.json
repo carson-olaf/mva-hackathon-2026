@@ -1,0 +1,19 @@
+{
+  "validated_utc": "2026-10-24T17:09:07.751137+00:00",
+  "archive_filename": "public-collision-audit-replay.zip",
+  "archive_sha256": "150441db7ad9c23ff2e15157d3e6024a3974b4fe4bbdeb44ee2436d51229afae",
+  "archive_bytes": 26870264,
+  "isolated_temporary_directory": true,
+  "network_disabled_for_replay": true,
+  "result": {
+    "reproduced": true,
+    "verified_output_files": 8,
+    "verified_public_inputs": 52
+  },
+  "pytest": "......                                                                   [100%]\n6 passed in 0.05s",
+  "private_or_patient_paths_in_archive": false,
+  "cached_response_body_bytes_received": 171629134,
+  "approved_limit_bytes": 250000000,
+  "independent_2024_12_source_pairs": 13146,
+  "independent_2024_12_normalized_pairs": 12994
+}

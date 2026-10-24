@@ -1,0 +1,10 @@
+# Source attribution and license notice
+
+These are derived public audit tables, not patient data. They combine and annotate source records to identify target-identity disagreements. The source providers do not endorse the audit.
+
+- **IUPHAR/BPS Guide to PHARMACOLOGY**, version 2026.3.1: target identities, interactions and ligand metadata. The provider states that its database uses [ODbL](https://opendatacommons.org/licenses/odbl/) and its contents use [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Opened source notice](https://www.guidetopharmacology.org/about.jsp). Retain these terms for the GtoP-derived content and database rights; the repository's general license does not replace them.
+- **DGIdb**, official snapshots 2024-06, 2024-12, 2026-06 and 2026-10: normalized interaction assertions and source provenance. [Official release repository](https://github.com/dgidb/dgidb-data/releases). Original contributing-source attribution and restrictions remain applicable. GtoP rows are identified separately throughout the audit.
+- **Orphanet / Orphadata aggregated**, gene associations dated 23 June 2026, pinned Git commit in the manifest: [CC BY 4.0 source notice](https://github.com/Orphanet/Orphadata_aggregated). The audit filters and joins these associations; it does not replace Orphanet's classification.
+- **NCBI Gene**, human gene identifier cross-references; **ChEMBL 37**, mechanisms and target components; **Open Targets**, public target records; **Europe PMC**, publication metadata and abstracts. Exact endpoints, requests, dates and hashes are retained in `input_manifest.json`. Their original content notices remain applicable.
+
+The derived database in this directory is made available under ODbL for database rights, with GtoP-derived contents under CC BY-SA 4.0 and other source terms retained. Original audit prose and code do not relicense third-party source content. The local replay archive keeps raw files unchanged and includes this notice. No raw input files are committed to Git or externally published by this task.

@@ -1,0 +1,1575 @@
+{
+  "e6f37bfaed1bf208750518795f06c2f525f3fac9d6ce7d2646b60f86b98a1496": {
+    "fetched_at": "2026-10-24T00:05:45.901804+00:00",
+    "http_status": 200,
+    "payload_sha256": "20b904481703387b16ef58553eecdbf39aef624403594e62dbff220bc3bba311",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://purl.obolibrary.org/obo/hp.json"
+    }
+  },
+  "4f6667e1943455bfde00711f9dbb495f08422e355d1f68c58b6d14f362789fd8": {
+    "fetched_at": "2026-10-24T00:05:48.096160+00:00",
+    "http_status": 200,
+    "payload_sha256": "f9a26fe876dfd8cb55f00c7e780aec611cd5f7c3108b6f0a5fdf34fd636e0c3e",
+    "request": {
+      "body": null,
+      "params": {
+        "content-type": "application/json"
+      },
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/BUB1B"
+    }
+  },
+  "b391e7ce235a61bf0cff76db30813abf2bc8ee732b2b5b7558131edb6fb23123": {
+    "fetched_at": "2026-10-24T00:05:48.471652+00:00",
+    "http_status": 200,
+    "payload_sha256": "1f1aed86f56f3601f44fa05dfd19099904f762f9ddb7fc6e9f6a807e7a1e718d",
+    "request": {
+      "body": {
+        "query": "query Target($id: String!) {\n  target(ensemblId: $id) {\n    id approvedSymbol proteinIds { id source }\n    pathways { pathwayId pathway }\n    drugAndClinicalCandidates { count rows { id maxClinicalStage } }\n  }\n}",
+        "variables": {
+          "id": "ENSG00000156970"
+        }
+      },
+      "params": {},
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    }
+  },
+  "b2de3d3c5f27224375428087437db2a2ba30d7c95ee6d47510a470ace4afb138": {
+    "fetched_at": "2026-10-24T00:05:49.023564+00:00",
+    "http_status": 200,
+    "payload_sha256": "82b901e20eb81dbabef7ce5f0a04886da405ae0c35e1f6851b0f739773901a86",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-141430/referenceEntities"
+    }
+  },
+  "e3742ecbb9cabda1af76716f27b35e44ab9599f9a7c0051d9185aa41df6f8022": {
+    "fetched_at": "2026-10-24T00:05:49.431076+00:00",
+    "http_status": 200,
+    "payload_sha256": "2079f3f3fc3dd1ab6e64cc625c812aba6ad449b3aee920de37f43904df662019",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-141444/referenceEntities"
+    }
+  },
+  "bd97ea7c363d116d26914d7755c5302e328dff19bf76d6cc63e3c45ad2f30dad": {
+    "fetched_at": "2026-10-24T00:05:49.781547+00:00",
+    "http_status": 200,
+    "payload_sha256": "04134e420f2be170e57283f19088e32d2019d034037ac75ef71487221ee00306",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-174184/referenceEntities"
+    }
+  },
+  "daef99f287f85db460ee2d817faa8d42b500dea5f35dc0055ab49ccc5a23a7d1": {
+    "fetched_at": "2026-10-24T00:05:50.054058+00:00",
+    "http_status": 200,
+    "payload_sha256": "9cf1809c00be054fa64c10ec94b7e379cee176dbbbabfa19ebfbc87537b29433",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-176409/referenceEntities"
+    }
+  },
+  "a7883a8fb4b3e242c8e824a2070dc1bfbf9b88a942659d431e5211728935692a": {
+    "fetched_at": "2026-10-24T00:05:50.342782+00:00",
+    "http_status": 200,
+    "payload_sha256": "b704223cce56bcfe99496c96481955166fcecaac71eb091072305670e17a40e1",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-179409/referenceEntities"
+    }
+  },
+  "ed0894389d184147eb8a610f4852651943d50cfcf771df7afd8f34320cbfbeef": {
+    "fetched_at": "2026-10-24T00:05:50.772425+00:00",
+    "http_status": 200,
+    "payload_sha256": "c721528a638eff928b7b67009c7ccf15bd7b530c0344892027fe457156816a36",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-2467813/referenceEntities"
+    }
+  },
+  "3c9aabf304bf00be54492e9e80c99527e288ab83ca0d2f45802d6dde03ddc5c5": {
+    "fetched_at": "2026-10-24T00:05:52.323658+00:00",
+    "http_status": 200,
+    "payload_sha256": "0d848a41b7b5ad7f9166d0710cbfaea4355e915394b1337120bf006c4ae9eb84",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-2500257/referenceEntities"
+    }
+  },
+  "e423f04afa3fbb58ad5777e1c421fd6d720f51d2004a1de871644fe5971c9da5": {
+    "fetched_at": "2026-10-24T00:05:52.772375+00:00",
+    "http_status": 200,
+    "payload_sha256": "97236c635b21196d3c572311423bf055199199c429a27c9976e44de258c395d0",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-5663220/referenceEntities"
+    }
+  },
+  "a10b3cb95b52ed448b848b1676cb3a8523a8e015cb4f02e2e8cc3de4736d5bbc": {
+    "fetched_at": "2026-10-24T00:05:53.191408+00:00",
+    "http_status": 200,
+    "payload_sha256": "ee6dab084a44f89a2ef56684ff0814a0eeca7fd815c2e7e671621d6ff9917d92",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-68877/referenceEntities"
+    }
+  },
+  "d37125c5fc395ef3b843029b48bd6e2dd81191c0c5e79f4401a2f0f59db78025": {
+    "fetched_at": "2026-10-24T00:05:53.597345+00:00",
+    "http_status": 200,
+    "payload_sha256": "b99aceba5c894f26215fe20be82951dd5273d0f86a3815c2cff7013aec8cfb9c",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-9648025/referenceEntities"
+    }
+  },
+  "fcdb915f7c49466dc75bf87909882dc46ae668eb481a8ac64b5aeb35b0935f35": {
+    "fetched_at": "2026-10-24T00:05:56.244920+00:00",
+    "http_status": 200,
+    "payload_sha256": "676b6c872f51c7a1a89526eceba724961032017a2c66bc8663c17f36463d2906",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "O60566,O43684,Q12834,Q13257,O00139,O14576,O14777,O14980,O15392,O43237,O43264,O43683,O75122,O95229,P30153,P30154,P30622,P36873,P42677,P43034,P46060,P49450,P49454,P49792,P50748,P53350,P55735,P57740,P62714,P63167,P67775,Q02224,Q03188,Q12769,Q13352,Q13362,Q13409,Q14008,Q14204,Q14738"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "485845f4c6741b8728cc391c5d1004aeeec15b8f293a0c0dc003b9129dc69abf": {
+    "fetched_at": "2026-10-24T00:05:56.766490+00:00",
+    "http_status": 200,
+    "payload_sha256": "4349c5d8612a38d2f6c5fcb41b7f5985f780c7ddfc613c5ad1068adbe36cd803",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "Q15172,Q15173,Q15691,Q16537,Q2NKX8,Q53HL2,Q562F6,Q5FBB7,Q6IPU0,Q6P1K2,Q71F23,Q7L2Z9,Q7L7X3,Q7Z460,Q8N0S6,Q8N2Z9,Q8N4N8,Q8NBT2,Q8NFH3,Q8NFH4,Q8NG31,Q8NI77,Q8WUM0,Q8WVK7,Q8WYP5,Q92674,Q96BD8,Q96BT3,Q96EA4,Q96FJ2,Q96GD4,Q96H22,Q96IY1,Q99661,Q9BPU9,Q9BS16,Q9BU64,Q9BW27,Q9BZD4,Q9GZM8"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "e79aa2361977d0e7147afa9b1d5d43818dad25381b5f4e05c7f3eebee16fd816": {
+    "fetched_at": "2026-10-24T00:05:57.626255+00:00",
+    "http_status": 200,
+    "payload_sha256": "811da2122bdefad8d1e722458ec3f547169cbd9a97b9fb8dfb4d4711789365be",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "Q9H081,Q9H3R5,Q9H410,Q9H900,Q9HBM1,Q9NQS7,Q9NSP4,Q9NXR1,Q9P258,Q9Y266,Q9Y6D9,Q9Y6G9,A6NHL2,A6NNZ2,O00762,P04350,P0DPH7,P0DPH8,P30260,P51668,P51965,P60006,P68363,P68366,P68371,Q13042,Q13509,Q13885,Q16763,Q3ZCM7,Q6PEY2,Q71U36,Q8NHZ8,Q96DE5,Q9BQE3,Q9BUF5,Q9BVA1,Q9H1A4,Q9H4B7,Q9H853"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "a349fcb9790939c66f2083cc2d569338a4a2f836dd037e2f520a51940d84fbfb": {
+    "fetched_at": "2026-10-24T00:05:59.796867+00:00",
+    "http_status": 200,
+    "payload_sha256": "41462344683da7f771d82f1361ff3972a9fbcc4cb48abfb4677744ecbf79a17b",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "Q9NY65,Q9NYG5,Q9UJX2,Q9UJX3,Q9UJX4,Q9UJX5,Q9UJX6,Q9UM13,P06493,P0CG47,P0CG48,P62979,P62987,O00231,O00232,O00487,O14818,O43242,O60216,P14635,P17980,P20618,P25786,P25787,P25788,P25789,P28066,P28070,P28072,P28074,P35998,P43686,P48556,P49720,P49721,P51665,P51955,P60896,P60900,P62191"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "6f6c9e071f315a028d2e1d6ebedefebdc5e113e2fb9977742a421aca9e3e1cd2": {
+    "fetched_at": "2026-10-24T00:06:01.785986+00:00",
+    "http_status": 200,
+    "payload_sha256": "7d7b3da95f13cbde64803c5ce3229cd8e96349bb1ce0c166837a7f230af7ca26",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "P62195,P62333,Q13200,Q14683,Q15008,Q16186,Q29RF7,Q7Z5K2,Q8N3U4,Q8WVM7,Q96FF9,Q99436,Q99460,Q9NTI5,Q9UNM6,Q9UQE7,O95067,O95997,P20248,P78396,Q8TD19,Q8TDX7,Q9HC35,Q9HC98,Q9NSG2,A8K8P3,O00212,O00444,O14640,O14641,O15078,O43303,O43805,O60610,O75044,O75665,O75935,O94927,O94986,O95347"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "7f9bb2fd2c2388239022347b9dff46f8426df1222c5d4697d4c7d2a20eee2f86": {
+    "fetched_at": "2026-10-24T00:09:06.032414+00:00",
+    "http_status": 200,
+    "payload_sha256": "bd1e2d489f8597a16246a86661d5fac46e96e2208ec835cdd33e17555d9cc8f9",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "A5LHX3,O00311,P11802,P24385,P24864,P24941,P28062,P28065,P30281,P40306,P55036,P61586,Q00537,Q8TAA3,Q9UQB9"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "5162b5ceeebb7db7bde8ba808c6c253caf4dd088cef51e6e83452dde6d89f6fa": {
+    "fetched_at": "2026-10-24T00:06:02.362542+00:00",
+    "http_status": 200,
+    "payload_sha256": "c9cf42f002dbd36e5fb29f106f49a7e60e9000c276231e0914165007054f5efb",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL2435,CHEMBL3024,CHEMBL4703,CHEMBL4438,CHEMBL5660,CHEMBL5661,CHEMBL5870,CHEMBL5989,CHEMBL1772932,CHEMBL1932893,CHEMBL3987582,CHEMBL4295815,CHEMBL4295998,CHEMBL4523283,CHEMBL4742280,CHEMBL4802034,CHEMBL5724747,CHEMBL5724769,CHEMBL5724913,CHEMBL5725118,CHEMBL5725148,CHEMBL6066249,CHEMBL6066257,CHEMBL6066879,CHEMBL6066882,CHEMBL6067040,CHEMBL6067334,CHEMBL6067369,CHEMBL6195529,CHEMBL6195546,CHEMBL4763,CHEMBL2185,CHEMBL5261,CHEMBL5967,CHEMBL3430907,CHEMBL3430908,CHEMBL3430911,CHEMBL3883303,CHEMBL4523403,CHEMBL5724695"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "3a75d28a84673a5e289d98ff65a90be12d375ec4dc169e0266e9dc34159fe631": {
+    "fetched_at": "2026-10-24T00:06:02.807514+00:00",
+    "http_status": 200,
+    "payload_sha256": "7f2ad4b85ab33b0cd12003b27d2099c71f87b19dabafd90dea91ec8e35915d06",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL5724765,CHEMBL6067226,CHEMBL6067322,CHEMBL1848,CHEMBL2070,CHEMBL2597,CHEMBL3838,CHEMBL1915,CHEMBL4024,CHEMBL3661,CHEMBL5177,CHEMBL2095182,CHEMBL3797010,CHEMBL3797011,CHEMBL3797012,CHEMBL3832941,CHEMBL3832942,CHEMBL3885647,CHEMBL4105766,CHEMBL4105834,CHEMBL4105876,CHEMBL4106141,CHEMBL4295944,CHEMBL5725142,CHEMBL5725183,CHEMBL6066055,CHEMBL6066283,CHEMBL6066343,CHEMBL6066847,CHEMBL6067532,CHEMBL6067533,CHEMBL6067579,CHEMBL6196092,CHEMBL2412,CHEMBL308,CHEMBL3835,CHEMBL3492,CHEMBL4662,CHEMBL4208,CHEMBL1907602"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "73d1f887fbf0dab93e9af049088f3df3b48249abf1a17ef663f9eba17f872714": {
+    "fetched_at": "2026-10-24T00:06:03.201192+00:00",
+    "http_status": 200,
+    "payload_sha256": "daece72de1c10a5ecae11f1cb218dc88949c9e37eacdc04e029d12d723419781",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL1944496,CHEMBL2007629,CHEMBL2094127,CHEMBL2364701,CHEMBL3038467,CHEMBL3038468,CHEMBL3308923,CHEMBL3559691,CHEMBL3714503,CHEMBL3831201,CHEMBL3831203,CHEMBL3831204,CHEMBL3831205,CHEMBL3831207,CHEMBL3831210,CHEMBL3831211,CHEMBL3831212,CHEMBL3831214,CHEMBL3831217,CHEMBL3885551,CHEMBL3885625,CHEMBL4296065,CHEMBL4296066,CHEMBL4523178,CHEMBL4523179,CHEMBL4523259,CHEMBL4523597,CHEMBL4523630,CHEMBL4523683,CHEMBL4523963,CHEMBL4524130,CHEMBL4680053,CHEMBL4879432,CHEMBL4879435,CHEMBL5483182,CHEMBL5483189,CHEMBL6066121,CHEMBL6066347,CHEMBL6066927,CHEMBL6066933"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "27d46b0bf5afd3e3d2fa67bf35ea864326c101e327f1956dc7c3c37e9a052f8c": {
+    "fetched_at": "2026-10-24T00:06:03.593721+00:00",
+    "http_status": 200,
+    "payload_sha256": "048516417756c3a32f09f3d4f83da65a1fa12f1f57bd352f65464be8a2c5cd8c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL6066934,CHEMBL6066935,CHEMBL6067051,CHEMBL6067364,CHEMBL6067562,CHEMBL6196123,CHEMBL1934,CHEMBL2582,CHEMBL3723,CHEMBL3788,CHEMBL5257,CHEMBL4309,CHEMBL4849,CHEMBL6027,CHEMBL1075114,CHEMBL1255125,CHEMBL2094128,CHEMBL3038469,CHEMBL3038470,CHEMBL3347256,CHEMBL3710002,CHEMBL3831206,CHEMBL3831208,CHEMBL3831209,CHEMBL3831213,CHEMBL3831215,CHEMBL3883307,CHEMBL3883330,CHEMBL3885548,CHEMBL4105747,CHEMBL4105890,CHEMBL4295668,CHEMBL4296166,CHEMBL4523636,CHEMBL4523648,CHEMBL4748232,CHEMBL5291684,CHEMBL5465203,CHEMBL5725044,CHEMBL5725110"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "06084b38a9f6c4b757856751b244f85a8d594a5f08da88cf58e128dcfae030fd": {
+    "fetched_at": "2026-10-24T00:09:06.671176+00:00",
+    "http_status": 200,
+    "payload_sha256": "1859cf1f8411892206ee6599e14f37fd8ad306b9a6166676cd9af4cd0770df85",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL5725176,CHEMBL6066842,CHEMBL6066862,CHEMBL6067000,CHEMBL6067140,CHEMBL6193829,CHEMBL6195578,CHEMBL6195599,CHEMBL6195600,CHEMBL6195601,CHEMBL6195602,CHEMBL6195603,CHEMBL6195606,CHEMBL3610,CHEMBL301,CHEMBL3617,CHEMBL2422,CHEMBL331,CHEMBL3935,CHEMBL5443,CHEMBL5620,CHEMBL5790,CHEMBL6052,CHEMBL1907601,CHEMBL1907605,CHEMBL1944495,CHEMBL2094126,CHEMBL2095942,CHEMBL2111444,CHEMBL2111448,CHEMBL2111455,CHEMBL2111326,CHEMBL2111377,CHEMBL3038471,CHEMBL3038472,CHEMBL3038517,CHEMBL3301385,CHEMBL3317334,CHEMBL3883318,CHEMBL3885552"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "4b09ba3c88f72a6bb5d78e261b36383dc963ba740e2ddf7b4716d444aa6eab6c": {
+    "fetched_at": "2026-10-24T00:09:07.032624+00:00",
+    "http_status": 200,
+    "payload_sha256": "4602fc528c371fde69c19534951ba13dfdf908f51fd8588fc974b18428d7a8dd",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL3885553,CHEMBL3885554,CHEMBL4106152,CHEMBL4106153,CHEMBL4106184,CHEMBL4523633,CHEMBL4523634,CHEMBL4523637,CHEMBL4523642,CHEMBL4523643,CHEMBL4523644,CHEMBL4523645,CHEMBL4523646,CHEMBL4523647,CHEMBL4523649,CHEMBL4523650,CHEMBL4523686,CHEMBL4523688,CHEMBL4523689,CHEMBL4523715,CHEMBL4523716,CHEMBL4523732,CHEMBL4630748,CHEMBL4888444,CHEMBL4888454,CHEMBL5483183,CHEMBL5483185,CHEMBL6066123,CHEMBL6193781,CHEMBL6195580,CHEMBL6195584,CHEMBL6195586"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "b3fb998696eb8a5fcef5b6071ea6e348f38e6155e72cd0c9e3df3454c0bf7efa": {
+    "fetched_at": "2026-10-24T00:06:04.474151+00:00",
+    "http_status": 200,
+    "payload_sha256": "4807317c0bf4207653cf571739470565ec68dfdf5d7650644588632616a661b4",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL1980297,CHEMBL2140408,CHEMBL1967878,CHEMBL5095033,CHEMBL482967,CHEMBL1090479,CHEMBL1908394,CHEMBL3991927,CHEMBL1908397,CHEMBL5314387,CHEMBL3545378,CHEMBL1738758,CHEMBL4289017,CHEMBL482767,CHEMBL3544932,CHEMBL2392545,CHEMBL3545327,CHEMBL3545354,CHEMBL495727,CHEMBL513909,CHEMBL3545395,CHEMBL482968,CHEMBL572878,CHEMBL402548,CHEMBL415049,CHEMBL1233528,CHEMBL3545185,CHEMBL2109124,CHEMBL123292,CHEMBL4297300,CHEMBL4297789,CHEMBL256997,CHEMBL4297744,CHEMBL4650424,CHEMBL2108785,CHEMBL2107890,CHEMBL1743000,CHEMBL2108790,CHEMBL1743082,CHEMBL1742994"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "1086de573121444198b2d14e37cc396e417771d2981cde69d2737fe663240114": {
+    "fetched_at": "2026-10-24T00:06:04.994670+00:00",
+    "http_status": 200,
+    "payload_sha256": "33b5cc2a86ec2caff227d25c35fbc0c813b08febd852df0afea19f08ef6695ce",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL428647,CHEMBL3545252,CHEMBL1683544,CHEMBL1201748,CHEMBL107,CHEMBL1201752,CHEMBL501867,CHEMBL538943,CHEMBL378544,CHEMBL3545420,CHEMBL384304,CHEMBL3545083,CHEMBL1944698,CHEMBL14762,CHEMBL3545283,CHEMBL564829,CHEMBL428690,CHEMBL2103840,CHEMBL2108628,CHEMBL49642,CHEMBL2103826,CHEMBL2103852,CHEMBL552212,CHEMBL2110725,CHEMBL289351,CHEMBL2105643,CHEMBL2304041,CHEMBL1096380,CHEMBL492399,CHEMBL3545132,CHEMBL3301582,CHEMBL4297935,CHEMBL4297804,CHEMBL4297859,CHEMBL4297987,CHEMBL4298045,CHEMBL4298101,CHEMBL4297938,CHEMBL3990032,CHEMBL4297841"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "18931e6aede8b7b2b4eaf49a4c772d73b6a8d619f5dc743febf70a9545ca3c28": {
+    "fetched_at": "2026-10-24T00:06:05.520099+00:00",
+    "http_status": 200,
+    "payload_sha256": "4d195e4717acaac38d36bb1aaadacc382573822b42def3f27c0bb8a83779a21b",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL4298209,CHEMBL20684,CHEMBL4297268,CHEMBL39541,CHEMBL96172,CHEMBL4297296,CHEMBL4279455,CHEMBL4297441,CHEMBL4594455,CHEMBL94657,CHEMBL4298098,CHEMBL1089636,CHEMBL4650293,CHEMBL2109574,CHEMBL3301589,CHEMBL1743028,CHEMBL3301585,CHEMBL2109281,CHEMBL2109282,CHEMBL3545372,CHEMBL3833306,CHEMBL2111109,CHEMBL4297440,CHEMBL1743037,CHEMBL1742997,CHEMBL2109288,CHEMBL4297736,CHEMBL4297892,CHEMBL2107759,CHEMBL572284,CHEMBL3989512,CHEMBL4297636,CHEMBL2105629,CHEMBL92,CHEMBL4594515,CHEMBL2109266,CHEMBL2109633,CHEMBL1742998,CHEMBL2109556,CHEMBL2109286"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "3ba868977cb545b0524ed8cf2f9c4bc6dbd4be5d1d621d3b124c39d167398f48": {
+    "fetched_at": "2026-10-24T00:09:07.741445+00:00",
+    "http_status": 200,
+    "payload_sha256": "ee85cd34596487d814709aa274dd8096a8c8c774412d1434faf4814f333428c5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL5095273,CHEMBL5314782,CHEMBL2109629,CHEMBL3545371,CHEMBL3707277,CHEMBL1743031,CHEMBL2108672,CHEMBL2109635,CHEMBL5095312,CHEMBL2109575,CHEMBL2109279,CHEMBL451887,CHEMBL325041,CHEMBL3545432,CHEMBL488436,CHEMBL1230607,CHEMBL445813,CHEMBL4442620,CHEMBL2103884,CHEMBL371405,CHEMBL2141296,CHEMBL5315122,CHEMBL1980391,CHEMBL3286830,CHEMBL3408947,CHEMBL4650298,CHEMBL3707320,CHEMBL601719,CHEMBL2403108,CHEMBL4297462,CHEMBL189963,CHEMBL296468,CHEMBL3545321,CHEMBL258805,CHEMBL1206245,CHEMBL3545090,CHEMBL3894860,CHEMBL3544944,CHEMBL3301610,CHEMBL3905910"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "b6381becfda6d11b9f305dd22252e433623ea655d0c1a4fd36612e225342242f": {
+    "fetched_at": "2026-10-24T00:09:08.141026+00:00",
+    "http_status": 200,
+    "payload_sha256": "a8fc8a31f3d699a142155960937935568d3a07cd98b2ede78d01c7f9b2df79b8",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL574737,CHEMBL3545110,CHEMBL3707266,CHEMBL4650272,CHEMBL4297644"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "3500412c708084e5933103b5c5d3322181f349a46cbbd228080ee7f90e1531cc": {
+    "fetched_at": "2026-10-24T00:38:02.273050+00:00",
+    "http_status": 200,
+    "payload_sha256": "de7784fde1472fdf86f3d2e7c0d7578a958ff7cfad2af5e59b4f9f58721e98c5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL159,CHEMBL1683590,CHEMBL1738797,CHEMBL553025,CHEMBL90555"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "ba45a40fbf420233586ad1c76106b7b31f954c5a18145218dda220ee22a7cd70": {
+    "fetched_at": "2026-10-24T00:06:06.749402+00:00",
+    "http_status": 200,
+    "payload_sha256": "15297ea885774c641918c15e05e2cd56f311e72983c438c7d1ee3f6b3fc17d09",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1742994"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "ee9fa3e63384d5851477fd2cf239a0968d5cbb56b94096fde8f9730bcfc90aa7": {
+    "fetched_at": "2026-10-24T00:06:07.123696+00:00",
+    "http_status": 200,
+    "payload_sha256": "3718de99de2892e389960268b902a67846e0f024024a7d53a1bd62d27977e3b7",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1743082"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "37f583fafae302ee8e0766fe4c71701298ed57b9716d02781c34fe06658bb81c": {
+    "fetched_at": "2026-10-24T00:06:07.512864+00:00",
+    "http_status": 200,
+    "payload_sha256": "7cb4e47dea7833f481b8c72f6ae4dedf47f6a11d7bbef295ed860e59525b7971",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3545185"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "a12e39e2653a0fcb5a770d1e9af9c03f335ed02176a5e0f2e7609de65a508836": {
+    "fetched_at": "2026-10-24T00:06:07.953161+00:00",
+    "http_status": 200,
+    "payload_sha256": "3380c2efd373bfc2454e42f5c0f90055727966986ab28fe4a5530eded13647f8",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL428647"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "9c7247a87ae709a4c6b40be265a6e9d31f73c8d58a37a2948976d676f98df6d4": {
+    "fetched_at": "2026-10-24T00:06:08.374563+00:00",
+    "http_status": 200,
+    "payload_sha256": "5e9dc7414efde1d4d1fa5998b07b3277f0bc6bacfd7cf1c3e218b7ccfce3baa0",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL107"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "be92dd0b8daece4e5735106f20d878c95467ffd440bc67b5ed5da242c799e184": {
+    "fetched_at": "2026-10-24T00:06:08.765975+00:00",
+    "http_status": 200,
+    "payload_sha256": "fd4fb3fa74d07fbd5d0b9bd980672be988f2d5c35c2d6ab8169042f2cc49c2d7",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL378544"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "f69e16fa48a9d56d0fb9a6fbe8ad641e2331b0d521dc56dacc8dd340dfe42abc": {
+    "fetched_at": "2026-10-24T00:06:09.163721+00:00",
+    "http_status": 200,
+    "payload_sha256": "07a85a6b484156e249cb887d6393a1f0a8e0a12b1032ef9437250c5814151c03",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL501867"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "c68c2069bd7439a5d8bd31b586bad2b67eff3756b66a482481a07b4dc07b2f0d": {
+    "fetched_at": "2026-10-24T00:06:09.608006+00:00",
+    "http_status": 200,
+    "payload_sha256": "f2f0ac8bdf99f16a65d7ca43c76df71cf2b9ff4fecc331dd36f2d215dde83841",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL538943"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "0b22b773fe8e01b397614460614764d657ad53cf10be0da0a2fc9444171e73c0": {
+    "fetched_at": "2026-10-24T00:06:10.010633+00:00",
+    "http_status": 200,
+    "payload_sha256": "3cfbafb8dc0fd8a22f7784d0eaa01918d341f72fd286fa0d8fdbcce1ffb61444",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1201748"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "63cc9871c650ff5c7f37682f32c9cd32e34c99cd145048b701244c79fbf021f1": {
+    "fetched_at": "2026-10-24T00:06:10.399059+00:00",
+    "http_status": 200,
+    "payload_sha256": "3be9a711d73891fa20e83efe7dcbabf9ad66ecd83ec6b88e0eb23efd35a985ab",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1201752"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "a4d4fdaafdc89f4b920d86c9ad1b6cfef5bff06c677ae05077a65ae0f8bf4ebe": {
+    "fetched_at": "2026-10-24T00:06:10.880314+00:00",
+    "http_status": 200,
+    "payload_sha256": "62119c785865d80d807bf140baafba6a8c04ca0e140189691aac2ef945eb806e",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1683544"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "1b8797df3c414745288fdd6efc56dbade4a8feba35a1810ac2d625d90c392cf7": {
+    "fetched_at": "2026-10-24T00:06:11.257564+00:00",
+    "http_status": 200,
+    "payload_sha256": "f2556ef0bf1bf61e562a7a35ef4af3377058a404c7d7dc14243e96b660363c20",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2110725"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "f9f8af350e51ba08c9e4b6e749b22c197cbece18c5cf36ee8b9e704084eabf7a": {
+    "fetched_at": "2026-10-24T00:06:11.617348+00:00",
+    "http_status": 200,
+    "payload_sha256": "b538f427c1cb36239b758e0af26292165a782bb0bef40c9d3d0885a63907393c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3301582"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "bf2f570e0440fad08c9a49e5eb1b0dd90b43c70bb1b45c0c00482f22ac74db43": {
+    "fetched_at": "2026-10-24T00:06:11.972270+00:00",
+    "http_status": 200,
+    "payload_sha256": "07014226343df8a6d3c87544b118b53971e29d8b5e7664b6665bea5518f6f6b0",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3545132"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "a7859ad6c95c433ac5bac3be43074c05fc792c2583d4a066666ac2d2a78031bc": {
+    "fetched_at": "2026-10-24T00:06:12.375526+00:00",
+    "http_status": 200,
+    "payload_sha256": "cfeeab6d5bbcbfeeabf14d30272ae1b45ed13df5875cb465ecf1e40f8a4b8b6d",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3545252"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "6f6728defce80967d086372e7b4c517ef69c14738013ce4a4346676c8194abf8": {
+    "fetched_at": "2026-10-24T00:06:12.746252+00:00",
+    "http_status": 200,
+    "payload_sha256": "742224d584f67d6bb92fae19ffc3aa1a69840be25a64d741cf44fd31b8b043cb",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL4297841"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "3e5d1995e70829668a5443951dfcf2c70819dd32b8cdfb453af00a8e34959a74": {
+    "fetched_at": "2026-10-24T00:06:13.108301+00:00",
+    "http_status": 200,
+    "payload_sha256": "288e8fc9f13420cd7348e19312645e5d1264e87ba0b2faea982f040d035b0077",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL92"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "1891ad4b4f2f64e898c2575b1f9e1297e14c77e64e017bfacc993846e4844b3b": {
+    "fetched_at": "2026-10-24T00:06:13.833223+00:00",
+    "http_status": 200,
+    "payload_sha256": "6605e968189c40ae516481faa73b5ce116a79aa71576c827ad1a38769d4d56bc",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2105629"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "4c0fcbc4887b3c27d030d01fb1b3835c678ad4863e2fc7a14cd8b4ba0b6d3731": {
+    "fetched_at": "2026-10-24T00:06:14.192254+00:00",
+    "http_status": 200,
+    "payload_sha256": "0126c311ccd5d5d2328fd1cd346e39ea927bc1248ef7dea26e866f47f52e5255",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3301589"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "3627356c177d4517c82618314069003138bf3b72e406f58eab4fe956b01168a0": {
+    "fetched_at": "2026-10-24T00:06:14.584703+00:00",
+    "http_status": 200,
+    "payload_sha256": "4f98dc424ec43242a1ef08b77e6deb1267564af632d0381e94f0a0aa88d8b799",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL325041"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "c2d7732bccdc0bdf75f429d648b854f71fc8a172f387a7d36fea778db650571f": {
+    "fetched_at": "2026-10-24T00:09:08.577411+00:00",
+    "http_status": 200,
+    "payload_sha256": "b070f58328faccfa27cb875926324fcea7f671fb0501c73f22cbff2eebca777c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL189963"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "9225954c7f82729200491b75ee33b8b381bae7f8e450eb83f604bd9103eaabed": {
+    "fetched_at": "2026-10-24T00:06:15.034590+00:00",
+    "http_status": 200,
+    "payload_sha256": "28044a4aca0e9d48f96af0bbc367a96b16776bac7ee717848e6f62b8ec9475c6",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL451887"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "3a1390c03ca7f9d35bb72111c249b97c1b4f10b1379fb1102d86bc9c4dd9419b": {
+    "fetched_at": "2026-10-24T00:06:15.422264+00:00",
+    "http_status": 200,
+    "payload_sha256": "bb924d47a9effe1a0ecc64098a724c8d97b2954575c692959ffe81508490f73e",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL601719"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "550a7fd581a67e0539aeadd66d3d6d8d6198b3df1b565dcc70c799f8b936c4a7": {
+    "fetched_at": "2026-10-24T00:06:16.203199+00:00",
+    "http_status": 200,
+    "payload_sha256": "a5cdf371ec5700dbc795a494eeb8c9d427e83e03339cd634af283ebe06c5dd8d",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2403108"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "27dcf192ac5741502ae6fc146b39188bb6fc33620baa9ad572d6eca0ced5d090": {
+    "fetched_at": "2026-10-24T00:06:16.573505+00:00",
+    "http_status": 200,
+    "payload_sha256": "a179702285dcbcf97f75c510e277cbe1d82ed46867609d1efc063fd7f04260ed",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3286830"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "3d86f8c05d6b60b1baebcff7ee65969828fc889e8cbfbcefc6fcd9662d04eda0": {
+    "fetched_at": "2026-10-24T00:09:08.970031+00:00",
+    "http_status": 200,
+    "payload_sha256": "f50440fbe77f4a26903a08f4e6b6369e430e45cc8f132be49ba7734680619239",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3301610"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e6bb57c1e169db4251480bc96a7dc3005615c8cc0bcb64bf9111e5f8367c4f84": {
+    "fetched_at": "2026-10-24T00:06:16.942487+00:00",
+    "http_status": 200,
+    "payload_sha256": "419abeae75d048fe6d422362b103a560ab4da41f18e5c7a3179626833309ec4a",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3545432"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "b6b55c7672614d1b4b5376072274df9a17eed29931b8cb5fc29831de2cfbeea8": {
+    "fetched_at": "2026-10-24T00:06:17.303090+00:00",
+    "http_status": 200,
+    "payload_sha256": "94cdca6984368e44659af014a16e989de92ba5f7eb5214345541383b2789ada1",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3707320"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "31c5f4dec7878f2281aa696854d85d554598a528d0a9cea560b0d04e09efa86c": {
+    "fetched_at": "2026-10-24T00:09:09.358797+00:00",
+    "http_status": 200,
+    "payload_sha256": "c1cd6f05454471c02a6308d980cc9cba0db7ed8adc129c88c8a635a7ffb96b26",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3894860"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "4ac0268b1533675b5c6d7998a2a6e871e25ccba52fe35a296995f48948a8d23e": {
+    "fetched_at": "2026-10-24T00:06:17.679919+00:00",
+    "http_status": 200,
+    "payload_sha256": "bb78e903864122cb412233b0d0720e230bc57dfb1f8d0b567bb742deb5c8ac7d",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL5315122"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "89d15ba91cfc6a87d190ef69eb93a2967cda5a046aad201f56bee02a602c9b78": {
+    "fetched_at": "2026-10-24T00:09:09.737655+00:00",
+    "http_status": 200,
+    "payload_sha256": "190adc46e8e4133ce8cc738bee12bd4b06e182eab34eeaac1bf6ecea40d2714c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3545110"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "1752137ce5d092bd9d1a294ccce61bbdb29fae34b4ffa5e35d63e7710a01407e": {
+    "fetched_at": "2026-10-24T00:09:10.109293+00:00",
+    "http_status": 200,
+    "payload_sha256": "b2e93e94fc98483f3dfadd64afaff31caacdbc72655e022ce9b4db02f99b2af2",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3707266"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "dc25fd41c6278330083004587995a414fe56aa022ba9a29b85e894db25c02efd": {
+    "fetched_at": "2026-10-24T00:09:10.495052+00:00",
+    "http_status": 200,
+    "payload_sha256": "197cd39a98bf291ab030611266ed8b548e1538e473c30859bce2539710ab8287",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL4650272"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "095d889dd4b787ce70918bf3f9e2706c542839db02230649ca483bb4d37b7324": {
+    "fetched_at": "2026-10-24T00:06:02.189010+00:00",
+    "http_status": 200,
+    "payload_sha256": "286d39c2fec00a1fd575e00791503cb372045529ac27d39afe814038c7b078c9",
+    "request": {
+      "body": null,
+      "params": {
+        "content-type": "application/json"
+      },
+      "url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TSC2"
+    }
+  },
+  "8510cd8c77d70e0825f7778292ed97b6b3ff2a2d18320123cf803a7824ba8afc": {
+    "fetched_at": "2026-10-24T00:06:02.551608+00:00",
+    "http_status": 200,
+    "payload_sha256": "544dd646b2b4afa32535aea678688dee09d2bfca5a8206c5d1862c1ee4d2c422",
+    "request": {
+      "body": {
+        "query": "query Target($id: String!) {\n  target(ensemblId: $id) {\n    id approvedSymbol proteinIds { id source }\n    pathways { pathwayId pathway }\n    drugAndClinicalCandidates { count rows { id maxClinicalStage } }\n  }\n}",
+        "variables": {
+          "id": "ENSG00000103197"
+        }
+      },
+      "params": {},
+      "url": "https://api.platform.opentargets.org/api/v4/graphql"
+    }
+  },
+  "f87dc59b75d4ebc6fd63cb8241d22708a14843cca262c839c54ea340b91dfc34": {
+    "fetched_at": "2026-10-24T00:06:03.325598+00:00",
+    "http_status": 200,
+    "payload_sha256": "65b7b5b4e38814814c5d2d58ca52e8a0acf8acc24c9555e28620be2546fb0a17",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-1632852/referenceEntities"
+    }
+  },
+  "549544e54f9ff9bced154422b7c7c74ccc8d499309adba2a69a6829754dfcac0": {
+    "fetched_at": "2026-10-24T00:06:03.604206+00:00",
+    "http_status": 200,
+    "payload_sha256": "ef7721aaf2e8583b09d0e995f91744bdbf868d0169dba3b85690962a613e05e9",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-165181/referenceEntities"
+    }
+  },
+  "75545460a6e7b4c2638735ee56afe21c67c0052e29bf7486a8e318622b3c3a10": {
+    "fetched_at": "2026-10-24T00:06:03.858116+00:00",
+    "http_status": 200,
+    "payload_sha256": "ffca90e2faf011b2e27a87b7cb46e7be40295e056450ed9e9020f8fc7696aeab",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-198323/referenceEntities"
+    }
+  },
+  "acf226f4012a1239aff789ee9eeb7412dd69119f599817bed0f44f63a3d274e4": {
+    "fetched_at": "2026-10-24T00:06:04.116255+00:00",
+    "http_status": 200,
+    "payload_sha256": "771e20d2c5bb1c59a311b6ccfb2c42331b9ec9bf5e20b38860e5fc529e8002a4",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-380972/referenceEntities"
+    }
+  },
+  "d45c8b2ba6be9c27d25b24a57e5b0134bacaa33f5ce3f8953bdcd8fa7b91fe9a": {
+    "fetched_at": "2026-10-24T00:06:04.453686+00:00",
+    "http_status": 200,
+    "payload_sha256": "cea6806d57ffe5c6be92118dbe37a13653d89082229ce75ea26ea0edca5155da",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-5628897/referenceEntities"
+    }
+  },
+  "53273eab3f38daac9ffb38976567ee8ebd8a905bbc163c12dd71feb44fe3332a": {
+    "fetched_at": "2026-10-24T00:06:04.732142+00:00",
+    "http_status": 200,
+    "payload_sha256": "d528b2f6f36906041283d04216a7530d34f363fa8899341aa6c0775a64fcbfdb",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-5674400/referenceEntities"
+    }
+  },
+  "6f2040907dcec9b8a179aae0b6c78a25bd14db440320e8eb5252c6dc4261f982": {
+    "fetched_at": "2026-10-24T00:06:05.054821+00:00",
+    "http_status": 200,
+    "payload_sha256": "ea2516434953e1bda6ecb481466f32dd27f8bbeb9d2caddb40374fcd58f167bb",
+    "request": {
+      "body": null,
+      "params": {},
+      "url": "https://reactome.org/ContentService/data/participants/R-HSA-8854214/referenceEntities"
+    }
+  },
+  "f2d12183f112d416b6365270c0525dfb0faf82fa9f0a5027783a261501020b64": {
+    "fetched_at": "2026-10-24T00:06:08.899842+00:00",
+    "http_status": 200,
+    "payload_sha256": "941568b3440d43dabeddf767264dd64c9b3dee59a93cfb949909fdb9e6cae462",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "P49815,Q92574,P31749,P31751,P42345,Q9BVC4,Q9Y243,O43504,O43741,P54619,P54646,Q0VGL1,Q13131,Q15382,Q5VZM2,Q6IAA8,Q7L523,Q8N122,Q8NBW4,Q9HB90,Q9NQL2,Q9UGI9,Q9UGJ0,Q9UHA4,Q9Y2Q5,Q9Y478,O15111,O75385,O95166,P38936,P46527,P49840,P49841,P55211,P60520,Q00987,Q92934,Q96B36,Q96CV9,Q9GZQ8"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "fae2e955c1a1057e439ff1dc3c84a26a660caa05a81db9ab4707e60dee7ddc18": {
+    "fetched_at": "2026-10-24T00:06:11.399523+00:00",
+    "http_status": 200,
+    "payload_sha256": "5013dc9ac71ffb89d59e7b6e30c9815b5911d2837a36a29009315e9210a2b7be",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "A6NHL2,A6NNZ2,A8MV81,A8MYZ6,O00483,O14548,O14576,O15530,O43237,O43524,O43633,O43819,O60260,O60664,O75143,O94817,O94826,O94925,O95140,O95352,O95613,O96008,P00395,P00403,P00414,P04350,P04637,P06744,P07900,P08670,P09669,P0CG47,P0CG48,P0DPH7,P0DPH8,P10176,P10599,P10606,P11142,P11413"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "db09b0cec5969b9de97392d9d101626029dda200f529579f8caf3a7f7642f169": {
+    "fetched_at": "2026-10-24T00:06:13.616940+00:00",
+    "http_status": 200,
+    "payload_sha256": "517f97cf683e55dcb132f62a444fa719053c213536ce96abd0d41d116fe18b7e",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "P12074,P13073,P13569,P14406,P14854,P15954,P18283,P19784,P20338,P20339,P20340,P20674,P21796,P22736,P24310,P24311,P27348,P27958,P31946,P31947,P32119,P35813,P45880,P50542,P51148,P51149,P55072,P58004,P58005,P60484,P61006,P61020,P61077,P61088,P61981,P62258,P62330,P62491,P62837,P62979"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "ed09ea42414c25888b075af7f565aa5dc1b723f8c61ff9a8d5e386287adde0df": {
+    "fetched_at": "2026-10-24T00:06:14.956190+00:00",
+    "http_status": 200,
+    "payload_sha256": "8e951368e8eb244c4fb2af4e39f194ecbbd62e47bfdcf7e096391f123681e030",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "P62987,P63104,P63167,P67870,P68036,P68363,P68366,P68371,P68400,P85299,P98177,P99999,Q00613,Q02221,Q04917,Q06830,Q12778,Q12798,Q13099,Q13315,Q13404,Q13409,Q13501,Q13509,Q13615,Q13885,Q14088,Q14204,Q14457,Q14596,Q15276,Q15286,Q15388,Q15831,Q15907,Q16881,Q3MII6,Q3SXY8,Q3ZCM7,Q4KMP7"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "fb87f2aeab6d550315ae032a2872929b770efa3e160468a2eeebe96b27e094a7": {
+    "fetched_at": "2026-10-24T00:06:15.666026+00:00",
+    "http_status": 200,
+    "payload_sha256": "6e1123eccb3d5d326d290ca6cc1b8e1c7967c059803bf216f618faa9f6d13534",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "Q5MNZ6,Q5MNZ9,Q674R7,Q676U5,Q6PEY2,Q6R327,Q6YFQ2,Q6ZNE5,Q70CQ3,Q71U36,Q7LG56,Q7RTN6,Q7Z3C6,Q7Z4L0,Q86TL0,Q8IV04,Q8IVP5,Q8IWA4,Q8IYJ3,Q8IZP1,Q8N4H5,Q8NAA4,Q8NCE2,Q8NDV7,Q8NEB9,Q8TBP0,Q8TC07,Q8TDY2,Q8WUX9,Q8WYN0,Q92930,Q96AH8,Q96B49,Q96BZ9,Q96CF2,Q96DT6,Q96E29,Q96FJ2,Q96FZ7,Q96KJ9"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "0caa15e8a2fcac8dde42920f4878fb3bd8a5da389d4af609309c16e6bd7803db": {
+    "fetched_at": "2026-10-24T00:08:24.156040+00:00",
+    "http_status": 200,
+    "payload_sha256": "204684e336576faa5917143efb38ae8564fb19d49cff6d1495e0bf9c72c9b73c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "O00217,O14561,O14727,O14920,O15239,O43181,O43674,O43676,O43677,O43678,O43920,O75251,O75306,O75380,O75438,O75489,O95139,O95167,O95168,O95169,O95178,O95182,O95298,O95299,O96000,P03886,P03891,P03897,P03901,P03905,P03915,P03923,P04049,P10415,P17568,P19404,P23921,P28331,P42574,P48729"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "b3b669392a47ac7d714ec9894af9da3546e25fb043536baf28a374b2a655328f": {
+    "fetched_at": "2026-10-24T00:08:25.133623+00:00",
+    "http_status": 200,
+    "payload_sha256": "e4d8ec06238d6aaa8a4345a253a1afe75578f223747a9a11f800ca6e68627cd1",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_components__accession__in": "P49821,P51970,P56181,P56556,P62942,P68106,Q16531,Q16543,Q16718,Q16795"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json"
+    }
+  },
+  "3c0e7f69a8a381060f318d4481464191b948c4ab2074a3382ba53d44045d778f": {
+    "fetched_at": "2026-10-24T00:06:16.373687+00:00",
+    "http_status": 200,
+    "payload_sha256": "cd5d266060f2878b5c32aa2a46fd5f675777a7f5776a818da4efe448b06de26f",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL3817,CHEMBL262,CHEMBL3847,CHEMBL2393,CHEMBL2116,CHEMBL2117,CHEMBL2453,CHEMBL2431,CHEMBL4816,CHEMBL3476,CHEMBL2850,CHEMBL4045,CHEMBL2842,CHEMBL2273,CHEMBL4282,CHEMBL5021,CHEMBL5023,CHEMBL6006,CHEMBL1255161,CHEMBL1907611,CHEMBL2095188,CHEMBL2096907,CHEMBL2111328,CHEMBL2111345,CHEMBL2111353,CHEMBL2221341,CHEMBL3038451,CHEMBL3038452,CHEMBL3038453,CHEMBL3038454,CHEMBL3038455,CHEMBL3038456,CHEMBL3038457,CHEMBL3038463,CHEMBL3038493,CHEMBL3108656,CHEMBL3120040,CHEMBL3758070,CHEMBL3831289,CHEMBL3883298"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "43c98283808234561e3dda580b3b47b1df32a9f3af1f827c447849c3e126a2a6": {
+    "fetched_at": "2026-10-24T00:06:16.754133+00:00",
+    "http_status": 200,
+    "payload_sha256": "da3f4fb36a620ae1b4ccfcc220cf200a7c91fdee07f94994b89a41d99123d1b5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL3883306,CHEMBL3883309,CHEMBL3885504,CHEMBL3885517,CHEMBL3885557,CHEMBL3885629,CHEMBL4106123,CHEMBL4106158,CHEMBL4106159,CHEMBL4106162,CHEMBL4106163,CHEMBL4106175,CHEMBL4296661,CHEMBL4296662,CHEMBL4523674,CHEMBL4523702,CHEMBL4523718,CHEMBL4523719,CHEMBL4523720,CHEMBL4523748,CHEMBL4523969,CHEMBL4523999,CHEMBL4879423,CHEMBL4879445,CHEMBL4879514,CHEMBL4879538,CHEMBL4888446,CHEMBL5169068,CHEMBL5169081,CHEMBL5169082,CHEMBL5169266,CHEMBL5169267,CHEMBL5291687,CHEMBL5291692,CHEMBL5465251,CHEMBL5465366,CHEMBL5465382,CHEMBL5465383,CHEMBL5482984,CHEMBL6066839"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "6559c7a06aabcd5f0d5cb3015ae043816fa8053699d089949603bd93275b57c8": {
+    "fetched_at": "2026-10-24T00:06:17.204170+00:00",
+    "http_status": 200,
+    "payload_sha256": "676410ae02aba58fa2fe49b99477ceb841042952f3c6fd91271601ad695b3a3c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL6066860,CHEMBL6067530,CHEMBL6067627,CHEMBL6177904,CHEMBL6177905,CHEMBL6177912,CHEMBL6177913,CHEMBL6193792,CHEMBL6193844,CHEMBL6193845,CHEMBL6195576,CHEMBL6195577,CHEMBL6195578,CHEMBL6195579,CHEMBL6195580,CHEMBL6195581,CHEMBL6195582,CHEMBL6195583,CHEMBL6195584,CHEMBL6195585,CHEMBL6195586,CHEMBL6195601,CHEMBL6195681,CHEMBL6195682,CHEMBL6195683,CHEMBL2534,CHEMBL3880,CHEMBL3838,CHEMBL2317,CHEMBL4096,CHEMBL5347,CHEMBL5778,CHEMBL6173,CHEMBL6174,CHEMBL1275223,CHEMBL2010624,CHEMBL2095165,CHEMBL2095182,CHEMBL2146302,CHEMBL2221344"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "7f443c401315ffbb71fd78d1a57f1b8cb08fae75a748060ec71a65567cdc7dd2": {
+    "fetched_at": "2026-10-24T00:06:17.615588+00:00",
+    "http_status": 200,
+    "payload_sha256": "824f5a0eeda64d87a111127523577dc3b8bfd129e6eb03ebf025d405a6101912",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL2321621,CHEMBL2363065,CHEMBL3301383,CHEMBL3712854,CHEMBL3832941,CHEMBL3832942,CHEMBL3885543,CHEMBL3885544,CHEMBL3885545,CHEMBL4106183,CHEMBL4295702,CHEMBL4296080,CHEMBL4523145,CHEMBL4523158,CHEMBL4523178,CHEMBL4523179,CHEMBL4630807,CHEMBL6066046,CHEMBL6066147,CHEMBL6066210,CHEMBL6066249,CHEMBL6066369,CHEMBL6066834,CHEMBL6066847,CHEMBL6066966,CHEMBL6066983,CHEMBL6067019,CHEMBL6067029,CHEMBL6067579,CHEMBL6193786,CHEMBL6193787,CHEMBL6193809,CHEMBL2437,CHEMBL4051,CHEMBL4070,CHEMBL6089,CHEMBL5987,CHEMBL6190,CHEMBL1075145,CHEMBL1293229"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "488b5366f52afcc6d49885f3c1d8875fbf746618701d11ff5a0ed2e849b93c3e": {
+    "fetched_at": "2026-10-24T00:06:18.004194+00:00",
+    "http_status": 200,
+    "payload_sha256": "65ed677cc0b95a3c5094c9c2c0b34d9a13bd970b561263514901403d9369e0e4",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL1293296,CHEMBL1909482,CHEMBL2052032,CHEMBL2095191,CHEMBL3329082,CHEMBL3710403,CHEMBL3710408,CHEMBL3832943,CHEMBL3883289,CHEMBL3883328,CHEMBL3885559,CHEMBL3987582,CHEMBL4105703,CHEMBL4105784,CHEMBL4105911,CHEMBL4105990,CHEMBL4295729,CHEMBL4295744,CHEMBL4523597,CHEMBL4523606,CHEMBL5291509,CHEMBL6066293,CHEMBL6066383,CHEMBL6066457,CHEMBL6066876,CHEMBL6066963,CHEMBL6067094,CHEMBL6067250,CHEMBL1848,CHEMBL1927,CHEMBL2070,CHEMBL3629,CHEMBL2597,CHEMBL4024,CHEMBL2358,CHEMBL3797,CHEMBL5234,CHEMBL5315,CHEMBL5294,CHEMBL5606"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "5c448deb3b248c6b7c8c9a97517dff9eb6bb7c821aa62e101932a80675a464da": {
+    "fetched_at": "2026-10-24T00:06:18.384407+00:00",
+    "http_status": 200,
+    "payload_sha256": "a8275924c7130e05636236101b7b4aa6c1ccd59a4e8cf1691f4eb18b6dea7795",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL5869,CHEMBL2096978,CHEMBL2189163,CHEMBL3038477,CHEMBL3708585,CHEMBL3797010,CHEMBL3797012,CHEMBL3885534,CHEMBL3885539,CHEMBL3885635,CHEMBL3988631,CHEMBL4105871,CHEMBL4105899,CHEMBL4106129,CHEMBL4295815,CHEMBL4295816,CHEMBL4296010,CHEMBL4523259,CHEMBL5169275,CHEMBL5291962,CHEMBL5724913,CHEMBL5725118,CHEMBL6066055,CHEMBL6066129,CHEMBL6066579,CHEMBL6066859,CHEMBL6066861,CHEMBL6067195,CHEMBL6177909,CHEMBL6193767,CHEMBL3661,CHEMBL1075165,CHEMBL1795179,CHEMBL1795198,CHEMBL2095215,CHEMBL3301398,CHEMBL3885647,CHEMBL4295905,CHEMBL4523357,CHEMBL5169181"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "01e2ea2a9463b731fbfba8076af64e65ebdaa9153bbf93b577c6876bf9b16db5": {
+    "fetched_at": "2026-10-24T00:08:25.603398+00:00",
+    "http_status": 200,
+    "payload_sha256": "26fb7db7345bc71d22acb854a4427bf5a871ae61ea7ee3b02cea50d9b7ace8ac",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL5483084,CHEMBL6067226,CHEMBL6067457,CHEMBL6196106,CHEMBL1830,CHEMBL2334,CHEMBL2192,CHEMBL2111,CHEMBL3039,CHEMBL2089,CHEMBL1991,CHEMBL1906,CHEMBL2793,CHEMBL4337,CHEMBL2357,CHEMBL4499,CHEMBL4860,CHEMBL1795093,CHEMBL2111458,CHEMBL2111351,CHEMBL3430905,CHEMBL3559685,CHEMBL3883317,CHEMBL3885513,CHEMBL3885516,CHEMBL3885566,CHEMBL4106189,CHEMBL4296102,CHEMBL4523610,CHEMBL4523685,CHEMBL4748224,CHEMBL5169264,CHEMBL5169265,CHEMBL5291977,CHEMBL6066925,CHEMBL6066946,CHEMBL6066985,CHEMBL6066993,CHEMBL6067008,CHEMBL6067012"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "dbde516056cbcdec5eee5ba262d27b951653c417d95f39870a0d67e636ed0cf9": {
+    "fetched_at": "2026-10-24T00:08:25.990900+00:00",
+    "http_status": 200,
+    "payload_sha256": "3745facaee07572f5b5216077968942231a1489b0cf2dc326bfed39975a3a1e0",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "target_chembl_id__in": "CHEMBL6067015,CHEMBL6067057,CHEMBL6195518,CHEMBL1902,CHEMBL2430,CHEMBL1795123,CHEMBL3833061,CHEMBL4106135,CHEMBL4296081,CHEMBL4296136,CHEMBL4296145,CHEMBL4524003,CHEMBL4630734,CHEMBL5291685,CHEMBL5465550,CHEMBL6066881,CHEMBL6067539,CHEMBL6193812,CHEMBL6195574,CHEMBL6196201"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json"
+    }
+  },
+  "29278462b4381e29175c9d9e98f5f4dca5260ccc5b847fc545723d0f99e6f53f": {
+    "fetched_at": "2026-10-24T00:06:19.339601+00:00",
+    "http_status": 200,
+    "payload_sha256": "d04b41c93738a481c0956be4a221cd4351bf36fb9ec41700f8b2c7832e7e4833",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL1200826,CHEMBL2103738,CHEMBL3545097,CHEMBL4297188,CHEMBL1969664,CHEMBL1801204,CHEMBL4751394,CHEMBL3586573,CHEMBL3544963,CHEMBL3545248,CHEMBL1236962,CHEMBL494089,CHEMBL3545134,CHEMBL3545000,CHEMBL4871106,CHEMBL5095025,CHEMBL2141712,CHEMBL1258517,CHEMBL3545323,CHEMBL3545006,CHEMBL2331680,CHEMBL2326966,CHEMBL245030,CHEMBL3393066,CHEMBL2016893,CHEMBL1879463,CHEMBL3545096,CHEMBL3586404,CHEMBL2219422,CHEMBL3137336,CHEMBL362558,CHEMBL1079175,CHEMBL3545157,CHEMBL3120215,CHEMBL1234354,CHEMBL592445,CHEMBL1922094,CHEMBL2177390,CHEMBL3545366,CHEMBL462018"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "d3d86c9afa00bef804fbb9071705be3edb9d3af8596ea1475ad7349c9624261e": {
+    "fetched_at": "2026-10-24T00:06:20.177614+00:00",
+    "http_status": 200,
+    "payload_sha256": "5d476116534d2e585ed761c1edbcc9e7e20d02c78c88aa026b31270167369e53",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL4297181,CHEMBL2103839,CHEMBL197672,CHEMBL2105721,CHEMBL1334033,CHEMBL2325741,CHEMBL2336325,CHEMBL4297329,CHEMBL483465,CHEMBL3125702,CHEMBL4650277,CHEMBL4091801,CHEMBL2402737,CHEMBL1551724,CHEMBL3653256,CHEMBL571209,CHEMBL1743082,CHEMBL1742994,CHEMBL428647,CHEMBL3545252,CHEMBL1683544,CHEMBL1201748,CHEMBL107,CHEMBL1201752,CHEMBL501867,CHEMBL538943,CHEMBL378544,CHEMBL1650595,CHEMBL574737,CHEMBL2108628,CHEMBL49642,CHEMBL2103826,CHEMBL2103852,CHEMBL552212,CHEMBL2103879,CHEMBL2110725,CHEMBL289351,CHEMBL2105643,CHEMBL377559,CHEMBL2304041"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "814246b492595b368a8df07efff083a9c9e7eb65618aa1a024a1c284454beb73": {
+    "fetched_at": "2026-10-24T00:06:20.707144+00:00",
+    "http_status": 200,
+    "payload_sha256": "0c21c4e2d483155d9289d128bf86d9450e3229bc47520730c5e97cd4a86834da",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL1096380,CHEMBL3989801,CHEMBL492399,CHEMBL109480,CHEMBL3545132,CHEMBL3301582,CHEMBL4297717,CHEMBL4297935,CHEMBL4297804,CHEMBL4297859,CHEMBL4297987,CHEMBL4298045,CHEMBL4298101,CHEMBL4297938,CHEMBL3990032,CHEMBL4297841,CHEMBL4298209,CHEMBL406050,CHEMBL4297268,CHEMBL39541,CHEMBL96172,CHEMBL4297296,CHEMBL4279455,CHEMBL4297441,CHEMBL467399,CHEMBL2108585,CHEMBL3186011,CHEMBL383824,CHEMBL1214827,CHEMBL4594455,CHEMBL94657,CHEMBL4298098,CHEMBL1195136,CHEMBL1089636,CHEMBL4650293,CHEMBL2109574,CHEMBL3301589,CHEMBL1743028,CHEMBL3301585,CHEMBL2109281"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "396a4865fdb76bb7e5287d13e9ad113687280d54667356a2580d4781908233c1": {
+    "fetched_at": "2026-10-24T00:06:21.238414+00:00",
+    "http_status": 200,
+    "payload_sha256": "118cf10604556fa3a249ab021a98410bdb444c48a5efddcf9c5b4e55e0edabcb",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL2109282,CHEMBL3545372,CHEMBL3833306,CHEMBL2111109,CHEMBL252164,CHEMBL4297440,CHEMBL1743037,CHEMBL1742997,CHEMBL2109288,CHEMBL4297736,CHEMBL4297892,CHEMBL2107759,CHEMBL572284,CHEMBL3639788,CHEMBL3989512,CHEMBL4297636,CHEMBL2105629,CHEMBL92,CHEMBL4594515,CHEMBL2109266,CHEMBL2109633,CHEMBL1742998,CHEMBL2109556,CHEMBL2109286,CHEMBL5095273,CHEMBL5314782,CHEMBL2109629,CHEMBL3545371,CHEMBL3707277,CHEMBL1743031,CHEMBL2108672,CHEMBL2109635,CHEMBL5095312,CHEMBL2109575,CHEMBL2109279,CHEMBL2108184,CHEMBL2010601,CHEMBL1703,CHEMBL2103870,CHEMBL5314386"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "b54551854e17db4754eb35f23152c5ddaa101d026ab3d508c51a5c471b723091": {
+    "fetched_at": "2026-10-24T00:08:26.482386+00:00",
+    "http_status": 200,
+    "payload_sha256": "577ed478449f0eaf89e0e345a11b6aa379dac6d7dcc1ebfa2b52f870b0e71bde",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL3545135,CHEMBL4650318,CHEMBL3544914,CHEMBL2108045,CHEMBL4298128,CHEMBL20684,CHEMBL4101487,CHEMBL4297649,CHEMBL4297392,CHEMBL4297849,CHEMBL4802150,CHEMBL4297603,CHEMBL5314934,CHEMBL5483015,CHEMBL1230165,CHEMBL3544910,CHEMBL1697725,CHEMBL2109124,CHEMBL123292,CHEMBL4297789,CHEMBL256997,CHEMBL4297744,CHEMBL2108785,CHEMBL2107890,CHEMBL1743000,CHEMBL2108790,CHEMBL467,CHEMBL1750,CHEMBL1637,CHEMBL1096882,CHEMBL1200983,CHEMBL3989496,CHEMBL231616,CHEMBL1946170,CHEMBL1200485,CHEMBL536151,CHEMBL5314407,CHEMBL129857,CHEMBL3545263,CHEMBL3577124"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "a71c7976c0e1cf3b5e25108695a1a47410dea2ba02550af0de2f37c98f80aedf": {
+    "fetched_at": "2026-10-24T00:08:26.951260+00:00",
+    "http_status": 200,
+    "payload_sha256": "34d22a4c3ee3aa7de2dea074b1739d5ca1c0525a49d7f7f2344fa590f1381d7d",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL5314383,CHEMBL3348923,CHEMBL3545082,CHEMBL3545147,CHEMBL3544945,CHEMBL3545027,CHEMBL3545168,CHEMBL1762621,CHEMBL3137309,CHEMBL2107358,CHEMBL443684,CHEMBL3977543,CHEMBL4583691,CHEMBL4650374,CHEMBL1201182,CHEMBL413,CHEMBL1908360,CHEMBL1200686,CHEMBL3989887,CHEMBL3545142,CHEMBL468,CHEMBL848,CHEMBL43452,CHEMBL3989927,CHEMBL219410,CHEMBL6068337"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "681de2025514fc1b0097ba313abf1e4b96723817fc16bfc882b168e5f056f44b": {
+    "fetched_at": "2026-10-24T00:38:03.759792+00:00",
+    "http_status": 200,
+    "payload_sha256": "5e3b8d11254b30ac5ec39b9b33d9fa4ec7f9453630c665908c8df010a0d0ffc5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL1201170,CHEMBL1336,CHEMBL1431,CHEMBL159,CHEMBL1683590,CHEMBL269732,CHEMBL553025,CHEMBL75880,CHEMBL888,CHEMBL90555"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "2a472ee36c0dcd2f96b2d0d8dd5a53175dc25185b5f676e4d0eb1afcb3479934": {
+    "fetched_at": "2026-10-24T00:06:22.098873+00:00",
+    "http_status": 200,
+    "payload_sha256": "0f7f554d91a0746797c9ffa2ab0b3bfdca98e535eb52d471eb57f4de92e8d791",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1200826"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "aa434e1b876f3c34011430d21319722e089662dd65f9d91cf7f76db1d559ecca": {
+    "fetched_at": "2026-10-24T00:06:22.460577+00:00",
+    "http_status": 200,
+    "payload_sha256": "76b5da341b86f5ffa89b9ee9376495fc7e0fff5626160aef110b6f88435c3785",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2103738"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e980817c4c5e8395ef75cf9eb9dfe4edf638551b6e8d0db7446a52a9d780cac1": {
+    "fetched_at": "2026-10-24T00:06:22.934631+00:00",
+    "http_status": 200,
+    "payload_sha256": "976f8799d246de8f43335a2bdefee094daddc75630ca9a77098ffb7518e75932",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2325741"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "edbaf1f68e0cb8d15856f2bf358155f29c23d217fea5404a5ccbba97c227cd44": {
+    "fetched_at": "2026-10-24T00:06:23.322397+00:00",
+    "http_status": 200,
+    "payload_sha256": "82073e4fd5fed34e505f612330266f27bc30aebff5ecee13f18364d6755cdcfa",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1703"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e617c5a3ab750718deac1884b23101b186d240aeb4b59f6914431a6e3db355d9": {
+    "fetched_at": "2026-10-24T00:06:23.694317+00:00",
+    "http_status": 200,
+    "payload_sha256": "4ffbe459f4ccf13538d4c90ec51e5995552194c5cf5e8f472b5c2e0dcee25b3f",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2010601"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "619569922768f48d9e150bb23fa89be4a593fd5030a2d9d90f5863a2b479f381": {
+    "fetched_at": "2026-10-24T00:06:24.062557+00:00",
+    "http_status": 200,
+    "payload_sha256": "c00d00909f7aba4ee51465d73435f1f41acd68ebe162cdf9c42f95a4210dbc9f",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2103870"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "b038440ad3e52df4805b03c552fd82cc2d3aafd12050f81ee1848825a5d9d235": {
+    "fetched_at": "2026-10-24T00:06:24.429330+00:00",
+    "http_status": 200,
+    "payload_sha256": "90ae3fa7c7197d77da3cfd6ae65bdc2cfda0b7d56d3f617cca071c4b75ca5ca8",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2108184"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "f1f534691e7d1dfab5ee2e540ee2f842b54f6210ccb7e39b8c5b6e478c2bad34": {
+    "fetched_at": "2026-10-24T00:06:24.822969+00:00",
+    "http_status": 200,
+    "payload_sha256": "4fe545f783bdc91a1a8f7915a255f84fa9cfa52139007910777775e3319c0e2a",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL467"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e2729b6a286993ed9877f6a9a5fa13b2880a3490998afc70623972892f4318a8": {
+    "fetched_at": "2026-10-24T00:06:25.206097+00:00",
+    "http_status": 200,
+    "payload_sha256": "57b3b2b4ab3cb585f88bdf306aaea5847763ce2ad1fa006d7beae9ee03c1c44a",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1637"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "8b93f241e3541bb541403cbf4fc151fc649c592abd341df5f522bdb81b7ef3fb": {
+    "fetched_at": "2026-10-24T00:06:25.588929+00:00",
+    "http_status": 200,
+    "payload_sha256": "d33e4f38d3fecd354f3b8f4c7921c6cb21039b9d7abf6a1063f23df984687acc",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1750"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "9c148b5f3a03b3575bf35f393f2c182922156c9f3ac1bed34df85f1da98e12bf": {
+    "fetched_at": "2026-10-24T00:06:25.968290+00:00",
+    "http_status": 200,
+    "payload_sha256": "952dfd55d662e3426037d0e72fbdba97cec3c73d87147ce1a05a008cd56e5e37",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1096882"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "d51505039337b53203c148552fc2b19bf6b9825a77d6085d2567b4de477fef0b": {
+    "fetched_at": "2026-10-24T00:08:27.368579+00:00",
+    "http_status": 200,
+    "payload_sha256": "5674ed6239a80aa3edd63073c4142fe3c68d7a0704e2c325d1f3a2a29b595747",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1200485"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "7cb5439005bfab6eac8a42fd0200dbe74456c21fd9fba87b66a7ac6e93e3d34c": {
+    "fetched_at": "2026-10-24T00:06:26.548523+00:00",
+    "http_status": 200,
+    "payload_sha256": "1257a5f851ec9619bb682637c0da283c9e0dd59750df035b5f5218b9d8314cce",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1200983"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "6f16d06d89fe292e7916a7beb8f2e08cd6bba172cb638d9ee89611c8eb0e7c47": {
+    "fetched_at": "2026-10-24T00:06:26.933152+00:00",
+    "http_status": 200,
+    "payload_sha256": "60a2478188549fc70c8b4b67405abd9bb9863343c97842423cb06efc6c637f39",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1697725"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e73d5f6c8cec1fbd322ada8b592bf7439eb925296636a2c7d269595be99e92a1": {
+    "fetched_at": "2026-10-24T00:08:27.865429+00:00",
+    "http_status": 200,
+    "payload_sha256": "7012122474afbb02418c2d187ee5e18b30edaa51d1d226cf02dd8cec913ff0d6",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1946170"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "b61607bdac34e3e88b91e928f48e072f2a6aa15f30f7734e9c33910e40d18d99": {
+    "fetched_at": "2026-10-24T00:06:27.329896+00:00",
+    "http_status": 200,
+    "payload_sha256": "175a7a7cef804f919133f15e33ee7e2bab9df290bfed0c07a7d052f2ee2538a5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3544914"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "f4b306ca3223a5a53ae632314eb539a209b088e49b3a4503c32be10226aa9b6d": {
+    "fetched_at": "2026-10-24T00:06:27.713402+00:00",
+    "http_status": 200,
+    "payload_sha256": "11fc2cff1a0885d804c31423a5a051ced1845de939bc7f073e4c5c959896bcfe",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL4297603"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "650174ac80ddd8dc8ef6d5c44932a3fab634f5f29e31f63fd27d1f2387cb631c": {
+    "fetched_at": "2026-10-24T00:06:28.081427+00:00",
+    "http_status": 200,
+    "payload_sha256": "2b9d6b5ecc2498bbc2e3b5e92d3e987103500420613939db46d498a715da0298",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL4298128"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "97ed56517ff046869069a2e807004249b223ac336dfa66a7ff4199b423f6b8b7": {
+    "fetched_at": "2026-10-24T00:06:28.443010+00:00",
+    "http_status": 200,
+    "payload_sha256": "db10bb1d294b19a3390e9fc0fc7b23a9b2de0a1afb1acac42605a762b9c696be",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL5314934"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "176257cbdf34a99f9e83eb00d2806309d59688278e3d7ea18bf6ba7d9358734e": {
+    "fetched_at": "2026-10-24T00:06:28.823855+00:00",
+    "http_status": 200,
+    "payload_sha256": "029e815ce578926a569a5e74d2e70f7a9db578f8608436ba63c2ec60daa817bb",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL5483015"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "7cca314c031db4b431362fe016eb8b78c892b2b7ebb288c5ee95fd67a2e2aa01": {
+    "fetched_at": "2026-10-24T00:08:28.620361+00:00",
+    "http_status": 200,
+    "payload_sha256": "4216a4a303603002e75e6bb825dc5e35ad2303ba825129526b60b46c914e2447",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL413"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "f01ab9e8a6d4a6cbd8c54f4e83e4fe75b7969cf039fdbd5d27d864085b48c8f5": {
+    "fetched_at": "2026-10-24T00:08:29.009396+00:00",
+    "http_status": 200,
+    "payload_sha256": "89b8e7116046d0cce1ed61891b73492dfa21c84550e9515594a9c6e3380e712a",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL43452"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "330e354f9d341313103688c37eeb1049723b4ea9a607fa5c9f8c335051c33184": {
+    "fetched_at": "2026-10-24T00:08:29.394987+00:00",
+    "http_status": 200,
+    "payload_sha256": "c77659069dc032baa1826b01f9cc824bc1640c8cc1489414a552b0c8a252c8dc",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL848"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "2849ca8cc40f1e88316cfcd875310fe7308c47a1c5441dea06e6f3c54469a250": {
+    "fetched_at": "2026-10-24T00:08:29.775135+00:00",
+    "http_status": 200,
+    "payload_sha256": "64e3c817183d5e973b302d1d4577113da318ac9607ff367c661c1df4e0e55eeb",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1200686"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "30a86c14eae0f2f3a8f07606acde42e2eb123ae3291a304ba9860cf0fe550440": {
+    "fetched_at": "2026-10-24T00:08:30.265373+00:00",
+    "http_status": 200,
+    "payload_sha256": "ec1b254ebbeaa30830224032f117215467c159b46b58e19bbd80eae4fa7b54e9",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1201182"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "182d981047c2c525e9cb22ae56854baa4e2b2d3a0c7cb3f67800a6540bc989ac": {
+    "fetched_at": "2026-10-24T00:08:30.670174+00:00",
+    "http_status": 200,
+    "payload_sha256": "6524054e0552038ee50ead0ecac916c24e2215f630ad1548d001ca54fbc79db0",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL1908360"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "5b9de8389c97c37f27927e790d4b5cee0a66c51b212caf1e4bac83e1fb7084b8": {
+    "fetched_at": "2026-10-24T00:08:31.052630+00:00",
+    "http_status": 200,
+    "payload_sha256": "86ae0b6bb06314f17938b6ad797b90cd021e660edb66054812fa25934cf62d3c",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3137309"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "418ed2f8b9f94e66ed3a75825c8b17be1d272affbeb7764529b3197c1fd68fd4": {
+    "fetched_at": "2026-10-24T00:08:31.417679+00:00",
+    "http_status": 200,
+    "payload_sha256": "23a683d32754c72eff878dd38953ccef00908a170b3545c792fc79a6fd377eac",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3348923"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "21e1e73d80a9e0523b72e6fe5869e767db1ca4e2a5ff76744203f030377ad05d": {
+    "fetched_at": "2026-10-24T00:08:31.788592+00:00",
+    "http_status": 200,
+    "payload_sha256": "6fc947ce30ea97cb45401c5628160e2fc16ebbecc1048f9c17aeb3fa2cb8ffe5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL3989887"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "1e3c941fbb2010ba0a600de5a800af38a8de069abf78e10a833710fef596dafb": {
+    "fetched_at": "2026-10-24T00:08:32.168308+00:00",
+    "http_status": 200,
+    "payload_sha256": "b3b639338767b33f0d31c292654400fe40a886eef1eeaebcf0b3d9ae431cdd50",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL6068337"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  }
+}

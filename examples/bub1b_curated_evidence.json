@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "curation": {
+    "assessment_origin": "External ChatGPT Pro literature report supplied by Carson; transferred with explicit missing-bridge review by the computational agent",
+    "weights": {
+      "G": 6,
+      "E": 5,
+      "S": 4,
+      "F": 3,
+      "N": 2
+    },
+    "component_meanings": {
+      "G": "conditional genotype fit",
+      "E": "disease-applicable efficacy evidence, capped for indirect bridges",
+      "S": "author judgment of pediatric/cancer suitability, not a safety gate",
+      "F": "feasibility judgment for a decisive first experiment",
+      "N": "novelty judgment, not efficacy"
+    },
+    "source_document_sha256": {
+      "BUB1B_MVA_Track2.md": "bf6ab06d7134ddcf85a28df78789a29aea1cfcf8e12b47c884deca3b586111d8",
+      "PIPELINE_SPEC.md": "d4de53f47cb63c9a16ed353013a4696e314674f3d0d15ca7d24676aa1f7bcf21",
+      "CLAIM_AUDIT.md": "f4634fe7781f55038bdc8073977a70e358a029772580cb85f7a63d6820b5239d"
+    },
+    "warning": "Scores are externally judged laboratory priorities, not algorithmic predictions or efficacy probabilities; all exact-genotype rescue and clinical gates are unknown.",
+    "applicable_variants": [
+      "ENST00000287598.11:c.2210T>G",
+      "ENST00000287598.11:c.3006T>G"
+    ],
+    "scenario": "Working trans hypothesis; cis remains unresolved and changes the allele-rescue premise",
+    "selection_warning": "One-point component changes can alter ordering. Arimoclomol and azithromycin are co-leads for an experiment, not proven superior treatments",
+    "convergence_note": "No positive independent computational rescue line; stability and LINCS screens supply no rescue bonus"
+  },
+  "evidence": [
+    {
+      "gene": "BUB1B",
+      "drug": "ARIMOCLOMOL",
+      "display_name": "Arimoclomol",
+      "drug_aliases": [
+        "arimoclomol"
+      ],
+      "direction": "hypothesis",
+      "evidence_score": 0,
+      "pmids": [
+        "20516114",
+        "24853414",
+        "17889646",
+        "34481829"
+      ],
+      "assessed_components": {
+        "G": 2,
+        "E": 1,
+        "S": 3,
+        "F": 4,
+        "N": 4
+      },
+      "evidence_applicability": "indirect_or_analogous_protein",
+      "proposed_path": [
+        {
+          "edge": "arimoclomol \u2192 augmented stress/chaperone response in an opsin model",
+          "status": "observed_analogous_protein",
+          "pmids": [
+            "24853414"
+          ]
+        },
+        {
+          "edge": "augmented chaperone response \u2192 useful N1002K BubR1 \u2192 fewer segregation errors",
+          "status": "untested_hypothesis",
+          "pmids": []
+        }
+      ],
+      "missing_bridges": [
+        "No demonstrated arimoclomol-to-functional-BubR1 rescue",
+        "N1002K abundance, per-molecule activity and phase remain unmeasured",
+        "A protein-quantity strategy requires enough residual useful protein; computational stability methods do not establish major destabilization",
+        "Feasible free exposure and RMS safety in the exact genotype remain unverified"
+      ],
+      "contrary_evidence": [
+        {
+          "claim": "Arimoclomol did not correct cholesterol storage in one NPC1 fibroblast context; responses are context dependent",
+          "pmids": [
+            "34481829"
+          ]
+        },
+        {
+          "claim": "HSF1 can support malignant survival; this is a counter-screen rationale, not proof that arimoclomol causes RMS",
+          "pmids": [
+            "17889646"
+          ]
+        }
+      ],
+      "next_experiment": "Compare matched-expression WT and N1002K cells; measure protein half-life, MCC/attachment function and errors per completed division, with an RMS counter-screen at justified exposure."
+    },
+    {
+      "gene": "BUB1B",
+      "drug": "AZITHROMYCIN",
+      "display_name": "Azithromycin",
+      "drug_aliases": [
+        "azithromycin"
+      ],
+      "direction": "hypothesis",
+      "evidence_score": 0,
+      "pmids": [
+        "26620677",
+        "34066907"
+      ],
+      "assessed_components": {
+        "G": 3,
+        "E": 1,
+        "S": 2,
+        "F": 3,
+        "N": 4
+      },
+      "evidence_applicability": "indirect_or_analogous_protein",
+      "proposed_path": [
+        {
+          "edge": "macrolide exposure \u2192 PTC bypass/protein restoration in analogous experimental systems",
+          "status": "observed_analogous_genes",
+          "pmids": [
+            "26620677",
+            "34066907"
+          ]
+        },
+        {
+          "edge": "azithromycin \u2192 Leu737Ter readthrough \u2192 functional full-length BubR1 \u2192 fewer segregation errors",
+          "status": "untested_hypothesis",
+          "pmids": []
+        }
+      ],
+      "missing_bridges": [
+        "No demonstrated BUB1B or exact-genotype readthrough rescue",
+        "NMD may remove allele-A RNA; readthrough may insert an unsuitable amino acid at 737",
+        "Analogous protein signals do not establish allele-specific readthrough at clinically attainable free exposure",
+        "Chronic antibacterial stewardship, QT/hepatic/hearing risk and RMS compatibility remain unresolved"
+      ],
+      "contrary_evidence": [
+        {
+          "claim": "Non-aminoglycoside PTC responses are weaker/context dependent in another reporter study",
+          "pmids": [
+            "34066907"
+          ]
+        }
+      ],
+      "next_experiment": "Use endogenous NMD-competent Leu737Ter cells; quantify allele-A RNA and allele-resolved full-length product, then segregation errors with normal-stop, proliferation and mitochondrial controls."
+    },
+    {
+      "gene": "BUB1B",
+      "drug": "NIACIN",
+      "display_name": "Prescription nicotinic acid (niacin)",
+      "drug_aliases": [
+        "niacin",
+        "nicotinic acid",
+        "nicotinic acid / niacin"
+      ],
+      "direction": "hypothesis",
+      "evidence_score": 0,
+      "pmids": [
+        "32386566",
+        "24825348",
+        "25285631",
+        "25341037"
+      ],
+      "assessed_components": {
+        "G": 3,
+        "E": 1,
+        "S": 2,
+        "F": 2,
+        "N": 3
+      },
+      "evidence_applicability": "indirect_or_analogous_protein",
+      "proposed_path": [
+        {
+          "edge": "niacin \u2192 increased NAD in adults with mitochondrial myopathy",
+          "status": "observed_other_disease",
+          "pmids": [
+            "32386566"
+          ]
+        },
+        {
+          "edge": "SIRT2/NAD regulation \u2192 BubR1 abundance; NMN and SIRT2 transgene were the separate tested interventions",
+          "status": "observed_distinct_interventions",
+          "pmids": [
+            "24825348"
+          ]
+        },
+        {
+          "edge": "prescription niacin \u2192 balanced K668/K250 regulation \u2192 useful N1002K BubR1 \u2192 fewer segregation errors",
+          "status": "untested_hypothesis",
+          "pmids": []
+        }
+      ],
+      "missing_bridges": [
+        "No demonstrated prescription-niacin-to-functional-BubR1 or MVA rescue",
+        "Niacin, nicotinamide, NR and NMN are different interventions; transgene survival evidence is not niacin efficacy",
+        "Net SIRT2 effects at K668 and K250, baseline NAD sufficiency and N1002K rescue remain unknown",
+        "Pediatric ER formulation, free exposure, hepatic/metabolic safety and RMS direction remain unresolved"
+      ],
+      "contrary_evidence": [
+        {
+          "claim": "SIRT2 also deacetylates BubR1 K250; simple stability direction is incomplete",
+          "pmids": [
+            "25285631"
+          ]
+        },
+        {
+          "claim": "SIRT1/SIRT2 expression supports RMS cell survival in a cell study; NAD enhancement is not established cancer protective",
+          "pmids": [
+            "25341037"
+          ]
+        }
+      ],
+      "next_experiment": "Measure NAD, SIRT2 dependence, K668/K250 acetylation, allele-resolved useful protein and errors per division; require a matched RMS safety counter-screen."
+    }
+  ]
+}

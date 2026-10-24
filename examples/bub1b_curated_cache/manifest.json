@@ -1,0 +1,272 @@
+{
+  "a10bad4eff699e9d1693f64e7fd1162e82c36ef1e1a894dd0f365783ecbcdcf5": {
+    "fetched_at": "2026-10-24T01:07:08.936781+00:00",
+    "http_status": 200,
+    "payload_sha256": "ebde5e4fa01d341653be7e6295381b6fef366bb1986cb25534806420849c931c",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:20516114 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "1940eac163299bfd1d458b7af1d0f8eefa1098b1954276488cfdd6bb20da8f9b": {
+    "fetched_at": "2026-10-24T01:07:09.243783+00:00",
+    "http_status": 200,
+    "payload_sha256": "027d5509c2dd9d1a2254ad619fbfe9ce5d788777171cca7f6e7aafcc816c3de9",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:24853414 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "ea098348fd520d17f957c47cf66c4a743813c2700bcb31a8c0372de5b12956f1": {
+    "fetched_at": "2026-10-24T01:07:09.554002+00:00",
+    "http_status": 200,
+    "payload_sha256": "fcbef7e0369bfe91d4dc113385d3c7650259e27581e20ee53e8afa5200bc9d44",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:17889646 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "986291778a4f79cedd21c6fd0d27caf95e3c084bb3d01942e47e1d196cc6c335": {
+    "fetched_at": "2026-10-24T01:07:09.896810+00:00",
+    "http_status": 200,
+    "payload_sha256": "c20b5415610734c12d7fc2aec000673a7922a43f6062a4bfc3862ca13412ac41",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:34481829 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "a69ece8f00254f7f2b297f16fdaf16da49d342de1f2e3c0a1f63690004e28e2f": {
+    "fetched_at": "2026-10-24T01:07:10.284705+00:00",
+    "http_status": 200,
+    "payload_sha256": "7d2889fc6c90aa64bf8587132b2c76b6a335cbeb7306feb39b71a3d1842a5673",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:26620677 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "a770067fed2a8a08b59dfc2c78f0337554f703099dd62b33a0ce406546712dff": {
+    "fetched_at": "2026-10-24T01:07:10.608010+00:00",
+    "http_status": 200,
+    "payload_sha256": "1dc94f367a350d81ed48663f001dc5a12fda163ac5519815c2d028b0af985f48",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:34066907 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "281d3f44ef1ee6c58e18bb65a3cc45ec01e84c351fb295e5eaa60b1f7b13f78a": {
+    "fetched_at": "2026-10-24T01:07:10.987038+00:00",
+    "http_status": 200,
+    "payload_sha256": "ce2b18451c92f309e44f68074c7b0763faae4c37c27e7c4a559125ba73035050",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:32386566 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "6f4c01235a638b0794dd7f2c9f8def3e08a7e14749f78423c491aaae63a72bc3": {
+    "fetched_at": "2026-10-24T01:07:11.385591+00:00",
+    "http_status": 200,
+    "payload_sha256": "ef561ddd4ef2786a7f16645504baa24c920cd748faf3077f99856f87dbb61d6b",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:24825348 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "e9e3e671544b2f97eb2049dd53da0b17581bb3fd6df2f880d0648049578873e1": {
+    "fetched_at": "2026-10-24T01:07:11.786851+00:00",
+    "http_status": 200,
+    "payload_sha256": "3db63175bb9d92eeca3b7ed14ff7bcd899eda569122c36fc1625fc8fe243bb5f",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:25285631 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "2496cb0dccec470b738ca535aae43c1d23652ddf5d2a23505dbd7706811682eb": {
+    "fetched_at": "2026-10-24T01:07:12.599618+00:00",
+    "http_status": 200,
+    "payload_sha256": "79f8e9527c8c598f23ff1415f45801ee8916a0a525ee4aa9190b422376ce8de0",
+    "request": {
+      "body": null,
+      "params": {
+        "format": "json",
+        "query": "EXT_ID:25341037 AND SRC:MED",
+        "resultType": "lite"
+      },
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+    }
+  },
+  "6ea95c0bebbe94356b2ba5f21cac416630772357ad2fee1f8d17fd2fc7d47b53": {
+    "fetched_at": "2026-10-24T01:07:14.903502+00:00",
+    "http_status": 200,
+    "payload_sha256": "3c0d51a4676e70ea20990b28b236fbba78600c985282aafe50ea737eb50a9f73",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "pref_name__iexact": "arimoclomol"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "a93a77d5d02ee62173dfc54b802e93d54480ed0f2be07b65400c26893dfce049": {
+    "fetched_at": "2026-10-24T01:07:16.995047+00:00",
+    "http_status": 200,
+    "payload_sha256": "8d1afbbf602cd5396e42ae46cf3e66f6bff00e663bfbe01bc410ce637a4b6a27",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "pref_name__iexact": "azithromycin"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "bb251817f837c872f147531220f25173786844e3d82ca4dd2681247d8d9e0c24": {
+    "fetched_at": "2026-10-24T01:07:19.239961+00:00",
+    "http_status": 200,
+    "payload_sha256": "1cb5b432674d2b31ba653c94ee6d36c9280c93d4b9e4b6960c6c8d3af15e06e5",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "pref_name__iexact": "niacin"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "f749bdf86c9773755252b9dac6ad2d3c3a043c6ada8896cfed877a7544841227": {
+    "fetched_at": "2026-10-24T01:07:20.913269+00:00",
+    "http_status": 200,
+    "payload_sha256": "84be1a153a62d088849cbb5c45905397b5d779261a388a75af1ebaa0a2168999",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id__in": "CHEMBL574737,CHEMBL3545110,CHEMBL3707266,CHEMBL4650272,CHEMBL4297644,CHEMBL2107726,CHEMBL529,CHEMBL573"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json"
+    }
+  },
+  "e18f3b882474dfc94eccc6c94f7257d6467fcf02b4a761848b2c779e6553b6f5": {
+    "fetched_at": "2026-10-24T01:07:22.510134+00:00",
+    "http_status": 200,
+    "payload_sha256": "602a82ac514beac303a34ef08402b328d75749672c019b245ff42560e5194ba8",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL529"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "31f99dd5ca51c4f195ac4cfb82f241a25de72bfa18ad368a1240d8c12ecdbc38": {
+    "fetched_at": "2026-10-24T01:07:23.890421+00:00",
+    "http_status": 200,
+    "payload_sha256": "cf799be26ff24b5128ee1ddab7675baf0ebf99ca3cd7e3943decef4e4f2bed83",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL573"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "e771fbfb31f0fcce5ca8c71470556a5ab96425fcbffcd89c16fce0fe845fbe07": {
+    "fetched_at": "2026-10-24T01:07:24.610184+00:00",
+    "http_status": 200,
+    "payload_sha256": "648ca6d39cd3a4ef3837a9f3658b8543d9d885127f08a77b84ba5b590a67446e",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1000,
+        "molecule_chembl_id": "CHEMBL2107726"
+      },
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json"
+    }
+  },
+  "1d59d7e11a3fbae3087098d42609bb1ac96b4790b0c8a47a4a37322e7d9756e1": {
+    "fetched_at": "2026-10-24T01:13:46.250652+00:00",
+    "http_status": 200,
+    "payload_sha256": "29b5dfd0f0a87fcefa6931bd87400fbce6c892c65380908feeab51ce47d2ad49",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1,
+        "search": "application_number:\"NDA214927\""
+      },
+      "url": "https://api.fda.gov/drug/drugsfda.json"
+    }
+  },
+  "52d6ff7d7db92e9f0f41a9773cf83be5ab36b10a7495b593eb60ab156257d0ac": {
+    "fetched_at": "2026-10-24T01:13:46.752444+00:00",
+    "http_status": 200,
+    "payload_sha256": "5b499e8d6973fadab34fdf92d7a5f4f141f06442966b249a3393a19aa3e7a4bc",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1,
+        "search": "application_number:\"ANDA203899\""
+      },
+      "url": "https://api.fda.gov/drug/drugsfda.json"
+    }
+  },
+  "e8b8b93ff482fb32fee7c8b380709361ad5010fc723026ec423d646c2fa5360a": {
+    "fetched_at": "2026-10-24T01:13:46.507011+00:00",
+    "http_status": 200,
+    "payload_sha256": "6a332b8db11875b35554e373e9de840107653e157cd4a07a9aa9b83bb1759c4b",
+    "request": {
+      "body": null,
+      "params": {
+        "limit": 1,
+        "search": "application_number:\"NDA050710\""
+      },
+      "url": "https://api.fda.gov/drug/drugsfda.json"
+    }
+  }
+}

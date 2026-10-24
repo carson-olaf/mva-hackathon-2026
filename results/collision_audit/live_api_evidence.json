@@ -1,0 +1,466 @@
+{
+  "retrieved_utc": "2026-10-24T16:43:58.687964+00:00",
+  "confirmed_live_identity_conflicts": [
+    {
+      "assigned_gene": "ADAMTSL4-AS1",
+      "correct_gene": "MCL1",
+      "source_target_id": "2847",
+      "drug": "VENETOCLAX",
+      "drug_concept_id": "rxcui:1747556"
+    },
+    {
+      "assigned_gene": "ADAMTSL4-AS1",
+      "correct_gene": "MCL1",
+      "source_target_id": "2847",
+      "drug": "AZD5991",
+      "drug_concept_id": "iuphar.ligand:11783"
+    },
+    {
+      "assigned_gene": "ADAMTSL4-AS1",
+      "correct_gene": "MCL1",
+      "source_target_id": "2847",
+      "drug": "OBATOCLAX",
+      "drug_concept_id": "ncit:C60770"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "MARDEPODECT",
+      "drug_concept_id": "ncit:C170150"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "PDE4 INHIBITOR 16",
+      "drug_concept_id": "iuphar.ligand:10400"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "PBF-999",
+      "drug_concept_id": "iuphar.ligand:13188"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "COMPOUND 19 [PMID: 22142545]",
+      "drug_concept_id": "iuphar.ligand:8758"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "TC-E 5005",
+      "drug_concept_id": "iuphar.ligand:11625"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "COMPOUND 27 [PMID: 22142545]",
+      "drug_concept_id": "iuphar.ligand:8757"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "PAPAVERINE",
+      "drug_concept_id": "rxcui:7895"
+    },
+    {
+      "assigned_gene": "LINC00473",
+      "correct_gene": "PDE10A",
+      "source_target_id": "1310",
+      "drug": "MK-8189",
+      "drug_concept_id": "iuphar.ligand:12323"
+    }
+  ],
+  "sentinels": [
+    {
+      "hgnc": "hgnc:1149",
+      "name": "BUB1B",
+      "total_interactions": 1,
+      "gtop_interactions": []
+    },
+    {
+      "hgnc": "hgnc:1148",
+      "name": "BUB1",
+      "total_interactions": 6,
+      "gtop_interactions": [
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 2-13-1 [PMID: 24900824]",
+            "conceptId": "iuphar.ligand:8112"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 2-3-1 [PMID: 24900824]",
+            "conceptId": "iuphar.ligand:8111"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "BAY-524",
+            "conceptId": "iuphar.ligand:9127"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 2-3-2 [PMID: 24900824]",
+            "conceptId": "iuphar.ligand:8110"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 2-1-1 [PMID: 24900824]",
+            "conceptId": "iuphar.ligand:8109"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "BAY-320",
+            "conceptId": "iuphar.ligand:9126"
+          },
+          "publications": []
+        }
+      ]
+    },
+    {
+      "hgnc": "hgnc:32041",
+      "name": "ADAMTSL4-AS1",
+      "total_interactions": 102,
+      "gtop_interactions": [
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Drug Repurposing Hub"
+            },
+            {
+              "fullName": "Therapeutic Target Database"
+            },
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "AZD5991",
+            "conceptId": "iuphar.ligand:11783"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Drug Repurposing Hub"
+            },
+            {
+              "fullName": "Therapeutic Target Database"
+            },
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "OBATOCLAX",
+            "conceptId": "ncit:C60770"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "VENETOCLAX",
+            "conceptId": "rxcui:1747556"
+          },
+          "publications": []
+        }
+      ]
+    },
+    {
+      "hgnc": "hgnc:21160",
+      "name": "LINC00473",
+      "total_interactions": 15,
+      "gtop_interactions": [
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "The ChEMBL Bioactivity Database"
+            },
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "PBF-999",
+            "conceptId": "iuphar.ligand:13188"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Drug Repurposing Hub"
+            },
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "PAPAVERINE",
+            "conceptId": "rxcui:7895"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 27 [PMID: 22142545]",
+            "conceptId": "iuphar.ligand:8757"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "TC-E 5005",
+            "conceptId": "iuphar.ligand:11625"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "COMPOUND 19 [PMID: 22142545]",
+            "conceptId": "iuphar.ligand:8758"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "PDE4 INHIBITOR 16",
+            "conceptId": "iuphar.ligand:10400"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "MK-8189",
+            "conceptId": "iuphar.ligand:12323"
+          },
+          "publications": []
+        },
+        {
+          "interactionTypes": [
+            {
+              "type": "inhibitor"
+            }
+          ],
+          "sources": [
+            {
+              "fullName": "Drug Repurposing Hub"
+            },
+            {
+              "fullName": "Guide to Pharmacology"
+            }
+          ],
+          "drug": {
+            "name": "MARDEPODECT",
+            "conceptId": "ncit:C170150"
+          },
+          "publications": []
+        }
+      ]
+    },
+    {
+      "hgnc": "hgnc:6943",
+      "name": null,
+      "total_interactions": null,
+      "gtop_interactions": []
+    },
+    {
+      "hgnc": "hgnc:8772",
+      "name": null,
+      "total_interactions": null,
+      "gtop_interactions": []
+    }
+  ],
+  "scope": "Only listed Guide to Pharmacology edges are adjudicated; other returned source edges are not counted as errors.",
+  "inputs": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8900233%20OR%20EXT_ID%3A8301582%20OR%20EXT_ID%3A34355529%20OR%20EXT_ID%3A12049493%20OR%20EXT_ID%3A29031075%20OR%20EXT_ID%3A20633576%20OR%20EXT_ID%3A27085897%20OR%20EXT_ID%3A16244177%20OR%20EXT_ID%3A15102696%20OR%20EXT_ID%3A32106752%20OR%20EXT_ID%3A29654216&format=json&resultType=core&pageSize=100",
+      "request_body": null,
+      "filename": "case_publications.json",
+      "retrieved_utc": "2026-10-24T16:53:28.279218+00:00",
+      "complete": true,
+      "received_bytes": 92807,
+      "status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A8900233%20OR%20EXT_ID%3A8301582%20OR%20EXT_ID%3A34355529%20OR%20EXT_ID%3A12049493%20OR%20EXT_ID%3A29031075%20OR%20EXT_ID%3A20633576%20OR%20EXT_ID%3A27085897%20OR%20EXT_ID%3A16244177%20OR%20EXT_ID%3A15102696%20OR%20EXT_ID%3A32106752%20OR%20EXT_ID%3A29654216&format=json&resultType=core&pageSize=100",
+      "content_type": "application/json;charset=UTF-8",
+      "last_modified": null,
+      "etag": null,
+      "sha256": "5e9e84065e981c7c8f452ce524ac7adc12314f5b692470ba45a1f3fe62cf009a"
+    },
+    {
+      "url": "https://dgidb.org/api/graphql",
+      "request_body": {
+        "query": "{g0:gene(conceptId:\"hgnc:1149\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}g1:gene(conceptId:\"hgnc:1148\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}g2:gene(conceptId:\"hgnc:32041\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}g3:gene(conceptId:\"hgnc:21160\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}g4:gene(conceptId:\"hgnc:6943\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}g5:gene(conceptId:\"hgnc:8772\"){name interactions{interactionTypes{type} sources{fullName} drug{name conceptId} publications{pmid}}}}"
+      },
+      "filename": "dgidb_live_sentinels.json",
+      "retrieved_utc": "2026-10-24T16:43:58.687964+00:00",
+      "complete": true,
+      "received_bytes": 22948,
+      "status": 200,
+      "final_url": "https://dgidb.org/api/graphql",
+      "content_type": "application/json; charset=utf-8",
+      "last_modified": null,
+      "etag": "W/\"44f4b0814340aa8c38b791c97804050d\"",
+      "sha256": "44f4b0814340aa8c38b791c97804050dbca5c27765429764f3741c46854bca33"
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+orpha,disease,disorder_group,affected_genes,unique_wrong_gene_ligand_pairs,unique_approved_flag_gene_ligand_pairs,unique_approved_flag_ligands,unique_approved_flag_normalized_drugs,approved_flag_pairs_without_normalized_drug,approved_flag_ligand_names
+388,Hirschsprung disease,Disorder,ABCD1|ATP7A|ERBB2|ERBB3,86,42,42,41,0,AMISULPRIDE|APOMORPHINE|ARIPIPRAZOLE LAUROXIL|ASENAPINE|BENPERIDOL|BENZQUINAMIDE|BLONANSERIN|BREXPIPRAZOLE|BROMOCRIPTINE|CABERGOLINE|CARIPRAZINE|CHLORPROMAZINE|CHLORPROTHIXENE|CLOZAPINE|DOMPERIDONE|DOPAMINE|FLUPENTHIXOL|FLUPHENAZINE HYDROCHLORIDE|HALOPERIDOL DECANOATE|LISURIDE|LOXAPINE|LUMATEPERONE|MESORIDAZINE|OLANZAPINE|PEROSPIRONE|PERPHENAZINE|PIMOZIDE|PIPOTHIAZINE|PRAMIPEXOLE|PROCHLORPERAZINE|PROMAZINE|QUETIAPINE FUMARATE|RISPERIDONE|ROPINIROLE|ROTIGOTINE|SULPIRIDE|TERGURIDE|TRIFLUOPERAZINE|VILAZODONE HYDROCHLORIDE|ZIPRASIDONE|ZOTEPINE
+139396,X-linked cerebral adrenoleukodystrophy,Subtype of disorder,ABCD1,78,42,42,41,0,AMISULPRIDE|APOMORPHINE|ARIPIPRAZOLE LAUROXIL|ASENAPINE|BENPERIDOL|BENZQUINAMIDE|BLONANSERIN|BREXPIPRAZOLE|BROMOCRIPTINE|CABERGOLINE|CARIPRAZINE|CHLORPROMAZINE|CHLORPROTHIXENE|CLOZAPINE|DOMPERIDONE|DOPAMINE|FLUPENTHIXOL|FLUPHENAZINE HYDROCHLORIDE|HALOPERIDOL DECANOATE|LISURIDE|LOXAPINE|LUMATEPERONE|MESORIDAZINE|OLANZAPINE|PEROSPIRONE|PERPHENAZINE|PIMOZIDE|PIPOTHIAZINE|PRAMIPEXOLE|PROCHLORPERAZINE|PROMAZINE|QUETIAPINE FUMARATE|RISPERIDONE|ROPINIROLE|ROTIGOTINE|SULPIRIDE|TERGURIDE|TRIFLUOPERAZINE|VILAZODONE HYDROCHLORIDE|ZIPRASIDONE|ZOTEPINE
+139399,Adrenomyeloneuropathy,Subtype of disorder,ABCD1,78,42,42,41,0,AMISULPRIDE|APOMORPHINE|ARIPIPRAZOLE LAUROXIL|ASENAPINE|BENPERIDOL|BENZQUINAMIDE|BLONANSERIN|BREXPIPRAZOLE|BROMOCRIPTINE|CABERGOLINE|CARIPRAZINE|CHLORPROMAZINE|CHLORPROTHIXENE|CLOZAPINE|DOMPERIDONE|DOPAMINE|FLUPENTHIXOL|FLUPHENAZINE HYDROCHLORIDE|HALOPERIDOL DECANOATE|LISURIDE|LOXAPINE|LUMATEPERONE|MESORIDAZINE|OLANZAPINE|PEROSPIRONE|PERPHENAZINE|PIMOZIDE|PIPOTHIAZINE|PRAMIPEXOLE|PROCHLORPERAZINE|PROMAZINE|QUETIAPINE FUMARATE|RISPERIDONE|ROPINIROLE|ROTIGOTINE|SULPIRIDE|TERGURIDE|TRIFLUOPERAZINE|VILAZODONE HYDROCHLORIDE|ZIPRASIDONE|ZOTEPINE
+33364,Trichothiodystrophy,Disorder,AARS1|CARS1|ERCC2|ERCC3,102,29,29,29,0,ACETYLDIGITOXIN|ACLIDINIUM|AMITRIPTYLINE HYDROCHLORIDE|ATROPINE|BETHANECHOL|BIPERIDEN|CARBAMOYLCHOLINE|CEVIMELINE|COBIMETINIB|DARIFENACIN|DICYCLOMINE HYDROCHLORIDE|DIGOXIN|DOTHIEPIN|GLYCOPYRRONIUM|IPRATROPIUM CATION|MEPENZOLATE|OXYBUTYNIN|OXYPHENONIUM|PILOCARPINE HYDROCHLORIDE|PIRENZEPINE|PROPANTHELINE|REVEFENACIN|SCOPOLAMINE|SOLIFENACIN|TIOTROPIUM|TOLTERODINE|TROPICAMIDE|UMECLIDINIUM BROMIDE|XANOMELINE
+643503,Marfanoid habitus-facial dysmorphism-skeletal abnormality-heart defect syndrome,Disorder,ABL1,51,27,27,27,0,APOMORPHINE|APRACLONIDINE|ATROPINE|BRIMONIDINE|BROMOCRIPTINE|CABERGOLINE|CHLORPROMAZINE|CLONIDINE HYDROCHLORIDE|DEXMEDETOMIDINE HYDROCHLORIDE|EPINEPHRINE|GUANABENZ|GUANFACINE HYDROCHLORIDE|LISURIDE|LOFEXIDINE|LURASIDONE HYDROCHLORIDE|MIRTAZAPINE|MOXONIDINE|NAPHAZOLINE|NOREPINEPHRINE|OXYMETAZOLINE HYDROCHLORIDE|PHENTOLAMINE|PRAZOSIN|RISPERIDONE|TERGURIDE|TIZANIDINE HYDROCHLORIDE|XYLOMETAZOLINE|YOHIMBINE
+228174,Autosomal dominant Charcot-Marie-Tooth disease type 2N,Disorder,AARS1,91,26,26,26,0,ACLIDINIUM|AMITRIPTYLINE HYDROCHLORIDE|ATROPINE|BETHANECHOL|BIPERIDEN|CARBAMOYLCHOLINE|CEVIMELINE|DARIFENACIN|DICYCLOMINE HYDROCHLORIDE|DOTHIEPIN|GLYCOPYRRONIUM|IPRATROPIUM CATION|MEPENZOLATE|OXYBUTYNIN|OXYPHENONIUM|PILOCARPINE HYDROCHLORIDE|PIRENZEPINE|PROPANTHELINE|REVEFENACIN|SCOPOLAMINE|SOLIFENACIN|TIOTROPIUM|TOLTERODINE|TROPICAMIDE|UMECLIDINIUM BROMIDE|XANOMELINE
+791,Retinitis pigmentosa,Disorder,ABCA4|ARL3|BBS1|BBS2|CNGA1|CNGB1,91,26,26,26,0,ALFUZOSIN|BUPIVACAINE|CLONIDINE HYDROCHLORIDE|CLOZAPINE|CYPROHEPTADINE HYDROCHLORIDE|DAPIPRAZOLE|DOXAZOSIN MESYLATE|EPINEPHRINE|INDORAMIN|IVABRADINE|KETANSERIN|LABETALOL|LIDOCAINE|METHOXAMINE|MIANSERIN|NOREPINEPHRINE|OXYMETAZOLINE HYDROCHLORIDE|PHENOXYBENZAMINE|PHENTOLAMINE|PHENYLEPHRINE|PRAZOSIN|RISPERIDONE|ROPIVACAINE|SILODOSIN|TAMSULOSIN HYDROCHLORIDE|TERAZOSIN
+1872,Cone rod dystrophy,Disorder,ABCA4|CACNA1F|GUCA1A|OPN1MW,60,23,23,23,0,ALFUZOSIN|AMBROXOL|CLONIDINE HYDROCHLORIDE|CLOZAPINE|CYPROHEPTADINE HYDROCHLORIDE|DAPIPRAZOLE|DOXAZOSIN MESYLATE|EPINEPHRINE|INDORAMIN|KETANSERIN|LABETALOL|METHOXAMINE|MIANSERIN|NOREPINEPHRINE|OXYMETAZOLINE HYDROCHLORIDE|PHENOXYBENZAMINE|PHENTOLAMINE|PHENYLEPHRINE|PRAZOSIN|RISPERIDONE|SILODOSIN|TAMSULOSIN HYDROCHLORIDE|TERAZOSIN
+827,Stargardt disease,Disorder,ABCA4,49,22,22,22,0,ALFUZOSIN|CLONIDINE HYDROCHLORIDE|CLOZAPINE|CYPROHEPTADINE HYDROCHLORIDE|DAPIPRAZOLE|DOXAZOSIN MESYLATE|EPINEPHRINE|INDORAMIN|KETANSERIN|LABETALOL|METHOXAMINE|MIANSERIN|NOREPINEPHRINE|OXYMETAZOLINE HYDROCHLORIDE|PHENOXYBENZAMINE|PHENTOLAMINE|PHENYLEPHRINE|PRAZOSIN|RISPERIDONE|SILODOSIN|TAMSULOSIN HYDROCHLORIDE|TERAZOSIN
+228302,"Carnitine palmitoyl transferase II deficiency, myopathic form",Subtype of disorder,CPT2,44,21,21,21,0,"ACETAMINOPHEN|ASPIRIN|BENZQUINAMIDE|CELECOXIB|DICLOFENAC SODIUM|ESFLURBIPROFEN|ETODOLAC|ETORICOXIB|FLURBIPROFEN|IBUPROFEN, SODIUM SALT|INDOMETHACIN|KETOPROFEN|KETOROLAC TROMETHAMINE|LUMIRACOXIB|MECLOFENAMATE|MEFENAMIC ACID|MELOXICAM|NAPROXEN SODIUM|OXAPROZIN|PIROXICAM-BETA-CYCLODEXTRIN|SULINDAC"
+228305,"Carnitine palmitoyl transferase II deficiency, severe infantile form",Subtype of disorder,CPT2,44,21,21,21,0,"ACETAMINOPHEN|ASPIRIN|BENZQUINAMIDE|CELECOXIB|DICLOFENAC SODIUM|ESFLURBIPROFEN|ETODOLAC|ETORICOXIB|FLURBIPROFEN|IBUPROFEN, SODIUM SALT|INDOMETHACIN|KETOPROFEN|KETOROLAC TROMETHAMINE|LUMIRACOXIB|MECLOFENAMATE|MEFENAMIC ACID|MELOXICAM|NAPROXEN SODIUM|OXAPROZIN|PIROXICAM-BETA-CYCLODEXTRIN|SULINDAC"
+228308,"Carnitine palmitoyl transferase II deficiency, neonatal form",Subtype of disorder,CPT2,44,21,21,21,0,"ACETAMINOPHEN|ASPIRIN|BENZQUINAMIDE|CELECOXIB|DICLOFENAC SODIUM|ESFLURBIPROFEN|ETODOLAC|ETORICOXIB|FLURBIPROFEN|IBUPROFEN, SODIUM SALT|INDOMETHACIN|KETOPROFEN|KETOROLAC TROMETHAMINE|LUMIRACOXIB|MECLOFENAMATE|MEFENAMIC ACID|MELOXICAM|NAPROXEN SODIUM|OXAPROZIN|PIROXICAM-BETA-CYCLODEXTRIN|SULINDAC"
+178469,Autosomal dominant non-syndromic intellectual disability,Subtype of disorder,CDH15|CLTC|CTNND2|CUX1|DPYSL2|ERBB4|GRIA1|GRIN1,70,12,12,12,0,CATEQUENTINIB|ERDAFITINIB|FUTIBATINIB|INDOMETHACIN|NINTEDANIB ESYLATE|PAZOPANIB|PEMIGATINIB|SORAFENIB|SULFASALAZINE|SULFATINIB|SUNITINIB|TASURGRATINIB
+309246,"GM2 gangliosidosis, AB variant",Disorder,GM2A,16,12,12,12,0,CADONILIMAB|CEMIPLIMAB|DOSTARLIMAB|IVONESCIMAB|NIVOLUMAB|PEMBROLIZUMAB|PENPULIMAB|RETIFANLIMAB|SINTILIMAB|TISLELIZUMAB|TORIPALIMAB|ZIMBERELIMAB
+3337,Primary Fanconi renotubular syndrome,Disorder,GATM,14,11,11,11,0,DIVOZILIMAB|EPCORITAMAB|GLOFITAMAB|IBRITUMOMAB TIUXETAN|MOSUNETUZUMAB|OBINUTUZUMAB|OCRELIZUMAB|ODRONEXTAMAB|OFATUMUMAB|RITUXIMAB|UBLITUXIMAB
+35704,L-Arginine:glycine amidinotransferase deficiency,Disorder,GATM,14,11,11,11,0,DIVOZILIMAB|EPCORITAMAB|GLOFITAMAB|IBRITUMOMAB TIUXETAN|MOSUNETUZUMAB|OBINUTUZUMAB|OCRELIZUMAB|ODRONEXTAMAB|OFATUMUMAB|RITUXIMAB|UBLITUXIMAB
+42,Medium chain acyl-CoA dehydrogenase deficiency,Disorder,ACADM,33,9,9,9,0,ANGIOTENSIN II|CANDESARTAN CILEXETIL|EPROSARTAN|IRBESARTAN|LOSARTAN POTASSIUM|OLMESARTAN MEDOXOMIL|SPARSENTAN|TELMISARTAN|VALSARTAN
+169160,T-B+NK+ severe combined immunodeficiency due to CD3delta/CD3epsilon/CD3zeta deficiency,Disorder,CD3D|CD3E,25,18,9,9,0,BEXAGLIFLOZIN|CANAGLIFLOZIN|DAPAGLIFLOZIN PROPANEDIOL|EMPAGLIFLOZIN|ENAVOGLIFLOZIN|ERTUGLIFLOZIN|IPRAGLIFLOZIN|SOTAGLIFLOZIN|TOFOGLIFLOZIN ANHYDROUS
+326,Congenital factor V deficiency,Disorder,F5,83,8,8,8,0,ALPELISIB|COPANLISIB|DUVELISIB|GEDATOLISIB|IDELALISIB|INAVOLISIB|LENIOLISIB|RISOVALISIB
+600194,Factor V Atlanta bleeding disorder,Subtype of disorder,F5,83,8,8,8,0,ALPELISIB|COPANLISIB|DUVELISIB|GEDATOLISIB|IDELALISIB|INAVOLISIB|LENIOLISIB|RISOVALISIB
+90635,Autosomal dominant non-syndromic genetic deafness,Subtype of disorder,ACTG1|COL11A1|COL11A2|EYA4|GJB3,64,10,8,8,0,APREMILAST|CRISABOROLE|IBUDILAST|MAVORIXAFOR|MOTIXAFORTIDE|NERANDOMILAST|PLERIXAFOR|ROFLUMILAST
+774,Hereditary hemorrhagic telangiectasia,Disorder,ACVRL1|ENG|GDF2,44,8,8,8,0,BELINOSTAT|ENTINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|TUCIDINOSTAT|VALPROIC ACID|VORINOSTAT
+275777,Heritable pulmonary arterial hypertension,Subtype of disorder,GDF2,35,8,8,8,0,BELINOSTAT|ENTINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|TUCIDINOSTAT|VALPROIC ACID|VORINOSTAT
+268145,Classic maple syrup urine disease,Subtype of disorder,BCKDHA,33,8,8,8,0,BEZAFIBRATE|CHIGLITAZAR|CIPROFIBRATE|CLOFIBRATE|ELAFIBRANOR|FENOFIBRATE MICRONIZED|GEMFIBROZIL|SELADELPAR
+268162,Intermediate maple syrup urine disease,Subtype of disorder,BCKDHA,33,8,8,8,0,BEZAFIBRATE|CHIGLITAZAR|CIPROFIBRATE|CLOFIBRATE|ELAFIBRANOR|FENOFIBRATE MICRONIZED|GEMFIBROZIL|SELADELPAR
+268173,Intermittent maple syrup urine disease,Subtype of disorder,BCKDHA,33,8,8,8,0,BEZAFIBRATE|CHIGLITAZAR|CIPROFIBRATE|CLOFIBRATE|ELAFIBRANOR|FENOFIBRATE MICRONIZED|GEMFIBROZIL|SELADELPAR
+166002,Multiple epiphyseal dysplasia due to collagen 9 anomaly,Disorder,COL9A1|COL9A2|COL9A3,21,13,8,8,0,ANAGRELIDE HYDROCHLORIDE|CILOSTAZOL|ENOXIMONE|ENSIFENTRINE|IBUDILAST|INAMRINONE|MILRINONE|PAPAVERINE
+88616,Autosomal recessive non-syndromic intellectual disability,Subtype of disorder,ABCA2|EEF1B2|GRIA1|GRIN1|GRM7|HNMT,99,7,7,7,0,ADENOSINE|CAFFEINE|ISTRADEFYLLINE|ITOLIZUMAB|PENTOXIFYLLINE|REGADENOSON ANHYDROUS|THEOPHYLLINE
+327,Congenital factor VII deficiency,Disorder,F7,77,7,7,7,0,ALPELISIB|COPANLISIB|DUVELISIB|IDELALISIB|INAVOLISIB|LENIOLISIB|UMBRALISIB
+228140,Idiopathic ventricular fibrillation,Disorder,DPP6,49,7,7,7,0,FAMITINIB|FLUMBATINIB|NINTEDANIB ESYLATE|PAZOPANIB|QUIZARTINIB|SORAFENIB|SUNITINIB
+1675,Dihydropyrimidine dehydrogenase deficiency,Disorder,DPYD,44,7,7,7,0,AXATILIMAB|LENOGRASTIM|PAZOPANIB|PEXIDARTINIB|PIMICOTINIB|QUIZARTINIB|VIMSELTINIB
+464756,Familial gastric type 1 neuroendocrine tumor,Disorder,ATP4A,24,7,7,7,0,DICLOFENAC SODIUM|HALOTHANE|MAPROTILINE|MEFENAMIC ACID|NIFEDIPINE|PIOGLITAZONE HYDROCHLORIDE|PRIMIDONE
+35612,Isolated complete colobomatous microphthalmia,Subtype of disorder,ALDH1A3,22,7,7,7,0,AMBRISENTAN|APROCITENTAN|ATRASENTAN|BOSENTAN ANHYDROUS|CLAZOSENTAN|MACITENTAN|SOVATELTIDE
+98938,Isolated colobomatous microphthalmia,Disorder,ALDH1A3,22,7,7,7,0,AMBRISENTAN|APROCITENTAN|ATRASENTAN|BOSENTAN ANHYDROUS|CLAZOSENTAN|MACITENTAN|SOVATELTIDE
+280671,Megaconial congenital muscular dystrophy,Disorder,CHKB,9,7,7,7,0,CIMETIDINE|DESIPRAMINE|DIPYRIDAMOLE|FLUOXETINE HYDROCHLORIDE|QUINIDINE|QUININE|VERAPAMIL
+521305,Proximal myopathy with focal depletion of mitochondria,Disorder,CHKB,9,7,7,7,0,CIMETIDINE|DESIPRAMINE|DIPYRIDAMOLE|FLUOXETINE HYDROCHLORIDE|QUINIDINE|QUININE|VERAPAMIL
+425,Apolipoprotein A-I deficiency,Disorder,ABCA1|APOA1,106,6,6,6,0,ADENOSINE|CAFFEINE|ISTRADEFYLLINE|MEFLOQUINE|REGADENOSON ANHYDROUS|THEOPHYLLINE
+31150,Tangier disease,Disorder,ABCA1,96,6,6,6,0,ADENOSINE|CAFFEINE|ISTRADEFYLLINE|MEFLOQUINE|REGADENOSON ANHYDROUS|THEOPHYLLINE
+2066,Gamma-aminobutyric acid transaminase deficiency,Disorder,ABAT,78,6,6,6,0,ADENOSINE|CAFFEINE|ISTRADEFYLLINE|MEFLOQUINE|REGADENOSON ANHYDROUS|THEOPHYLLINE
+528084,Non-specific syndromic intellectual disability,Disorder,ATP2B1|ATP6V0A1|DDX6|GRIA4|HNRNPC|MARK2,49,6,6,6,0,CHLORPROMAZINE|FLUFENAMIC ACID|FLUNARIZINE|METHYLPREDNISOLONE|PROGESTERONE|RILUZOLE
+139536,Distal hereditary motor neuropathy type 5,Disorder,GARS1,32,6,6,6,0,BELINOSTAT|ENTINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+99938,Autosomal dominant Charcot-Marie-Tooth disease type 2D,Disorder,GARS1,32,6,6,6,0,BELINOSTAT|ENTINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+132,Hereditary butyrylcholinesterase deficiency,Disorder,BCHE,16,6,6,6,0,ADAPALENE|ALITRETINOIN|TAMIBAROTENE|TAZAROTENE|TRETINOIN|TRIFAROTENE
+3261,Autoimmune lymphoproliferative syndrome,Disorder,FAS|FASLG,98,6,5,5,0,EDOTREOTIDE|LANREOTIDE ACETATE|OCTREOTIDE ACETATE|PASIREOTIDE|VAPREOTIDE
+51608,Generalized arterial calcification of infancy,Disorder,ABCC6,58,6,6,5,0,ARGIPRESSIN|ATOSIBAN|CONIVAPTAN|DESMOPRESSIN|TOLVAPTAN
+220386,Semilobar holoprosencephaly,Subtype of disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+280195,Septopreoptic holoprosencephaly,Subtype of disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+280200,Microform holoprosencephaly,Disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+93924,Lobar holoprosencephaly,Subtype of disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+93925,Alobar holoprosencephaly,Subtype of disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+93926,Midline interhemispheric variant of holoprosencephaly,Subtype of disorder,GAS1,25,5,5,5,0,BELINOSTAT|GIVINOSTAT|PANOBINOSTAT|ROMIDEPSIN|VORINOSTAT
+79241,Biotinidase deficiency,Disorder,BTD,17,5,5,5,0,AMILORIDE|ASPIRIN|DICLOFENAC SODIUM|NAFAMOSTAT|SALICYLIC ACID
+440354,Autosomal dominant myopia-midfacial retrusion-sensorineural hearing loss-rhizomelic dysplasia syndrome,Disorder,COL11A1,14,5,5,5,0,APREMILAST|CRISABOROLE|IBUDILAST|NERANDOMILAST|ROFLUMILAST
+560,Marshall syndrome,Disorder,COL11A1,14,5,5,5,0,APREMILAST|CRISABOROLE|IBUDILAST|NERANDOMILAST|ROFLUMILAST
+90654,Stickler syndrome type 2,Subtype of disorder,COL11A1,14,5,5,5,0,APREMILAST|CRISABOROLE|IBUDILAST|NERANDOMILAST|ROFLUMILAST
+82,Hereditary thrombophilia due to congenital antithrombin deficiency,Disorder,SERPINC1,11,5,5,5,0,ATRACURIUM|GALLAMINE TRIETHIODIDE|MECAMYLAMINE|PANCURONIUM|SUCCINYLCHOLINE
+206583,Adult polyglucosan body disease,Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308621,"Glycogen storage disease due to glycogen branching enzyme deficiency, progressive hepatic form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308638,"Glycogen storage disease due to glycogen branching enzyme deficiency, non progressive hepatic form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308655,"Glycogen storage disease due to glycogen branching enzyme deficiency, fatal perinatal neuromuscular form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308670,"Glycogen storage disease due to glycogen branching enzyme deficiency, congenital neuromuscular form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308684,"Glycogen storage disease due to glycogen branching enzyme deficiency, childhood combined hepatic and myopathic form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308698,"Glycogen storage disease due to glycogen branching enzyme deficiency, childhood neuromuscular form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+308712,"Glycogen storage disease due to glycogen branching enzyme deficiency, adult neuromuscular form",Subtype of disorder,GBE1,6,6,6,5,0,DANAPAROID|ENOXAPARIN SODIUM|FONDAPARINUX|HEPARIN|TINZAPARIN SODIUM
+223,Arginine vasopressin resistance,Disorder,AQP2,48,4,4,4,0,LANREOTIDE ACETATE|OCTREOTIDE ACETATE|PASIREOTIDE|VAPREOTIDE
+356996,ANK3-related intellectual disability-sleep disturbance syndrome,Disorder,ANK3,45,4,4,4,0,AGOMELATINE|MELATONIN|RAMELTEON|TASIMELTEON
+394529,"Multiple acyl-CoA dehydrogenase deficiency, severe neonatal type",Subtype of disorder,ETFB,43,4,4,4,0,COPANLISIB|EVEROLIMUS|GEDATOLISIB|TEMSIROLIMUS
+394532,"Multiple acyl-CoA dehydrogenase deficiency, mild type",Subtype of disorder,ETFB,43,4,4,4,0,COPANLISIB|EVEROLIMUS|GEDATOLISIB|TEMSIROLIMUS
+45,Adenosine monophosphate deaminase deficiency,Disorder,AMPD1|AMPD3,41,4,4,4,0,AMITRIPTYLINE HYDROCHLORIDE|MIANSERIN|PRANLUKAST|ZAFIRLUKAST
+110,Bardet-Biedl syndrome,Disorder,BBS1|BBS2|BBS4,40,4,4,4,0,BUPIVACAINE|LIDOCAINE|ROPIVACAINE|SUZETRIGINE
+391665,Homozygous familial hypercholesterolemia,Disorder,APOB,30,4,4,4,0,ALPROSTADIL|DINOPROSTONE|ILOPROST|TREPROSTINIL
+727915,APOB-related familial hypobetalipoproteinemia,Disorder,APOB,30,4,4,4,0,ALPROSTADIL|DINOPROSTONE|ILOPROST|TREPROSTINIL
+276405,Hyperbiliverdinemia,Disorder,BLVRA,23,4,4,4,0,ALENDRONATE SODIUM|PAMIDRONATE|RISEDRONIC ACID|ZOLEDRONIC ACID ANHYDROUS
+442835,Non-specific early-onset epileptic encephalopathy,Disorder,ATP1A3|ATP6V1A|CLTC|DNM1|FOXG1,22,4,4,4,0,HALOTHANE|HYDROXYCHLOROQUINE|INDOMETHACIN|SULFASALAZINE
+1855,Spondyloenchondrodysplasia,Disorder,ACP5,21,4,4,4,0,CINACALCET|ETELCALCETIDE|EVOCALCET|UPACICALCET
+459061,Craniofacial dysplasia-short stature-ectodermal anomalies-intellectual disability syndrome,Disorder,DPH1|DPH2,20,4,4,4,0,BRIGATINIB|CERITINIB|MECASERMIN|TEPROTUMUMAB
+599418,Hereditary angioedema with normal C1Inh not related to F12 or PLG variant,Subtype of disorder,ANGPT1,17,4,4,4,0,AFAMELANOTIDE|BREMELANOTIDE|CORTICOTROPIN|SETMELANOTIDE
+174,"Metaphyseal chondrodysplasia, Schmid type",Disorder,COL10A1,15,4,4,4,0,APREMILAST|ENSIFENTRINE|IBUDILAST|NERANDOMILAST
+357074,"Autosomal recessive cutis laxa type 2, classic type",Subtype of disorder,ATP6V1A|ATP6V1E1,12,4,4,4,0,BENIDIPINE|HALOTHANE|ISRADIPINE|NISOLDIPINE
+822,Hereditary spherocytosis,Disorder,ANK1,12,4,4,4,0,AFAMELANOTIDE|BREMELANOTIDE|CORTICOTROPIN|SETMELANOTIDE
+238475,Familial hypercholanemia,Disorder,BAAT,11,4,4,4,0,DOFETILIDE|HALOPERIDOL DECANOATE|IMIPRAMINE HYDROCHLORIDE|QUINIDINE
+808,Seckel syndrome,Disorder,ATR|CENPE|DNA2,11,4,4,4,0,DALFAMPRIDINE|KETOCONAZOLE|PIMOZIDE|VERAPAMIL
+3197,Hereditary hyperekplexia,Disorder,GLRA1|GLRB,8,4,4,4,0,CADONILIMAB|IPILIMUMAB|OMALIZUMAB|TREMELIMUMAB
+313846,Familial cutaneous telangiectasia and oropharyngeal cancer predisposition syndrome,Disorder,ATR,7,4,4,4,0,DALFAMPRIDINE|KETOCONAZOLE|PIMOZIDE|VERAPAMIL
+101088,X-linked hyper-IgM syndrome,Subtype of disorder,CD40LG,6,4,4,4,0,BULEVIRTIDE|CYCLOSPORINE|IRBESARTAN|URSODIOL
+228423,GATA2 deficiency spectrum,Disorder,GATA2,4,4,4,4,0,MYCOPHENOLATE|MYCOPHENOLATE MOFETIL|RIBAVIRIN|THIOGUANINE
+538958,EBV-induced lymphoproliferative disease due to CD70 deficiency,Disorder,CD70,4,4,4,4,0,CHLOROTHIAZIDE|CYCLOTHIAZIDE|HYDROCHLOROTHIAZIDE|METOLAZONE
+481,Kennedy disease,Disorder,AR,38,4,4,3,0,ARGIPRESSIN|ATOSIBAN|DESMOPRESSIN
+90797,Partial androgen insensitivity syndrome,Disorder,AR,38,4,4,3,0,ARGIPRESSIN|ATOSIBAN|DESMOPRESSIN
+99429,Complete androgen insensitivity syndrome,Disorder,AR,38,4,4,3,0,ARGIPRESSIN|ATOSIBAN|DESMOPRESSIN
+98942,Coloboma of choroid and retina,Disorder,ACTG1,34,3,3,3,0,MAVORIXAFOR|MOTIXAFORTIDE|PLERIXAFOR
+98944,Coloboma of iris,Disorder,ACTG1,34,3,3,3,0,MAVORIXAFOR|MOTIXAFORTIDE|PLERIXAFOR
+2856,Persistent Müllerian duct syndrome,Disorder,AMH|AMHR2,30,3,3,3,0,MONTELUKAST SODIUM|PRANLUKAST|ZAFIRLUKAST
+882,Tyrosinemia type 1,Disorder,FAH,23,3,3,3,0,AVUTOMETINIB|SORAFENIB|VEMURAFENIB
+536516,Myopathic Ehlers-Danlos syndrome,Disorder,COL12A1,22,3,3,3,0,APREMILAST|DIFAMILAST|NERANDOMILAST
+412022,Facial dysmorphism-lens dislocation-anterior segment abnormalities-spontaneous filtering blebs syndrome,Disorder,ASPH,21,3,3,3,0,ANIRACETAM|CYCLOTHIAZIDE|PIRACETAM
+803,Amyotrophic lateral sclerosis,Disorder,ANG|ANXA11|ERBB4|FUS|GLE1,20,3,3,3,0,4-HYDROXYBUTYRIC ACID|CORTICOTROPIN-ZINC HYDROXIDE|COSYNTROPIN
+254913,Isolated ATP synthase deficiency,Disorder,ATP5F1A|ATP5F1E|ATP5PO,16,3,3,3,0,HALOTHANE|ISOFLURANE|RILUZOLE
+1052,Mosaic variegated aneuploidy syndrome,Disorder,BUB1|BUB1B,11,3,3,3,0,LUBIPROSTONE|NIFLUMIC ACID|OMEPRAZOLE
+26793,Very long chain acyl-CoA dehydrogenase deficiency,Disorder,ACADVL,11,3,3,3,0,CHENODEOXYCHOLIC ACID|CHOLIC ACID|DEOXYCHOLIC ACID
+402041,Autosomal recessive distal renal tubular acidosis,Subtype of disorder,ATP6V1B1,5,3,3,3,0,ISOFLURANE|NITRIC OXIDE|QUINIDINE
+438274,GCGR-related hyperglucagonemia,Disorder,GCGR,3,3,3,3,0,CAPECITABINE|PEMETREXED DISODIUM|RALTITREXED
+100033,Hypomaturation amelogenesis imperfecta,Subtype of disorder,AMELX,43,2,2,2,0,CLOZAPINE|PITOLISANT
+99103,"Atrial septal defect, ostium secundum type",Subtype of disorder,ACTC1|GATA6|NKX2-5,33,2,2,2,0,INGENOL MEBUTATE|MIGLITOL
+538934,X-linked lymphoproliferative disease due to XIAP deficiency,Disorder,XIAP,32,2,2,2,0,ABALOPARATIDE|TERIPARATIDE
+572354,Blepharophimosis-ptosis-epicanthus inversus syndrome type 1,Subtype of disorder,FOXL2,25,2,2,2,0,FLUFENAMIC ACID|QUININE
+572361,Blepharophimosis-ptosis-epicanthus inversus syndrome type 2,Subtype of disorder,FOXL2,25,2,2,2,0,FLUFENAMIC ACID|QUININE
+90636,Autosomal recessive non-syndromic genetic deafness,Subtype of disorder,COL11A2|ESRRB|GJB3|HGF,20,2,2,2,0,APREMILAST|IBUDILAST
+90,Argininemia,Disorder,ARG1,17,2,2,2,0,RILUZOLE|TROPICAMIDE
+2440,Isolated split hand-split foot malformation,Disorder,DLX5|DLX6,15,2,2,2,0,LINACLOTIDE|PLECANATIDE
+552,MODY,Disorder,BLK|GCK,13,2,2,2,0,ALITRETINOIN|WARFARIN
+90321,Cockayne syndrome type 1,Subtype of disorder,ERCC4|ERCC8,13,2,2,2,0,ESTRADIOL VALERATE|ETHINYL ESTRADIOL
+100044,Autosomal dominant intermediate Charcot-Marie-Tooth disease type B,Disorder,DNM2,12,2,2,2,0,MOMELOTINIB|ZILURGISERTIB
+169189,Autosomal dominant centronuclear myopathy,Disorder,DNM2,12,2,2,2,0,MOMELOTINIB|ZILURGISERTIB
+178338,UV-sensitive syndrome,Disorder,ERCC6|ERCC8,12,2,2,2,0,ESTRADIOL VALERATE|ETHINYL ESTRADIOL
+228179,Autosomal dominant Charcot-Marie-Tooth disease type 2M,Disorder,DNM2,12,2,2,2,0,MOMELOTINIB|ZILURGISERTIB
+363409,Fetal akinesia-cerebral and retinal hemorrhage syndrome,Disorder,DNM2,12,2,2,2,0,MOMELOTINIB|ZILURGISERTIB
+2590,Spinal muscular atrophy-progressive myoclonic epilepsy syndrome,Disorder,ASAH1,10,2,2,2,0,NIFEDIPINE|TROPISETRON
+333,Farber disease,Disorder,ASAH1,10,2,2,2,0,NIFEDIPINE|TROPISETRON
+692790,ATP6AP1-CDG,Disorder,ATP6AP1,10,2,2,2,0,FLUNARIZINE|PIMOZIDE
+3129,Sarcosinemia,Disorder,SARDH,9,2,2,2,0,HYDROXYCHLOROQUINE|IMIQUIMOD
+447740,Aggressive periodontitis,Disorder,FPR1,9,2,2,2,0,TENELIGLIPTIN|VILDAGLIPTIN
+166100,Autosomal dominant otospondylomegaepiphyseal dysplasia,Disorder,COL11A2,8,2,2,2,0,APREMILAST|IBUDILAST
+2021,Fibrochondrogenesis,Disorder,COL11A2,8,2,2,2,0,APREMILAST|IBUDILAST
+2268,ICF syndrome,Disorder,DNMT3B|HELLS,7,2,2,2,0,ORLISTAT|ZILURGISERTIB
+90322,Cockayne syndrome type 2,Subtype of disorder,ERCC1|ERCC8,7,2,2,2,0,ESTRADIOL VALERATE|ETHINYL ESTRADIOL
+101010,Autosomal spastic paraplegia type 30,Disorder,KIF1A,6,2,2,2,0,DALFAMPRIDINE|QUININE
+662367,NESCAV syndrome,Disorder,KIF1A,6,2,2,2,0,DALFAMPRIDINE|QUININE
+90324,Cockayne syndrome type 3,Subtype of disorder,ERCC8,6,2,2,2,0,ESTRADIOL VALERATE|ETHINYL ESTRADIOL
+79299,Congenital glucokinase-related hyperinsulinism,Disorder,GCK,5,2,2,2,0,ALITRETINOIN|WARFARIN
+99885,Isolated permanent neonatal diabetes mellitus,Disorder,GCK,5,2,2,2,0,ALITRETINOIN|WARFARIN
+319651,Constitutional megaloblastic anemia with severe neurologic disease,Disorder,DHFR,3,2,2,2,0,LENOGRASTIM|PEGFILGRASTIM
+35107,Desmosterolosis,Disorder,DHCR24,3,2,2,2,0,EPOETIN ALFA|PEGINESATIDE
+84,Fanconi anemia,Disorder,BRCA2|ERCC4|FANCA|FANCG,47,1,1,1,0,PONATINIB
+169150,Immunodeficiency due to a late component of complement deficiency,Disorder,C5|C6|C7|C8A|C8B|C8G|C9,26,7,1,1,0,FLUFENAMIC ACID
+75563,X-linked sideroblastic anemia,Disorder,ALAS2,26,1,1,1,0,CRINECERFONT
+169147,Immunodeficiency due to a classical component pathway complement deficiency,Disorder,C1QC|C1R|C1S|C2|C4A|C4B,24,6,1,1,0,FLUFENAMIC ACID
+189466,Familial isolated hypoparathyroidism due to impaired PTH secretion,Subtype of disorder,AIRE,20,1,1,1,0,SURAMIN
+218,Darier disease,Disorder,ATP2A2,19,1,1,1,0,NORGESTIMATE
+220460,Attenuated familial adenomatous polyposis,Disorder,APC,17,1,1,1,0,SURAMIN
+314022,Gastric adenocarcinoma and proximal polyposis of the stomach,Disorder,APC,17,1,1,1,0,SURAMIN
+3258,Cenani-Lenz syndrome,Disorder,APC,17,1,1,1,0,SURAMIN
+733,Familial adenomatous polyposis,Disorder,APC,17,1,1,1,0,SURAMIN
+220295,Xeroderma pigmentosum-Cockayne syndrome complex,Disorder,ERCC2|ERCC3|ERCC4|ERCC5,15,1,1,1,0,COBIMETINIB
+404443,Tatton-Brown-Rahman syndrome,Disorder,DNMT3A,15,1,1,1,0,ZILURGISERTIB
+910,Xeroderma pigmentosum,Disorder,ERCC2|ERCC3|ERCC4|ERCC5,15,1,1,1,0,COBIMETINIB
+100034,Hypomaturation-hypoplastic amelogenesis imperfecta with taurodontism,Subtype of disorder,DLX3,12,1,1,1,0,NESIRITIDE
+101351,Familial isolated congenital asplenia,Disorder,NKX2-5,12,1,1,1,0,INGENOL MEBUTATE
+1479,Atrial septal defect-atrioventricular conduction defects syndrome,Disorder,NKX2-5,12,1,1,1,0,INGENOL MEBUTATE
+26792,Short chain acyl-CoA dehydrogenase deficiency,Disorder,ACADS,12,1,1,1,0,ANGIOTENSIN II
+95712,Thyroid ectopia,Disorder,NKX2-5,12,1,1,1,0,INGENOL MEBUTATE
+95713,Athyreosis,Disorder,NKX2-5,12,1,1,1,0,INGENOL MEBUTATE
+1466,COFS syndrome,Subtype of disorder,ERCC1|ERCC2|ERCC5|ERCC6,11,1,1,1,0,COBIMETINIB
+228387,Spondylo-megaepiphyseal-metaphyseal dysplasia,Disorder,NKX3-2,11,1,1,1,0,PHENYTOIN SODIUM
+199306,Cleft lip/palate,Disorder,DLX4,8,1,1,1,0,VOSORITIDE
+314978,X-linked non progressive cerebellar ataxia,Disorder,ATP2B3,8,1,1,1,0,AMILORIDE
+314404,Autosomal dominant cerebellar ataxia-deafness-narcolepsy syndrome,Disorder,DNMT1,7,1,1,1,0,ZILURGISERTIB
+456318,Hereditary sensory neuropathy-deafness-dementia syndrome,Disorder,DNMT1,7,1,1,1,0,ZILURGISERTIB
+475,Isolated Joubert syndrome,Subtype of disorder,ARL3,7,1,1,1,0,IVABRADINE
+714,Hemolytic anemia due to diphosphoglycerate mutase deficiency,Disorder,BPGM,7,1,1,1,0,PROBENECID
+544472,Atypical hemolytic uremic syndrome with complement gene abnormality,Subtype of disorder,C3|CFB,6,1,1,1,0,FLUFENAMIC ACID
+238505,Combined immunodeficiency due to CD27 deficiency,Disorder,CD27,5,1,1,1,0,BENZTROPINE
+250984,Autosomal recessive Stickler syndrome,Subtype of disorder,COL9A1,5,1,1,1,0,MILRINONE
+248,Autosomal recessive hypohidrotic ectodermal dysplasia,Subtype of disorder,CSTB,4,1,1,1,0,RIPASUDIL
+308,Progressive myoclonic epilepsy type 1,Disorder,CSTB,4,1,1,1,0,RIPASUDIL
+329211,Autosomal dominant neovascular inflammatory vitreoretinopathy,Disorder,CAPN5,4,1,1,1,0,FLUFENAMIC ACID
+88629,Tritanopia,Disorder,OPN1SW,4,1,1,1,0,BEXAROTENE
+98973,Posterior polymorphous corneal dystrophy,Disorder,COL8A2,4,1,1,1,0,VINPOCETINE
+98974,Fuchs endothelial corneal dystrophy,Disorder,COL8A2,4,1,1,1,0,VINPOCETINE
+288,Hereditary elliptocytosis,Disorder,EPB41|GYPC,3,1,1,1,0,IBALIZUMAB
+589608,"Linear hypopigmentation and craniofacial asymmetry with acral, ocular and brain anomalies",Disorder,RHOA,3,1,1,1,0,QUINIDINE
+163721,Rolandic epilepsy-speech dyspraxia syndrome,Disorder,GRIN2A,2,1,1,1,0,ZOLBETUXIMAB
+1775,Dyskeratosis congenita,Disorder,DKC1,2,1,1,1,0,SPESOLIMAB
+1871,Progressive cone dystrophy,Disorder,GUCA1A,2,1,1,1,0,AMBROXOL
+1945,Self-limited epilepsy with centrotemporal spikes,Disorder,GRIN2A,2,1,1,1,0,ZOLBETUXIMAB
+217467,Hereditary thrombophilia due to congenital histidine-rich (poly-L) glycoprotein deficiency,Disorder,HRG,2,1,1,1,0,ONC201
+2382,Lennox-Gastaut syndrome,Disorder,DNM1,2,1,1,1,0,HYDROXYCHLOROQUINE
+289266,Early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation,Disorder,GRIN2A,2,1,1,1,0,ZOLBETUXIMAB
+314381,Hereditary sensory and autonomic neuropathy type 6,Disorder,DST,2,1,1,1,0,DIPHENIDOL
+3322,Hoyeraal-Hreidarsson syndrome,Disorder,DKC1,2,1,1,1,0,SPESOLIMAB
+3473,Zimmermann-Laband syndrome,Disorder,ATP6V1B2,2,1,1,1,0,NITRIC OXIDE
+412181,Epidermolysis bullosa simplex due to BP230 deficiency,Disorder,DST,2,1,1,1,0,DIPHENIDOL
+444092,Autoimmune interstitial lung disease-arthritis syndrome,Disorder,COPA,2,1,1,1,0,SILDENAFIL
+725,Developmental and epileptic encephalopathy with spike-wave activation in sleep,Disorder,GRIN2A,2,1,1,1,0,ZOLBETUXIMAB
+750,Pseudoachondroplasia,Disorder,COMP,2,1,1,1,0,TADALAFIL
+79499,Autosomal dominant deafness-onychodystrophy syndrome,Disorder,ATP6V1B2,2,1,1,1,0,NITRIC OXIDE
+79500,DOORS syndrome,Disorder,ATP6V1B2,2,1,1,1,0,NITRIC OXIDE
+84090,Fibronectin glomerulopathy,Disorder,FN1,2,1,1,1,0,SUTIMLIMAB
+93308,Multiple epiphyseal dysplasia type 1,Disorder,COMP,2,1,1,1,0,TADALAFIL
+93315,"Spondylometaphyseal dysplasia, 'corner fracture' type",Disorder,FN1,2,1,1,1,0,SUTIMLIMAB
+98818,Landau-Kleffner syndrome,Disorder,GRIN2A,2,1,1,1,0,ZOLBETUXIMAB
+99849,Glycogen storage disease due to muscle beta-enolase deficiency,Disorder,ENO3,2,1,1,1,0,BARICITINIB
+100973,FRAXE intellectual disability,Disorder,AFF2,1,1,1,1,0,NAFAMOSTAT
+1934,Early infantile developmental and epileptic encephalopathy,Disorder,GRM7,1,1,1,1,0,ITOLIZUMAB
+2072,Gaucher disease-ophthalmoplegia-cardiovascular calcification syndrome,Subtype of disorder,GBA1,1,1,1,1,0,EZETIMIBE
+251393,Localized junctional epidermolysis bullosa,Disorder,COL17A1,1,1,1,1,0,DIPYRIDAMOLE
+584,Mucopolysaccharidosis type 7,Disorder,GUSB,1,1,1,1,0,RITONAVIR
+665044,Common arterial trunk with aortic dominance,Subtype of disorder,GATA6,1,1,1,1,0,MIGLITOL
+665058,Common arterial trunk with pulmonary dominance and interrupted aortic arch,Subtype of disorder,GATA6,1,1,1,1,0,MIGLITOL
+77259,Gaucher disease type 1,Subtype of disorder,GBA1,1,1,1,1,0,EZETIMIBE
+77260,Gaucher disease type 2,Subtype of disorder,GBA1,1,1,1,1,0,EZETIMIBE
+77261,Gaucher disease type 3,Subtype of disorder,GBA1,1,1,1,1,0,EZETIMIBE
+79402,Intermediate generalized junctional epidermolysis bullosa,Disorder,COL17A1,1,1,1,1,0,DIPYRIDAMOLE
+79406,Late-onset junctional epidermolysis bullosa,Disorder,COL17A1,1,1,1,1,0,DIPYRIDAMOLE
+85212,Fetal Gaucher disease,Subtype of disorder,GBA1,1,1,1,1,0,EZETIMIBE
+86817,Hemolytic anemia due to adenylate kinase deficiency,Disorder,AK1,1,1,1,1,0,LEVODOPA
+99067,Complete atrioventricular septal defect with ventricular hypoplasia,Subtype of disorder,GATA6,1,1,1,1,0,MIGLITOL
+91387,Familial thoracic aortic aneurysm and aortic dissection,Disorder,ACTA2|FBN1,35,0,0,0,0,
+154,Familial isolated dilated cardiomyopathy,Disorder,ACTC1|ACTN2|DES|DSP,33,0,0,0,0,
+404463,Multisystemic smooth muscle dysfunction syndrome,Disorder,ACTA2,33,0,0,0,0,
+674653,Actinomyopathy-associated syndromic thrombocytopenia,Disorder,ACTB,33,0,0,0,0,
+79107,Developmental malformations-deafness-dystonia syndrome,Disorder,ACTB,33,0,0,0,0,
+404473,Intellectual disability-eye abnormalities-microcephaly-peripheral spasticity syndrome,Disorder,CTNNB1,30,0,0,0,0,
+2478,Megalencephalic leukoencephalopathy with subcortical cysts,Disorder,AQP4,27,0,0,0,0,
+171430,Severe congenital nemaline myopathy,Disorder,ACTA1,25,0,0,0,0,
+171433,Intermediate nemaline myopathy,Disorder,ACTA1,25,0,0,0,0,
+171436,Typical nemaline myopathy,Disorder,ACTA1,25,0,0,0,0,
+171439,Childhood-onset nemaline myopathy,Disorder,ACTA1,25,0,0,0,0,
+2020,Congenital fiber-type disproportion myopathy,Disorder,ACTA1,25,0,0,0,0,
+447977,Progressive scapulohumeroperoneal distal myopathy,Disorder,ACTA1,25,0,0,0,0,
+97240,Zebra body myopathy,Disorder,ACTA1,25,0,0,0,0,
+97244,Rigid spine syndrome,Disorder,ACTA1,25,0,0,0,0,
+98904,Congenital myopathy with excess of thin filaments,Disorder,ACTA1,25,0,0,0,0,
+329481,Lipoprotein glomerulopathy,Disorder,APOE,23,0,0,0,0,
+93334,Postaxial polydactyly type A,Disorder,GLI1|GLI3,22,0,0,0,0,
+93335,Postaxial polydactyly type B,Disorder,GLI1|GLI3,22,0,0,0,0,
+100006,"ABeta amyloidosis, Dutch type",Subtype of disorder,APP,21,0,0,0,0,
+1020,Early-onset autosomal dominant Alzheimer disease,Disorder,APP,21,0,0,0,0,
+169793,Severe hemophilia B,Subtype of disorder,F9,21,0,0,0,0,
+169796,Moderate hemophilia B,Subtype of disorder,F9,21,0,0,0,0,
+169799,Mild hemophilia B,Subtype of disorder,F9,21,0,0,0,0,
+177929,Bleeding disorder in hemophilia B carriers,Subtype of disorder,F9,21,0,0,0,0,
+324703,ABetaL34V amyloidosis,Subtype of disorder,APP,21,0,0,0,0,
+324708,"ABeta amyloidosis, Iowa type",Subtype of disorder,APP,21,0,0,0,0,
+324713,"ABeta amyloidosis, Italian type",Subtype of disorder,APP,21,0,0,0,0,
+324718,ABetaA21G amyloidosis,Subtype of disorder,APP,21,0,0,0,0,
+324723,"ABeta amyloidosis, Arctic type",Subtype of disorder,APP,21,0,0,0,0,
+134,Beta-ketothiolase deficiency,Disorder,ACAT1,20,0,0,0,0,
+254892,Autosomal dominant progressive external ophthalmoplegia,Disorder,SLC25A4,18,0,0,0,0,
+86816,Congenital analbuminemia,Disorder,ALB,17,0,0,0,0,
+319462,Inherited cancer-predisposing syndrome due to biallelic BRCA2 mutations,Disorder,BRCA2,15,0,0,0,0,
+440437,Familial colorectal cancer Type X,Disorder,BRCA2,15,0,0,0,0,
+99796,Subcortical band heterotopia,Disorder,DCX|EML1,15,0,0,0,0,
+488191,Female infertility due to oocyte meiotic arrest,Disorder,CHEK1|ZFP36L2,14,0,0,0,0,
+57,Glycogen storage disease due to aldolase A deficiency,Disorder,ALDOA,14,0,0,0,0,
+93339,Polydactyly of a biphalangeal thumb and/or hallux,Disorder,GLI1,14,0,0,0,0,
+99001,Butterfly-shaped pigment dystrophy,Disorder,CTNNA1,13,0,0,0,0,
+140957,Autosomal dominant macrothrombocytopenia,Disorder,ACTN1|GP1BA,12,0,0,0,0,
+328,Congenital factor X deficiency,Disorder,F10,12,0,0,0,0,
+329,Congenital factor XI deficiency,Disorder,F11,12,0,0,0,0,
+401805,Autosomal recessive spastic paraplegia type 63,Disorder,AMPD2,12,0,0,0,0,
+656,Hereditary steroid-resistant nephrotic syndrome,Disorder,ACTN4,12,0,0,0,0,
+208447,Bilateral generalized polymicrogyria,Subtype of disorder,GRIN1,11,0,0,0,0,
+411629,Infantile nephropathic cystinosis,Subtype of disorder,CTNS,11,0,0,0,0,
+411634,Juvenile nephropathic cystinosis,Subtype of disorder,CTNS,11,0,0,0,0,
+411641,Ocular cystinosis,Subtype of disorder,CTNS,11,0,0,0,0,
+708129,Autosomal recessive ACTN2-related distal myopathy,Disorder,ACTN2,11,0,0,0,0,
+708133,Autosomal dominant ACTN2-related distal myopathy,Disorder,ACTN2,11,0,0,0,0,
+2131,Alternating hemiplegia of childhood,Disorder,ATP1A3,10,0,0,0,0,
+274,Bernard-Soulier syndrome,Disorder,GP1BA,10,0,0,0,0,
+3006,Pyridoxine-dependent-developmental and epileptic encephalopathy,Disorder,ALDH7A1,10,0,0,0,0,
+353327,Congenital myasthenic syndrome with glycosylation defect,Subtype of disorder,DPAGT1|GFPT1,10,0,0,0,0,
+52530,Pseudo-von Willebrand disease,Disorder,GP1BA,10,0,0,0,0,
+71517,Rapid-onset dystonia-parkinsonism,Disorder,ATP1A3,10,0,0,0,0,
+93560,AApoAI amyloidosis,Subtype of disorder,APOA1,10,0,0,0,0,
+101112,Spinocerebellar ataxia type 26,Disorder,EEF2,9,0,0,0,0,
+2686,Cyclic neutropenia,Disorder,ELANE,9,0,0,0,0,
+486,Autosomal dominant severe congenital neutropenia,Disorder,ELANE,9,0,0,0,0,
+16,Blue cone monochromatism,Disorder,OPN1MW,8,0,0,0,0,
+238269,AApoAII amyloidosis,Subtype of disorder,APOA2,8,0,0,0,0,
+36,Acrocallosal syndrome,Subtype of disorder,GLI3,8,0,0,0,0,
+56304,Atelosteogenesis type II,Disorder,SLC26A2,8,0,0,0,0,
+672,Pallister-Hall syndrome,Disorder,GLI3,8,0,0,0,0,
+816,Sjögren-Larsson syndrome,Disorder,ALDH3A2,8,0,0,0,0,
+93298,Achondrogenesis type 1B,Subtype of disorder,SLC26A2,8,0,0,0,0,
+93307,Multiple epiphyseal dysplasia type 4,Disorder,SLC26A2,8,0,0,0,0,
+93338,Polysyndactyly,Disorder,GLI3,8,0,0,0,0,
+97369,Renal tubular dysgenesis of genetic origin,Subtype of disorder,ACE,8,0,0,0,0,
+98863,X-linked Emery-Dreifuss muscular dystrophy,Subtype of disorder,EMD|FHL1,8,0,0,0,0,
+1947,Northern epilepsy,Subtype of disorder,CLN8,7,0,0,0,0,
+289176,Autosomal recessive hypophosphatemic rickets,Disorder,DMP1,7,0,0,0,0,
+700484,Late infantile CLN8 disease,Subtype of disorder,CLN8,7,0,0,0,0,
+98994,Total early-onset cataract,Subtype of disorder,CRYGB|GCNT2|GJA8,7,0,0,0,0,
+101041,Familial hypofibrinogenemia,Subtype of disorder,FGB,6,0,0,0,0,
+139512,Neuropathy with hearing impairment,Disorder,GJB3,6,0,0,0,0,
+1525,Cranio-osteoarthropathy,Disorder,HPGD,6,0,0,0,0,
+217059,Isolated nail clubbing,Disorder,HPGD,6,0,0,0,0,
+238722,Familial congenital mirror movements,Disorder,DCC,6,0,0,0,0,
+248408,Familial hypodysfibrinogenemia,Subtype of disorder,FGB,6,0,0,0,0,
+2744,Horizontal gaze palsy with progressive scoliosis,Disorder,DCC,6,0,0,0,0,
+2796,Pachydermoperiostosis,Disorder,HPGD,6,0,0,0,0,
+317,Erythrokeratodermia variabilis,Disorder,GJB3,6,0,0,0,0,
+71271,Split hand-split foot-deafness syndrome,Disorder,DLX5,6,0,0,0,0,
+98880,Familial afibrinogenemia,Subtype of disorder,FGB,6,0,0,0,0,
+98881,Familial dysfibrinogenemia,Subtype of disorder,FGB,6,0,0,0,0,
+98991,Early-onset nuclear cataract,Subtype of disorder,BFSP1|CRYBB3|CRYGC|GJA8,6,0,0,0,0,
+216812,Osteogenesis imperfecta type 3,Subtype of disorder,COL1A2|SERPINH1,5,0,0,0,0,
+34528,Autosomal dominant primary hypomagnesemia with hypocalciuria,Disorder,FXYD2,5,0,0,0,0,
+379,Chronic granulomatous disease,Disorder,CYBA|CYBB,5,0,0,0,0,
+52430,Inclusion body myopathy with Paget disease of bone and frontotemporal dementia,Disorder,HNRNPA2B1,5,0,0,0,0,
+597733,Oculocutaneous albinism type 8,Disorder,DCT,5,0,0,0,0,
+712,Hemolytic anemia due to glucophosphate isomerase deficiency,Disorder,GPI,5,0,0,0,0,
+79276,Acute intermittent porphyria,Disorder,HMBS,5,0,0,0,0,
+847,X-linked alpha-thalassemia-intellectual disability syndrome,Disorder,ATRX,5,0,0,0,0,
+90796,"46,XY difference of sex development due to isolated 17,20-lyase deficiency",Disorder,CYB5A,5,0,0,0,0,
+101,Dentatorubral pallidoluysian atrophy,Disorder,ATN1,4,0,0,0,0,
+107,BOR syndrome,Disorder,EYA1,4,0,0,0,0,
+209902,Hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency,Disorder,CYP7A1,4,0,0,0,0,
+289157,Hypocalcemic vitamin D-dependent rickets,Disorder,CYP27B1,4,0,0,0,0,
+33574,Glutamate-cysteine ligase deficiency,Disorder,GCLC,4,0,0,0,0,
+363412,Hypomyelination with brain stem and spinal cord involvement and leg spasticity,Disorder,DARS1,4,0,0,0,0,
+437552,Autosomal recessive primary immunodeficiency with defective spontaneous natural killer cell cytotoxicity,Disorder,FCGR3A,4,0,0,0,0,
+45358,Congenital fibrosis of extraocular muscles,Disorder,PHOX2A,4,0,0,0,0,
+508533,Skeletal dysplasia-T-cell immunodeficiency-developmental delay syndrome,Disorder,EXTL3,4,0,0,0,0,
+50942,Striate palmoplantar keratoderma,Disorder,DSG1|DSP,4,0,0,0,0,
+523,Hereditary leiomyomatosis and renal cell cancer,Disorder,FH,4,0,0,0,0,
+52429,Branchiootic syndrome,Disorder,EYA1,4,0,0,0,0,
+71289,Radio-ulnar synostosis-amegakaryocytic thrombocytopenia syndrome,Disorder,HOXA11|MECOM,4,0,0,0,0,
+720341,Otofaciocervical syndrome without thymic hypoplasia,Subtype of disorder,EYA1,4,0,0,0,0,
+777,X-linked non-syndromic intellectual disability,Subtype of disorder,ACSL4|GDI1,4,0,0,0,0,
+98988,Early-onset anterior polar cataract,Subtype of disorder,CRYBB3|CRYGB,4,0,0,0,0,
+99803,Haddad syndrome,Disorder,ASCL1,4,0,0,0,0,
+101068,Congenital stromal corneal dystrophy,Disorder,DCN,3,0,0,0,0,
+230,Dopamine beta-hydroxylase deficiency,Disorder,DBH,3,0,0,0,0,
+234,Dubin-Johnson syndrome,Disorder,ABCC2,3,0,0,0,0,
+2512,Autosomal recessive primary microcephaly,Subtype of disorder,CDK6|CENPE,3,0,0,0,0,
+251380,Hereditary persistence of fetal hemoglobin-sickle cell disease syndrome,Disorder,HBG2,3,0,0,0,0,
+2662,Keipert syndrome,Disorder,GPC4,3,0,0,0,0,
+2680,Hypomyelination neuropathy-arthrogryposis syndrome,Disorder,ADCY6,3,0,0,0,0,
+280615,Low oxygen affinity gamma chain hemoglobin disease,Subtype of disorder,HBG2,3,0,0,0,0,
+369999,Diffuse palmoplantar keratoderma with painful fissures,Disorder,DSG1,3,0,0,0,0,
+370002,Focal palmoplantar keratoderma with joint keratoses,Disorder,DSG1,3,0,0,0,0,
+397755,Periodic paralysis with transient compartment-like syndrome,Disorder,CACNA1S,3,0,0,0,0,
+432,Normosmic congenital hypogonadotropic hypogonadism,Subtype of disorder,EMX2,3,0,0,0,0,
+461,Recessive X-linked ichthyosis,Disorder,STS,3,0,0,0,0,
+46532,Hereditary persistence of fetal hemoglobin-beta-thalassemia syndrome,Disorder,HBG2,3,0,0,0,0,
+478,Kallmann syndrome,Subtype of disorder,EMX2,3,0,0,0,0,
+589547,"GRIN2B-related developmental delay, intellectual disability and autism spectrum disorder",Disorder,GRIN2B,3,0,0,0,0,
+610,Bethlem muscular dystrophy,Disorder,COL6A2|COL6A3,3,0,0,0,0,
+646113,Intermediate collagen VI-related muscular dystrophy,Disorder,COL6A2|COL6A3,3,0,0,0,0,
+647811,Cardiac-urogenital syndrome,Disorder,MYRF,3,0,0,0,0,
+681,Hypokalemic periodic paralysis,Disorder,CACNA1S,3,0,0,0,0,
+707792,Unstable gamma globin chain variant disease,Disorder,HBG2,3,0,0,0,0,
+714399,Global developmental delay-dental enamel defects-ataxia syndrome,Disorder,CTBP1,3,0,0,0,0,
+75840,Ullrich congenital muscular dystrophy,Disorder,COL6A2|COL6A3,3,0,0,0,0,
+1377,Cataract-microcornea syndrome,Disorder,CRYGC|GJA8,2,0,0,0,0,
+139557,X-linked distal spinal muscular atrophy type 3,Disorder,ATP7A,2,0,0,0,0,
+139589,Distal hereditary motor neuropathy type 7,Disorder,DCTN1,2,0,0,0,0,
+1486,Lethal congenital contracture syndrome type 1,Disorder,GLE1,2,0,0,0,0,
+1520,Craniofrontonasal dysplasia,Disorder,EFNB1,2,0,0,0,0,
+1552,Currarino syndrome,Disorder,MNX1,2,0,0,0,0,
+178509,Perry syndrome,Disorder,DCTN1,2,0,0,0,0,
+1885,Isolated ectopia lentis,Disorder,FBN1,2,0,0,0,0,
+1942,Epilepsy with myoclonic-atonic seizures,Disorder,AP2M1,2,0,0,0,0,
+198,Occipital horn syndrome,Disorder,ATP7A,2,0,0,0,0,
+2089,Glycogen storage disease due to hepatic glycogen synthase deficiency,Disorder,GYS2,2,0,0,0,0,
+217407,Hereditary hypotrichosis with recurrent skin vesicles,Disorder,DSC3,2,0,0,0,0,
+217622,Sensorineural deafness with dilated cardiomyopathy,Disorder,EYA4,2,0,0,0,0,
+254905,Isolated cytochrome C oxidase deficiency,Disorder,COX10|COX4I1,2,0,0,0,0,
+2623,Geleophysic dysplasia,Disorder,FBN1,2,0,0,0,0,
+263553,Peeling skin syndrome type B,Subtype of disorder,CDSN,2,0,0,0,0,
+276212,"Mucopolysaccharidosis type 6, rapidly progressing",Subtype of disorder,ARSB,2,0,0,0,0,
+276223,"Mucopolysaccharidosis type 6, slowly progressing",Subtype of disorder,ARSB,2,0,0,0,0,
+2833,Stiff skin syndrome,Disorder,FBN1,2,0,0,0,0,
+284963,Marfan syndrome type 1,Subtype of disorder,FBN1,2,0,0,0,0,
+284979,Neonatal Marfan syndrome,Disorder,FBN1,2,0,0,0,0,
+289849,Glutathione synthetase deficiency without 5-oxoprolinuria,Subtype of disorder,GSS,2,0,0,0,0,
+289857,Neonatal glycine encephalopathy,Subtype of disorder,GLDC,2,0,0,0,0,
+289860,Infantile glycine encephalopathy,Subtype of disorder,GLDC,2,0,0,0,0,
+289863,Atypical glycine encephalopathy,Subtype of disorder,GLDC,2,0,0,0,0,
+293888,"Inherited isolated arrhythmogenic cardiomyopathy, dominant-left variant",Subtype of disorder,DSC2|DSP,2,0,0,0,0,
+293899,"Inherited isolated arrhythmogenic ventricular dysplasia, biventricular variant",Subtype of disorder,DSC2|DSP,2,0,0,0,0,
+293910,"Inherited isolated arrhythmogenic cardiomyopathy, dominant-right variant",Subtype of disorder,DSC2|DSP,2,0,0,0,0,
+295191,Zygodactyly type 3,Subtype of disorder,HOXD13,2,0,0,0,0,
+295195,Synpolydactyly type 1,Subtype of disorder,HOXD13,2,0,0,0,0,
+295201,"Congenital vertical talus, unilateral",Subtype of disorder,HOXD10,2,0,0,0,0,
+295203,"Congenital vertical talus, bilateral",Subtype of disorder,HOXD10,2,0,0,0,0,
+300382,Progeroid and marfanoid aspect-lipodystrophy syndrome,Disorder,FBN1,2,0,0,0,0,
+300605,Juvenile amyotrophic lateral sclerosis,Disorder,FUS,2,0,0,0,0,
+306530,Congenital hereditary facial paralysis-variable hearing loss syndrome,Disorder,HOXB1,2,0,0,0,0,
+309310,Mucopolysaccharidosis type 4B,Subtype of disorder,GLB1,2,0,0,0,0,
+3107,Autosomal dominant Robinow syndrome,Subtype of disorder,DVL1|FZD2,2,0,0,0,0,
+319605,X-linked mendelian susceptibility to mycobacterial diseases,Disorder,CYBB,2,0,0,0,0,
+325,Congenital factor II deficiency,Disorder,F2,2,0,0,0,0,
+330054,Congenital cataract-progressive muscular hypotonia-hearing loss-developmental delay syndrome,Disorder,GFER,2,0,0,0,0,
+33110,Autosomal non-syndromic agammaglobulinemia,Subtype of disorder,CD79A|CD79B,2,0,0,0,0,
+3449,Weill-Marchesani syndrome,Disorder,FBN1,2,0,0,0,0,
+352470,DNA2-related mitochondrial DNA deletion syndrome,Disorder,DNA2,2,0,0,0,0,
+36383,COL4A1/2-related familial vascular leukoencephalopathy,Disorder,COL4A1,2,0,0,0,0,
+394,Homocystinuria due to cystathionine beta-synthase deficiency,Disorder,CBS,2,0,0,0,0,
+41,Dyschromatosis symmetrica hereditaria,Disorder,ADAR,2,0,0,0,0,
+436159,Autoimmune lymphoproliferative syndrome due to CTLA4 haploinsuffiency,Disorder,CTLA4,2,0,0,0,0,
+436274,Pseudoxanthoma elasticum-like skin manifestations with retinitis pigmentosa,Disorder,GGCX,2,0,0,0,0,
+441452,Early-onset lamellar cataract,Subtype of disorder,CRYGB|CRYGC,2,0,0,0,0,
+464440,"Primary dystonia, DYT27 type",Disorder,COL6A3,2,0,0,0,0,
+477749,Pontine autosomal dominant microangiopathy with leukoencephalopathy,Disorder,COL4A1,2,0,0,0,0,
+481986,Familial schizencephaly,Subtype of disorder,COL4A1,2,0,0,0,0,
+51,Aicardi-Goutières syndrome,Disorder,ADAR,2,0,0,0,0,
+53696,Arthrogryposis-anterior horn cell disease syndrome,Disorder,GLE1,2,0,0,0,0,
+632,Short stature due to isolated growth hormone deficiency with X-linked hypogammaglobulinemia,Subtype of disorder,BTK|ELF4,2,0,0,0,0,
+694356,ADAR-related hereditary spastic paraplegia,Disorder,ADAR,2,0,0,0,0,
+715635,Rothmund-Thomson syndrome type 4,Subtype of disorder,DNA2,2,0,0,0,0,
+73229,HANAC syndrome,Disorder,COL4A1,2,0,0,0,0,
+75326,Familial isolated retinal arteriolar tortuosity,Disorder,COL4A1,2,0,0,0,0,
+79255,GM1 gangliosidosis type 1,Subtype of disorder,GLB1,2,0,0,0,0,
+79256,GM1 gangliosidosis type 2,Subtype of disorder,GLB1,2,0,0,0,0,
+79257,GM1 gangliosidosis type 3,Subtype of disorder,GLB1,2,0,0,0,0,
+79345,Brachytelephalangic chondrodysplasia punctata,Disorder,ARSL,2,0,0,0,0,
+86814,Familial adult myoclonic epilepsy,Disorder,CTNND2,2,0,0,0,0,
+90348,Autosomal dominant cutis laxa,Disorder,ELN,2,0,0,0,0,
+90368,Hypotrichosis simplex of the scalp,Disorder,CDSN,2,0,0,0,0,
+909,Cerebrotendinous xanthomatosis,Disorder,CYP27A1,2,0,0,0,0,
+91135,Body skin hyperlaxity due to vitamin K-dependent coagulation factor deficiency,Disorder,GGCX,2,0,0,0,0,
+915,Aarskog-Scott syndrome,Disorder,FGD1,2,0,0,0,0,
+93349,X-linked spondyloepimetaphyseal dysplasia,Disorder,BGN,2,0,0,0,0,
+93387,Brachydactyly type E,Disorder,HOXD13,2,0,0,0,0,
+93406,Syndactyly type 5,Disorder,HOXD13,2,0,0,0,0,
+93409,"Brachydactyly-syndactyly, Zhao type",Disorder,HOXD13,2,0,0,0,0,
+969,Acromicric dysplasia,Disorder,FBN1,2,0,0,0,0,
+98434,Hereditary combined deficiency of vitamin K-dependent clotting factors,Disorder,GGCX,2,0,0,0,0,
+98784,Sleep-related hypermotor epilepsy,Disorder,CRH,2,0,0,0,0,
+99810,Familial porencephaly,Subtype of disorder,COL4A1,2,0,0,0,0,
+100008,ACys amyloidosis,Subtype of disorder,CST3,1,0,0,0,0,
+101084,Charcot-Marie-Tooth disease type 1D,Disorder,EGR2,1,0,0,0,0,
+104077,Myopathic intestinal pseudoobstruction,Subtype of disorder,ACTG2,1,0,0,0,0,
+115,Congenital contractural arachnodactyly,Disorder,FBN2,1,0,0,0,0,
+125,Bloom syndrome,Disorder,BLM,1,0,0,0,0,
+137625,Glycogen storage disease due to muscle and heart glycogen synthase deficiency,Disorder,GYS1,1,0,0,0,0,
+158687,Lethal acantholytic erosive disorder,Disorder,DSP,1,0,0,0,0,
+164736,Familial advanced sleep-phase syndrome,Disorder,CSNK1D,1,0,0,0,0,
+168612,Congenital deficiency in alpha-fetoprotein,Disorder,AFP,1,0,0,0,0,
+168615,Hereditary persistence of alpha-fetoprotein,Disorder,AFP,1,0,0,0,0,
+169085,Susceptibility to respiratory infections associated with CD8alpha chain mutation,Disorder,CD8A,1,0,0,0,0,
+178333,Åland Islands eye disease,Disorder,CACNA1F,1,0,0,0,0,
+178461,X-linked myopathy with postural muscle atrophy,Disorder,FHL1,1,0,0,0,0,
+181,X-linked hypohidrotic ectodermal dysplasia,Subtype of disorder,EDA,1,0,0,0,0,
+1899,Arthrochalasia Ehlers-Danlos syndrome,Disorder,COL1A2,1,0,0,0,0,
+206599,Isolated asymptomatic elevation of creatine phosphokinase,Disorder,DAG1,1,0,0,0,0,
+210163,"Congenital lethal myopathy, Compton-North type",Disorder,CNTN1,1,0,0,0,0,
+2102,GTP cyclohydrolase I deficiency,Subtype of disorder,GCH1,1,0,0,0,0,
+2148,Lissencephaly type 1 due to doublecortin gene mutation,Disorder,DCX,1,0,0,0,0,
+216796,Osteogenesis imperfecta type 1,Subtype of disorder,COL1A2,1,0,0,0,0,
+216804,Osteogenesis imperfecta type 2,Subtype of disorder,COL1A2,1,0,0,0,0,
+216820,Osteogenesis imperfecta type 4,Subtype of disorder,COL1A2,1,0,0,0,0,
+2241,Megacystis-microcolon-intestinal hypoperistalsis syndrome,Disorder,ACTG2,1,0,0,0,0,
+230851,Cardiac-valvular Ehlers-Danlos syndrome,Disorder,COL1A2,1,0,0,0,0,
+230857,Ehlers-Danlos/osteogenesis imperfecta syndrome,Disorder,COL1A2,1,0,0,0,0,
+243,"46,XX gonadal dysgenesis",Disorder,BNC1,1,0,0,0,0,
+2438,Hand-foot-genital syndrome,Disorder,HOXA13,1,0,0,0,0,
+2604,Familial visceral myopathy,Disorder,ACTG2,1,0,0,0,0,
+279943,Hereditary neutrophilia,Disorder,CSF3R,1,0,0,0,0,
+280333,Alpha-dystroglycan-related limb-girdle muscular dystrophy R16,Disorder,DAG1,1,0,0,0,0,
+289,Ellis-Van Creveld syndrome,Disorder,EVC,1,0,0,0,0,
+289380,Myosclerosis,Disorder,COL6A2,1,0,0,0,0,
+29072,Hereditary pheochromocytoma-paraganglioma,Disorder,DLST,1,0,0,0,0,
+293165,Skin fragility-woolly hair-palmoplantar keratoderma syndrome,Disorder,DSP,1,0,0,0,0,
+2957,Guttmacher syndrome,Disorder,HOXA13,1,0,0,0,0,
+314029,High bone mass osteogenesis imperfecta,Disorder,COL1A2,1,0,0,0,0,
+314629,CLN11 disease,Disorder,GRN,1,0,0,0,0,
+314811,Short stature due to GHSR deficiency,Disorder,GHSR,1,0,0,0,0,
+319465,Inherited acute myeloid leukemia,Disorder,CEBPA,1,0,0,0,0,
+324,Fabry disease,Disorder,GLA,1,0,0,0,0,
+324262,Autosomal recessive congenital cerebellar ataxia due to MGLUR1 deficiency,Subtype of disorder,GRM1,1,0,0,0,0,
+330,Congenital factor XII deficiency,Disorder,F12,1,0,0,0,0,
+33108,Lethal multiple pterygium syndrome,Disorder,CHRNA1,1,0,0,0,0,
+353277,Rubinstein-Taybi syndrome due to CREBBP mutations,Subtype of disorder,CREBBP,1,0,0,0,0,
+35878,Hyperinsulinism-hyperammonemia syndrome,Disorder,GLUD1,1,0,0,0,0,
+36387,Genetic epilepsy with febrile seizure plus,Disorder,FGF13,1,0,0,0,0,
+369992,Severe dermatitis-multiple allergies-metabolic wasting syndrome,Disorder,DSP,1,0,0,0,0,
+370997,Muscle-eye-brain disease with bilateral multicystic leucodystrophy,Disorder,DAG1,1,0,0,0,0,
+382,Guanidinoacetate methyltransferase deficiency,Disorder,GAMT,1,0,0,0,0,
+431272,X-linked scapuloperoneal muscular dystrophy,Disorder,FHL1,1,0,0,0,0,
+469,Hereditary fructose intolerance,Disorder,ALDOB,1,0,0,0,0,
+47,X-linked agammaglobulinemia,Subtype of disorder,BTK,1,0,0,0,0,
+476096,Erythrokeratodermia-cardiomyopathy syndrome,Disorder,DSP,1,0,0,0,0,
+521414,Autosomal dominant Charcot-Marie-Tooth disease type 2DD,Disorder,ATP1A1,1,0,0,0,0,
+564178,Primary hypomagnesemia-refractory seizures-intellectual disability syndrome,Disorder,ATP1A1,1,0,0,0,0,
+566192,Congenital autosomal recessive small-platelet thrombocytopenia,Disorder,FYB1,1,0,0,0,0,
+592574,Menke-Hennekam syndrome,Disorder,CREBBP,1,0,0,0,0,
+617919,F12-associated cold autoinflammatory syndrome,Disorder,F12,1,0,0,0,0,
+621,Autosomal recessive methemoglobinemia,Disorder,CYB5R3,1,0,0,0,0,
+631095,Spinocerebellar ataxia type 44,Disorder,GRM1,1,0,0,0,0,
+64748,Dejerine-Sottas syndrome,Disorder,EGR2,1,0,0,0,0,
+647681,Craniosynostosis-facial dysmorphism-Chiari-1 malformation-developmental and language delay syndrome,Disorder,ERF,1,0,0,0,0,
+65282,Carvajal syndrome,Disorder,DSP,1,0,0,0,0,
+653712,CHD4-related neurodevelopmental disorder,Disorder,CHD4,1,0,0,0,0,
+662207,Neurodevelopmental delay-brain malformations-skeletal defects-intellectual disability syndrome,Disorder,HNRNPH1,1,0,0,0,0,
+696894,Common variable immunodeficiency phenotype due to CD21 deficiency,Disorder,CR2,1,0,0,0,0,
+700487,Congenital CLN10 disease,Subtype of disorder,CTSD,1,0,0,0,0,
+700492,Late infantile CLN10 disease,Subtype of disorder,CTSD,1,0,0,0,0,
+700497,Juvenile CLN10 disease,Subtype of disorder,CTSD,1,0,0,0,0,
+714070,"Incomplete congenital stationary night blindness, Schubert-Bornschein type",Subtype of disorder,CACNA1F,1,0,0,0,0,
+714079,"Complete congenital stationary night blindness, Schubert-Bornschein type",Subtype of disorder,GRM6,1,0,0,0,0,
+716816,Congenital myasthenic syndrome with primary acetylcholine receptor deficiency,Subtype of disorder,CHRNA1,1,0,0,0,0,
+719921,Congenital myasthenic syndrome due to defective structural molecule at the neuromuscular junction,Subtype of disorder,DES,1,0,0,0,0,
+726700,Chitayat syndrome,Disorder,ERF,1,0,0,0,0,
+79152,Disseminated superficial actinic porokeratosis,Disorder,FDPS,1,0,0,0,0,
+79239,Classic galactosemia,Disorder,GALT,1,0,0,0,0,
+85146,"Neurogenic scapuloperoneal syndrome, Kaeser type",Disorder,DES,1,0,0,0,0,
+898,Wagner disease,Disorder,VCAN,1,0,0,0,0,
+90795,Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency,Disorder,CYP11B1,1,0,0,0,0,
+91490,Isolated congenital sclerocornea,Disorder,GJA8,1,0,0,0,0,
+93328,Autosomal dominant omodysplasia,Subtype of disorder,FZD2,1,0,0,0,0,
+952,"Acrofacial dysostosis, Weyers type",Disorder,EVC,1,0,0,0,0,
+97239,Reducing body myopathy,Disorder,FHL1,1,0,0,0,0,
+98808,Autosomal dominant dopa-responsive dystonia,Disorder,GCH1,1,0,0,0,0,
+98909,Desminopathy,Disorder,DES,1,0,0,0,0,
+98984,Pulverulent cataract,Subtype of disorder,CRYGC,1,0,0,0,0,
+98985,Early-onset sutural cataract,Subtype of disorder,GJA8,1,0,0,0,0,
+99657,"Primary dystonia, DYT2 type",Disorder,HPCA,1,0,0,0,0,
+99798,Oligodontia,Disorder,EDA,1,0,0,0,0,
+99951,Charcot-Marie-Tooth disease type 4E,Disorder,EGR2,1,0,0,0,0,

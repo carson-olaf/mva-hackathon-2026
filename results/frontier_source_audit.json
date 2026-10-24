@@ -1,0 +1,270 @@
+{
+  "review_date_utc": "2026-10-24",
+  "scope": "Bounded public-source frontier review; no new patient analysis; no treatment selected",
+  "decision": "No new approved drug has a verified exact-genotype functional-rescue bridge with a credible chronic pediatric safety and exposure case",
+  "not_claimed": [
+    "exhaustive systematic review",
+    "proof that no treatment exists",
+    "drug rescue",
+    "clinical eligibility",
+    "renal causation",
+    "patient protein abundance"
+  ],
+  "sources": [
+    {
+      "id": "F01",
+      "pmid": "21389084",
+      "doi": "10.1093/hmg/ddr090",
+      "title": "Insufficiency of BUBR1, a mitotic spindle checkpoint regulator, causes impaired ciliogenesis in vertebrates",
+      "url": "https://doi.org/10.1093/hmg/ddr090",
+      "opened_url": "https://www.researchgate.net/publication/50351138_Insufficiency_of_BUBR1_a_mitotic_spindle_checkpoint_regulator_causes_impaired_ciliogenesis_in_vertebrates",
+      "scope": "Primary full text in author-uploaded mirror; abstract also retrieved through Europe PMC",
+      "support_location": "Figure 1, Figure 4 and G0 biochemical results",
+      "supported_claim": "MVA ciliation defect and partial DVL-knockdown rescue",
+      "limit": "Different genotypes; chromosome-15 transfer is not single-variant correction; renal cysts are not nephrocalcinosis"
+    },
+    {
+      "id": "F02",
+      "pmid": "25660017",
+      "doi": "10.1016/j.celrep.2015.01.003",
+      "title": "The microtubule-depolymerizing activity of a mitotic kinesin protein KIF2A drives primary cilia disassembly coupled with cell proliferation",
+      "url": "https://doi.org/10.1016/j.celrep.2015.01.003",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5099117/fullTextXML",
+      "scope": "Primary full text opened by phenotype research agent",
+      "support_location": "Figures 4A-D and accompanying results",
+      "supported_claim": "Interphase PLK1/KIF2A biology and knockdown rescue in MVA cells",
+      "limit": "PLK1 inhibitor rescue is explicitly data not shown; no exact-genotype or approved-drug evidence"
+    },
+    {
+      "id": "F03",
+      "pmid": "28100643",
+      "doi": "10.1096/fj.201600687RRR",
+      "title": "Fluid shear stress increases transepithelial transport of Ca2+ in ciliated distal convoluted and connecting tubule cells",
+      "url": "https://doi.org/10.1096/fj.201600687RRR",
+      "opened_url": "https://pubmed.ncbi.nlm.nih.gov/28100643/",
+      "scope": "Primary abstract returned by search and publisher abstract; no figure-specific claims",
+      "support_location": "Abstract",
+      "supported_claim": "Deciliation decreases calcium transport in mouse DCT/CNT cultures; a flow response remains",
+      "limit": "No BUB1B perturbation, clinical hypercalciuria or nephrocalcinosis result"
+    },
+    {
+      "id": "F04",
+      "pmid": "24927541",
+      "doi": "10.1073/pnas.1323265111",
+      "title": "Primary cilia control hedgehog signaling during muscle differentiation and are deregulated in rhabdomyosarcoma",
+      "url": "https://doi.org/10.1073/pnas.1323265111",
+      "opened_url": "https://pubmed.ncbi.nlm.nih.gov/24927541/?dopt=Abstract",
+      "scope": "Primary abstract independently checked; indexed PMC text also read",
+      "support_location": "Abstract and primary results",
+      "supported_claim": "Ciliary control of myoblast differentiation and context-dependent RMS Hedgehog response",
+      "limit": "No exact-genotype phenotype or RMS-prevention result; cilium restoration is not automatically beneficial"
+    },
+    {
+      "id": "F05",
+      "pmid": "40253509",
+      "doi": "10.1038/s43856-025-00847-1",
+      "title": "Drug and siRNA screens identify ROCK2 as a therapeutic target for ciliopathies",
+      "url": "https://doi.org/10.1038/s43856-025-00847-1",
+      "opened_url": "https://www.nature.com/articles/s43856-025-00847-1.pdf",
+      "scope": "Primary full PDF",
+      "support_location": "Results, Figure 2 and Figure 6",
+      "supported_claim": "Genotype-dependent ciliation rescue and cyst reduction in non-BUB1B models",
+      "limit": "No BUB1B, nephrocalcinosis, pediatric exposure or fidelity result"
+    },
+    {
+      "id": "F06",
+      "pmid": null,
+      "doi": null,
+      "title": "Eril Injection 30 mg: PMDA label revised April 2026",
+      "url": "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/100898_2190414A1033_1_07",
+      "scope": "Current official Japanese product/label record",
+      "support_location": "Approval, sections 4, 6-9 and 16",
+      "supported_claim": "Approval 21900AMX00715000; adult post-SAH vasospasm/ischemia indication; short-course IV use and pediatric/renal limitations",
+      "limit": "No MVA indication or chronic pediatric exposure validation",
+      "identifier_exception": "Official regulator document; no PMID or DOI"
+    },
+    {
+      "id": "F07",
+      "pmid": null,
+      "doi": "10.7554/eLife.80254",
+      "title": "Inhibitors of Rho kinases (ROCK) induce multiple mitotic defects and synthetic lethality in BRCA2-deficient cells",
+      "url": "https://elifesciences.org/articles/80254",
+      "scope": "Corrected primary full text",
+      "support_location": "Mitotic/cytokinesis results and fasudil concentrations in figures",
+      "supported_claim": "Relevant mitotic countermechanism in other cellular models",
+      "limit": "Common 64-128 uM experiments do not establish harm at 1 uM in BUB1B cells",
+      "correction": "F08"
+    },
+    {
+      "id": "F08",
+      "pmid": null,
+      "doi": "10.7554/eLife.94414",
+      "title": "Correction to the ROCK-inhibition mitotic-defects paper",
+      "url": "https://elifesciences.org/articles/94414",
+      "scope": "Full correction notice",
+      "support_location": "Main text",
+      "supported_claim": "Representative image replacement and additional reporting amendments; authors report unchanged quantification/conclusions",
+      "limit": "Correction notice is not independent replication"
+    },
+    {
+      "id": "F09",
+      "pmid": "25671433",
+      "doi": "10.1371/journal.pone.0118190",
+      "title": "Inhibition of Autophagy Suppresses Sertraline-Mediated Primary Ciliogenesis in Retinal Pigment Epithelium Cells",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118190",
+      "scope": "Primary full text",
+      "support_location": "Methods and Figures 1-5",
+      "supported_claim": "10 uM sertraline for 24 hours in ciliation experiments",
+      "limit": "No BUB1B genotype, renal function or fidelity rescue; nominal concentration is not measured free exposure"
+    },
+    {
+      "id": "F10",
+      "pmid": null,
+      "doi": null,
+      "title": "Zoloft current US label and product record",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7",
+      "scope": "Official current label/marketing record",
+      "support_location": "Sections 1, 8.4, 12.3 and product information",
+      "supported_claim": "FDA NDA019839 tablets and NDA020990 oral solution; pediatric OCD ages 6-17; relevant warnings",
+      "limit": "No MVA use, genomic-safety or efficacy bridge",
+      "identifier_exception": "Official labeling; no PMID or DOI"
+    },
+    {
+      "id": "F11",
+      "pmid": null,
+      "doi": null,
+      "title": "Historical sertraline US labeling: pediatric pharmacokinetics",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=966d728e-87ca-4491-9411-2ec253eca632&type=display",
+      "scope": "Historical official label, used only for stated PK anchors",
+      "support_location": "Pediatric pharmacokinetics",
+      "supported_claim": "Pediatric mean total peaks 165 and 123 ng/mL in the described 200 mg/day study",
+      "limit": "Not current approval evidence or this child's exposure; tissue and culture binding unresolved",
+      "identifier_exception": "Official labeling; no PMID or DOI"
+    },
+    {
+      "id": "F12",
+      "pmid": "22698286",
+      "doi": "10.1016/j.devcel.2012.03.009",
+      "title": "The Vertebrate Mitotic Checkpoint Protein BUBR1 Is an Unusual Pseudokinase",
+      "url": "https://doi.org/10.1016/j.devcel.2012.03.009",
+      "opened_url": "https://www.hubrecht.eu/app/uploads/2017/11/Kops_Research_2012_Suijkerbuijk_The-vertebrate-mitotic-checkpoint-protein-BUBR1-is-an-unusual-psuedokinase.pdf",
+      "scope": "Primary author-institute full PDF",
+      "support_location": "Figure 3A-D and results pages 1325-1326",
+      "supported_claim": "731X rescue in specified transformed-cell assays; blot relative abundance 1.44 versus WT 1.00",
+      "limit": "Not exact 1-736 or physiological single-allele behavior; opposed by F14"
+    },
+    {
+      "id": "F13",
+      "pmid": "23789096",
+      "doi": "10.1242/bio.20134051",
+      "title": "BUBR1 recruits PP2A via the B56 family of targeting subunits to promote chromosome congression",
+      "url": "https://doi.org/10.1242/bio.20134051",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3654266/fullTextXML",
+      "scope": "Primary full XML; relevant paragraphs independently read locally",
+      "support_location": "Figure 4 and accompanying results",
+      "supported_claim": "1-730 and engineered kinetochore phosphatase targeting improve MVA-cell alignment",
+      "limit": "Alignment under the assay conditions is not continuous segregation fidelity or a pharmacological rescue"
+    },
+    {
+      "id": "F14",
+      "pmid": "33207204",
+      "doi": "10.1016/j.celrep.2020.108397",
+      "title": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment",
+      "url": "https://doi.org/10.1016/j.celrep.2020.108397",
+      "opened_url": "https://www.researchgate.net/publication/347785117_BUBR1_Pseudokinase_Domain_Promotes_Kinetochore_PP2A-B56_Recruitment_Spindle_Checkpoint_Silencing_and_Chromosome_Alignment",
+      "scope": "Primary full text in author-uploaded mirror; abstract independently retrieved",
+      "support_location": "Figures 3-4 and expression-matching results",
+      "supported_claim": "731X has functional defects including matched-abundance experiments",
+      "limit": "Not exact 1-736 or N1002K; differences from F12/F13 are not resolved by this review"
+    },
+    {
+      "id": "F15",
+      "pmid": "22938201",
+      "doi": "10.1186/1750-1172-7-58",
+      "title": "Rescue of nonsense mutations by amlexanox in human cells",
+      "url": "https://link.springer.com/article/10.1186/1750-1172-7-58",
+      "scope": "Primary full text",
+      "support_location": "Results and discussion",
+      "supported_claim": "Other-gene NMD/readthrough experiments at nominal micromolar concentrations",
+      "limit": "No BUB1B rescue or chronic pediatric window; CFTR allele attribution has a stated confounder"
+    },
+    {
+      "id": "F16",
+      "pmid": null,
+      "doi": null,
+      "title": "Drugs@FDA NDA020511 Aphthasol",
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?event=overview.process&ApplNo=020511",
+      "scope": "Current official product record",
+      "support_location": "Product table and original approval history",
+      "supported_claim": "Historical approval and discontinued marketing of 5% dental paste",
+      "limit": "Discontinued marketing does not establish formal withdrawal of approval",
+      "identifier_exception": "Official regulator record; no PMID or DOI"
+    },
+    {
+      "id": "F17",
+      "pmid": null,
+      "doi": null,
+      "title": "Aphthasol approved label, 2002",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2002/20511s002lbl.pdf",
+      "scope": "Historical official full label",
+      "support_location": "Indications and formulation",
+      "supported_claim": "Aphthous-ulcer indication for oral-cavity paste",
+      "limit": "Not a current systemic product or chronic pediatric MVA indication",
+      "identifier_exception": "Official labeling; no PMID or DOI"
+    },
+    {
+      "id": "F18",
+      "pmid": "35695070",
+      "doi": "10.15252/embj.2022110611",
+      "title": "Chemogenetic profiling reveals PP2A-independent cytotoxicity of proposed PP2A activators iHAP1 and DT-061",
+      "url": "https://doi.org/10.15252/embj.2022110611",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9289710/fullTextXML",
+      "scope": "Primary full XML; relevant biochemical results independently read locally",
+      "support_location": "Perphenazine, iHAP1 and DT-061 biochemical/cellular results",
+      "supported_claim": "Does not substantiate perphenazine activation of reconstituted PP2A-B56; alternative cellular effects for other compounds",
+      "limit": "No evidence that a global PP2A drug replicates localized kinetochore rescue"
+    }
+  ],
+  "calculations": {
+    "sertraline_total_peak_uM": {
+      "formula": "ng_per_mL / free_base_molecular_weight_g_per_mol",
+      "inputs_ng_per_mL": [
+        165,
+        123
+      ],
+      "molecular_weight": 306.23,
+      "rounded_outputs": [
+        0.539,
+        0.402
+      ]
+    },
+    "nominal_bath_to_total_peak_ratio": {
+      "formula": "10 / (ng_per_mL / 306.23)",
+      "rounded_outputs": [
+        18.6,
+        24.9
+      ],
+      "interpretation": "Nominal culture versus total plasma comparison only; not free-exposure matching"
+    }
+  },
+  "unsupported_bridges": [
+    "Exact genotype to a G0 ciliary defect",
+    "BUB1B ciliary dysfunction to nephrocalcinosis",
+    "Fasudil to useful BUB1B rescue at a safe chronic pediatric exposure",
+    "Exact 1-736 to physiological-dose fidelity rescue",
+    "Approved NMD inhibition to safe endogenous 1-736 recovery",
+    "Laboratory rescue thresholds to clinical benefit or cancer prevention"
+  ],
+  "proposed_thresholds": {
+    "gap_closure_fraction": 0.5,
+    "minimum_relative_viable_division_output": 0.9,
+    "illustrative_harm_margin_absolute_fraction": 0.02,
+    "status": "Author-designed laboratory gates; not validated clinical thresholds or executed results"
+  },
+  "ai_disclosure": {
+    "provider": "OpenAI",
+    "plan": "Pro",
+    "model_training": "disabled, user confirmed",
+    "data_sharing": "disabled, user confirmed"
+  }
+}

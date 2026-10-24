@@ -1,0 +1,562 @@
+[
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/IFT140?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:39.389461+00:00",
+    "response_sha256": "a082a5fe6fcb60d22413c87455d17b0b6d9e8a28be3ac39effd16335f9a8c420",
+    "stored_snapshot_sha256": "4f00d616b1ceadc16bf5ec8032a153d3fcc036a1d5f1c91734fc7848d49832cd",
+    "bytes": 102240
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/HSD11B2?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:08.744865+00:00",
+    "response_sha256": "327b961a03af5d13606bafaef73017aa80d5fc094f165bf00ebeb76fdfb245a3",
+    "stored_snapshot_sha256": "76697cc27487f25919261091ffee7d831f6ad41b96334c6758e20b493c6f976f",
+    "bytes": 19296
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000651561?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:36.123174+00:00",
+    "response_sha256": "711439466ada730345739790f97fae43ecd1c42008b28d57b597ef6814f5db82",
+    "stored_snapshot_sha256": "203e889a955ae7c0603d3d864eccc64f95a61c61013d77470f89c4bc5059e834",
+    "bytes": 1063
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/HRAS?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:28.084429+00:00",
+    "response_sha256": "2c2e8eb58bee5344687a03cd7934de50a326994006753dce41e13ba38395953c",
+    "stored_snapshot_sha256": "a032e822e2c4607c7d08ddd976a9933dfa4531aeb98b46ab4e8336905de166e9",
+    "bytes": 44217
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000647893?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:16.909724+00:00",
+    "response_sha256": "878997fcd9fd6c63c2db1a6439a009251dfb902b7d03851f9b0dd76cb2e8deb7",
+    "stored_snapshot_sha256": "ac2ef506c2714c58fbee3c5d11990f92cf9a34fe1fc021c7ff822f52c9f92e37",
+    "bytes": 2878
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ALG12?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:59.511100+00:00",
+    "response_sha256": "1d61523af47fba488fdee039f44aa9576313a3c370972984c96b75eb16c17f38",
+    "stored_snapshot_sha256": "615ac83e7c9c94639e44de9e6a6936ce8fa1e92b38b74713c3f4eddac291c4b5",
+    "bytes": 79590
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/IGF2?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:20.668498+00:00",
+    "response_sha256": "0b097339932928ca06a885bb5bbb42b73c80bb7ce32d05ba639b6a251dd9acde",
+    "stored_snapshot_sha256": "66d3318c470f1f963ebcb55aa7a69daffc2cc4ea017939c62ac75d70889e074b",
+    "bytes": 85736
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000287598?type=cds",
+    "retrieved_utc": "2026-10-24T00:02:59.468699+00:00",
+    "response_sha256": "5d532e9c2028e29b4b02b7aaf3c5328431cf830c9590dfcfdb067689dbf34ea8",
+    "stored_snapshot_sha256": "890b89da3b9a50e497eeb6f79eb425dfc8c0a6ad03fcde94f938be59a24d6558",
+    "bytes": 3254
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000650372?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:18.726188+00:00",
+    "response_sha256": "8dad64a5df91307a43ea1374ab1e0444cb9426cadbdcc36f7963111ba0026d0f",
+    "stored_snapshot_sha256": "d0d0e4e8392dd5df4f1f52bcccc702aaaf56ec7a9c6db7b0bb58b7a9e5577ffc",
+    "bytes": 4066
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/DNAJC21?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:14.249137+00:00",
+    "response_sha256": "397e75fc375943f82a8faf368d2929f07b82a14b5862adb28162a11d66fa04b5",
+    "stored_snapshot_sha256": "c38d95f4298bfe6eb24734d4f024a4c0a2d79449602deaecffcaff9ad99e46d9",
+    "bytes": 77559
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ABCC6?expand=1",
+    "retrieved_utc": "2026-10-24T00:05:46.447360+00:00",
+    "response_sha256": "edecb404a4855b5f4d00db8caed29a39aef0c47f6a7dee72dc08ae5c06d13ed5",
+    "stored_snapshot_sha256": "f281e6bfe4eb8083f3451199d2a683a938a4f3c15701209a13ae34d1b43949e0",
+    "bytes": 186300
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/AK2?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:04.698199+00:00",
+    "response_sha256": "8caf0d17bccf91296c875b82271318598e65c26821f14f5b3255f76bfb72943e",
+    "stored_snapshot_sha256": "05d086186be72bebde8809330d684ef4014b700e1d563a71171fd53ab4c9d66d",
+    "bytes": 67161
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ABCB11?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:54.874211+00:00",
+    "response_sha256": "33111903be10d0d486b507ed9d5da4465488488c80c0acab4f25c4683552326a",
+    "stored_snapshot_sha256": "02bd8780222e0cc7f47d87adf5b911414f1c43d4338f45d0c2f58b9340fb9767",
+    "bytes": 41486
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000380993?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:07.816765+00:00",
+    "response_sha256": "543c157804cd58c7f5a419a2af4c0f2561dca98828eaf68d2f91082552eb4f41",
+    "stored_snapshot_sha256": "e041719fdd8c26746c4c95bd58488732caf7fecf6365e605c6fe7a968f8b677c",
+    "bytes": 3400
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000262815?type=cds",
+    "retrieved_utc": "2026-10-24T00:09:20.908484+00:00",
+    "response_sha256": "295f38613b2601911e4593ff683411ac05006ac35a6541a6f403d2d8c1bcadf6",
+    "stored_snapshot_sha256": "c1b3bfa153b020248508a803e291385c990d908181db6501adcf698591fe95eb",
+    "bytes": 1943
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000330817?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:44.559462+00:00",
+    "response_sha256": "b83699866e75d972a474245982713647027364a30105a0d1bb6acccb8e919c1a",
+    "stored_snapshot_sha256": "3bab5828c599c50e7d630880dbdd4105ea3f0a982d4f7d3d2bcb0138caf06db6",
+    "bytes": 1568
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000331920?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:43.156875+00:00",
+    "response_sha256": "ffe00b3dd56b97c9c002cc5f07b371f584dee96a58e5347e4ac20f8ebb54c012",
+    "stored_snapshot_sha256": "e3b2383f5c9e1b05c99da6713a863684ff1e6409aa862a5e6e532c4e7e9660ab",
+    "bytes": 4445
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/NBN?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:39.168757+00:00",
+    "response_sha256": "3a1fdacaecde3b6db7fdce618b4f539b1d821b779656db1cafaa029d3acd1410",
+    "stored_snapshot_sha256": "c2f8507cc313045670eca2ac55f89ed46a63a0140c44adfa9706a75d3d50b448",
+    "bytes": 185962
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PEX3?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:01.411632+00:00",
+    "response_sha256": "68c36dd782cfa915eb2f40cf571c050e7f55b46fce7ae5ef4688abd7cf281fbd",
+    "stored_snapshot_sha256": "519f019b16e7deec4184a14cada41d5746691fdbd85f1fb01d19c28b41aa8845",
+    "bytes": 47045
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ENPP1?expand=1",
+    "retrieved_utc": "2026-10-24T00:05:44.733598+00:00",
+    "response_sha256": "315ec6b8e6eeccd9be39abad0c3ff7ee2c0d8aabb4580706a7f6944a6aebb34e",
+    "stored_snapshot_sha256": "3ef4e6c1d4f34d6564f497fa10f46e382417770afce0c72d007440135c8a489e",
+    "bytes": 55853
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/BUB1B?expand=1",
+    "retrieved_utc": "2026-10-24T00:02:46.151676+00:00",
+    "response_sha256": "85f979f5c14a68a82c9d0fabcdb81ea8b833b6ef78669a471a1b4e44c4f1b345",
+    "stored_snapshot_sha256": "bddf9abad97ef37e8e8a478ba3d136a72cd82caa54ca5dfd5835ee13871fdc31",
+    "bytes": 116004
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/FBN1?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:11.871648+00:00",
+    "response_sha256": "f6d60318acb2fc472a0725ac39353fc85cdc36446d43b1fc23a6cc5372d6d47d",
+    "stored_snapshot_sha256": "ac792453380cacf0b1f8095f29fc1e36db1152f76fe21d8fd62e497abf13c77b",
+    "bytes": 88820
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000369244?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:56.514319+00:00",
+    "response_sha256": "63e7712347bc9c904bd5004f50f8b8e9a5157df67496ad4412dc589cf7cf30ba",
+    "stored_snapshot_sha256": "fe83ce051f50fc14cc416b727969b76bf7a8599991190caff4d19fca0b6f8eb9",
+    "bytes": 1966
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000357039?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:52.110910+00:00",
+    "response_sha256": "e576ff6f1a897e7126ea46e30f6806c42d9dd72ecea68496a4024261e754e3d3",
+    "stored_snapshot_sha256": "d367157d52d943bbe0cb4fbd023629e9d4679237f3e0c0ba049e57c50207fc84",
+    "bytes": 1018
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000308275?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:43.066608+00:00",
+    "response_sha256": "8719dc478a9932dd73a7f05b13d8f256277b0d3b020da3ba41ac5ed4070ac1ae",
+    "stored_snapshot_sha256": "9a42d6396f59fa7afca9bb4885f12099ae7604f32ceedfac7186c1d5820e9032",
+    "bytes": 1312
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/FIG4?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:57.586694+00:00",
+    "response_sha256": "b3324db712bdca2ad0110c524784c148d9bfdb71535aad1a5f4b97eb54c00d2d",
+    "stored_snapshot_sha256": "3a6b9a2814b510d16b01426778fd365db39e5c34100289bfc2d1542189e4733b",
+    "bytes": 314552
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000230124?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:06.086087+00:00",
+    "response_sha256": "2052437bd4b9df292862f237ff3bccf4a3aa22f02e37e48f541ce77b833ab56f",
+    "stored_snapshot_sha256": "f935cba7464ea1ded2da9674ad6240abf7d5a88e0e4552bdf776f217ec871264",
+    "bytes": 2824
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000255078?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:05.693803+00:00",
+    "response_sha256": "0454c3f6f520adba3d85b771c888a29e0f2c2c9fca93fd02c06e2d1eeb36562c",
+    "stored_snapshot_sha256": "1523dc84358cf12641dc84712128c204a7f4781061438423e5defff3aa73ebbd",
+    "bytes": 3082
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000265433?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:06.250036+00:00",
+    "response_sha256": "866ebe690916656a3c87a4031ce411676b179183d01be64300650d040716db35",
+    "stored_snapshot_sha256": "0fb94bbe21f54459def04dc72e29e87b758173508967aaebaaf5d86e3690e3ee",
+    "bytes": 2365
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/TP53?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:43.935481+00:00",
+    "response_sha256": "a0d82d037283e7e091efb0eee513c76a01fd8fb9226e402c3c1cd8f88e7020d3",
+    "stored_snapshot_sha256": "0b1427e47065f5104b6a5e9fbb488d9aa6176ea170b81debf94a3232a2a5d36d",
+    "bytes": 97565
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000334186?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:27.868676+00:00",
+    "response_sha256": "c6adf59d030036cdc2c64d73240a45431c4118d4a1e334c401ab29ee3af29139",
+    "stored_snapshot_sha256": "113b4ce57210ac2b48c914f6bee7d2cd96e109c048a98e9cd09824e0769ed3c5",
+    "bytes": 3685
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SLC12A1?expand=1",
+    "retrieved_utc": "2026-10-24T00:05:38.835819+00:00",
+    "response_sha256": "f992d02010dc766dc1dd1b3af81c36fe9a565fe4929bac293931e1def4cf7a1a",
+    "stored_snapshot_sha256": "3e7e0beab4eb6ea1a377c4b13033c7e4177083f6ec66233d9ab1ba55dabff06a",
+    "bytes": 62817
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000318129?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:47.698007+00:00",
+    "response_sha256": "e07e733c3767b524cc8c3f48c72a187e72a9f44ab01c83d5913c0da1d0dca233",
+    "stored_snapshot_sha256": "dc9505076e3e41ad4dbc616212ede10d3284388465bbbe8105cb8ea20bb04f06",
+    "bytes": 751
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000246868?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:45.200394+00:00",
+    "response_sha256": "83320ee1cf1be50860040b32cab05716b327d22944511ee53c75101c5912240b",
+    "stored_snapshot_sha256": "27277eccf0fe46e424a2b00caba5aa45a16173fb06ec5600a9fe81e47e24caa1",
+    "bytes": 853
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SRP54?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:31.844882+00:00",
+    "response_sha256": "e07b2074b9b915c568e121ca7a3e79737d4ce58ed78c58b19e0d82a92a3a32d4",
+    "stored_snapshot_sha256": "43537e672ecb11644c9c99a233fff065ce35a84dab7f710d8c355c1274606456",
+    "bytes": 127141
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000311189?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:47.836608+00:00",
+    "response_sha256": "b08ee89ff8a9b7efd341ef8ea4134d1d4877246c4cb857b8d99b7fc404a8d252",
+    "stored_snapshot_sha256": "a16f4f056c918d5eb02cdf4a77c2c1e02ee8b371e64704b6ab5bc06cade62f7e",
+    "bytes": 670
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SLC16A2?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:57.621031+00:00",
+    "response_sha256": "60e375a6fdf9ea2a9f01677a39f89923251278c5a0c758555221b4a646992a92",
+    "stored_snapshot_sha256": "04731d30954ef96c53b1ed13ffac4a991be39a72472167d9a29741cfeb19f310",
+    "bytes": 33012
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PPFIA3?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:21.382426+00:00",
+    "response_sha256": "e2aa66fcfa8b54ee612728e52c7a68d07143fbc1d9d28c418289fa3b0971db7c",
+    "stored_snapshot_sha256": "c4c87a420910d0d59489febe77fd36f58a63131d42bcd44df01d29e0bd4c18f7",
+    "bytes": 49557
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000416167?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:27.447744+00:00",
+    "response_sha256": "ee139fb28176065307afa72871e2a9ac58ee4415ab1db0822456642afbc0d98c",
+    "stored_snapshot_sha256": "bd4b903f79adfb112117ff0154d2e73fee33ab697b464af8f257d63128656eea",
+    "bytes": 643
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000325542?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:14.194953+00:00",
+    "response_sha256": "2364ab951c7fb38b2eba912568fa8acdd775fd59889e2fbfb5f62c2555d70e2a",
+    "stored_snapshot_sha256": "67a63975062cb75165826e96878f4c9c85ab6389913ae731f97960cd4d02848d",
+    "bytes": 1604
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000326152?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:20.165238+00:00",
+    "response_sha256": "7f4003e18a8abe05d0a1faa8e82fa88c6cb0b501f215c0246c1ff182ed0713bd",
+    "stored_snapshot_sha256": "a890586b4e70503e4b84417d996c2781d00d1406b75f5c8a4f114f7ea6bc6c8e",
+    "bytes": 1318
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/RNU4ATAC?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:57.016627+00:00",
+    "response_sha256": "09e437dd21c9e2425590458a055c5cd2755bb3aeb58095c1c8a005fe48032f0b",
+    "stored_snapshot_sha256": "a956f36c787b84e95d5bceadefab5f9a0ef3dc8dbac7fd6db9cb1be9bb5b5228",
+    "bytes": 1038
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000392666?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:29.826509+00:00",
+    "response_sha256": "1182238dd624c510359d4346a81191fa6547349e7d587c38df55a555b1c2cb53",
+    "stored_snapshot_sha256": "c48a0fbd5a03c93798cefc5e4504d04f0f24b87db06619b643ce4fc54def4537",
+    "bytes": 1219
+  },
+  {
+    "source": "https://github.com/obophenotype/human-phenotype-ontology/releases/latest/download/phenotype_to_genes.txt",
+    "retrieved_utc": "2026-10-24T00:02:05.639684+00:00",
+    "response_sha256": "7b7a0f71b7c6d2bdfff3d6f075c567c56d668495a4fd80f0bc35f690a221d00b",
+    "stored_snapshot_sha256": "7b7a0f71b7c6d2bdfff3d6f075c567c56d668495a4fd80f0bc35f690a221d00b",
+    "bytes": 67246520
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/VPS33B?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:28.647073+00:00",
+    "response_sha256": "f6253c7b0a314c9b1d62bdd95057cf32cfb4377b11f4e2114caea111bb24431a",
+    "stored_snapshot_sha256": "6fa1f98abad005df5515c5949845555d49b45b0790848ad8ed766d067ca976d1",
+    "bytes": 159575
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000355243?type=cds",
+    "retrieved_utc": "2026-10-24T00:09:15.085296+00:00",
+    "response_sha256": "dddd66518042789c33c87202b9199b6fa953f92a6927f3af49c531ee26d31f39",
+    "stored_snapshot_sha256": "c3fa82f98a0528e7edbad361fd24ab751d9dbafb44589a681ace3cdf69ef9bd1",
+    "bytes": 1285
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PBX1?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:52.520301+00:00",
+    "response_sha256": "066cd6c27316b32dc88fcea1d36ed871c2794f92dc37f666269f4ad7cebb7d17",
+    "stored_snapshot_sha256": "a653eb6de9834590439cd1c6246fc54b351535746e27e52774ef8822e637cc9d",
+    "bytes": 50295
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000205557?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:00.855556+00:00",
+    "response_sha256": "664f9a1af35fee9ebadc3491ec1ddaf1e98429ef418b89ed0fd11c74685e73b7",
+    "stored_snapshot_sha256": "a392cf5f52434a5b13cb7d73e7a30ba92a22a0ad1a738f0795d8d7824ab2d0cd",
+    "bytes": 4613
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/BSND?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:32.383662+00:00",
+    "response_sha256": "3b42a07986ad36d3868aa59d9a25701d94aa5ec01ea560ede88b2ba7ca048e3b",
+    "stored_snapshot_sha256": "2db4a589738ee7211e18e99d540d1c8f2b52d9589cab47e8349e6d2ab1b7ae92",
+    "bytes": 3249
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000316623?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:35.380324+00:00",
+    "response_sha256": "f2c218f83aa3973845f880b69ba702a1ef925516e4f2d8f61114b265e864911e",
+    "stored_snapshot_sha256": "1138ac62fe5232c2b0fe27f99801fbb74f562686a280a2ccdd6d5ea17ced2278",
+    "bytes": 8717
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000269305?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:51.837227+00:00",
+    "response_sha256": "6ea66b992555621e552a8f26b7e2ad86755f0f0c261c6273d1c105f3f575856a",
+    "stored_snapshot_sha256": "5b263f7ae1702f3b3b2f1b7654797260bfda66fec1f65d50a33dbea045867d1a",
+    "bytes": 1282
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/FBXL4?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:46.889898+00:00",
+    "response_sha256": "85e2086e894a91b92337f5f9ef8b1a5e2e4d6b47d51604345beb57422d30d993",
+    "stored_snapshot_sha256": "2778e10dacdc4b759defea94705b04ef1e6100e740d37b02422a67121ed56443",
+    "bytes": 96163
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000672715?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:06.289556+00:00",
+    "response_sha256": "e48ea63860ffce0e770e91248dea966211faaef38c24afdeb02b397810bf83b6",
+    "stored_snapshot_sha256": "3703ac01c24ea5a42deb715dbfa7008535f7d50da3cb71d39d856255191988f2",
+    "bytes": 820
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000587091?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:00.617531+00:00",
+    "response_sha256": "0b03bd2121e21fea843942f005c8fdb82a335321d575fd1175166383943939c9",
+    "stored_snapshot_sha256": "b66566de555a8df571d27ac158f2b58c76bf3bc6680df151426831233f761c02",
+    "bytes": 1720
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CEP57?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:04.593151+00:00",
+    "response_sha256": "7ffb501a747b574dffb64109e2f70eb9347a871081f1cbd1d95c8d0289ab8683",
+    "stored_snapshot_sha256": "cc35c02bbdafda2b986488a61ab64b5982ea9d29cdba47e8a27b06f537b5a8a5",
+    "bytes": 82448
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/MAU2?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:58.089737+00:00",
+    "response_sha256": "916b66e703589d5bee536d3285b9b0e7d9c34dbae6f1ba406415311ee3d6faf2",
+    "stored_snapshot_sha256": "f30a0d93638cf5316630185c0c8d4197b2a113e54f104c8fa82b27bc084a194d",
+    "bytes": 56801
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PTCH1?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:26.612472+00:00",
+    "response_sha256": "3afcdd7790544eec8559f99572a95b2966b9aa184424170029abb519e624af29",
+    "stored_snapshot_sha256": "619a5d040ff454195248cc78139a2b93bb89226d5cbaac71c18198cac76c5bf2",
+    "bytes": 70149
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ATP8B1?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:11.514296+00:00",
+    "response_sha256": "eb5f1531143a12005fd6584274316b7aa2ce3aeb85062caa19d8b2cd53949aea",
+    "stored_snapshot_sha256": "08b2018ad1aeef600514d637d806c51a8f5246213f1c443e9ec00a8dc79b82e3",
+    "bytes": 133321
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000367591?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:04.897090+00:00",
+    "response_sha256": "9c6ae297b22308c3711e8f3e7df18849bc00f54b0f124af598f8bf1094793e4d",
+    "stored_snapshot_sha256": "2bf83b2abf725eaec2c9017ba10dd07bd550c4ee4ab2e00580de9cbf40fdf22f",
+    "bytes": 1222
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000648908?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:32.218302+00:00",
+    "response_sha256": "ea0edab9bd5a6d4752a92622170ca5b3dc89b5b5f0f88f4bd1e98874faa233ae",
+    "stored_snapshot_sha256": "d89ff8fd3fa463177be3676601c5aabe4c6c47b465f71f1b0675a564b4d7a585",
+    "bytes": 3856
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000375679?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:56.437787+00:00",
+    "response_sha256": "570b9063b6d824243b8991d73e6cd0fc8790378bc1bb0d4cf5ec7a9448d1676c",
+    "stored_snapshot_sha256": "9fe68e90d4b085316de8360e62807c59cc770d258ecf5f6a89854abdab03c481",
+    "bytes": 2164
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/SBDS?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:32.699035+00:00",
+    "response_sha256": "c818b9adcd80dd03306a396b3af8d00a31f712f753b83cbdf6b9b69d2c0cd44a",
+    "stored_snapshot_sha256": "16ef19d42d7f565eababd641e2f149b2ac39bea9a7d8748b52835c0308eeb700",
+    "bytes": 37453
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/KCNJ1?expand=1",
+    "retrieved_utc": "2026-10-24T00:02:16.462365+00:00",
+    "response_sha256": "553b5fe1a1192cee123c34094f41a971ad10083c0a6420d1a841e9788f3295b8",
+    "stored_snapshot_sha256": "77ed7a1400f6164a8db5e53ad7fffd09db0f0ace3152868c4eca4742cf106aa7",
+    "bytes": 20211
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000648817?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:21.330461+00:00",
+    "response_sha256": "6bca66edb170157b6874c1cd5013e97d6a5f51c1d9549f790396259eff6336ee",
+    "stored_snapshot_sha256": "f98884c5ef947c9321cc7490b9f76218da5372021d2e807432c5e1f3dd660575",
+    "bytes": 1696
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PEX2?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:51.305324+00:00",
+    "response_sha256": "bb898acef12b87af764a7218deccc913f4e3b34aaa2feaeabc71506616c225a5",
+    "stored_snapshot_sha256": "8dd7c10dac8c79795feaa2cf21ca78c5002e964c0f80fb92302825b52be9954d",
+    "bytes": 35161
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000331433?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:52.808752+00:00",
+    "response_sha256": "39020faf8705418c8d3d4ee3154cfb12755bec6233b891096a8b9d0360bdae10",
+    "stored_snapshot_sha256": "bd66054e8e0d0ed9ae3606162c69593230272300f36684b68407f036dcb2e5be",
+    "bytes": 2164
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000302850?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:16.673850+00:00",
+    "response_sha256": "cdde307eafdd087c4a27fc9c4ae2ac9b12912c0fe2ba38d26184c6152f979dfe",
+    "stored_snapshot_sha256": "9a488231cf8c8fdcdbcfa8ada2071327af7225827d89d4eb1f8bcfc150beec6e",
+    "bytes": 4250
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000426508?type=cds",
+    "retrieved_utc": "2026-10-24T00:08:42.206983+00:00",
+    "response_sha256": "965735b2f0502bb76286b6d0a8acac210c36f737449ee876ae5400f2b901db7d",
+    "stored_snapshot_sha256": "6017510a62596c39867d3be5f5358332f682cb86a54d3d1e5c8b4e0feb28b371",
+    "bytes": 4489
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/INSR?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:05.780879+00:00",
+    "response_sha256": "f46cfd3a2cd7d89154a25896f223e9f4b47e25d49a7fc93afa155f1f5dddefe1",
+    "stored_snapshot_sha256": "4a308d2e954e33a66195a05b3e681d6def1ee85656cadcbd043353dd023a60b0",
+    "bytes": 35270
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PAX2?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:54.753191+00:00",
+    "response_sha256": "c1f31a5bb05deb7f0d1bdc303a48cca04380e3f3a440a1ca9a0cd99066674e14",
+    "stored_snapshot_sha256": "59e7be662ae126fb0719c5a1b65317f05919486a33d8e6a5a561e9b2e64ca12f",
+    "bytes": 37334
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000333371?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:42.396740+00:00",
+    "response_sha256": "83658910065a8dd0a8673431cf5d76858a6aefc1aab5a88b5d609d95b38c5929",
+    "stored_snapshot_sha256": "05ae279ebe57fef8750fdc407b4f1e2e4bbc858e5f3202b32ddd0c5158402ec9",
+    "bytes": 1954
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/IGHMBP2?expand=1",
+    "retrieved_utc": "2026-10-24T00:07:02.633405+00:00",
+    "response_sha256": "b74ae8411c1057b438def5a4c9468c02364310e19ebe1475a9a2c5e0470ec26e",
+    "stored_snapshot_sha256": "ae7d26b255ae5f067c6198abbdf6e91c23731f86eae3a3da97c3b0935e10bdf4",
+    "bytes": 105445
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/GINS3?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:46.287139+00:00",
+    "response_sha256": "0388cc79d2d938fe01ecceea0bfca240100d6592256796679a14975fac11547d",
+    "stored_snapshot_sha256": "9dce6d2b61f97c705e01cb8ea0e984ed184d7e0164128a11be52e40bfa0edd4f",
+    "bytes": 12707
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/FBXO22?expand=1",
+    "retrieved_utc": "2026-10-24T00:08:20.597586+00:00",
+    "response_sha256": "5f9a512b7e45defd75cdad35ac765b100a9c4cc7d3ee9a6712d03865f0e65d92",
+    "stored_snapshot_sha256": "1a3788848f4657821f32c67521d195d1d521f29c83fe9acef3b7f4b8f94667c5",
+    "bytes": 54755
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/MPV17?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:16.845225+00:00",
+    "response_sha256": "a3de1ad102bc8b6d57899d6de54d4ff37b762198ba058a7424fbe8eddb60461b",
+    "stored_snapshot_sha256": "ddcba09872e4af2ebae310949ae6b40205e2d62549b54dd2bdae653744b5d79f",
+    "bytes": 156065
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000216774?type=cds",
+    "retrieved_utc": "2026-10-24T00:07:42.073713+00:00",
+    "response_sha256": "a0de92ac2f940044dbed12fff7de60977e061f42bc1c83b01218e952598e26e5",
+    "stored_snapshot_sha256": "8789ac615d76f32e79b53fdc0221382acf02bd3dd74a5bdc918a90e25474d66e",
+    "bytes": 1616
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000420696?type=cds",
+    "retrieved_utc": "2026-10-24T00:09:08.665666+00:00",
+    "response_sha256": "b4d0510453267f0d756d432830ba08ae217f47b5a144401afbf143dc1409549d",
+    "stored_snapshot_sha256": "205adb9b9a0b8b2c4102659db6a2ef65989f71f308191a221324de71a3fde7e2",
+    "bytes": 1393
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CLCNKB?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:46.885250+00:00",
+    "response_sha256": "63981993927dbcfd2602c078b856d53e6733ace54f036349429e3cdcdbc61fd5",
+    "stored_snapshot_sha256": "acf68e99ca4959907a995ec55227dd55bfef1d3af9179c4a5d3c6e0446f11c7c",
+    "bytes": 161172
+  },
+  {
+    "source": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/CLCNKA?expand=1",
+    "retrieved_utc": "2026-10-24T00:06:47.986094+00:00",
+    "response_sha256": "0df6fd3dd198add5e9e14ce1a6ffe2fca371f7ae39655c481b8e74dd6751ad1f",
+    "stored_snapshot_sha256": "fcbfbc14477d301dc40f4f9d5f99e26595fb2e51e050d7929334c02de4e0492c",
+    "bytes": 165105
+  },
+  {
+    "source": "https://rest.ensembl.org/sequence/id/ENST00000380044?type=cds",
+    "retrieved_utc": "2026-10-24T00:06:17.613235+00:00",
+    "response_sha256": "8e48fff5ffc9e21d2e9830649e62e2b611086bf48e1a9ce3335f97b3ebef66ba",
+    "stored_snapshot_sha256": "c2f9409cedd8d63084e69e104cea627b62a08a5328f1c17125a784d9501a8f89",
+    "bytes": 631
+  }
+]

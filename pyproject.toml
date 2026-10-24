@@ -1,0 +1,34 @@
+[project]
+name = "mva-hackathon-2026"
+version = "0.1.0"
+description = "Reproducible MVA genome analysis and public-data drug repurposing"
+readme = "README.md"
+license = "CC-BY-4.0"
+license-files = ["LICENSE.md"]
+authors = [
+    { name = "Carson Olafson", email = "carcango@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pytest>=9.1.1",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+mva-hackathon-2026 = "mva_hackathon_2026:main"
+mva-track1 = "mva_hackathon_2026.track1:main"
+mva-repurpose = "mva_repurpose.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = ["mva_hackathon_2026", "mva_repurpose"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["work", "data", "private", ".venv"]

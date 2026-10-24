@@ -1,0 +1,106 @@
+{
+  "execution_summary_sha256": "17d3147a0bf7f2bf80d9aca5ee9d4a1c285962e48cb73277f219c7843ed7066d",
+  "primary": "case_100kb_1mb",
+  "primary_exploratory_outlier_regions": [],
+  "sensitivity_outlier_regions_by_run": {
+    "case_100kb_5mb": [],
+    "case_250kb_1mb": [],
+    "case_250kb_5mb": [],
+    "case_50kb_1mb": [],
+    "case_50kb_5mb": [],
+    "case_half_100kb_1mb": [],
+    "case_half_100kb_5mb": [],
+    "case_half_250kb_1mb": [],
+    "case_half_250kb_5mb": [],
+    "case_half_50kb_1mb": [],
+    "case_half_50kb_5mb": [],
+    "normal_selfsplit_100kb_1mb": [],
+    "normal_selfsplit_100kb_5mb": [],
+    "normal_selfsplit_250kb_1mb": [],
+    "normal_selfsplit_250kb_5mb": [],
+    "normal_selfsplit_50kb_1mb": [],
+    "normal_selfsplit_50kb_5mb": []
+  },
+  "alignments": {
+    "patient": {
+      "versions": {
+        "minimap2": "2.31-r1302",
+        "samtools": "samtools 1.24"
+      },
+      "total_pairs": 11412959,
+      "pairs_per_batch": [
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        162959
+      ],
+      "index_batch": "500M",
+      "query_batch": "25M",
+      "threads": 6,
+      "global_duplicate_removal": true,
+      "elapsed_seconds": 3305.659055875003
+    },
+    "normal": {
+      "versions": {
+        "minimap2": "2.31-r1302",
+        "samtools": "samtools 1.24"
+      },
+      "total_pairs": 11256953,
+      "pairs_per_batch": [
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        750000,
+        6953
+      ],
+      "index_batch": "500M",
+      "query_batch": "25M",
+      "threads": 6,
+      "global_duplicate_removal": true,
+      "elapsed_seconds": 2991.3684464159887
+    }
+  },
+  "sampled_minimum_free_disk_bytes_across_attempts": 33817067520,
+  "sampled_maximum_swap_bytes_across_attempts": 6039860674.56,
+  "telemetry_samples": 704,
+  "telemetry_first_utc": "2026-10-24T00:59:05.602801+00:00",
+  "telemetry_last_utc": "2026-10-24T04:23:36.686559+00:00",
+  "telemetry_caveat": "Samples span supervised attempts and can miss instantaneous peaks; the initial index build triggered the 8GB swap stop",
+  "interpretation": "Primary has no adjusted outlier; extra proper-pair check flags unconfirmed chr8p contrast. No confirmed clone, total MVA burden or clinical exclusion.",
+  "additional_proper_pair_sensitivity": {
+    "manifest_sha256": "0e6793f9c426e9eabaa058776843cd8a20573fe41b4a49fb4d9b0b8c81c50282",
+    "tests": 61,
+    "conditional_within_run_outlier_regions": [
+      "chr8p"
+    ],
+    "chr8p_relative_cn": 2.0874669914447397,
+    "chr8p_within_run_adjusted_p": 0.03456551448285057,
+    "primary_chr8p_adjusted_p": 0.3192226925769141,
+    "interpretation": "Small recurrent relative-depth elevation with method-sensitive significance; unconfirmed origin; no patient clone or clone-fraction estimate",
+    "independent_replication": false,
+    "across_run_multiplicity_control": false
+  }
+}

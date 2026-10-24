@@ -1,0 +1,23 @@
+{
+  "panel": "ACMG_SF_v3.3",
+  "panel_gene_count": 84,
+  "panel_source": "https://search.clinicalgenome.org/kb/reports/acmg-activity-summary-report",
+  "panel_reconciled_from_paper": [
+    "SMAD3",
+    "TSC1",
+    "TSC2"
+  ],
+  "paper_PMID": "40568962",
+  "public_ClinVar_fileDate": "2026-10-19",
+  "public_ClinVar_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/vcf_GRCh38/clinvar.vcf.gz",
+  "public_ClinVar_bytes": 200670148,
+  "public_ClinVar_sha256": "1dd89965cdd851bca72aa8aa6ffaca6c07f410c52f04c95c0cc446b4b75f2610",
+  "counts": {
+    "ClinVar_records_in_SF_genes": 340171,
+    "ClinVar_high_confidence_PLP_records": 25309,
+    "patient_records_at_reference_positions": 12
+  },
+  "exact_high_confidence_PLP_variant_matches": 0,
+  "clinically_confirmed_secondary_findings": 0,
+  "null_calibration": "Deterministic reference-match screen, not statistical burden inference. >=2-star P/LP and exact allele/QC safeguards reduce false candidate reporting; absent matches do not establish a negative clinical screen."
+}

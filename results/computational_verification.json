@@ -1,0 +1,81 @@
+{
+  "verified_utc": "2026-10-24T04:34:14.901424+00:00",
+  "git_parent_commit": "ad05eea8c262dd3ef34a06709a37591f348674f6",
+  "tests": {
+    "command": "uv run pytest -q",
+    "result": "19 passed in 3.75s",
+    "scope": "all project tests; observed final invocation"
+  },
+  "fresh_install": {
+    "command": "UV_PROJECT_ENVIRONMENT=work/verification-venv uv sync --frozen --offline",
+    "fresh_environment": true,
+    "installed_packages": 23,
+    "actual_console_cli_bub1b": {
+      "curated_laboratory_hypotheses": 3,
+      "clinical_eligible": 0,
+      "supported_rescue": 0
+    },
+    "actual_console_cli_tsc2_first": "EVEROLIMUS",
+    "network": "offline public caches",
+    "final_noneditable_built_wheel_cli": "EVEROLIMUS rank1; offline; installed archive identity checked"
+  },
+  "track1": {
+    "columns": 12,
+    "rows": 1,
+    "prefix_valid": true,
+    "original_csv_identical": true
+  },
+  "lowpass": {
+    "primary": "case_100kb_1mb",
+    "completed_grid_runs": 18,
+    "extra_proper_pair_sensitivity_complete": true,
+    "all_summary_table_plot_hashes_verified": true,
+    "source_integrity_and_cleanup": {
+      "original_vcf_index_and_clinical_document_sha256_size_mtime_unchanged": true,
+      "downloaded_patient_fastqs_deleted_after_bam_qc": true,
+      "downloaded_normal_fastqs_deleted_after_bam_qc": true
+    },
+    "synthetic_public_alignment_script_completed": true
+  },
+  "privacy": {
+    "tracked_files_before_this_commit": 294,
+    "new_reviewed_result_files": 44,
+    "forbidden_tracked_or_new_paths": [],
+    "private_directory_modes": {
+      "data": "0o700",
+      "work": "0o700",
+      "private": "0o700"
+    },
+    "genotype_scale_files_committed": false,
+    "new_lowpass_tables": "bounded chromosome/arm aggregates only"
+  },
+  "distribution_archives": {
+    "mva_hackathon_2026-0.1.0-py3-none-any.whl": {
+      "sha256": "83b94fc6d93426d26981330dc5c07c80086aee4526e357fbaf8903501ba83364",
+      "bytes": 93851,
+      "members": 31,
+      "forbidden_members": []
+    },
+    "mva_hackathon_2026-0.1.0.tar.gz": {
+      "sha256": "38f2c0ecc797477615d7fb314a1384402a0c3885a3e06985cef34598ab65ac47",
+      "bytes": 79731,
+      "members": 31,
+      "forbidden_members": []
+    }
+  },
+  "verified_scope": "computational reproduction and evidence audit, not clinical validity",
+  "unverified": [
+    "phase and allele-specific RNA/NMD",
+    "useful protein and drug rescue",
+    "patient pharmacokinetics and safety",
+    "total MVA cell burden and clinical sensitivity",
+    "unread correction bodies marked in references",
+    "Pro conservation/SASA computations without archive",
+    "exact organizer dataset citation",
+    "pitch video and human submission review"
+  ],
+  "external_actions": {
+    "push": false,
+    "submission": false
+  }
+}

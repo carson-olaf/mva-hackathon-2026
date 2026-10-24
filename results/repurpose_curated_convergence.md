@@ -1,0 +1,19 @@
+# Curated hypotheses and computational convergence
+
+**Three testable laboratory hypotheses; no demonstrated drug rescue.** The external Pro review supplies mechanistic proposals and ordinal judgments. The CLI resolves actual public molecule identities, applies evidence caps, reads the current marker-level PGx table and checks an independent official-product approval audit. No clinical candidate passes the unknown functional, exposure and safety gates.
+
+| Laboratory priority | Published bridge | Missing link | Computational/PGx contribution | Original approved product |
+|---|---|---|---|---|
+| Arimoclomol; co-lead | A chaperone-response/opsin-model precedent plus unstable BubR1 mutant biology | Arimoclomol → useful N1002K BubR1 → fewer chromosome errors is untested; quantity alone may not restore function | Stability methods do not establish substantial destabilization; LINCS gives no positive rescue evidence; no selected PGx mapping is not a safety pass | FDA MIPLYFFA, NDA214927: NPC neurological manifestations, with miglustat, age >=2; no MVA or monotherapy inference |
+| Azithromycin; co-lead | Macrolide PTC-reporter/protein-restoration precedents in other genes | Endogenous Leu737Ter RNA survival, feasible readthrough and useful full-length product remain untested | The stop/NMD calculation identifies a conditional allele route, not drug responsiveness; no positive LINCS or selected PGx evidence | FDA ZITHROMAX suspension, NDA050710: selected susceptible bacterial infections with indication-specific pediatric ages; no chronic preventive indication |
+| Prescription nicotinic acid; third laboratory priority | Niacin → NAD in adult mitochondrial myopathy; separate NMN/SIRT2 → BubR1 observations | The combined niacin → functional BubR1/MVA edge and net K668/K250 effect are unknown; RMS direction needs a counter-screen | No independent positive structural/signature rescue line; no selected PGx mapping is not normal function | FDA niacin ER, ANDA203899: specified lipid indications; pediatric safety/effectiveness <=16 not established |
+
+The proposed paths have **E<=1** because their critical disease-response bridges are indirect. Their external G/E/S/F/N judgments yield 49/48/43 only through the declared weighted arithmetic. One-point changes produce ranges 43–55, 42–54 and 37–49, respectively; these are sensitivity scenarios, not confidence intervals. Scores must not be treated as learned predictions or compared with the separate automatic graph-context score.
+
+All three official-product gates pass from current FDA application records plus opened product labels. This verifies the original approved products, not MVA suitability, commercial supply in every jurisdiction, a pediatric dose or chronic cancer safety. All three remain `clinical_eligible: false`; expected effect sizes remain unknown.
+
+**Convergence decision:** zero independent positive computational drug-rescue lines. Multiple publications on different steps of one proposed path do not constitute replicated BUB1B drug rescue. The first credible contribution is the allele-specific falsification experiment, with arimoclomol and azithromycin tested as conditional co-leads. No drug meets the two-independent-positive-rescue-lines headline rule.
+
+The actual PGx run matches ABCB1 to a vincristine context entry, with no validated dosing phenotype and no efficacy bonus. It supplies no genotype-specific advice for these three leads; absent selected guidance is not proof of safety. The separate raw context output remains in `repurpose_bub1b*`.
+
+Evidence: [actual CLI result](repurpose_curated_bub1b.json), [access/source ledger](repurpose_curated_sources.json), [official-product audit](repurpose_curated_approval_audit.json), [explicit external judgments and missing bridges](../examples/bub1b_curated_evidence.json). These artifacts distinguish observations, hypotheses, author judgments and unknown clinical gates.

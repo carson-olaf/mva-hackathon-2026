@@ -1,0 +1,134 @@
+{
+  "review_date": "2026-10-24",
+  "scope": "Public literature and regulatory records only. No patient measurements or gated data.",
+  "archival_status": "Sources opened through web tools and the publisher supplement retrieved and text-extracted in memory. Supplement response bytes were hashed but not archived. Curated inputs are hashed by the arithmetic script.",
+  "decision": "Systemic peak exposure is feasible; retain only as a preclinical hypothesis. Uridine-alone exact-genotype efficacy and a chronic oncology-safe therapeutic window are unknown.",
+  "sources": [
+    {
+      "id": "burrell_2013",
+      "pmid": "23446422",
+      "doi": "10.1038/nature11935",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636055/",
+      "opened_scope": "Primary full main text, Figure 4 legend and methods; actual 42-page publisher supplement retrieved and extracted in memory. Supplementary Figures 13-14 (PDF pages 13-14) examined; full-file text search performed. No component-specific arm found. Reviewer recheck: main-text checkpoint comparison and NCIH508 nonresponse, with Supplementary Figures 2d-i and 13b,c cited there.",
+      "supports": "Four-ribonucleoside supplementation; 48-hour segregation-error reductions of 45-55% in four CIN-positive colorectal lines; methods list 0.3 or 30 micromolar.",
+      "does_not_establish": "Uridine-alone rescue or sufficiency, necessity of all four components, minimum effective concentration, exact Figure 4 dose assignment, explicit per-component interpretation, BUB1B-MVA rescue or clinical benefit.",
+      "supplement": {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fnature11935/MediaObjects/41586_2013_BFnature11935_MOESM68_ESM.pdf",
+        "retrieved_date": "2026-10-24",
+        "bytes": 5145921,
+        "sha256": "8bceb7b460d597c3ad0c667973a56c8de942c0b36dc5844439acc18258934ed6",
+        "pages": 42,
+        "raw_bytes_archived": false,
+        "component_specific_arm_found": false,
+        "dose_assignment_resolved": false,
+        "audit": "results/burrell_supplement_audit.md"
+      },
+      "transfer_limits": "No observed checkpoint-function difference between CIN groups; 18q-normal CIN-positive NCIH508 did not respond. These context limits do not prove BUB1B nonresponse."
+    },
+    {
+      "id": "xuriden_label",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Official regulatory labeling; no article PMID or DOI assigned.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=88ca4d2b-3905-474b-9fd6-c81474f2fb4b&type=display",
+      "opened_scope": "Full label; sections 1-2, 6.1, 12.3 Table 3 and 13.1. Root and pharmacology agent verified.",
+      "supports": "FDA-approved hereditary orotic aciduria indication, oral formulation, published regimen, plasma uridine PK, small chronic safety cohort and standard genotoxicity results.",
+      "does_not_establish": "Patient-specific exposure, 24-hour trough/AUC, unbound or intracellular exposure, MVA efficacy, or cancer-predisposition safety."
+    },
+    {
+      "id": "fda_xuriden_pharmacology_review",
+      "pmid": null,
+      "doi": null,
+      "regulatory_reference": "NDA208169; Reference ID3781495",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2015/208169Orig1s000PharmR.pdf",
+      "opened_scope": "PDF printed pages 51-54 and 66 (zero-based PDF indices 53-56 and 68), including carcinogenicity review and waiver recommendation; root and pharmacology agent reviewed.",
+      "supports": "Reported experience up to 19 years without reported neoplasia; negative standard genotoxicity studies; no identified treatment-related immunosuppression/neoplastic pattern in reviewed studies; carcinogenicity-study waiver rationale.",
+      "does_not_establish": "A quantified long-term cancer denominator or surveillance design, zero tumors in all animals, a formal negative two-year rodent carcinogenicity study, or safety in BUB1B-MVA. One rat mammary adenocarcinoma was judged incidental."
+    },
+    {
+      "id": "park_2021",
+      "pmid": "33955658",
+      "doi": "10.1111/febs.15912",
+      "url": "https://febs.onlinelibrary.wiley.com/doi/full/10.1111/febs.15912",
+      "opened_scope": "Primary main text and replication-stress results, root and mechanism agent.",
+      "supports": "BubR1 acetylation-defective mouse K243R model replication stress and chromosome rearrangements.",
+      "does_not_establish": "The behavior of human N1002K, nucleotide shortage, or rescue by uridine/nucleoside supplementation."
+    },
+    {
+      "id": "cao_2016",
+      "pmid": "26801745",
+      "doi": "10.1016/j.canlet.2016.01.007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26801745/",
+      "opened_scope": "Primary PubMed abstract accessed through indexed search; primary publisher abstract/snippets also inspected. Full figures and exposure durations not verified. Root independently checked the 10/30 micromolar units.",
+      "supports": "Uridine at 10 or 30 micromolar caused uracil-DNA damage/damage signaling in four cancer cell lines; UPase-knockout mice had greater than threefold spontaneous tumorigenesis.",
+      "does_not_establish": "A human toxicity threshold, oral Xuriden cancer risk, rhabdomyosarcoma recurrence risk, or a clinical therapeutic index. Knockout is not a drug-treatment experiment."
+    },
+    {
+      "id": "nwosu_2023",
+      "pmid": "37198494",
+      "doi": "10.1038/s41586-023-06073-w",
+      "url": "https://www.nature.com/articles/s41586-023-06073-w",
+      "opened_scope": "Primary full text, root and oncology agent.",
+      "supports": "UPP1-dependent use of uridine-derived ribose by glucose-restricted pancreatic cancer and growth consequences in experimental models.",
+      "does_not_establish": "RMS growth promotion or recurrence in children receiving approved Xuriden."
+    },
+    {
+      "id": "paras_2025",
+      "pmid": "40911784",
+      "doi": "10.1158/0008-5472.CAN-25-0315",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40911784/",
+      "opened_scope": "PubMed primary abstract and accessible figure legends; root independently opened abstract. PMC full-text access was blocked.",
+      "supports": "PAX3-FOXO1-positive RMS pyrimidine dependence and rescue of methotrexate sensitivity by provision of pyrimidines.",
+      "does_not_establish": "Uridine-alone rescue, clinical Xuriden interactions with the child's unknown treatment, or the child's fusion status."
+    },
+    {
+      "id": "xiao_2026",
+      "pmid": "41468885",
+      "doi": "10.1016/j.cmet.2025.11.016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41468885/",
+      "opened_scope": "Primary PubMed abstract, root and oncology agent; full exposure-response figures not verified.",
+      "supports": "Uridine supplementation supported CD8 T-cell antitumor function in experimental mouse models.",
+      "does_not_establish": "A clinical anticancer dose, chronic Xuriden cancer prevention, or net safety in BUB1B-MVA."
+    },
+    {
+      "id": "vistogard_label",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Official regulatory labeling; no article PMID or DOI assigned.",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=269f7363-63ed-444e-85f1-f0009e44818b&type=display",
+      "opened_scope": "Official label sections 1-2, 6.1, 8.4 and 12.3; pharmacology agent verified.",
+      "supports": "Acute fluorouracil/capecitabine rescue indication and warning about diminishing efficacy with non-emergency use; short-course safety experience.",
+      "does_not_establish": "Safety of chronic frequent dosing or an interaction with an unspecified RMS regimen."
+    },
+    {
+      "id": "burrell_correction_2013",
+      "pmid": null,
+      "doi": "10.1038/nature12369",
+      "url": "https://www.nature.com/articles/nature12369",
+      "opened_scope": "Indexed primary Nature correction text; direct web-tool article/PDF rendering failed through identity redirect.",
+      "supports": "Adds omitted TCGA acknowledgements and dbGaP accession information.",
+      "does_not_establish": "A change to nucleoside composition, dose or efficacy endpoints."
+    },
+    {
+      "id": "pandey_2025",
+      "pmid": "41099693",
+      "doi": "10.1093/nar/gkaf1035",
+      "url": "https://www.diva-portal.org/smash/get/diva2:2010300/FULLTEXT01.pdf",
+      "opened_scope": "Full primary PDF, Figures 1 and 3; same paper previously cited in renewed_frontier_review.md.",
+      "supports": "CTP/UTP increase; modest dCTP change; weak ribonucleoside fork-speed effects versus thymidine-containing conditions.",
+      "does_not_establish": "Uridine-alone or BUB1B segregation rescue.",
+      "correction": {
+        "doi": "10.1093/nar/gkag532",
+        "pmid": "42165140",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13187833/",
+        "opened_scope": "Full correction; Introduction production wording, no results correction stated."
+      }
+    }
+  ],
+  "proposed_not_observed": [
+    "Uridine-only rescue of a secondary replication burden in the exact genotype.",
+    "The paired rescue/harm experiment and all its effect-size, confidence-bound and viable-output gates.",
+    "The illustrative 3-5 micromolar baseline sensitivity scenarios; neither baseline was measured in this child."
+  ],
+  "no_clinical_signoff": true
+}

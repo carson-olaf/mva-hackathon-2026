@@ -1,0 +1,72 @@
+{
+  "nominal_comparator_uM": 30,
+  "comparator_is_verified_uridine_alone_effective_concentration": false,
+  "profiles": [
+    {
+      "profile": "60_mg_per_kg_daily_day_28",
+      "n": 4,
+      "cmax_mean_uM": 88.7,
+      "peak_to_nominal_comparator_ratio": 2.9566666666666666,
+      "measured_auc_window_h": 8,
+      "mean_over_first_8h_uM": 34.8375,
+      "mean_over_24h_uM": null,
+      "measured_trough_24h_uM": null,
+      "measured_hours_above_comparator_per_day": null,
+      "illustrative_post_peak_crossing_times": [
+        {
+          "assumed_baseline_uM": 3,
+          "hours_after_peak": 3.8325723332418384,
+          "status": "Sensitivity calculation only; not measured or patient-specific"
+        },
+        {
+          "assumed_baseline_uM": 5,
+          "hours_after_peak": 4.009588914142991,
+          "status": "Sensitivity calculation only; not measured or patient-specific"
+        }
+      ]
+    },
+    {
+      "profile": "120_mg_per_kg_daily_day_160",
+      "n": 2,
+      "cmax_mean_uM": 80.9,
+      "peak_to_nominal_comparator_ratio": 2.6966666666666668,
+      "measured_auc_window_h": 8,
+      "mean_over_first_8h_uM": 58.2,
+      "mean_over_24h_uM": null,
+      "measured_trough_24h_uM": null,
+      "measured_hours_above_comparator_per_day": null,
+      "illustrative_post_peak_crossing_times": [
+        {
+          "assumed_baseline_uM": 3,
+          "hours_after_peak": 12.535044152288874,
+          "status": "Sensitivity calculation only; not measured or patient-specific"
+        },
+        {
+          "assumed_baseline_uM": 5,
+          "hours_after_peak": 13.137808684177708,
+          "status": "Sensitivity calculation only; not measured or patient-specific"
+        }
+      ]
+    }
+  ],
+  "uridine_alone_bub1b_efficacy_verified": false,
+  "cancer_hazard_reported_concentrations_uM": [
+    10,
+    30
+  ],
+  "human_cancer_safe_threshold_uM": null,
+  "therapeutic_index": null,
+  "patient_specific_exposure": null,
+  "limits": [
+    "Label concentrations are plasma uridine, not parent uridine triacetate.",
+    "AUC0-8 divided by8 is an eight-hour average, not a daily average.",
+    "Means from different small groups do not establish dose proportionality.",
+    "SD is not a confidence interval or an individual patient range.",
+    "Conditional post-peak decay omits the rising limb, absorption, distribution and intracellular retention; it is not total daily time above the comparator.",
+    "The crossing-time range varies assumed baseline only, not peak or half-life variability; it is not an uncertainty interval.",
+    "30 micromolar is a reference concentration, not an established uridine efficacy threshold; the peak ratio is not an efficacy margin, adequate target coverage or a therapeutic window.",
+    "A plasma peak does not establish the required duration or all four mixture components.",
+    "Cellular DNA-damage reports are not a human toxicity threshold or clinical cancer risk ratio."
+  ],
+  "input_sha256": "e750a9b62e18cedae357cb767f17a23260b6af9ec738a8fa36f0c179bc940685"
+}

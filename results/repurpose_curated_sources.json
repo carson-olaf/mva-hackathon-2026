@@ -1,0 +1,195 @@
+{
+  "records": [
+    {
+      "pmid": "17889646",
+      "doi": "10.1016/j.cell.2007.07.020",
+      "title": "Heat shock factor 1 is a powerful multifaceted modifier of carcinogenesis.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17889646%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:15.172715+00:00",
+      "response_sha256": "35b6c755522dc5598e4c8b035437e3f4520f92743c536f996541a2724d6a28b5",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1016/j.cell.2007.07.020",
+        "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867407009579",
+        "http_status": 200,
+        "response_bytes": 2958,
+        "response_sha256": "df8de8622fc223d3c38cb2d30962c829810ee0b594c4c69e80917fb1dd0b15db",
+        "title": "Redirecting",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    },
+    {
+      "pmid": "20516114",
+      "doi": "10.1158/0008-5472.can-09-4319",
+      "title": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20516114%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:14.513223+00:00",
+      "response_sha256": "469906128da88d63a70d95cc99d2dfaba9ff47f5428bc72da9392e2fa22f6a9d",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1158/0008-5472.can-09-4319",
+        "resolved_url": "https://aacrjournals.org/cancerres/article/70/12/4891/559376/Molecular-Causes-for-BUBR1-Dysfunction-in-the",
+        "http_status": 403,
+        "response_bytes": 5788,
+        "response_sha256": "ac9dddea68f3e852fdcb10b94c48c3d4fc3e763bf0182a00da4e81307b5c02ea",
+        "title": "Just a moment...",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    },
+    {
+      "pmid": "24825348",
+      "doi": "10.15252/embj.201386907",
+      "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24825348%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:17.379299+00:00",
+      "response_sha256": "13f0e9263640a0bb543119fd1a7744f2b7aa6cd523c28ef1580d359e7012b58d",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.15252/embj.201386907",
+        "resolved_url": "https://link.springer.com/article/10.15252/embj.201386907",
+        "http_status": 200,
+        "response_bytes": 469622,
+        "response_sha256": "844374081da5ed23ce017b19243ffe261420b1d235fe6dbf984a78305bbb8eaf",
+        "title": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan | The EMBO Journal | Springer Nature Link",
+        "opened_scope": "publisher page"
+      }
+    },
+    {
+      "pmid": "24853414",
+      "doi": "10.1038/cddis.2014.214",
+      "title": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:24853414%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:14.849340+00:00",
+      "response_sha256": "b1bb48843316b3de53a9af556c094d9b7f6f2a27c20413d6551ed7447e960675",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1038/cddis.2014.214",
+        "resolved_url": "https://www.nature.com/articles/cddis2014214",
+        "http_status": 200,
+        "response_bytes": 475944,
+        "response_sha256": "289b3a7f86db384543d7f1ab99e55e15363c7be88464e7c0321d634a9264c670",
+        "title": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa | Cell Death &amp; Disease",
+        "opened_scope": "publisher page"
+      }
+    },
+    {
+      "pmid": "25285631",
+      "doi": "10.1016/j.bbrc.2014.09.128",
+      "title": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25285631%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:17.705811+00:00",
+      "response_sha256": "67de0efbbf5ce16de643c3d7e07f381de0ca96cc63163cf2b891f6c72c63ba36",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1016/j.bbrc.2014.09.128",
+        "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X14017653",
+        "http_status": 200,
+        "response_bytes": 2778,
+        "response_sha256": "c2b5c2cd4b1a7cbc2d62043bb23ca79fe0ab219604ab97839bbbaaff9d092f8a",
+        "title": "Redirecting",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    },
+    {
+      "pmid": "25341037",
+      "doi": "10.1038/cddis.2014.385",
+      "title": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:25341037%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:18.040298+00:00",
+      "response_sha256": "e94bc3819cb228ad2e41b8576163f538ca692d5703c7dc1aeff0ceee91b11b79",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1038/cddis.2014.385",
+        "resolved_url": "https://www.nature.com/articles/cddis2014385",
+        "http_status": 200,
+        "response_bytes": 379879,
+        "response_sha256": "0939cdd93bf34c56a98aec9127aeedd5e89891553faae4895b05409e7b2cc170",
+        "title": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth | Cell Death &amp; Disease",
+        "opened_scope": "publisher page"
+      }
+    },
+    {
+      "pmid": "26620677",
+      "doi": "10.1007/s00109-015-1364-1",
+      "title": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:26620677%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:16.380943+00:00",
+      "response_sha256": "c770979abf314940a91035da0b6488b2d25dbaeb58782b453d0fa21bdce5db0b",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1007/s00109-015-1364-1",
+        "resolved_url": "https://link.springer.com/article/10.1007/s00109-015-1364-1",
+        "http_status": 200,
+        "response_bytes": 445302,
+        "response_sha256": "9c92abd2ddf09988731ad3b9c1b7d5673e5389b5dd1a8b5a3c68c77220856f83",
+        "title": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents | Journal of Molecular Medicine | Springer Nature Link",
+        "opened_scope": "publisher page"
+      }
+    },
+    {
+      "pmid": "32386566",
+      "doi": "10.1016/j.cmet.2020.04.008",
+      "title": "Niacin Cures Systemic NAD<sup>+</sup> Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32386566%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:17.044962+00:00",
+      "response_sha256": "f3f84eccaf8d1d345939c547bc4b1bf3815c25ec07dbaaecf9ed549692004dc4",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1016/j.cmet.2020.04.008",
+        "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S155041312030190X",
+        "http_status": 200,
+        "response_bytes": 3025,
+        "response_sha256": "a06d02c6c77d1bdc7bb7b15a72e2414daba37a077dfbf22ad8653e9f7ebd1d66",
+        "title": "Redirecting",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    },
+    {
+      "pmid": "34066907",
+      "doi": "10.3390/ijms22094923",
+      "title": "Properties of Non-Aminoglycoside Compounds Used to Stimulate Translational Readthrough of PTC Mutations in Primary Ciliary Dyskinesia.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34066907%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:16.713582+00:00",
+      "response_sha256": "eabfbd8f7d789e13e31e074b7bf6b6b6421a7f12d27d466d2eb782c687471363",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.3390/ijms22094923",
+        "resolved_url": "https://www.mdpi.com/1422-0067/22/9/4923",
+        "http_status": 403,
+        "response_bytes": 401,
+        "response_sha256": "1571f260bdbfe21529bfebbc16684276e3925df7068937760f97bbf68b4880d8",
+        "title": "Access Denied",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    },
+    {
+      "pmid": "34481829",
+      "doi": "10.1016/j.jlr.2021.100114",
+      "title": "HSP90 inhibitors reduce cholesterol storage in Niemann-Pick type C1 mutant fibroblasts.",
+      "opened_scope": "primary abstract via Europe PMC core",
+      "opened_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:34481829%20AND%20SRC:MED&format=json&resultType=core",
+      "opened_at_utc": "2026-10-24T01:03:15.528681+00:00",
+      "response_sha256": "46bb2c79f75c7591521997b1f5607ec1f66c482043ff990db25fe58784b203f5",
+      "redistribution": "Full abstract response stays in ignored work; only bibliographic metadata and links are published",
+      "primary_page_attempt": {
+        "url": "https://doi.org/10.1016/j.jlr.2021.100114",
+        "resolved_url": "https://linkinghub.elsevier.com/retrieve/pii/S0022227521000961",
+        "http_status": 200,
+        "response_bytes": 2625,
+        "response_sha256": "e813021cccfadfadb8952f1bc3c1bb9f3a8ab907847f8115afa87a8980b1a355",
+        "title": "Redirecting",
+        "opened_scope": "incomplete or blocked; abstract is the verified content"
+      }
+    }
+  ],
+  "interpretation": "These sources support analogous mechanisms and counterarguments, not exact-genotype BUB1B drug rescue. No figure-level dose claim is imported from abstract-only access."
+}

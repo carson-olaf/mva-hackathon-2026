@@ -1,0 +1,903 @@
+{
+  "status": "assay_planning_only_no_experimental_rescue_evidence",
+  "reference": {
+    "gene": "BUB1B",
+    "uniprot": "O60566",
+    "transcript": "ENST00000287598.11",
+    "cds_length_nt_including_terminal_stop": 3153,
+    "protein_length_aa": 1050,
+    "cds_sha256": "dd7234bbbeed61f89eed8bfaeddd8e2fec74461fea5fc7592ae5a02150b75863",
+    "protein_sha256": "9f8af4ce0e38de97088ba953dab247491574c96cb7eceb93306cca25692d6c2d",
+    "public_reference_comparisons": [
+      {
+        "source_file": "work/structure/uniprot.json",
+        "file_sha256": "73899b2ea96a39d38e3aa41dc08587e70414c40c41ed0088cb92638cfb336ec1",
+        "length": 1050,
+        "protein_sha256": "9f8af4ce0e38de97088ba953dab247491574c96cb7eceb93306cca25692d6c2d",
+        "exact_match": true,
+        "substitution_mismatch_positions": [],
+        "length_difference": 0
+      },
+      {
+        "source_file": "work/structure/alphafold_metadata.json",
+        "file_sha256": "05cbbf846a624eb26fcced6d6755078eb07ecd38f6d4becc8aec9780553deb7c",
+        "length": 1050,
+        "protein_sha256": "9f8af4ce0e38de97088ba953dab247491574c96cb7eceb93306cca25692d6c2d",
+        "exact_match": true,
+        "substitution_mismatch_positions": [],
+        "length_difference": 0
+      }
+    ],
+    "cache_root": "work/track1-cache",
+    "network_used": false,
+    "patient_files_read": false
+  },
+  "L737Ter_context": {
+    "coding_variant": "c.2210T>G",
+    "wild_type_dna_codon": "TTA",
+    "mutant_dna_codon": "TGA",
+    "wild_type_dna_context_9nt_each_side": "CTACCAGAG[TTA]AGTGCCTCT",
+    "mutant_rna_context_9nt_each_side": "CUACCAGAG[UGA]AGUGCCUCU",
+    "stop_rna": "UGA",
+    "plus4_base": "A",
+    "plus4_cds_position_1based": 2212,
+    "stop_plus4_rna": "UGAA",
+    "readthrough_rate": null,
+    "inserted_amino_acid": null,
+    "interpretation": "Exact context only; neither readthrough rate nor inserted amino acid is inferred."
+  },
+  "N1002K_context": {
+    "coding_variant": "c.3006T>G",
+    "wild_type_dna_codon": "AAT",
+    "mutant_dna_codon": "AAG",
+    "new_trypsin_cut_after_residue": 1002,
+    "tryptic_site_marker_7_to_25aa_available_by_construct": {
+      "WT": false,
+      "N1002K": true
+    }
+  },
+  "digestion_rules": {
+    "trypsin": "After K or R unless the next residue is P; 0 and 1 missed cleavages.",
+    "alternative": "Idealized Glu-C E-only rule: after E, no proline exclusion, 0 missed cleavages; specificity is condition-dependent and needs optimization.",
+    "length_window": "7\u201325 aa is a planning filter, not a measured detection threshold.",
+    "modifications": "None modelled; methionine oxidation/cysteine alkylation and charge-state transitions require laboratory method development."
+  },
+  "tryptic_site_peptides": {
+    "WT": {
+      "737": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPELSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPELSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPELSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ],
+      "1002": [
+        {
+          "start": 1000,
+          "end": 1033,
+          "sequence": "ILNANDEATVSVLGELAAEMNGVFDTTFQSHLNK",
+          "length": 34,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 996,
+          "end": 1033,
+          "sequence": "FFVRILNANDEATVSVLGELAAEMNGVFDTTFQSHLNK",
+          "length": 38,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 1000,
+          "end": 1037,
+          "sequence": "ILNANDEATVSVLGELAAEMNGVFDTTFQSHLNKALWK",
+          "length": 38,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    "N1002K": {
+      "737": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPELSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPELSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPELSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ],
+      "1002": [
+        {
+          "start": 1000,
+          "end": 1002,
+          "sequence": "ILK",
+          "length": 3,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 996,
+          "end": 1002,
+          "sequence": "FFVRILK",
+          "length": 7,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 1000,
+          "end": 1033,
+          "sequence": "ILKANDEATVSVLGELAAEMNGVFDTTFQSHLNK",
+          "length": 34,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    }
+  },
+  "alternative_E_only_site1002_peptides": {
+    "WT": [
+      {
+        "start": 992,
+        "end": 1006,
+        "sequence": "LWNKFFVRILNANDE",
+        "length": 15,
+        "missed_cleavages": 0,
+        "within_planning_length_7_to_25": true,
+        "spans_both_sides_of_site": true
+      }
+    ],
+    "N1002K": [
+      {
+        "start": 992,
+        "end": 1006,
+        "sequence": "LWNKFFVRILKANDE",
+        "length": 15,
+        "missed_cleavages": 0,
+        "within_planning_length_7_to_25": true,
+        "spans_both_sides_of_site": true
+      }
+    ]
+  },
+  "readthrough_737_all20_hypothetical_amino_acid_products": [
+    {
+      "hypothetical_inserted_amino_acid": "A",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEASASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEASASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEASASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "C",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPECSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPECSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPECSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "D",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEDSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEDSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEDSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "E",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEESASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEESASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEESASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "F",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEFSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEFSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEFSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "G",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEGSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEGSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEGSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "H",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEHSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEHSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEHSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "I",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEISASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEISASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEISASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "K",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 737,
+          "sequence": "SLPEK",
+          "length": 5,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 729,
+          "end": 737,
+          "sequence": "QLLKSLPEK",
+          "length": 9,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEKSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "L",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPELSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPELSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPELSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "M",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEMSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEMSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEMSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "N",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPENSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPENSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPENSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "P",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEPSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEPSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEPSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "Q",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEQSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEQSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEQSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "R",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 737,
+          "sequence": "SLPER",
+          "length": 5,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": false,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 729,
+          "end": 737,
+          "sequence": "QLLKSLPER",
+          "length": 9,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": false
+        },
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPERSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "S",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPESSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPESSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPESSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "T",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPETSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPETSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPETSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "V",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEVSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEVSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEVSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "W",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEWSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEWSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEWSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    },
+    {
+      "hypothetical_inserted_amino_acid": "Y",
+      "is_prediction": false,
+      "tryptic_site_peptides": [
+        {
+          "start": 733,
+          "end": 752,
+          "sequence": "SLPEYSASAELCIEDRPMPK",
+          "length": 20,
+          "missed_cleavages": 0,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 729,
+          "end": 752,
+          "sequence": "QLLKSLPEYSASAELCIEDRPMPK",
+          "length": 24,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        },
+        {
+          "start": 733,
+          "end": 757,
+          "sequence": "SLPEYSASAELCIEDRPMPKLEIEK",
+          "length": 25,
+          "missed_cleavages": 1,
+          "within_planning_length_7_to_25": true,
+          "spans_both_sides_of_site": true
+        }
+      ]
+    }
+  ],
+  "phase_interpretation": {
+    "phase_proven": false,
+    "trans": "If the two variants are in trans, the full-length missense allele carries K1002. An N1002-bearing downstream product may support translation from the stop allele, but does not by itself prove traversal of codon 737, full-length integrity, or function. The 737-inserted amino acid remains unknown.",
+    "cis": "If both changes are in cis, the opposite allele can supply WT full-length protein. A K1002 product can mark downstream translation from the double-variant allele only with isoform/reinitiation controls; a peptide crossing residue 737 plus full-length and RNA controls is needed to establish readthrough.",
+    "sequence_discrimination": "Candidate sequences distinguish the two specified constructs. Proteome uniqueness, detection, allele expression and phase are not established. Leu/Ile cannot generally be resolved by routine mass-only peptide assignment."
+  },
+  "experiment": [
+    "Sequence-confirm constructs and phase where possible: WT, L737Ter alone, N1002K alone, and the cis double mutant; do not infer the patient's phase from constructs.",
+    "Use the exact stop context in a normalized dual reporter with sense/no-stop and vehicle controls; pair signal with RNA abundance, viability and reporter-interference controls. A short reporter does not reproduce endogenous NMD.",
+    "In endogenous or full-length cDNA models, quantify upstream and downstream BubR1 peptides/protein together with BUB1B transcript abundance. Keep NMD inhibition only as a mechanistic control, not an approved-drug candidate.",
+    "Search MS/MS for all 20 amino-acid insertion alternatives around 737, then confirm identified products with synthetic standards. K/R insertion can change tryptic cleavage. If Leu is inserted, the 737 peptide is shared by the N1002K allele and is not allele-specific. No inserted amino acid is assumed here.",
+    "Optimize the one-missed FFVRILK candidate and E-only 15-aa N1002/K1002 peptide pair with standards and independent proteome-uniqueness searches. Calibrate N/K response with known-ratio mixtures, blanks, carryover and replicate dilution series; report lower limit of quantification and false calls.",
+    "Require concordant full-length protein, checkpoint/kinetochore function and reduced chromosome-missegregation/aneuploidy without growth toxicity before calling a compound a rescue. Measure uncertainty against vehicle and sense/WT controls."
+  ],
+  "null_calibration": "No biological signal measured. Proposed controls: vehicle versus sense/stop reporters, known WT:N1002K mixtures, blank standards and orthogonal function. Peptide absence is uninterpretable until a measured limit of quantification exists.",
+  "references": [
+    {
+      "doi": "10.7554/eLife.52611",
+      "url": "https://elifesciences.org/articles/52611",
+      "opened_scope": "primary full HTML",
+      "supports": "Stop identity, +4 and wider sequence context affect readthrough in tested human-cell aminoglycoside experiments; not a prediction for this allele or azithromycin."
+    },
+    {
+      "pmid": "28575328",
+      "doi": "10.1093/hmg/ddx196",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5886253/",
+      "opened_scope": "primary full HTML",
+      "supports": "CFTR readthrough can insert multiple context-dependent amino acids with different functional effects; does not establish BUB1B insertion identities."
+    }
+  ]
+}

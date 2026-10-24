@@ -1,0 +1,129 @@
+{
+  "review_date_utc": "2026-10-24",
+  "decision": "No new approved-drug strategy meets the requested disease, functional-rescue, exposure and pediatric oncology standard",
+  "goal_complete": false,
+  "sources": [
+    {
+      "id": "N01",
+      "doi": "10.1007/s00210-026-04997-4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13152955/",
+      "opened_scope": "Indexed primary full text; Table 3",
+      "supports": "The published database-derived table attributes chloride-channel drug sets to BUB1B and BUB1",
+      "does_not_support": "Direct drug-target binding, BubR1 activation, or identification of the faulty import stage"
+    },
+    {
+      "id": "N02",
+      "doi": "10.1124/mol.105.017384",
+      "pmid": "16244177",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16244177/",
+      "opened_scope": "Primary abstract through indexed PubMed and publisher abstract",
+      "supports": "Niflumic-acid modulation of CLC-K chloride currents in Xenopus oocytes",
+      "does_not_support": "BUB1B activation or MVA rescue"
+    },
+    {
+      "id": "N03",
+      "url": "https://www.guidetomalariapharmacology.org/GRAC/FamilyDisplayForward?familyId=128&objId=703",
+      "opened_scope": "Indexed official ClC-family record; direct fetch later failed",
+      "supports": "IUPHAR target 701 is CLCNKB/ClC-Kb, UniProt P51801, with niflumic acid, DIDS and 3-phenyl-CPP",
+      "identifier_note": "Database record; no PMID or DOI assigned"
+    },
+    {
+      "id": "N04",
+      "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=1950",
+      "opened_scope": "Indexed official target record; direct fetch redirected to login",
+      "supports": "BUB1B is IUPHAR target 1950, Entrez Gene 701, UniProt O60566",
+      "identifier_note": "Database record; no PMID or DOI assigned"
+    },
+    {
+      "id": "N05",
+      "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=699",
+      "opened_scope": "Indexed official target record",
+      "supports": "IUPHAR target 699 is CLCN2/ClC-2, Entrez Gene 1181",
+      "identifier_note": "Database record; no PMID or DOI assigned"
+    },
+    {
+      "id": "N06",
+      "url": "https://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=1949",
+      "opened_scope": "Indexed official target record",
+      "supports": "BUB1 is IUPHAR target 1949, Entrez Gene 699",
+      "identifier_note": "Database record; no PMID or DOI assigned"
+    },
+    {
+      "id": "N08",
+      "doi": "10.1073/pnas.2208255119",
+      "pmid": "36191188",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36191188/",
+      "opened_scope": "Primary full-paper mirror inspected by reviewer; root independently checked indexed PubMed abstract and identity",
+      "supports": "U0126 alignment rescue in BubR1-depleted RAS-transformed cells; separate live-division experiment in cells with BubR1 present",
+      "does_not_support": "Approved-drug completed-division rescue in BUB1B-MVA, renal causation, or N1002K behavior"
+    },
+    {
+      "id": "N09",
+      "doi": "10.1093/narcan/zcac032",
+      "pmid": "36267209",
+      "url": "https://academic.oup.com/narcancer/article/4/4/zcac032/6761901",
+      "opened_scope": "Primary full paper",
+      "supports": "Selumetinib-associated cell-cycle escape and copy-number evolution in a BRAF-mutant colorectal model",
+      "does_not_support": "Demonstrated clinical-dose harm in this child"
+    },
+    {
+      "id": "N10",
+      "doi": "10.1038/nature11935",
+      "pmid": "23446422",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636055/",
+      "opened_scope": "Primary full text, Figure 4 and cell-treatment methods",
+      "supports": "Four-ribonucleoside supplementation reduced segregation errors in selected CIN-positive colorectal models",
+      "does_not_support": "Deoxycytidine/thymidine efficacy, exact-genotype MVA rescue, or pediatric exposure"
+    },
+    {
+      "id": "N11",
+      "doi": "10.1093/nar/gkaf1035",
+      "url": "https://academic.oup.com/nar/article/53/19/gkaf1035/8285779",
+      "opened_scope": "Primary full text",
+      "supports": "20 micromolar thymidine accelerated replication forks in the studied cell models",
+      "does_not_support": "Completed-division fidelity rescue, a minimum effective concentration, or efficacy of the approved two-drug mixture"
+    },
+    {
+      "id": "N12",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/219792s000lbl.pdf",
+      "opened_scope": "Official FDA label, sections 1, 11, 12.3 and 13.1",
+      "supports": "Kygevvi identity/indication; mean total thymidine Cmax 19 ng/mL and molecular weight 242.23; mixed genotoxicity findings",
+      "derived_calculation": "19/242.23 = 0.0784 micromolar; 20/(19/242.23) = approximately 255",
+      "does_not_support": "Nuclear intracellular exposure, efficacy in MVA, clinical cancer harm, or safety in constitutional CIN",
+      "identifier_note": "Regulatory label; no PMID or DOI assigned"
+    },
+    {
+      "id": "N13",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7d042c61-f28f-4ab5-ab10-d7558c0d49ff",
+      "opened_scope": "Official current Koselugo label inspected by reviewer",
+      "supports": "FDA indication/formulations and nonclinical micronucleus and organ-safety cautions",
+      "does_not_support": "BUB1B-MVA efficacy or clinical-dose aneugenicity in the child",
+      "identifier_note": "Regulatory label; no PMID or DOI assigned"
+    },
+    {
+      "id": "N14",
+      "pmid": "41612464",
+      "doi": "10.1186/s13048-026-01975-5",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12930897/",
+      "opened_scope": "Primary PMC full text; abstract and introduction inspected",
+      "supports": "Elamipretide reduced aneuploidy and improved mitochondrial measures in aged mouse oocytes",
+      "does_not_support": "BUB1B-deficient functional rescue, an N1002K mitochondrial defect, or congenital nephrocalcinosis causation"
+    },
+    {
+      "id": "N15",
+      "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=146bf34c-76f2-48db-ac07-fb29cce2cd75&type=display",
+      "opened_scope": "Official label sections 1, 2, 13 and 14",
+      "supports": "FDA accelerated approval for muscle strength in Barth syndrome at weight at least 30 kg; daily subcutaneous administration; pediatric renal dosing information insufficient; negative listed genotoxicity assays; no carcinogenicity studies",
+      "does_not_support": "Approval for MVA or established long-term safety in a child with prior RMS",
+      "identifier_note": "Official regulator label; no PMID or DOI assigned"
+    }
+  ],
+  "local_check_evidence": {
+    "script": "scripts/check_additional_genes.py",
+    "private_results": "Individual records retained only under ignored work/",
+    "public_summary": "Withheld from the public repository to protect the child's privacy",
+    "verification": "Offline replay matched aggregate results and fetched zero bytes; 19 tests passed",
+    "limits": "Variant-only VCF; canonical coding calls only; no structural, biochemical or imprinting exclusion"
+  },
+  "ai_disclosure": "OpenAI; Pro; model training and data sharing disabled as confirmed by Carson"
+}

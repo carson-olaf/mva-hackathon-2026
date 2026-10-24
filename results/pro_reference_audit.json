@@ -1,0 +1,3776 @@
+{
+  "schema_version": 1,
+  "audited_at_UTC": "2026-10-24T01:16:01.970739+00:00",
+  "scope": "All 51 scientific reference identities; seven selected mechanism/correction references. Drug claims and product labels have a separate agent audit.",
+  "summary": {
+    "references": 51,
+    "verified_identity": 51,
+    "correction_references_in_pro_list": [
+      "R09",
+      "R20",
+      "R22"
+    ],
+    "indexed_retractions_found": 0,
+    "actual_PubMed_page_attempts": 51,
+    "actual_DOI_page_attempts": 51,
+    "PubMed_HTML_with_expected_citation_metadata": 0,
+    "DOI_landing_pages_with_expected_citation_metadata": 21,
+    "mechanism_references_audited": 7,
+    "mechanism_full_text_or_full_text_sections_opened": 6
+  },
+  "methodology": [
+    "Compare normalized titles and case-insensitive DOI strings against original PubMed XML and Europe PMC core metadata.",
+    "Extract DOI only from PubmedData/ArticleIdList, not reference lists embedded in XML.",
+    "Attempt every actual PubMed HTML page and DOI landing page. HTTP success alone does not prove article access; redirect/interstitial pages do not count as content.",
+    "Distinguish correction/comment links from retractions. No indexed retraction is a bounded database finding, not a guarantee of research integrity.",
+    "Full text access does not imply independent replication; selected claims and boundary conditions are recorded separately."
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pmid": "15475955",
+      "doi_pro": "10.1038/ng1449",
+      "doi_pubmed": "10.1038/ng1449",
+      "doi_europe_pmc": "10.1038/ng1449",
+      "title_pro": "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B.",
+      "title_pubmed": "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B.",
+      "title_europe_pmc": "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "15514664",
+          "source": "Nat Genet. 2004 Nov;36(11):1144-5. doi: 10.1038/ng1104-1144.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "15514664",
+          "reference": "Nat Genet. 2004 Nov;36(11):1144-5. doi: 10.1038/ng1104-1144",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/15475955/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/15475955/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R01_pubmed.html",
+          "sha256": "d1afe70f74db55d936f265d819a574aeac265629e07c075f75d9d5531945449c",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/ng1449",
+          "http": 200,
+          "bytes_read": 281161,
+          "final_url_without_query": "https://www.nature.com/articles/ng1449",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R01_doi.html",
+          "sha256": "d4d3bb313e25dd9ec69afcaa3b7a4fdc7ef6c0f27d1167f64c65fc8381472e34",
+          "citation_metadata": {
+            "dc.title": [
+              "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B"
+            ],
+            "citation_title": [
+              "Constitutional aneuploidy and cancer predisposition caused by biallelic mutations in BUB1B"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/ng1449"
+            ],
+            "citation_doi": [
+              "10.1038/ng1449"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R02",
+      "pmid": "9710612",
+      "doi_pro": "10.1128/mcb.18.9.5272",
+      "doi_pubmed": "10.1128/MCB.18.9.5272",
+      "doi_europe_pmc": "10.1128/mcb.18.9.5272",
+      "title_pro": "At least one intron is required for the nonsense-mediated decay of triosephosphate isomerase mRNA: a possible link between nuclear splicing and cytoplasmic translation.",
+      "title_pubmed": "At least one intron is required for the nonsense-mediated decay of triosephosphate isomerase mRNA: a possible link between nuclear splicing and cytoplasmic translation.",
+      "title_europe_pmc": "At least one intron is required for the nonsense-mediated decay of triosephosphate isomerase mRNA: a possible link between nuclear splicing and cytoplasmic translation.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC109113",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, P.H.S."
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/9710612/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/9710612/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R02_pubmed.html",
+          "sha256": "ac684c681c72540be18a3d7b56f9123f88c3c9830959833be0f966551baea029",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1128/mcb.18.9.5272",
+          "http": 403,
+          "bytes_read": 5617,
+          "final_url_without_query": "https://www.tandfonline.com/doi/full/10.1128/MCB.18.9.5272",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R02_doi.html",
+          "sha256": "d73ae64eed698fd0b26fdd3bdb078018349278bcdcb6504e912b4b547b39beb5",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R03",
+      "pmid": "20516114",
+      "doi_pro": "10.1158/0008-5472.can-09-4319",
+      "doi_pubmed": "10.1158/0008-5472.CAN-09-4319",
+      "doi_europe_pmc": "10.1158/0008-5472.can-09-4319",
+      "title_pro": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "title_pubmed": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "title_europe_pmc": "Molecular causes for BUBR1 dysfunction in the human cancer predisposition syndrome mosaic variegated aneuploidy.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "primary_author_manuscript_full_text_sections",
+      "pmcid": "PMC2887387",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/20516114/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/20516114/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R03_pubmed.html",
+          "sha256": "485706c0bc3bbf34f682224e67aaeebcf62205ecd0d85731bdd9337f730d2b8f",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1158/0008-5472.can-09-4319",
+          "http": 403,
+          "bytes_read": 5788,
+          "final_url_without_query": "https://aacrjournals.org/cancerres/article/70/12/4891/559376/Molecular-Causes-for-BUBR1-Dysfunction-in-the",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R03_doi.html",
+          "sha256": "c64c588dbd21a328d0206aefc1eaf47a8982242ceebcff0aea5beb3d7ae8e36d",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R04",
+      "pmid": "22698286",
+      "doi_pro": "10.1016/j.devcel.2012.03.009",
+      "doi_pubmed": "10.1016/j.devcel.2012.03.009",
+      "doi_europe_pmc": "10.1016/j.devcel.2012.03.009",
+      "title_pro": "The vertebrate mitotic checkpoint protein BUBR1 is an unusual pseudokinase.",
+      "title_pubmed": "The vertebrate mitotic checkpoint protein BUBR1 is an unusual pseudokinase.",
+      "title_europe_pmc": "The vertebrate mitotic checkpoint protein BUBR1 is an unusual pseudokinase.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "22698277",
+          "source": "Dev Cell. 2012 Jun 12;22(6):1123-5. doi: 10.1016/j.devcel.2012.05.020.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "22781901",
+          "source": "Nat Rev Mol Cell Biol. 2012 Jul 11;13(8):478-9. doi: 10.1038/nrm3399.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "22698277",
+          "reference": "Dev Cell. 2012 Jun 12;22(6):1123-5. doi: 10.1016/j.devcel.2012.05.020.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "22781901",
+          "reference": "Nat Rev Mol Cell Biol. 2012 Jul 11;13(8):478-9. doi: 10.1038/nrm3399.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/22698286/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/22698286/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R04_pubmed.html",
+          "sha256": "ed07064f06d75bb3140049b4377057ba829b5d87b3ed5e4aef4bea487bd7a04e",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.devcel.2012.03.009",
+          "http": 200,
+          "bytes_read": 3011,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S1534580712001323",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R04_doi.html",
+          "sha256": "1fafcd4ef24086e829526b62406d370c98f96aa8a6ff8ae12ba78fd39cb1f6b4",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R05",
+      "pmid": "23079597",
+      "doi_pro": "10.1016/j.devcel.2012.09.005",
+      "doi_pubmed": "10.1016/j.devcel.2012.09.005",
+      "doi_europe_pmc": "10.1016/j.devcel.2012.09.005",
+      "title_pro": "Integration of kinase and phosphatase activities by BUBR1 ensures formation of stable kinetochore-microtubule attachments.",
+      "title_pubmed": "Integration of kinase and phosphatase activities by BUBR1 ensures formation of stable kinetochore-microtubule attachments.",
+      "title_europe_pmc": "Integration of kinase and phosphatase activities by BUBR1 ensures formation of stable kinetochore-microtubule attachments.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "primary_abstract_verified_full_text_unreached",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R05_pubmed.html",
+          "sha256": "3fc462627df648a40848e1ab9cba3a07959c42079bd4ac9d603c091d3e2176e1",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.devcel.2012.09.005",
+          "http": 200,
+          "bytes_read": 3058,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S1534580712004169",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R05_doi.html",
+          "sha256": "58906e12bb7f8018b1bac726b8753894e8ef838aa160f625223bbdb82aecaefa",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R06",
+      "pmid": "33207204",
+      "doi_pro": "10.1016/j.celrep.2020.108397",
+      "doi_pubmed": "10.1016/j.celrep.2020.108397",
+      "doi_europe_pmc": "10.1016/j.celrep.2020.108397",
+      "title_pro": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment.",
+      "title_pubmed": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment.",
+      "title_europe_pmc": "BUBR1 Pseudokinase Domain Promotes Kinetochore PP2A-B56 Recruitment, Spindle Checkpoint Silencing, and Chromosome Alignment.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "primary_article_full_text_sections_at_CC_BY_mirror",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/33207204/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/33207204/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R06_pubmed.html",
+          "sha256": "d6caf2f124a56c3c0d2ca18115fb8be70de377f055c9a88ffe1521bac05b03d2",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.celrep.2020.108397",
+          "http": 200,
+          "bytes_read": 3032,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S2211124720313863",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R06_doi.html",
+          "sha256": "e830d4045738d57ef0fb5f3d17c5c78abf7414c3a41feeeff4e5d18502dc93a1",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R07",
+      "pmid": "42477419",
+      "doi_pro": "10.1038/s42003-026-10384-9",
+      "doi_pubmed": "10.1038/s42003-026-10384-9",
+      "doi_europe_pmc": "10.1038/s42003-026-10384-9",
+      "title_pro": "BubR1 TPR domain supports the mitotic checkpoint by promoting MCC formation and MCC-APC/C interaction.",
+      "title_pubmed": "BubR1 TPR domain supports the mitotic checkpoint by promoting MCC formation and MCC-APC/C interaction.",
+      "title_europe_pmc": "BubR1 TPR domain supports the mitotic checkpoint by promoting MCC formation and MCC-APC/C interaction.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "PMC_full_text_XML_and_figure_caption",
+      "pmcid": "PMC13385977",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/42477419/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/42477419/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R07_pubmed.html",
+          "sha256": "58a5941583d1e443f2668ab93d433182a7756a38ab0e2817f754b7fc8abebaae",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/s42003-026-10384-9",
+          "http": 200,
+          "bytes_read": 456941,
+          "final_url_without_query": "https://www.nature.com/articles/s42003-026-10384-9",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R07_doi.html",
+          "sha256": "e789e6a7804fdfdca68e5f7d1c2444209a47022027f747f35017a27ecda7ee0c",
+          "citation_metadata": {
+            "dc.title": [
+              "BubR1 TPR domain supports the mitotic checkpoint by promoting MCC formation and MCC-APC/C interaction"
+            ],
+            "citation_title": [
+              "BubR1 TPR domain supports the mitotic checkpoint by promoting MCC formation and MCC-APC/C interaction"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/s42003-026-10384-9"
+            ],
+            "citation_doi": [
+              "10.1038/s42003-026-10384-9"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R08",
+      "pmid": "31738183",
+      "doi_pro": "10.1172/jci126863",
+      "doi_pubmed": "10.1172/JCI126863",
+      "doi_europe_pmc": "10.1172/jci126863",
+      "title_pro": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "title_pubmed": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "title_europe_pmc": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "publisher_full_text_sections",
+      "pmcid": "PMC6934189",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumIn",
+          "pmid": "33136097",
+          "source": "J Clin Invest. 2020 Nov 2;130(11):6188. doi: 10.1172/JCI144781.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "33136097",
+          "reference": "J Clin Invest. 2020 Nov 2;130(11):6188. doi: 10.1172/JCI144781",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/31738183/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/31738183/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R08_pubmed.html",
+          "sha256": "48955b7b05220d0213ad6acc7e3e021431d13a32d96326978601bd16a74177e2",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1172/jci126863",
+          "http": 200,
+          "bytes_read": 213843,
+          "final_url_without_query": "https://www.jci.org/articles/view/126863",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R08_doi.html",
+          "sha256": "140fe6bd5b675513480035134c0236cc9eea682d61e4e47e9ab7a5adccbf2a8b",
+          "citation_metadata": {
+            "citation_title": [
+              "<i>BubR1</i> allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome"
+            ],
+            "citation_doi": [
+              "10.1172/JCI126863"
+            ],
+            "citation_pmid": [
+              "0"
+            ],
+            "dc.title": [
+              "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome"
+            ],
+            "dc.identifier": [
+              "10.1172/JCI126863"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R09",
+      "pmid": "33136097",
+      "doi_pro": "10.1172/jci144781",
+      "doi_pubmed": "10.1172/JCI144781",
+      "doi_europe_pmc": "10.1172/jci144781",
+      "title_pro": "BubR1 allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "title_pubmed": "BubR1\ufeff\ufeff allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "title_europe_pmc": "BubR1\ufeff\ufeff allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "publisher_correction_full_text",
+      "pmcid": "PMC7598035",
+      "publication_types": [
+        "Journal Article",
+        "Published Erratum"
+      ],
+      "is_correction_record": true,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumFor",
+          "pmid": "31738183",
+          "source": "J Clin Invest. 2020 Jan 2;130(1):171-188. doi: 10.1172/JCI126863.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "31738183",
+          "reference": "J Clin Invest. 2020 Jan 2;130(1):171-188. doi: 10.1172/JCI126863",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/33136097/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/33136097/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R09_pubmed.html",
+          "sha256": "4cf93569f047a581e140e157493afb67bdc2061231ba016147cb2ae45c8f33f9",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1172/jci144781",
+          "http": 200,
+          "bytes_read": 40939,
+          "final_url_without_query": "https://www.jci.org/articles/view/144781",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R09_doi.html",
+          "sha256": "05c03bbdf3124be491d8313116c622fc47a172b0d2c934931eb0f10218d28786",
+          "citation_metadata": {
+            "citation_title": [
+              "<i>BubR1</i>\ufeff\ufeff allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome"
+            ],
+            "citation_doi": [
+              "10.1172/JCI144781"
+            ],
+            "citation_pmid": [
+              "0"
+            ],
+            "dc.title": [
+              "BubR1\ufeff\ufeff allelic effects drive phenotypic heterogeneity in mosaic-variegated aneuploidy progeria syndrome"
+            ],
+            "dc.identifier": [
+              "10.1172/JCI144781"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R10",
+      "pmid": "15208629",
+      "doi_pro": "10.1038/ng1382",
+      "doi_pubmed": "10.1038/ng1382",
+      "doi_europe_pmc": "10.1038/ng1382",
+      "title_pro": "BubR1 insufficiency causes early onset of aging-associated phenotypes and infertility in mice.",
+      "title_pubmed": "BubR1 insufficiency causes early onset of aging-associated phenotypes and infertility in mice.",
+      "title_europe_pmc": "BubR1 insufficiency causes early onset of aging-associated phenotypes and infertility in mice.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "15226747",
+          "source": "Nat Genet. 2004 Jul;36(7):672-4. doi: 10.1038/ng0704-672.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "24061225",
+          "source": "Nat Rev Mol Cell Biol. 2013 Oct;14(10):611. doi: 10.1038/nrm3666.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "15226747",
+          "reference": "Nat Genet. 2004 Jul;36(7):672-4. doi: 10.1038/ng0704-672",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "24061225",
+          "reference": "Nat Rev Mol Cell Biol. 2013 Oct;14(10):611. doi: 10.1038/nrm3666",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/15208629/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/15208629/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R10_pubmed.html",
+          "sha256": "e52b44d24008d43b7cbe530f62c0a2a2c8758ba086f0f10251fa57e62972ce9e",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/ng1382",
+          "http": 200,
+          "bytes_read": 307709,
+          "final_url_without_query": "https://www.nature.com/articles/ng1382",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R10_doi.html",
+          "sha256": "586dbdb891b76d9acdd244167b52370a32faa0728e614b6a539f36987addef8c",
+          "citation_metadata": {
+            "dc.title": [
+              "BubR1 insufficiency causes early onset of aging-associated phenotypes and infertility in mice"
+            ],
+            "citation_title": [
+              "BubR1 insufficiency causes early onset of aging-associated phenotypes and infertility in mice"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/ng1382"
+            ],
+            "citation_doi": [
+              "10.1038/ng1382"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R11",
+      "pmid": "23242215",
+      "doi_pro": "10.1038/ncb2643",
+      "doi_pubmed": "10.1038/ncb2643",
+      "doi_europe_pmc": "10.1038/ncb2643",
+      "title_pro": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "title_pubmed": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "title_europe_pmc": "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "PMC_full_text_XML_results_and_figure_captions",
+      "pmcid": "PMC3707109",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "24061225",
+          "source": "Nat Rev Mol Cell Biol. 2013 Oct;14(10):611. doi: 10.1038/nrm3666.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "24061225",
+          "reference": "Nat Rev Mol Cell Biol. 2013 Oct;14(10):611. doi: 10.1038/nrm3666",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/23242215/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/23242215/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R11_pubmed.html",
+          "sha256": "9ba85aa2467eff0e5530e1cb51ad670c6ef84c188de6f4c4dff9577e2629f803",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/ncb2643",
+          "http": 200,
+          "bytes_read": 361508,
+          "final_url_without_query": "https://www.nature.com/articles/ncb2643",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R11_doi.html",
+          "sha256": "5e3b95b5bd3b661464843736b197a5d67d097fc49efd335895ff136d921eeba3",
+          "citation_metadata": {
+            "dc.title": [
+              "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan"
+            ],
+            "citation_title": [
+              "Increased expression of BubR1 protects against aneuploidy and cancer and extends healthy lifespan"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/ncb2643"
+            ],
+            "citation_doi": [
+              "10.1038/ncb2643"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R12",
+      "pmid": "22048312",
+      "doi_pro": "10.1038/nature10600",
+      "doi_pubmed": "10.1038/nature10600",
+      "doi_europe_pmc": "10.1038/nature10600",
+      "title_pro": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders.",
+      "title_pubmed": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders.",
+      "title_europe_pmc": "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC3468323",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "22071762",
+          "source": "Nature. 2011 Nov 09;479(7372):186-7. doi: 10.1038/479186a.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "30962572",
+          "source": "Nat Rev Mol Cell Biol. 2019 Jul;20(7):388. doi: 10.1038/s41580-019-0128-0.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "22071762",
+          "reference": "Nature. 2011 Nov 09;479(7372):186-7. doi: 10.1038/479186a.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "30962572",
+          "reference": "Nat Rev Mol Cell Biol. 2019 Jul;20(7):388. doi: 10.1038/s41580-019-0128-0.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/22048312/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/22048312/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R12_pubmed.html",
+          "sha256": "8cdbf297bf443563229c1e561e8d00b85813232c5b699486eb8b42be141e174a",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/nature10600",
+          "http": 200,
+          "bytes_read": 323049,
+          "final_url_without_query": "https://www.nature.com/articles/nature10600",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R12_doi.html",
+          "sha256": "110c5149d1b94413bdd55c259cff814c39e096dd961ad71dbded548a549f37a7",
+          "citation_metadata": {
+            "dc.title": [
+              "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders"
+            ],
+            "citation_title": [
+              "Clearance of p16Ink4a-positive senescent cells delays ageing-associated disorders"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/nature10600"
+            ],
+            "citation_doi": [
+              "10.1038/nature10600"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R13",
+      "pmid": "24825348",
+      "doi_pro": "10.15252/embj.201386907",
+      "doi_pubmed": "10.15252/embj.201386907",
+      "doi_europe_pmc": "10.15252/embj.201386907",
+      "title_pro": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "title_pubmed": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "title_europe_pmc": "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC4194088",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "24920578",
+          "source": "EMBO J. 2014 Jul 1;33(13):1417-9. doi: 10.15252/embj.201488983.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "24920578",
+          "reference": "EMBO J. 2014 Jul 1;33(13):1417-9. doi: 10.15252/embj.201488983",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/24825348/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/24825348/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R13_pubmed.html",
+          "sha256": "1fa5942da82553fd67482ebc1b2293661a368b94be9162148050b7307090c536",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.15252/embj.201386907",
+          "http": 200,
+          "bytes_read": 469622,
+          "final_url_without_query": "https://link.springer.com/article/10.15252/embj.201386907",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R13_doi.html",
+          "sha256": "0a10693e9aa6d3424812975f75236b960c441b33f68876f4007c9b8cac47bb53",
+          "citation_metadata": {
+            "dc.title": [
+              "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan"
+            ],
+            "citation_title": [
+              "SIRT2 induces the checkpoint kinase BubR1 to increase lifespan"
+            ],
+            "dc.identifier": [
+              "doi:10.15252/embj.201386907"
+            ],
+            "citation_doi": [
+              "10.15252/embj.201386907"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R14",
+      "pmid": "25285631",
+      "doi_pro": "10.1016/j.bbrc.2014.09.128",
+      "doi_pubmed": "10.1016/j.bbrc.2014.09.128",
+      "doi_europe_pmc": "10.1016/j.bbrc.2014.09.128",
+      "title_pro": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition.",
+      "title_pubmed": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition.",
+      "title_europe_pmc": "Deacetylation of the mitotic checkpoint protein BubR1 at lysine 250 by SIRT2 and subsequent effects on BubR1 degradation during the prometaphase/anaphase transition.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/25285631/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/25285631/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R14_pubmed.html",
+          "sha256": "026d61127c032ff72da6b875c20689634fee04b470d827c3de14aa5892e826cd",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.bbrc.2014.09.128",
+          "http": 200,
+          "bytes_read": 2778,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0006291X14017653",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R14_doi.html",
+          "sha256": "c2b5c2cd4b1a7cbc2d62043bb23ca79fe0ab219604ab97839bbbaaff9d092f8a",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R15",
+      "pmid": "41533580",
+      "doi_pro": "10.1093/nar/gkaf1517",
+      "doi_pubmed": "10.1093/nar/gkaf1517",
+      "doi_europe_pmc": "10.1093/nar/gkaf1517",
+      "title_pro": "Linking kinetochore attachment to checkpoint control: the role of Aurora B in BubR1 acetylation.",
+      "title_pubmed": "Linking kinetochore attachment to checkpoint control: the role of Aurora B in BubR1 acetylation.",
+      "title_europe_pmc": "Linking kinetochore attachment to checkpoint control: the role of Aurora B in BubR1 acetylation.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC12802887",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "PPR",
+          "id": "PPR1071253",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/41533580/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/41533580/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R15_pubmed.html",
+          "sha256": "26a1717d54199f9b89d25098705ff719a97c7ec45a42b00774dfed3848b3f21d",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1093/nar/gkaf1517",
+          "http": 403,
+          "bytes_read": 5592,
+          "final_url_without_query": "https://academic.oup.com/nar/article/doi/10.1093/nar/gkaf1517/8425333",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R15_doi.html",
+          "sha256": "c95529ac097a463037c34518c105bf70406a05d0cef0302e1fe7c9fe655ad04f",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R16",
+      "pmid": "32386566",
+      "doi_pro": "10.1016/j.cmet.2020.04.008",
+      "doi_pubmed": "10.1016/j.cmet.2020.04.008",
+      "doi_europe_pmc": "10.1016/j.cmet.2020.04.008",
+      "title_pro": "Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "title_pubmed": "Niacin Cures Systemic NAD+ Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "title_europe_pmc": "Niacin Cures Systemic NAD<sup>+</sup> Deficiency and Improves Muscle Performance in Adult-Onset Mitochondrial Myopathy.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "32492387",
+          "source": "Cell Metab. 2020 Jun 2;31(6):1041-1043. doi: 10.1016/j.cmet.2020.05.013.",
+          "note": null
+        },
+        {
+          "type": "ErratumIn",
+          "pmid": "32640244",
+          "source": "Cell Metab. 2020 Jul 7;32(1):144. doi: 10.1016/j.cmet.2020.05.020.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "32492387",
+          "reference": "Cell Metab. 2020 Jun 2;31(6):1041-1043. doi: 10.1016/j.cmet.2020.05.013",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "32640244",
+          "reference": "Cell Metab. 2020 Jul 7;32(1):144. doi: 10.1016/j.cmet.2020.05.020",
+          "type": "Erratum in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/32386566/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R16_pubmed.html",
+          "sha256": "802b2fb178f4b0892533acf31d7663ae9a8c58fb44f8e99d34c8c813fb8c5f74",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.cmet.2020.04.008",
+          "http": 200,
+          "bytes_read": 3025,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S155041312030190X",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R16_doi.html",
+          "sha256": "a06d02c6c77d1bdc7bb7b15a72e2414daba37a077dfbf22ad8653e9f7ebd1d66",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R17",
+      "pmid": "24853414",
+      "doi_pro": "10.1038/cddis.2014.214",
+      "doi_pubmed": "10.1038/cddis.2014.214",
+      "doi_europe_pmc": "10.1038/cddis.2014.214",
+      "title_pro": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa.",
+      "title_pubmed": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa.",
+      "title_europe_pmc": "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC4047904",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/24853414/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/24853414/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R17_pubmed.html",
+          "sha256": "5611115ccf8c265dd2d6b22baafd112d3799a4f57e254dee16bc5e2c5b67e4d4",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/cddis.2014.214",
+          "http": 200,
+          "bytes_read": 475946,
+          "final_url_without_query": "https://www.nature.com/articles/cddis2014214",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R17_doi.html",
+          "sha256": "8871b5232becbfc74bc1aa4e9a0f416b07a17e4be73efb251aaf700b5b9e5605",
+          "citation_metadata": {
+            "dc.title": [
+              "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa"
+            ],
+            "citation_title": [
+              "The heat-shock response co-inducer arimoclomol protects against retinal degeneration in rhodopsin retinitis pigmentosa"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/cddis.2014.214"
+            ],
+            "citation_doi": [
+              "10.1038/cddis.2014.214"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R18",
+      "pmid": "17889646",
+      "doi_pro": "10.1016/j.cell.2007.07.020",
+      "doi_pubmed": "10.1016/j.cell.2007.07.020",
+      "doi_europe_pmc": "10.1016/j.cell.2007.07.020",
+      "title_pro": "Heat shock factor 1 is a powerful multifaceted modifier of carcinogenesis.",
+      "title_pubmed": "Heat shock factor 1 is a powerful multifaceted modifier of carcinogenesis.",
+      "title_europe_pmc": "Heat shock factor 1 is a powerful multifaceted modifier of carcinogenesis.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC2586609",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "17889643",
+          "source": "Cell. 2007 Sep 21;130(6):986-8. doi: 10.1016/j.cell.2007.09.007.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "17889643",
+          "reference": "Cell. 2007 Sep 21;130(6):986-8. doi: 10.1016/j.cell.2007.09.007.",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/17889646/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/17889646/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R18_pubmed.html",
+          "sha256": "9e9694883bef9d99611ce785bc78001f8db4163539b0367c5575702e8c67d677",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.cell.2007.07.020",
+          "http": 200,
+          "bytes_read": 2958,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0092867407009579",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R18_doi.html",
+          "sha256": "df8de8622fc223d3c38cb2d30962c829810ee0b594c4c69e80917fb1dd0b15db",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R19",
+      "pmid": "26620677",
+      "doi_pro": "10.1007/s00109-015-1364-1",
+      "doi_pubmed": "10.1007/s00109-015-1364-1",
+      "doi_europe_pmc": "10.1007/s00109-015-1364-1",
+      "title_pro": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "title_pubmed": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "title_europe_pmc": "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumIn",
+          "pmid": "26897011",
+          "source": "J Mol Med (Berl). 2016 Apr;94(4):483. doi: 10.1007/s00109-016-1394-3.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "26897011",
+          "reference": "J Mol Med (Berl). 2016 Apr;94(4):483. doi: 10.1007/s00109-016-1394-3.",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/26620677/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/26620677/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R19_pubmed.html",
+          "sha256": "41715b64f9f6b8d5e65d0f9a2e8fa0dc604a145d53a9c6cabad7f943785e2fb0",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1007/s00109-015-1364-1",
+          "http": 200,
+          "bytes_read": 445268,
+          "final_url_without_query": "https://link.springer.com/article/10.1007/s00109-015-1364-1",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R19_doi.html",
+          "sha256": "b78398ddedd18b210826336bc57c6fd7d4fd10beb83081da3fd884e77bb4851e",
+          "citation_metadata": {
+            "dc.title": [
+              "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents"
+            ],
+            "citation_title": [
+              "A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents"
+            ],
+            "dc.identifier": [
+              "doi:10.1007/s00109-015-1364-1"
+            ],
+            "citation_doi": [
+              "10.1007/s00109-015-1364-1"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R20",
+      "pmid": "26897011",
+      "doi_pro": "10.1007/s00109-016-1394-3",
+      "doi_pubmed": "10.1007/s00109-016-1394-3",
+      "doi_europe_pmc": "10.1007/s00109-016-1394-3",
+      "title_pro": "Erratum to: A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "title_pubmed": "Erratum to: A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "title_europe_pmc": "Erratum to: A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "is_correction_record": true,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumFor",
+          "pmid": "26620677",
+          "source": "J Mol Med (Berl). 2016 Apr;94(4):469-82. doi: 10.1007/s00109-015-1364-1.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "26620677",
+          "reference": "J Mol Med (Berl). 2016 Apr;94(4):469-82. doi: 10.1007/s00109-015-1364-1",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/26897011/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/26897011/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R20_pubmed.html",
+          "sha256": "079ab7eaca26f1979cd2526138bb8bbd9a73c2e4b942d6dcc22283524141eead",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1007/s00109-016-1394-3",
+          "http": 200,
+          "bytes_read": 254090,
+          "final_url_without_query": "https://link.springer.com/article/10.1007/s00109-016-1394-3",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R20_doi.html",
+          "sha256": "01e59f7f36972ceba4573f7ef3cc00fe44ffb6bb9b0dd0a6eb9b7a29846dd87e",
+          "citation_metadata": {
+            "dc.title": [
+              "Erratum to: A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents"
+            ],
+            "citation_title": [
+              "Erratum to: A flow cytometry-based reporter assay identifies macrolide antibiotics as nonsense mutation read-through agents"
+            ],
+            "dc.identifier": [
+              "doi:10.1007/s00109-016-1394-3"
+            ],
+            "citation_doi": [
+              "10.1007/s00109-016-1394-3"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R21",
+      "pmid": "37276642",
+      "doi_pro": "10.1016/j.biopha.2023.114968",
+      "doi_pubmed": "10.1016/j.biopha.2023.114968",
+      "doi_europe_pmc": "10.1016/j.biopha.2023.114968",
+      "title_pro": "Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 ApcMin/+ mice.",
+      "title_pubmed": "Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 ApcMin/+ mice.",
+      "title_europe_pmc": "Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 Apc<sup>Min/+</sup> mice.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumIn",
+          "pmid": "37385919",
+          "source": "Biomed Pharmacother. 2023 Sep;165:115082. doi: 10.1016/j.biopha.2023.115082.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "37385919",
+          "reference": "Biomed Pharmacother. 2023 Sep;165:115082. doi: 10.1016/j.biopha.2023.115082",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/37276642/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/37276642/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R21_pubmed.html",
+          "sha256": "5d5e372a8f2c657633fa91d7bb1e91313cd23a2fcc086b9b0dcbbe1256f2a261",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.biopha.2023.114968",
+          "http": 200,
+          "bytes_read": 2758,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0753332223007588",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R21_doi.html",
+          "sha256": "54416b7bd1fa14f0d80a9d3bbad900158400554f665f74b9c416a0cb9f8db4a5",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R22",
+      "pmid": "37385919",
+      "doi_pro": "10.1016/j.biopha.2023.115082",
+      "doi_pubmed": "10.1016/j.biopha.2023.115082",
+      "doi_europe_pmc": "10.1016/j.biopha.2023.115082",
+      "title_pro": "Corrigendum to \"Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 ApcMin/+ mice\" [Biomed. Pharmacother. 164 (2023) 114968].",
+      "title_pubmed": "Corrigendum to \"Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 ApcMin/+ mice\" [Biomed. Pharmacother. 164 (2023) 114968].",
+      "title_europe_pmc": "Corrigendum to \"Azithromycin induces read-through of the nonsense Apc allele and prevents intestinal tumorigenesis in C3B6F1 Apc<sup>Min/+</sup> mice\" [Biomed. Pharmacother. 164 (2023) 114968].",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "record",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "is_correction_record": true,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumFor",
+          "pmid": "37276642",
+          "source": "Biomed Pharmacother. 2023 Aug;164:114968. doi: 10.1016/j.biopha.2023.114968.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "37276642",
+          "reference": "Biomed Pharmacother. 2023 Aug;164:114968. doi: 10.1016/j.biopha.2023.114968",
+          "type": "Erratum for",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/37385919/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/37385919/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R22_pubmed.html",
+          "sha256": "69af09104fd3f9cd1b1bd6336f9e9ef82a09b7f174b8027fd120a57bf7676bf1",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.biopha.2023.115082",
+          "http": 200,
+          "bytes_read": 2829,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0753332223008739",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R22_doi.html",
+          "sha256": "39171186df2189f14c6e1e47f953c370e5e55a413b5ce165f806d996fab9e80b",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R23",
+      "pmid": "34066907",
+      "doi_pro": "10.3390/ijms22094923",
+      "doi_pubmed": "10.3390/ijms22094923",
+      "doi_europe_pmc": "10.3390/ijms22094923",
+      "title_pro": "Properties of Non-Aminoglycoside Compounds Used to Stimulate Translational Readthrough of PTC Mutations in Primary Ciliary Dyskinesia.",
+      "title_pubmed": "Properties of Non-Aminoglycoside Compounds Used to Stimulate Translational Readthrough of PTC Mutations in Primary Ciliary Dyskinesia.",
+      "title_europe_pmc": "Properties of Non-Aminoglycoside Compounds Used to Stimulate Translational Readthrough of PTC Mutations in Primary Ciliary Dyskinesia.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC8125088",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/34066907/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/34066907/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R23_pubmed.html",
+          "sha256": "657c0e374ab5797878724eeeb223f21e82432bbcfbcff81cbae10952a4568276",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.3390/ijms22094923",
+          "http": 403,
+          "bytes_read": 401,
+          "final_url_without_query": "https://www.mdpi.com/1422-0067/22/9/4923",
+          "content_type": "text/html",
+          "cache_file": "work/pro-reference-cache/R23_doi.html",
+          "sha256": "1b64890a6f9d0bf27986467d2bad916edbef15722d0fb8d9f42494831b713404",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R24",
+      "pmid": "31382608",
+      "doi_pro": "10.3390/antibiotics8030110",
+      "doi_pubmed": "10.3390/antibiotics8030110",
+      "doi_europe_pmc": "10.3390/antibiotics8030110",
+      "title_pro": "Mitochondrial Toxicity of Azithromycin Results in Aerobic Glycolysis and DNA Damage of Human Mammary Epithelia and Fibroblasts.",
+      "title_pubmed": "Mitochondrial Toxicity of Azithromycin Results in Aerobic Glycolysis and DNA Damage of Human Mammary Epithelia and Fibroblasts.",
+      "title_europe_pmc": "Mitochondrial Toxicity of Azithromycin Results in Aerobic Glycolysis and DNA Damage of Human Mammary Epithelia and Fibroblasts.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC6784251",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/31382608/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/31382608/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R24_pubmed.html",
+          "sha256": "72e951315eb8ddad5cdd3051a632da57f8de3076be40c5e0c46918e18a167f71",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.3390/antibiotics8030110",
+          "http": 403,
+          "bytes_read": 399,
+          "final_url_without_query": "https://www.mdpi.com/2079-6382/8/3/110",
+          "content_type": "text/html",
+          "cache_file": "work/pro-reference-cache/R24_doi.html",
+          "sha256": "9141814455e5e7d9a79bd1a92179f179caa63d6df4e15357f842df9004250e41",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R25",
+      "pmid": "23680642",
+      "doi_pro": "10.1016/j.jcf.2013.04.006",
+      "doi_pubmed": "10.1016/j.jcf.2013.04.006",
+      "doi_europe_pmc": "10.1016/j.jcf.2013.04.006",
+      "title_pro": "Mitochondrial OXPHOS function is unaffected by chronic azithromycin treatment.",
+      "title_pubmed": "Mitochondrial OXPHOS function is unaffected by chronic azithromycin treatment.",
+      "title_europe_pmc": "Mitochondrial OXPHOS function is unaffected by chronic azithromycin treatment.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/23680642/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/23680642/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R25_pubmed.html",
+          "sha256": "9622ac914546fb155b57724f8c4f162d2f6fae04a4f4415e05823bd055c986dc",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.jcf.2013.04.006",
+          "http": 200,
+          "bytes_read": 2667,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S1569199313000659",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R25_doi.html",
+          "sha256": "8a44beffa42f7475a505b7af48b15792d6569d03671eccd70ca8fae6141a4244",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R26",
+      "pmid": "30266908",
+      "doi_pro": "10.1038/s41467-018-06507-4",
+      "doi_pubmed": "10.1038/s41467-018-06507-4",
+      "doi_europe_pmc": "10.1038/s41467-018-06507-4",
+      "title_pro": "Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones.",
+      "title_pubmed": "Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones.",
+      "title_europe_pmc": "Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F+S",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC6162227",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/30266908/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/30266908/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R26_pubmed.html",
+          "sha256": "0bdc66de9499136891fb4beb6b61e58024d933210012657aa34a65299ee7afad",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/s41467-018-06507-4",
+          "http": 200,
+          "bytes_read": 528385,
+          "final_url_without_query": "https://www.nature.com/articles/s41467-018-06507-4",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R26_doi.html",
+          "sha256": "a435a9bc44a9af6ccf3570114cc836828ed0319f86034efa3d3789e74f9bd490",
+          "citation_metadata": {
+            "dc.title": [
+              "Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones"
+            ],
+            "citation_title": [
+              "Mechanism-based rescue of Munc18-1 dysfunction in varied encephalopathies by chemical chaperones"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/s41467-018-06507-4"
+            ],
+            "citation_doi": [
+              "10.1038/s41467-018-06507-4"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R27",
+      "pmid": "37094517",
+      "doi_pro": "10.1016/j.redox.2023.102701",
+      "doi_pubmed": "10.1016/j.redox.2023.102701",
+      "doi_europe_pmc": "10.1016/j.redox.2023.102701",
+      "title_pro": "The establishment of mitotic errors-driven senescence depends on autophagy.",
+      "title_pubmed": "The establishment of mitotic errors-driven senescence depends on autophagy.",
+      "title_europe_pmc": "The establishment of mitotic errors-driven senescence depends on autophagy.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC10149375",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/37094517/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/37094517/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R27_pubmed.html",
+          "sha256": "5656e79cf972ff83e740be245b0bc3abaa499459232025c350a995490de32bbf",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.redox.2023.102701",
+          "http": 200,
+          "bytes_read": 2687,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S2213231723001027",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R27_doi.html",
+          "sha256": "de8e9e01892d108aaef4830a8500a368418df17855c060ce3ead32470e7b5597",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R28",
+      "pmid": "23602569",
+      "doi_pro": "10.1016/j.celrep.2013.03.028",
+      "doi_pubmed": "10.1016/j.celrep.2013.03.028",
+      "doi_europe_pmc": "10.1016/j.celrep.2013.03.028",
+      "title_pro": "p21 both attenuates and drives senescence and aging in BubR1 progeroid mice.",
+      "title_pubmed": "p21 both attenuates and drives senescence and aging in BubR1 progeroid mice.",
+      "title_europe_pmc": "p21 both attenuates and drives senescence and aging in BubR1 progeroid mice.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC3785294",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/23602569/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/23602569/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R28_pubmed.html",
+          "sha256": "f374892feaefba044cf0fee8a933b9c38c3ef2b426a01e1359ff450c40fea660",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.celrep.2013.03.028",
+          "http": 200,
+          "bytes_read": 2984,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S2211124713001356",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R28_doi.html",
+          "sha256": "939b0b184b25a450cbe9ea840ec8eae5b5f3bded1d9d066a06cdb69e15bbc732",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R29",
+      "pmid": "18519516",
+      "doi_pro": "10.3324/haematol.12793",
+      "doi_pubmed": "10.3324/haematol.12793",
+      "doi_europe_pmc": "10.3324/haematol.12793",
+      "title_pro": "Centrosome aberrations and G1 phase arrest after in vitro and in vivo treatment with the SRC/ABL inhibitor dasatinib.",
+      "title_pubmed": "Centrosome aberrations and G1 phase arrest after in vitro and in vivo treatment with the SRC/ABL inhibitor dasatinib.",
+      "title_europe_pmc": "Centrosome aberrations and G1 phase arrest after in vitro and in vivo treatment with the SRC/ABL inhibitor dasatinib.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/18519516/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/18519516/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R29_pubmed.html",
+          "sha256": "62bbed13287ee3f79ad16254b00b610dde7a8c467a987dde00a1fb3a4b4fe28d",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.3324/haematol.12793",
+          "http": 200,
+          "bytes_read": 170755,
+          "final_url_without_query": "https://haematologica.org/article/view/4954",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R29_doi.html",
+          "sha256": "dd780255dc1c6adcb3f19b7083dce5d9ec4265182a8944fd7741392d59dc7558",
+          "citation_metadata": {
+            "dc.identifier": [
+              "4954"
+            ],
+            "dc.title": [
+              "Centrosome aberrations and G1 phase arrest after in vitro and in vivo treatment with the SRC/ABL inhibitor dasatinib"
+            ],
+            "citation_title": [
+              "Centrosome aberrations and G1 phase arrest after in vitro and in vivo treatment with the SRC/ABL inhibitor dasatinib"
+            ],
+            "citation_doi": [
+              "10.3324/haematol.12793"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R30",
+      "pmid": "17616695",
+      "doi_pro": "10.1158/0008-5472.can-06-3012",
+      "doi_pubmed": "10.1158/0008-5472.CAN-06-3012",
+      "doi_europe_pmc": "10.1158/0008-5472.can-06-3012",
+      "title_pro": "Histone deacetylase inhibitors induce premature sister chromatid separation and override the mitotic spindle assembly checkpoint.",
+      "title_pubmed": "Histone deacetylase inhibitors induce premature sister chromatid separation and override the mitotic spindle assembly checkpoint.",
+      "title_europe_pmc": "Histone deacetylase inhibitors induce premature sister chromatid separation and override the mitotic spindle assembly checkpoint.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/17616695/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/17616695/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R30_pubmed.html",
+          "sha256": "4f7eff71611de0155646e6233a313b4ff1a01d8099d8758ca169f3c8bc62d7b2",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1158/0008-5472.can-06-3012",
+          "http": 403,
+          "bytes_read": 5794,
+          "final_url_without_query": "https://aacrjournals.org/cancerres/article/67/13/6360/533268/Histone-Deacetylase-Inhibitors-Induce-Premature",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R30_doi.html",
+          "sha256": "339fe366efb999cf95b609081381018dc122d5a2ea22dda8320c332a3b411846",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R31",
+      "pmid": "16138009",
+      "doi_pro": "10.4161/cc.4.10.2061",
+      "doi_pubmed": "10.4161/cc.4.10.2061",
+      "doi_europe_pmc": "10.4161/cc.4.10.2061",
+      "title_pro": "Low concentrations of taxol cause mitotic delay followed by premature dissociation of p55CDC from Mad2 and BubR1 and abrogation of the spindle checkpoint, leading to aneuploidy.",
+      "title_pubmed": "Low concentrations of taxol cause mitotic delay followed by premature dissociation of p55CDC from Mad2 and BubR1 and abrogation of the spindle checkpoint, leading to aneuploidy.",
+      "title_europe_pmc": "Low concentrations of taxol cause mitotic delay followed by premature dissociation of p55CDC from Mad2 and BubR1 and abrogation of the spindle checkpoint, leading to aneuploidy.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/16138009/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/16138009/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R31_pubmed.html",
+          "sha256": "678b2583cc753113850384c115716e30c099dddabef2695c4657058c61a3a7a3",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.4161/cc.4.10.2061",
+          "http": 403,
+          "bytes_read": 5614,
+          "final_url_without_query": "https://www.tandfonline.com/doi/full/10.4161/cc.4.10.2061",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R31_doi.html",
+          "sha256": "20fe9bfec209c44de3a5bfbefb9068b4596b9c19431f27cf3d3bf13d243597bd",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R32",
+      "pmid": "19855003",
+      "doi_pro": "10.1073/pnas.0904343106",
+      "doi_pubmed": "10.1073/pnas.0904343106",
+      "doi_europe_pmc": "10.1073/pnas.0904343106",
+      "title_pro": "Elevating the frequency of chromosome mis-segregation as a strategy to kill tumor cells.",
+      "title_pubmed": "Elevating the frequency of chromosome mis-segregation as a strategy to kill tumor cells.",
+      "title_europe_pmc": "Elevating the frequency of chromosome mis-segregation as a strategy to kill tumor cells.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/19855003/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/19855003/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R32_pubmed.html",
+          "sha256": "3ba81cd3bb0e3e861fc0756dd2997ba9c815dfad364872199d576ea01b66dce6",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1073/pnas.0904343106",
+          "http": 403,
+          "bytes_read": 5526,
+          "final_url_without_query": "https://pnas.org/doi/full/10.1073/pnas.0904343106",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R32_doi.html",
+          "sha256": "027b94c0b7b9477df501cc1cd1b11ea5850448ca9f75431a1cd45d58d3ba2594",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R33",
+      "pmid": "25341037",
+      "doi_pro": "10.1038/cddis.2014.385",
+      "doi_pubmed": "10.1038/cddis.2014.385",
+      "doi_europe_pmc": "10.1038/cddis.2014.385",
+      "title_pro": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth.",
+      "title_pubmed": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth.",
+      "title_europe_pmc": "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC4237232",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/25341037/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/25341037/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R33_pubmed.html",
+          "sha256": "f4253f032f9cdf85e94aead6064f67f506400ca80a24f4cc95f539736103de50",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/cddis.2014.385",
+          "http": 200,
+          "bytes_read": 379877,
+          "final_url_without_query": "https://www.nature.com/articles/cddis2014385",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R33_doi.html",
+          "sha256": "b4041e9ec3e405552d181e06b23c99dd85819e7b0ab9a0b52ba5ad2de1a102c2",
+          "citation_metadata": {
+            "dc.title": [
+              "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth"
+            ],
+            "citation_title": [
+              "SIRT1 and SIRT2 inhibition impairs pediatric soft tissue sarcoma growth"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/cddis.2014.385"
+            ],
+            "citation_doi": [
+              "10.1038/cddis.2014.385"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R34",
+      "pmid": "28633018",
+      "doi_pro": "10.1016/j.devcel.2017.05.022",
+      "doi_pubmed": "10.1016/j.devcel.2017.05.022",
+      "doi_europe_pmc": "10.1016/j.devcel.2017.05.022",
+      "title_pro": "Chromosome Mis-segregation Generates Cell-Cycle-Arrested Cells with Complex Karyotypes that Are Eliminated by the Immune System.",
+      "title_pubmed": "Chromosome Mis-segregation Generates Cell-Cycle-Arrested Cells with Complex Karyotypes that Are Eliminated by the Immune System.",
+      "title_europe_pmc": "Chromosome Mis-segregation Generates Cell-Cycle-Arrested Cells with Complex Karyotypes that Are Eliminated by the Immune System.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC5536848",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "28800914",
+          "source": "Trends Genet. 2017 Oct;33(10):662-664. doi: 10.1016/j.tig.2017.07.007.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "28800914",
+          "reference": "Trends Genet. 2017 Oct;33(10):662-664. doi: 10.1016/j.tig.2017.07.007",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/28633018/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/28633018/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R34_pubmed.html",
+          "sha256": "da86694d9af350bb185a09a2f3e794b323b9c9d8973441a5e450b9d863eded92",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.devcel.2017.05.022",
+          "http": 200,
+          "bytes_read": 3064,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S1534580717304306",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R34_doi.html",
+          "sha256": "b8efbbc0efe9cd10882d14f67ddc7073ff7cead03a39384be184570403454b3b",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R35",
+      "pmid": "26404941",
+      "doi_pro": "10.1101/gad.269118.115",
+      "doi_pubmed": "10.1101/gad.269118.115",
+      "doi_europe_pmc": "10.1101/gad.269118.115",
+      "title_pro": "Aneuploidy-induced cellular stresses limit autophagic degradation.",
+      "title_pubmed": "Aneuploidy-induced cellular stresses limit autophagic degradation.",
+      "title_europe_pmc": "Aneuploidy-induced cellular stresses limit autophagic degradation.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC4604343",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "26571033",
+          "source": "Autophagy. 2015;11(12):2383-4. doi: 10.1080/15548627.2015.1110670.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "26571033",
+          "reference": "Autophagy. 2015;11(12):2383-4. doi: 10.1080/15548627.2015.1110670",
+          "type": "Comment in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/26404941/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/26404941/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R35_pubmed.html",
+          "sha256": "f53a662aec4534d145626c70f2a747b91378951cbe12d98e524ad451c53d8198",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1101/gad.269118.115",
+          "http": 403,
+          "bytes_read": 5518,
+          "final_url_without_query": "https://genesdev.cshlp.org/lookup/doi/10.1101/gad.269118.115",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R35_doi.html",
+          "sha256": "435b8debf1edf20ce16d79653af43dc867355909850b096f8bbb8e9dc8bd875d",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R36",
+      "pmid": "28738408",
+      "doi_pro": "10.1038/nature23449",
+      "doi_pubmed": "10.1038/nature23449",
+      "doi_europe_pmc": "10.1038/nature23449",
+      "title_pro": "cGAS surveillance of micronuclei links genome instability to innate immunity.",
+      "title_pubmed": "cGAS surveillance of micronuclei links genome instability to innate immunity.",
+      "title_europe_pmc": "cGAS surveillance of micronuclei links genome instability to innate immunity.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC5870830",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "29045895",
+          "source": "Immunity. 2017 Oct 17;47(4):616-617. doi: 10.1016/j.immuni.2017.09.020.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "29161564",
+          "source": "Curr Biol. 2017 Nov 20;27(22):R1228-R1231. doi: 10.1016/j.cub.2017.09.043.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "29045895",
+          "reference": "Immunity. 2017 Oct 17;47(4):616-617. doi: 10.1016/j.immuni.2017.09.020.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "29161564",
+          "reference": "Curr Biol. 2017 Nov 20;27(22):R1228-R1231. doi: 10.1016/j.cub.2017.09.043.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/28738408/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/28738408/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R36_pubmed.html",
+          "sha256": "d9609a985a203e81fccb74b9485da67c3f6c10387fa539dca557b55e1142fd63",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/nature23449",
+          "http": 200,
+          "bytes_read": 448387,
+          "final_url_without_query": "https://www.nature.com/articles/nature23449",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R36_doi.html",
+          "sha256": "89112ae9eaeb9cc37354415a0ad24a3301dd720d9374e4d23eed078739d8bcf1",
+          "citation_metadata": {
+            "dc.title": [
+              "cGAS surveillance of micronuclei links genome instability to innate immunity"
+            ],
+            "citation_title": [
+              "cGAS surveillance of micronuclei links genome instability to innate immunity"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/nature23449"
+            ],
+            "citation_doi": [
+              "10.1038/nature23449"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R37",
+      "pmid": "29342134",
+      "doi_pro": "10.1038/nature25432",
+      "doi_pubmed": "10.1038/nature25432",
+      "doi_europe_pmc": "10.1038/nature25432",
+      "title_pro": "Chromosomal instability drives metastasis through a cytosolic DNA response.",
+      "title_pubmed": "Chromosomal instability drives metastasis through a cytosolic DNA response.",
+      "title_europe_pmc": "Chromosomal instability drives metastasis through a cytosolic DNA response.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC5785464",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "29374021",
+          "source": "Cancer Discov. 2018 Mar;8(3):OF7. doi: 10.1158/2159-8290.CD-RW2018-014.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "29467525",
+          "source": "Nat Rev Cancer. 2018 Feb 22;18(3):137. doi: 10.1038/nrc.2018.16.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "29937042",
+          "source": "Trends Cancer. 2018 Jul;4(7):461-463. doi: 10.1016/j.trecan.2018.05.001.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "29374021",
+          "reference": "Cancer Discov. 2018 Mar;8(3):OF7. doi: 10.1158/2159-8290.CD-RW2018-014.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "29467525",
+          "reference": "Nat Rev Cancer. 2018 Feb 22;18(3):137. doi: 10.1038/nrc.2018.16.",
+          "type": "Comment in",
+          "orderIn": 2
+        },
+        {
+          "source": "MED",
+          "id": "29937042",
+          "reference": "Trends Cancer. 2018 Jul;4(7):461-463. doi: 10.1016/j.trecan.2018.05.001.",
+          "type": "Comment in",
+          "orderIn": 3
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/29342134/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/29342134/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R37_pubmed.html",
+          "sha256": "3415809f6b26e9c506f9b2ce9e21c336a6b08638e7feb98f700f6b1b0de646a0",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/nature25432",
+          "http": 200,
+          "bytes_read": 528133,
+          "final_url_without_query": "https://www.nature.com/articles/nature25432",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R37_doi.html",
+          "sha256": "e968692ad88a7bff1dd76120414e82a02b27b52a3a49250f1036c4f7abfe6cf5",
+          "citation_metadata": {
+            "dc.title": [
+              "Chromosomal instability drives metastasis through a cytosolic DNA response"
+            ],
+            "citation_title": [
+              "Chromosomal instability drives metastasis through a cytosolic DNA response"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/nature25432"
+            ],
+            "citation_doi": [
+              "10.1038/nature25432"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R38",
+      "pmid": "24981203",
+      "doi_pro": "10.1007/s10577-014-9432-x",
+      "doi_pubmed": "10.1007/s10577-014-9432-x",
+      "doi_europe_pmc": "10.1007/s10577-014-9432-x",
+      "title_pro": "Mosaic variegated aneuploidy in mouse BubR1 deficient embryos and pregnancy loss in human.",
+      "title_pubmed": "Mosaic variegated aneuploidy in mouse BubR1 deficient embryos and pregnancy loss in human.",
+      "title_europe_pmc": "Mosaic variegated aneuploidy in mouse BubR1 deficient embryos and pregnancy loss in human.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "ErratumIn",
+          "pmid": null,
+          "source": "Chromosome Res. 2014 Dec;22(4):645-6",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "reference": "Chromosome Res. 2014 Dec;22(4):645-6",
+          "type": "Erratum in",
+          "orderIn": 1
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/24981203/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/24981203/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R38_pubmed.html",
+          "sha256": "030dea4b52a9b15652ff7ca43fd579cfc86376ecc5f37b1a09428a715162d0a2",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1007/s10577-014-9432-x",
+          "http": 200,
+          "bytes_read": 442721,
+          "final_url_without_query": "https://link.springer.com/article/10.1007/s10577-014-9432-x",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R38_doi.html",
+          "sha256": "f0d977fbf36d7c45184a1b5923cc72fdffa9bf11d2f680a42c0be1bb82426ac9",
+          "citation_metadata": {
+            "dc.title": [
+              "Mosaic variegated aneuploidy in mouse BubR1 deficient embryos and pregnancy loss in human"
+            ],
+            "citation_title": [
+              "Mosaic variegated aneuploidy in mouse BubR1 deficient embryos and pregnancy loss in human"
+            ],
+            "dc.identifier": [
+              "doi:10.1007/s10577-014-9432-x"
+            ],
+            "citation_doi": [
+              "10.1007/s10577-014-9432-x"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R39",
+      "pmid": "42434306",
+      "doi_pro": "10.3389/fendo.2026.1838559",
+      "doi_pubmed": "10.3389/fendo.2026.1838559",
+      "doi_europe_pmc": "10.3389/fendo.2026.1838559",
+      "title_pro": "Functional and clinical evidence for two novel heterozygous BUB1B variants and their value in precision genetic counseling for recurrent pregnancy loss.",
+      "title_pubmed": "Functional and clinical evidence for two novel heterozygous BUB1B variants and their value in precision genetic counseling for recurrent pregnancy loss.",
+      "title_europe_pmc": "Functional and clinical evidence for two novel heterozygous &lt;i&gt;BUB1B&lt;/i&gt; variants and their value in precision genetic counseling for recurrent pregnancy loss.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC13349884",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/42434306/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/42434306/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R39_pubmed.html",
+          "sha256": "377f40101165d67f66b01c4532c299efda85c7e22160325312456d72ea9f8135",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.3389/fendo.2026.1838559",
+          "http": 200,
+          "bytes_read": 692517,
+          "final_url_without_query": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1838559/full",
+          "content_type": "text/html;charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R39_doi.html",
+          "sha256": "c7ee33663445e82bb4a708fa5ab920ccd09daa4a529f1369c3df94cda5186738",
+          "citation_metadata": {
+            "citation_doi": [
+              "10.3389/fendo.2026.1838559"
+            ],
+            "citation_title": [
+              "Functional and clinical evidence for two novel heterozygous BUB1B variants and their value in precision genetic counseling for recurrent pregnancy loss"
+            ],
+            "dc.identifier": [
+              "doi:10.3389/fendo.2026.1838559"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R40",
+      "pmid": "21552266",
+      "doi_pro": "10.1038/ng.822",
+      "doi_pubmed": "10.1038/ng.822",
+      "doi_europe_pmc": "10.1038/ng.822",
+      "title_pro": "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome.",
+      "title_pubmed": "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome.",
+      "title_europe_pmc": "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC3508359",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/21552266/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/21552266/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R40_pubmed.html",
+          "sha256": "5a1ba400c1e53ea6c0fccbb9a06ed0b7111230eddba3789ce3a42592f5a3e633",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/ng.822",
+          "http": 200,
+          "bytes_read": 293759,
+          "final_url_without_query": "https://www.nature.com/articles/ng.822",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R40_doi.html",
+          "sha256": "0007867aa7990361a17dbc7c524f17c0219bb8ca701f639e2023686c8c256ae1",
+          "citation_metadata": {
+            "dc.title": [
+              "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome"
+            ],
+            "citation_title": [
+              "Mutations in CEP57 cause mosaic variegated aneuploidy syndrome"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/ng.822"
+            ],
+            "citation_doi": [
+              "10.1038/ng.822"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R41",
+      "pmid": "28553959",
+      "doi_pro": "10.1038/ng.3883",
+      "doi_pubmed": "10.1038/ng.3883",
+      "doi_europe_pmc": "10.1038/ng.3883",
+      "title_pro": "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation.",
+      "title_pubmed": "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation.",
+      "title_europe_pmc": "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC5493194",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/28553959/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/28553959/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R41_pubmed.html",
+          "sha256": "6c66e35821f06a5648cc991fb36504565e8e83a42d8eb957255a02a9796d9439",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1038/ng.3883",
+          "http": 200,
+          "bytes_read": 344628,
+          "final_url_without_query": "https://www.nature.com/articles/ng.3883",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R41_doi.html",
+          "sha256": "7534fe6e1e9f63855231b5d3fc5fd51d729b0884c87902f071491a6d74d1d012",
+          "citation_metadata": {
+            "dc.title": [
+              "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation"
+            ],
+            "citation_title": [
+              "Biallelic TRIP13 mutations predispose to Wilms tumor and chromosome missegregation"
+            ],
+            "dc.identifier": [
+              "doi:10.1038/ng.3883"
+            ],
+            "citation_doi": [
+              "10.1038/ng.3883"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R42",
+      "pmid": "35044816",
+      "doi_pro": "10.1126/sciadv.abk0114",
+      "doi_pubmed": "10.1126/sciadv.abk0114",
+      "doi_europe_pmc": "10.1126/sciadv.abk0114",
+      "title_pro": "Biallelic BUB1 mutations cause microcephaly, developmental delay, and variable effects on cohesion and chromosome segregation.",
+      "title_pubmed": "Biallelic BUB1 mutations cause microcephaly, developmental delay, and variable effects on cohesion and chromosome segregation.",
+      "title_europe_pmc": "Biallelic &lt;i&gt;BUB1&lt;/i&gt; mutations cause microcephaly, developmental delay, and variable effects on cohesion and chromosome segregation.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC8769543",
+      "publication_types": [
+        "Case Reports",
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/35044816/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/35044816/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R42_pubmed.html",
+          "sha256": "85da2dd8c5d2d188c2cbd83f103ef9de57b87168ea76f76911ed585690b4cc6d",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1126/sciadv.abk0114",
+          "http": 403,
+          "bytes_read": 5537,
+          "final_url_without_query": "https://www.science.org/doi/10.1126/sciadv.abk0114",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R42_doi.html",
+          "sha256": "21ac0b064f52985715efdb20c0919b32a06b9c1619da277052852385a55f93ea",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R43",
+      "pmid": "26621532",
+      "doi_pro": "10.1007/s00439-015-1619-5",
+      "doi_pubmed": "10.1007/s00439-015-1619-5",
+      "doi_europe_pmc": "10.1007/s00439-015-1619-5",
+      "title_pro": "A novel homozygous splicing mutation of CASC5 causes primary microcephaly in a large Pakistani family.",
+      "title_pubmed": "A novel homozygous splicing mutation of CASC5 causes primary microcephaly in a large Pakistani family.",
+      "title_europe_pmc": "A novel homozygous splicing mutation of CASC5 causes primary microcephaly in a large Pakistani family.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": null,
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/26621532/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/26621532/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R43_pubmed.html",
+          "sha256": "f561069253a06b1dc236dd63f4d92cda2b65639495c65e6229d44f2c0226c782",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1007/s00439-015-1619-5",
+          "http": 200,
+          "bytes_read": 408824,
+          "final_url_without_query": "https://link.springer.com/article/10.1007/s00439-015-1619-5",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R43_doi.html",
+          "sha256": "02745e7447d9f24746b3d636b7c28c8b4559f9bde6f0822917795012117c3fab",
+          "citation_metadata": {
+            "dc.title": [
+              "A novel homozygous splicing mutation of CASC5 causes primary microcephaly in a large Pakistani family"
+            ],
+            "citation_title": [
+              "A novel homozygous splicing mutation of CASC5 causes primary microcephaly in a large Pakistani family"
+            ],
+            "dc.identifier": [
+              "doi:10.1007/s00439-015-1619-5"
+            ],
+            "citation_doi": [
+              "10.1007/s00439-015-1619-5"
+            ]
+          },
+          "expected_identifier_in_citation_metadata": true,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R44",
+      "pmid": "29195078",
+      "doi_pro": "10.1016/j.cell.2017.10.049",
+      "doi_pubmed": "10.1016/j.cell.2017.10.049",
+      "doi_europe_pmc": "10.1016/j.cell.2017.10.049",
+      "title_pro": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles.",
+      "title_pubmed": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles.",
+      "title_europe_pmc": "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC5990023",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "PPR",
+          "id": "PPR20769",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/29195078/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/29195078/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R44_pubmed.html",
+          "sha256": "aa6e12fb9fce3e9f58c2b4a811e572e5243a7c11507f7b4785d7f0b63456c8f7",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.cell.2017.10.049",
+          "http": 200,
+          "bytes_read": 2968,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0092867417313090",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R44_doi.html",
+          "sha256": "277f44f3637aa652adaa6cb340b4923458a6f450bdbb0edee69bf4466d9e00f8",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R45",
+      "pmid": "35524556",
+      "doi_pro": "10.1093/nar/gkac328",
+      "doi_pubmed": "10.1093/nar/gkac328",
+      "doi_europe_pmc": "10.1093/nar/gkac328",
+      "title_pro": "SigCom LINCS: data and metadata search engine for a million gene expression signatures.",
+      "title_pubmed": "SigCom LINCS: data and metadata search engine for a million gene expression signatures.",
+      "title_europe_pmc": "SigCom LINCS: data and metadata search engine for a million gene expression signatures.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC9252724",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/35524556/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/35524556/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R45_pubmed.html",
+          "sha256": "e9e98830b62ba5746ea9706014f61dc77043b23706b6690186fb994c0ec42fed",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1093/nar/gkac328",
+          "http": 403,
+          "bytes_read": 5529,
+          "final_url_without_query": "https://academic.oup.com/nar/article/50/W1/W697/6582159",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R45_doi.html",
+          "sha256": "0e89f11d38d4c06f51fd6e0ef9a10af3b5d2b3f44e58f4e0cc8c069628a4b0ab",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R46",
+      "pmid": "26771021",
+      "doi_pro": "10.1016/j.cels.2015.12.004",
+      "doi_pubmed": "10.1016/j.cels.2015.12.004",
+      "doi_europe_pmc": "10.1016/j.cels.2015.12.004",
+      "title_pro": "The Molecular Signatures Database (MSigDB) hallmark gene set collection.",
+      "title_pubmed": "The Molecular Signatures Database (MSigDB) hallmark gene set collection.",
+      "title_europe_pmc": "The Molecular Signatures Database (MSigDB) hallmark gene set collection.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC4707969",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/26771021/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/26771021/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R46_pubmed.html",
+          "sha256": "402625120f04874be42eb8f3375ff00377aa24f821c49f69929f316448383170",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.cels.2015.12.004",
+          "http": 200,
+          "bytes_read": 2971,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S2405471215002185",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R46_doi.html",
+          "sha256": "11db267c97cabfad5200e7aeaffe29a846c8551e7d2056a1e926ae62933c55e5",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R47",
+      "pmid": "34791371",
+      "doi_pro": "10.1093/nar/gkab1061",
+      "doi_pubmed": "10.1093/nar/gkab1061",
+      "doi_europe_pmc": "10.1093/nar/gkab1061",
+      "title_pro": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.",
+      "title_pubmed": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.",
+      "title_europe_pmc": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC8728224",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/34791371/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R47_pubmed.html",
+          "sha256": "e84434d50b9fc3f272e910238b4c58f3f66f0c4a1b5dcad92b25cd2c2dde95e8",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1093/nar/gkab1061",
+          "http": 403,
+          "bytes_read": 5529,
+          "final_url_without_query": "https://academic.oup.com/nar/article/50/D1/D439/6430488",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R47_doi.html",
+          "sha256": "e455def79ab4bc72f9f0c2f071251bcbbba724c091e61455e0ee3ef6117269dd",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R48",
+      "pmid": "31513481",
+      "doi_pro": "10.1200/jco.19.00576",
+      "doi_pubmed": "10.1200/JCO.19.00576",
+      "doi_europe_pmc": "10.1200/jco.19.00576",
+      "title_pro": "Randomized Phase II Trial of Bevacizumab or Temsirolimus in Combination With Chemotherapy for First Relapse Rhabdomyosarcoma: A Report From the Children's Oncology Group.",
+      "title_pubmed": "Randomized Phase II Trial of Bevacizumab or Temsirolimus in Combination With Chemotherapy for First Relapse Rhabdomyosarcoma: A Report From the Children's Oncology Group.",
+      "title_europe_pmc": "Randomized Phase II Trial of Bevacizumab or Temsirolimus in Combination With Chemotherapy for First Relapse Rhabdomyosarcoma: A Report From the Children's Oncology Group.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC6823886",
+      "publication_types": [
+        "Clinical Trial, Phase II",
+        "Comparative Study",
+        "Journal Article",
+        "Multicenter Study",
+        "Randomized Controlled Trial",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/31513481/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/31513481/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R48_pubmed.html",
+          "sha256": "e8a80b783ea9706f37287a77c89a555e7d58040379b669572f655efb3c3d2fcd",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1200/jco.19.00576",
+          "http": 403,
+          "bytes_read": 5528,
+          "final_url_without_query": "https://ascopubs.org/doi/10.1200/JCO.19.00576",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R48_doi.html",
+          "sha256": "11f85c502aec9133ff0a737553ad15aa85eb824c138ab72d49ab930c28ed4895",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R49",
+      "pmid": "38936378",
+      "doi_pro": "10.1016/s1470-2045(24)00255-9",
+      "doi_pubmed": "10.1016/S1470-2045(24)00255-9",
+      "doi_europe_pmc": "10.1016/s1470-2045(24)00255-9",
+      "title_pro": "Addition of temsirolimus to chemotherapy in children, adolescents, and young adults with intermediate-risk rhabdomyosarcoma (ARST1431): a randomised, open-label, phase 3 trial from the Children's Oncology Group.",
+      "title_pubmed": "Addition of temsirolimus to chemotherapy in children, adolescents, and young adults with intermediate-risk rhabdomyosarcoma (ARST1431): a randomised, open-label, phase 3 trial from the Children's Oncology Group.",
+      "title_europe_pmc": "Addition of temsirolimus to chemotherapy in children, adolescents, and young adults with intermediate-risk rhabdomyosarcoma (ARST1431): a randomised, open-label, phase 3 trial from the Children's Oncology Group.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC11550893",
+      "publication_types": [
+        "Journal Article",
+        "Clinical Trial, Phase III",
+        "Randomized Controlled Trial",
+        "Multicenter Study",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [
+        {
+          "type": "CommentIn",
+          "pmid": "38936374",
+          "source": "Lancet Oncol. 2024 Jul;25(7):828-830. doi: 10.1016/S1470-2045(24)00287-0.",
+          "note": null
+        },
+        {
+          "type": "CommentIn",
+          "pmid": "40386363",
+          "source": "Transl Pediatr. 2025 Apr 30;14(4):769-772. doi: 10.21037/tp-2024-605.",
+          "note": null
+        }
+      ],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "MED",
+          "id": "38936374",
+          "reference": "Lancet Oncol. 2024 Jul;25(7):828-830. doi: 10.1016/S1470-2045(24)00287-0.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "40386363",
+          "reference": "Transl Pediatr. 2025 Apr 30;14(4):769-772. doi: 10.21037/tp-2024-605.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/38936378/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/38936378/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R49_pubmed.html",
+          "sha256": "323237c9fef23c246f2eea405c0e5f30ea4fa90a28b5c637c211a605ccd65a77",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/s1470-2045(24)00255-9",
+          "http": 200,
+          "bytes_read": 2760,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S1470204524002559",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R49_doi.html",
+          "sha256": "871d23abfc705f04ba62ac0b81feb666eed50ffd5a342905f42fa811aa608996",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R50",
+      "pmid": "39264246",
+      "doi_pro": "10.1158/1078-0432.ccr-24-1098",
+      "doi_pubmed": "10.1158/1078-0432.CCR-24-1098",
+      "doi_europe_pmc": "10.1158/1078-0432.ccr-24-1098",
+      "title_pro": "Update on Recommendations for Cancer Screening and Surveillance in Children with Genomic Instability Disorders.",
+      "title_pubmed": "Update on Recommendations for Cancer Screening and Surveillance in Children with Genomic Instability Disorders.",
+      "title_europe_pmc": "Update on Recommendations for Cancer Screening and Surveillance in Children with Genomic Instability Disorders.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "A",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC11705613",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/39264246/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/39264246/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R50_pubmed.html",
+          "sha256": "1c441089133dfa17119b4f3759aab9cdf8cc691fd7c45fe00a42a4e3ae7e013c",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1158/1078-0432.ccr-24-1098",
+          "http": 403,
+          "bytes_read": 5837,
+          "final_url_without_query": "https://aacrjournals.org/clincancerres/article/30/22/5009/749560/Update-on-Recommendations-for-Cancer-Screening-and",
+          "content_type": "text/html; charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R50_doi.html",
+          "sha256": "80ec3c0a6da78ef441d6a558fe8ddeb0a14d0ef7cf8ba9d58f7698af26b63191",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": true
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    },
+    {
+      "id": "R51",
+      "pmid": "34481829",
+      "doi_pro": "10.1016/j.jlr.2021.100114",
+      "doi_pubmed": "10.1016/j.jlr.2021.100114",
+      "doi_europe_pmc": "10.1016/j.jlr.2021.100114",
+      "title_pro": "HSP90 inhibitors reduce cholesterol storage in Niemann-Pick type C1 mutant fibroblasts.",
+      "title_pubmed": "HSP90 inhibitors reduce cholesterol storage in Niemann-Pick type C1 mutant fibroblasts.",
+      "title_europe_pmc": "HSP90 inhibitors reduce cholesterol storage in Niemann-Pick type C1 mutant fibroblasts.",
+      "identity_matches": {
+        "title_pubmed": true,
+        "title_europe_pmc": true,
+        "doi_pubmed": true,
+        "doi_europe_pmc": true
+      },
+      "identity_verified": true,
+      "pro_claimed_opened_scope": "F",
+      "our_mechanism_audit_scope": "identity_metadata_only; no independent claim audit in this ledger",
+      "pmcid": "PMC8517605",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "is_correction_record": false,
+      "indexed_retraction_flag_or_link": false,
+      "pubmed_correction_comment_links": [],
+      "europe_pmc_correction_comment_links": [
+        {
+          "source": "PPR",
+          "id": "PPR315702",
+          "type": "Preprint in",
+          "note": "CrossRef Pre-print loader",
+          "orderIn": 10002
+        }
+      ],
+      "actual_pubmed_and_doi_page_attempts": [
+        {
+          "kind": "pubmed",
+          "requested_url": "https://pubmed.ncbi.nlm.nih.gov/34481829/",
+          "http": 203,
+          "bytes_read": 5590,
+          "final_url_without_query": "https://pubmed.ncbi.nlm.nih.gov/34481829/",
+          "content_type": "text/html; charset=utf-8",
+          "cache_file": "work/pro-reference-cache/R51_pubmed.html",
+          "sha256": "9c0d1b3970a5e3b9a969c4e70130d97b15b4d4a6dffaf0f6e67efadf2716b1e0",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        },
+        {
+          "kind": "doi",
+          "requested_url": "https://doi.org/10.1016/j.jlr.2021.100114",
+          "http": 200,
+          "bytes_read": 2625,
+          "final_url_without_query": "https://linkinghub.elsevier.com/retrieve/pii/S0022227521000961",
+          "content_type": "text/html;charset=UTF-8",
+          "cache_file": "work/pro-reference-cache/R51_doi.html",
+          "sha256": "e813021cccfadfadb8952f1bc3c1bb9f3a8ab907847f8115afa87a8980b1a355",
+          "citation_metadata": {},
+          "expected_identifier_in_citation_metadata": false,
+          "interstitial_or_challenge": false
+        }
+      ],
+      "authoritative_identity_source": "PubMed EFetch XML PubmedData/ArticleIdList, cross-checked against Europe PMC core metadata"
+    }
+  ],
+  "mechanism_claim_audit": [
+    {
+      "reference": "R03",
+      "scope": "primary_author_manuscript_full_text_sections",
+      "status": "supported_with_boundaries",
+      "source_url": "https://www.hubrecht.eu/app/uploads/2015/08/Kops_Research_2010_Suijkerbuijk_Molecular-Causes-for-BUBR1-Dysfunction-in-the-Human-Cancer-Predisposition-Syndrome-Mosaic-Variegated-Aneuploidy.pdf",
+      "cache": "work/pro-reference-cache/R03_author.pdf",
+      "locator": "Results, manuscript pages 4\u20135, Figures 2A, 3C and 4D",
+      "finding": "Patient lines showed 2\u20136-fold lower full-length BubR1. I909T/L1012P were HSP90-dependent; forced expression at WT-comparable levels restored the nocodazole checkpoint response.",
+      "boundary": "Different variants and transformed/cultured cells. This does not establish N1002K instability, readthrough efficacy, or drug rescue. The 731X construct is not this case's exact Leu737Ter allele."
+    },
+    {
+      "reference": "R05",
+      "scope": "primary_abstract_verified_full_text_unreached",
+      "status": "broad_claim_supported_figure_details_unverified",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23079597/",
+      "cache": "work/pro-reference-cache/pubmed_all.xml",
+      "locator": "PMID 23079597 AbstractText",
+      "finding": "The abstract supports PLK1-dependent KARD phosphorylation, PP2A-B56 recruitment, opposition to Aurora B, and attachment stabilization.",
+      "boundary": "Publisher HTML/PDF were blocked; FULL API returned 401, public author-thesis fallback returned 403. Do not claim a new full-text/figure audit or exact residue-boundary verification from this paper."
+    },
+    {
+      "reference": "R06",
+      "scope": "primary_article_full_text_sections_at_CC_BY_mirror",
+      "status": "supported_with_boundaries",
+      "source_url": "https://www.researchgate.net/publication/347785117_BUBR1_Pseudokinase_Domain_Promotes_Kinetochore_PP2A-B56_Recruitment_Spindle_Checkpoint_Silencing_and_Chromosome_Alignment",
+      "cache": null,
+      "locator": "Full primary article, Figures 3A\u2013E and 4A\u2013I; Results: equivalent kinetochore expression and pseudokinase phenotypes",
+      "finding": "Phosphosignals were normalized by total BubR1 and inducible constructs were titrated to equivalent kinetochore levels. Pseudokinase mutants still impaired KARD/B56 signaling, alignment and checkpoint silencing.",
+      "boundary": "Published article text was viewed at a CC-BY mirror; publisher API exposed metadata only. No N1002K experiment. Extra protein cannot be equated with useful rescue."
+    },
+    {
+      "reference": "R07",
+      "scope": "PMC_full_text_XML_and_figure_caption",
+      "status": "supported_with_boundaries",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13385977/fullTextXML",
+      "cache": "work/pro-reference-cache/R07_fulltext.xml",
+      "locator": "Introduction and Figure 1B caption; paragraphs 3, 6 and 7 in cached extraction",
+      "finding": "The 2026 paper and domain map are real. TPR 59\u2013219, pseudokinase 766\u20131050, the listed KEN/ABBA/D motifs, minimal GLEBS 408\u2013418, Bub1-binding 440\u2013460 and LxxIxE 669\u2013674 match the Pro map.",
+      "boundary": "Annotation boundaries are conventions. TPR/MCC experiments do not determine activity of the exact Leu737Ter fragment or N1002K."
+    },
+    {
+      "reference": "R08",
+      "scope": "publisher_full_text_sections",
+      "status": "supported_with_correction",
+      "source_url": "https://www.jci.org/articles/view/126863",
+      "cache": "work/pro-reference-cache/R08_JCI.html",
+      "locator": "Results, Figure 1 and Figure 5C\u2013D; Discussion",
+      "finding": "The paper explicitly maps human L1012 to mouse L1002. Comparable low BubR1 abundance can have different tissue phenotypes and mTORC1 activation, supporting allele-specific interpretation.",
+      "boundary": "Mouse allele series, not this child's alleles or a rapalog treatment result. Human N1002\u2192mouse N992 mapping remains an unreplicated Pro calculation. Apply R09's correction."
+    },
+    {
+      "reference": "R09",
+      "scope": "publisher_correction_full_text",
+      "status": "correction_not_independent_study",
+      "source_url": "https://www.jci.org/articles/view/144781",
+      "cache": "work/pro-reference-cache/R09_JCI.html",
+      "locator": "Corrigendum body, Figure 2E and corrected pHH3 Methods",
+      "finding": "A duplicated sample image for +/L1002P and +/\u2212 in Figure 2E was replaced; the pHH3 mitotic-index Methods description was corrected. The original online article was updated.",
+      "boundary": "Keep this reference as correction provenance. Do not count it as a second independent allele-series study."
+    },
+    {
+      "reference": "R11",
+      "scope": "PMC_full_text_XML_results_and_figure_captions",
+      "status": "supported_with_boundaries",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3707109/fullTextXML",
+      "cache": "work/pro-reference-cache/R11_fulltext.xml",
+      "locator": "Results paragraphs 3\u201312; Figures 1\u20134",
+      "finding": "High WT BubR1 transgene expression improved fidelity, tumor resistance, selected tissue outcomes and lifespan in mice. Moderate expression did not reproduce every benefit.",
+      "boundary": "Genetic WT overexpression is not mutant stabilization or a drug trial. It does not establish human benefit, N1002K rescue, or safety in a child with prior/occult cancer."
+    }
+  ],
+  "additional_corrections": [
+    {
+      "original_reference": "R16",
+      "original_pmid": "32386566",
+      "correction_pmid": "32640244",
+      "correction_doi": "10.1016/j.cmet.2020.05.020",
+      "scope": "PubMed/Europe PMC correction metadata; no abstract",
+      "content_verified_here": false,
+      "action": "Drug-audit agent notified; do not infer what was corrected without opening its text."
+    },
+    {
+      "original_reference": "R38",
+      "original_pmid": "24981203",
+      "correction_pmid": null,
+      "correction_doi": "10.1007/s10577-014-9441-9",
+      "scope": "Original PubMed ErratumIn link plus Springer correction record; paywalled correction body",
+      "content_verified_here": false,
+      "action": "Retain citation with correction-content limitation; no new claim about the correction's scientific effect."
+    }
+  ],
+  "recent_reference_checks": [
+    {
+      "id": "R07",
+      "pmid": "42477419",
+      "verified": true,
+      "scope": "PubMed XML, Europe PMC metadata, full-text XML and Figure 1 caption",
+      "first_publication_date_in_EPMC": "2026-07-20"
+    },
+    {
+      "id": "R39",
+      "pmid": "42434306",
+      "verified": true,
+      "scope": "PubMed XML and Europe PMC metadata/abstract",
+      "first_publication_date_in_EPMC": "2026-06-26",
+      "boundary": "Two families; the abstract classifies both variants as VUS and describes preliminary support. It does not establish allele phase in this case."
+    }
+  ],
+  "unreplicated_Pro_calculations": [
+    "C1 101/103 Asn conservation and human N1002\u2192mouse N992 mapping: accompanying alignment/scripts ZIP was unavailable.",
+    "C1 side-chain SASA near 16 A2: not replicated from Pro scripts. Existing independent whole-residue SASA 27.73 A2 is a different quantity and not a direct contradiction.",
+    "No claim of replicating any Pro C2/C3 analysis or exact-genotype drug efficacy from citation verification."
+  ],
+  "source_artifact_sha256": {
+    "work/pro-reference-input.json": "7e991bd6128f4bb34953685a2fe00e3dbdccfb8d61ce27022b6b0c0c6fd22ed3",
+    "work/pro-reference-cache/pubmed_all.xml": "b6adad8423b7dda6ba874b241b9bb1ded907d51ed52c26c9947d4de0976453f7",
+    "work/pro-reference-cache/europepmc_all_metadata.json": "d64cdb78f2ef1c20caf1908b1777d029ae858e1a1056cf361e098ec63950b2da",
+    "work/pro-reference-cache/all_page_attempts.json": "b87c573439ba071595b4169b77fca5aa0e34ba54e0e4e8a7e88dbad06aa7a6c0",
+    "work/pro-reference-cache/R03_author.pdf": "abb00d6533aded5a7053f7c48692ea8c13c8ca423e015b460bf2cdad7b2d592c",
+    "work/pro-reference-cache/R07_fulltext.xml": "04ce48a18bda390409d5aae06563eedb9cb709c7852d9927fa0c479f06bf5d99",
+    "work/pro-reference-cache/R08_JCI.html": "3516b177d12399bfb96eade07c2635e5a6b9a2b429a4ba43fe5876c584ea53bd",
+    "work/pro-reference-cache/R09_JCI.html": "a48def7fc2afb2798ea207eecff34fafab780cd63462d9ad7ac45ce1e746b29d",
+    "work/pro-reference-cache/R11_fulltext.xml": "150773f9d2209352fc47cfe33c6749251219456a146c39441c7d2de2982d1504"
+  }
+}

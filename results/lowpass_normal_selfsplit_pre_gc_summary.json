@@ -1,0 +1,33 @@
+{
+  "generated_utc": "2026-10-24T03:46:11.140429+00:00",
+  "method": "pre-GC deterministic covered-base injection recovery",
+  "baseline_null": "Unspiked mapped-base-matched normal self-split; supplied by caller",
+  "block_mb": 1,
+  "bin_size": 100000,
+  "injected_fractions": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "rows": 132,
+  "evaluated_rows": 132,
+  "recovery_ratio_min": 0.8840512370684244,
+  "recovery_ratio_median": 0.9956729590147722,
+  "recovery_ratio_max": 1.0229964745267404,
+  "nominal_lods_adjusted": false,
+  "source_hashes": {
+    "metadata": "1ffeab62395b8a6c2e0250c5558d3d479f0bcdb65b91300a8eee70c08c8fab7c",
+    "private_bedcov": "90323f6cd581efd59733c7d87458abd4274b74e1cd7c5301d2b28643d04062e2",
+    "bin_manifest": "2d00ee6477727585243fab999349dce8ae69e896e4838e52efb665ac69cd557e",
+    "recovery_code": "acf43f71d9df7c652c1d97d691d219c93c5521b188d900febcd6b52b60b8e922",
+    "prepare_code": "d0fbe317e40f9d17fb1d2efdc1bfa6b16cdeab760ecdb691e2d122692a40a413",
+    "aggregate_csv": "447312d4a0826851fcfea9f2ef480314bb1a6b2bb9d89140c8afa37699501423"
+  },
+  "caveats": [
+    "Deterministic depth perturbations do not validate alignment, read sampling or mapping bias",
+    "Tests GC correction and refiltering against this control only; not clinical sensitivity or power",
+    "Single copy gain/loss in fraction f assumes ratio1+f/2 or1-f/2 and diploid baseline",
+    "Baseline self-split is not an independent biological or tissue/library-matched control",
+    "Recovery ratios can be above1 or negative; no nominal LOD is automatically corrected"
+  ]
+}

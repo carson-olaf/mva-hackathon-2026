@@ -69,11 +69,11 @@ Signature replay requires the ignored public cache from a first live run. The fu
 
 Patient source files remain in `data/`, a link to a mode-700 directory. Local `work/` and `private/` directories are also mode 700. Candidate tables, reads, alignments, per-bin depth and other patient-scale intermediates remain in ignored `work/` or `data/`. No genotype-scale files are committed. `results/` contains aggregates, a small set of named findings and public-drug analyses. The public engine and tests run without the genome.
 
-No genome is uploaded. APIs receive public gene/drug identifiers, public reference structures or bounded named variants. All analysis agents use OpenAI models. Carson confirmed **Pro; model training and data sharing disabled**. No push, publication or submission is authorized. Official rules require deleting underlying data, intermediates and derived datasets within 30 days of close; subsequent deletion confirmation and public release need human review.
+No genome is uploaded. APIs receive public gene/drug identifiers, public reference structures or bounded named variants. All analysis agents use OpenAI models. Carson confirmed **Pro; model training and data sharing disabled**. Official rules require deleting underlying data, intermediates and derived datasets within 30 days of close; subsequent deletion confirmation and public release need human review.
 
 Reference manifests identify hashes and retrieval times. Live references may drift; the frozen public cache supports repeatable engine tests. No-hit research screens are not negative clinical tests. Phase, RNA/NMD, protein function, disease-cell aneuploidy and drug rescue require experimental confirmation.
 
-Genome-analysis cutoff: **2026-10-24 18:00 UTC**; later public-literature follow-up and packaging were separately authorized. Submission deadline: **2026-10-24 23:59 UTC**. The report remains a draft. The three-minute pitch video is a separate deliverable.
+Genome-analysis cutoff: **2026-10-24 18:00 UTC**; later public-literature follow-up and packaging were separately authorized. Submission deadline: **2026-10-24 23:59 UTC**. The three-minute pitch video is a separate deliverable.
 
 ## License
 
